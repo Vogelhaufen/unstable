@@ -61,27 +61,65 @@ BWRAP_ARGS=(
   # Bind patched CUDA to all detected libcuda.so* files across common dirs
 )
 
+# 32-bit CUDA? Nope. Dead weight for modern gaming.
+# Maybe useless
 cuda_lib_dirs=(
+  # Universal
   /usr/lib
   /usr/lib64
+  /lib
+  /lib64
+
+  # Debian/Ubuntu
   /usr/lib/x86_64-linux-gnu
+  /usr/lib/i386-linux-gnu
+  /usr/lib32
+  /usr/lib32/nvidia
   /usr/lib/nvidia
-  /usr/lib/nvidia-525
-  /usr/lib/nvidia-current
+  /usr/lib/nvidia-*
+  /usr/lib/nvidia-cuda-toolkit
+
+  # Fedora/RHEL/CentOS
   /usr/lib64/nvidia
+  /usr/lib64/nvidia-*
+  /usr/lib64/nvidia/current
+  /usr/lib64/x86_64-linux-gnu
+
+  # Arch
+  /usr/lib/nvidia
+  /usr/lib/nvidia-*
+
+  # OpenSUSE
+  /usr/lib64/nvidia
+  /usr/lib64/nvidia-*
+
+  # CUDA Toolkit
+  /usr/local/cuda/lib64
+  /usr/local/cuda/lib
+  /usr/local/cuda-*/lib64
+  /usr/local/cuda-*/lib
+
+  # Optional vendor install locations
+  /opt/cuda/lib64
+  /opt/nvidia/cuda/lib64
+  /opt/nvidia/cuda-*/lib64
 )
 
 for dir in "${cuda_lib_dirs[@]}"; do
-  if [[ -d "$dir" ]]; then
-    while IFS= read -r -d '' file; do
-      basefile=$(basename "$file")
-      if [[ "$basefile" =~ ^libcuda\.so(\.[0-9]+)*$ ]]; then
-        echo "Binding patched CUDA as $basefile"
-        BWRAP_ARGS+=(--bind "$PATCHED_CUDA" "$file")
-      fi
-    done < <(find "$dir" -maxdepth 1 \( -type f -o -type l \) -name 'libcuda.so*' ! -name '*.old' ! -name '*.bak' ! -name '*.disabled' -print0)
-  fi
+  [[ -d "$dir" ]] || continue
+  while IFS= read -r -d '' file; do
+    # Exclude obvious backup/junk files
+    case "$file" in
+      *.bak|*.old|*.save|*~) continue ;;
+    esac
+    # Match only valid libcuda.so* filenames
+    if [[ "$(basename "$file")" =~ ^libcuda\.so([.0-9]*)?$ ]]; then
+      echo "Binding patched CUDA over: $file"
+      BWRAP_ARGS+=(--bind "$PATCHED_CUDA" "$file")
+    fi
+  done < <(find "$dir" -maxdepth 1 \( -type f -o -type l \) -name 'libcuda.so*' -print0 2>/dev/null)
 done
+printf "\nBound CUDA libs:\n%s\n" "${BWRAP_ARGS[@]}" | grep libcuda
 
 BWRAP_ARGS+=(
   --bind "$GAMEDIR" "$GAMEDIR"
