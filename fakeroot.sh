@@ -103,7 +103,7 @@ if [[ -n "$WAYLAND_SOCKET" ]]; then
   BWRAP_ARGS+=(--bind "$WAYLAND_SOCKET" "$WAYLAND_SOCKET")
 fi
 
-# Minimal safe environment for EAC/BattleEye
+# Minimal safe environment for EAC
 BWRAP_ARGS+=(
   --setenv HOME "$HOME"
   --setenv PATH "$PATH"
