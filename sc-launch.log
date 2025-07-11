@@ -1,0 +1,1922 @@
+
+(node:304) [DEP0180] DeprecationWarning: fs.Stats constructor is deprecated.
+(Use `RSI Launcher --trace-deprecation ...` to show where the warning was created)
+[304:0711/213508.246:ERROR:network_change_notifier_win.cc(188)] WSALookupServiceBegin failed with: 8
+info:  Game: RSI Launcher.exe
+info:  DXVK: v2.7
+info:  Build: x86_64 gcc 15.1.0
+info:  Found config env: dxgi.maxDeviceMemory = 15376;cachedDynamicResources = a;
+info:  Effective configuration:
+info:    cachedDynamicResources = a
+info:    dxgi.maxDeviceMemory = 15376
+info:  Vulkan: Found vkGetInstanceProcAddr in winevulkan.dll @ 0x6ffffd52e880
+info:  Extension providers:
+info:    Platform WSI
+info:    OpenVR
+info:  OpenVR: could not open registry key, status 2
+info:  OpenVR: Failed to locate module
+info:    OpenXR
+info:  Enabled instance extensions:
+info:    VK_EXT_surface_maintenance1
+info:    VK_KHR_get_surface_capabilities2
+info:    VK_KHR_surface
+info:    VK_KHR_win32_surface
+info:  Found device: NVIDIA GeForce RTX 4080 (NVIDIA 575.64.3)
+info:  Found device: NVIDIA GeForce RTX 4080 (NVIDIA 575.64.3)
+21:35:08.522 > "[Analytics] event sent : App:Open"
+21:35:08.523 > electron-log.transports.file: resolvePath is deprecated. Use resolvePathFn instead
+(node:304) [KOFFI003] DeprecationWarning: The koffi.cdecl() function was deprecated in Koffi 2.7, use koffi.func(...) instead
+[516:0711/213508.619:ERROR:network_change_notifier_win.cc(188)] WSALookupServiceBegin failed with: 8
+21:35:09.332 > "[Analytics] event sent : App:SignedIn"
+21:35:10.541 > "Checking for update"
+21:35:10.652 > "Update for version 2.5.1 is not available (latest version: 2.5.1, downgrade is disallowed)."
+21:35:12.199 > "[API] request: https://robertsspaceindustries.com/api/launcher/v3/language/getLanguage"
+21:35:12.435 > "[API] request: https://robertsspaceindustries.com/api/launcher/v3/games/claims"
+21:35:12.603 > "[Connectivity Service] Internet connection is available."
+21:35:12.849 > "[API] request: https://robertsspaceindustries.com/api/launcher/v3/games/library"
+21:35:13.075 > "[API] request: https://robertsspaceindustries.com/api/launcher/v3/content/news"
+21:35:13.106 > "[API] request: https://robertsspaceindustries.com/api/launcher/v3/content/patchNotes"
+21:35:13.147 > "[API] request: https://robertsspaceindustries.com/api/launcher/v3/content/cards"
+21:35:15.903 > "[API] request: https://robertsspaceindustries.com/api/launcher/v3/games/release"
+21:35:16.054 > "[Requirement] OS check : true"
+21:35:16.054 > "[Requirement] CPU check : true"
+21:35:16.053 > "[API] request: https://robertsspaceindustries.com/api/launcher/v3/account/check"
+21:35:16.298 > "[API] request: https://robertsspaceindustries.com/api/launcher/v3/warnings"
+21:35:16.433 > "[API] request: https://robertsspaceindustries.com/api/launcher/v3/warnings/get"
+21:35:17.518 > "[API] request: https://robertsspaceindustries.com/api/launcher/v3/games/token"
+21:35:17.696 > "[Launcher::launch] Launching Star Citizen LIVE from (C:\\Program Files\\Roberts Space Industries\\StarCitizen\\LIVE)"
+21:35:17.696 > "[Launcher::launch] Wine environment detected."
+21:35:17.696 > "[Launcher::launch] Trying to convert the path from C to Z format."
+21:35:17.791 > "[Launcher::launch] path converted from \"C:\\Program Files\\Roberts Space Industries\\StarCitizen\\LIVE\\StarCitizen_Launcher.exe\" to \"Z:\\home\\hans\\Games\\star-citizen\\drive_c\\Program Files\\Roberts Space Industries\\StarCitizen\\LIVE\\StarCitizen_Launcher.exe\"."
+21:35:17.815 > "[Analytics] event sent : App:Launcher:Start"
+21:35:17.816 > "[Analytics] event sent : App:Launch:Start"
+info:  Game: StarCitizen.exe
+info:  DXVK: v2.7
+info:  Build: x86_64 gcc 15.1.0
+info:  Found config env: dxgi.maxDeviceMemory = 15376;cachedDynamicResources = a;
+info:  Effective configuration:
+info:    cachedDynamicResources = a
+info:    dxgi.maxDeviceMemory = 15376
+info:  Vulkan: Found vkGetInstanceProcAddr in winevulkan.dll @ 0x6ffffd44e880
+info:  Extension providers:
+info:    Platform WSI
+info:    OpenVR
+info:  OpenVR: could not open registry key, status 2
+info:  OpenVR: Failed to locate module
+info:    OpenXR
+info:  Enabled instance extensions:
+info:    VK_EXT_surface_maintenance1
+info:    VK_KHR_get_surface_capabilities2
+info:    VK_KHR_surface
+info:    VK_KHR_win32_surface
+info:  Found device: NVIDIA GeForce RTX 4080 (NVIDIA 575.64.3)
+info:  Found device: NVIDIA GeForce RTX 4080 (NVIDIA 575.64.3)
+info:  D3D11InternalCreateDevice: Maximum supported feature level: D3D_FEATURE_LEVEL_12_1
+info:  D3D11InternalCreateDevice: Using feature level D3D_FEATURE_LEVEL_11_1
+info:  Creating device:
+info:  NVIDIA GeForce RTX 4080:
+info:    Driver   : NVIDIA 575.64.3
+info:  Queues:
+info:    Graphics : (0, 0)
+info:    Transfer : (1, 0)
+info:    Sparse   : (0, 0)
+info:  Memory:
+info:    Heap 0: 15.99 GiB (DEVICE_LOCAL)
+info:    Budget: 12.27 GiB
+info:      Type  1: DEVICE_LOCAL
+info:      Type  4: DEVICE_LOCAL | HOST_VISIBLE | HOST_COHERENT
+info:    Heap 1: 46.85 GiB
+info:    Budget: 46.85 GiB
+info:      Type  0: (None)
+info:      Type  2: HOST_VISIBLE | HOST_COHERENT
+info:      Type  3: HOST_VISIBLE | HOST_COHERENT | HOST_CACHED
+info:  Enabled extensions:
+info:    VK_EXT_attachment_feedback_loop_layout
+info:    VK_EXT_conservative_rasterization
+info:    VK_EXT_custom_border_color
+info:    VK_EXT_depth_clip_enable
+info:    VK_EXT_depth_bias_control
+info:    VK_EXT_descriptor_buffer
+info:    VK_EXT_extended_dynamic_state3
+info:    VK_EXT_fragment_shader_interlock
+info:    VK_EXT_graphics_pipeline_library
+info:    VK_EXT_line_rasterization
+info:    VK_EXT_memory_priority
+info:    VK_EXT_multi_draw
+info:    VK_EXT_non_seamless_cube_map
+info:    VK_EXT_pageable_device_local_memory
+info:    VK_EXT_robustness2
+info:    VK_EXT_shader_module_identifier
+info:    VK_EXT_swapchain_maintenance1
+info:    VK_EXT_transform_feedback
+info:    VK_EXT_vertex_attribute_divisor
+info:    VK_KHR_external_memory_win32
+info:    VK_KHR_external_semaphore_win32
+info:    VK_KHR_load_store_op_none
+info:    VK_KHR_maintenance5
+info:    VK_KHR_maintenance6
+info:    VK_KHR_pipeline_library
+info:    VK_KHR_present_id
+info:    VK_KHR_present_wait
+info:    VK_KHR_swapchain
+info:    VK_KHR_swapchain_mutable_format
+info:    VK_KHR_win32_keyed_mutex
+info:    VK_NV_low_latency2
+info:    VK_NV_raw_access_chains
+info:    VK_NVX_binary_import
+info:    VK_NVX_image_view_handle
+info:  Enabled features:
+info:    depthBiasClamp                 : 1
+info:    depthBounds                    : 1
+info:    depthClamp                     : 1
+info:    drawIndirectFirstInstance      : 1
+info:    dualSrcBlend                   : 1
+info:    fillModeNonSolid               : 1
+info:    fragmentStoresAndAtomics       : 1
+info:    fullDrawIndexUint32            : 1
+info:    geometryShader                 : 1
+info:    imageCubeArray                 : 1
+info:    independentBlend               : 1
+info:    logicOp                        : 1
+info:    multiDrawIndirect              : 1
+info:    multiViewport                  : 1
+info:    occlusionQueryPrecise          : 1
+info:    pipelineStatisticsQuery        : 1
+info:    robustBufferAccess             : 1
+info:    sampleRateShading              : 1
+info:    samplerAnisotropy              : 1
+info:    shaderClipDistance             : 1
+info:    shaderCullDistance             : 1
+info:    shaderFloat64                  : 1
+info:    shaderImageGatherExtended      : 1
+info:    shaderInt16                    : 1
+info:    shaderInt64                    : 1
+info:    shaderSampledImageArrayDynamicIndexing : 1
+info:    sparseBinding                  : 1
+info:    sparseResidencyBuffer          : 1
+info:    sparseResidencyImage2D         : 1
+info:    sparseResidencyImage3D         : 1
+info:    sparseResidency2Samples        : 1
+info:    sparseResidency4Samples        : 1
+info:    sparseResidency8Samples        : 1
+info:    sparseResidency16Samples       : 1
+info:    sparseResidencyAliased         : 1
+info:    shaderResourceResidency        : 1
+info:    shaderResourceMinLod           : 1
+info:    tessellationShader             : 1
+info:    textureCompressionBC           : 1
+info:    variableMultisampleRate        : 1
+info:    vertexPipelineStoresAndAtomics : 1
+info:    wideLines                      : 1
+info:    shaderDrawParameters           : 1
+info:    storagePushConstant16          : 1
+info:    bufferDeviceAddress            : 1
+info:    descriptorIndexing             : 1
+info:    descriptorBindingSampledImageUpdateAfterBind : 1
+info:    descriptorBindingUpdateUnusedWhilePending : 1
+info:    descriptorBindingPartiallyBound : 1
+info:    drawIndirectCount              : 1
+info:    hostQueryReset                 : 1
+info:    runtimeDescriptorArray         : 1
+info:    samplerFilterMinmax            : 1
+info:    samplerMirrorClampToEdge       : 1
+info:    shaderInt8                     : 1
+info:    shaderOutputViewportIndex      : 1
+info:    shaderOutputLayer              : 1
+info:    timelineSemaphore              : 1
+info:    uniformBufferStandardLayout    : 1
+info:    vulkanMemoryModel              : 1
+info:    dynamicRendering               : 1
+info:    maintenance4                   : 1
+info:    robustImageAccess              : 0
+info:    pipelineCreationCacheControl   : 1
+info:    shaderDemoteToHelperInvocation : 1
+info:    shaderZeroInitializeWorkgroupMemory : 1
+info:    synchronization2               : 1
+info:  VK_EXT_attachment_feedback_loop_layout:
+info:    attachmentFeedbackLoopLayout   : 1
+info:  VK_EXT_conservative_rasterization:
+info:    extConservativeRasterization   : 1
+info:  VK_EXT_custom_border_color:
+info:    customBorderColors             : 1
+info:    customBorderColorWithoutFormat : 1
+info:  VK_EXT_depth_clip_enable:
+info:    depthClipEnable                : 1
+info:  VK_EXT_depth_bias_control:
+info:    depthBiasControl               : 1
+info:    leastRepresentableValueForceUnormRepresentation : 1
+info:    floatRepresentation            : 0
+info:    depthBiasExact                 : 1
+info:  VK_EXT_descriptor_buffer:
+info:    descriptorBuffer               : 1
+info:  VK_EXT_extended_dynamic_state3:
+info:    extendedDynamicState3AlphaToCoverageEnable : 1
+info:    extendedDynamicState3DepthClipEnable : 1
+info:    extendedDynamicState3RasterizationSamples : 1
+info:    extendedDynamicState3SampleMask : 1
+info:    extendedDynamicState3LineRasterizationMode : 1
+info:  VK_EXT_fragment_shader_interlock:
+info:    fragmentShaderSampleInterlock  : 1
+info:    fragmentShaderPixelInterlock   : 1
+info:  VK_EXT_full_screen_exclusive:
+info:    extFullScreenExclusive         : 0
+info:  VK_EXT_graphics_pipeline_library:
+info:    graphicsPipelineLibrary        : 1
+info:  VK_EXT_hdr_metadata:
+info:    extHdrMetadata                 : 0
+info:  VK_EXT_line_rasterization:
+info:    rectangularLines               : 1
+info:    smoothLines                    : 1
+info:  VK_EXT_memory_budget:
+info:    extMemoryBudget                : 1
+info:  VK_EXT_memory_priority:
+info:    memoryPriority                 : 1
+info:  VK_EXT_multi_draw:
+info:    multiDraw                      : 1
+info:  VK_EXT_non_seamless_cube_map:
+info:    nonSeamlessCubeMap             : 1
+info:  VK_EXT_pageable_device_local_memory:
+info:    pageableDeviceLocalMemory      : 1
+info:  VK_EXT_robustness2:
+info:    robustBufferAccess2            : 1
+info:    robustImageAccess2             : 1
+info:    nullDescriptor                 : 1
+info:  VK_EXT_shader_module_identifier:
+info:    shaderModuleIdentifier         : 1
+info:  VK_EXT_shader_stencil_export:
+info:    extShaderStencilExport         : 0
+info:  VK_EXT_swapchain_colorspace:
+info:    extSwapchainColorSpace         : 0
+info:  VK_EXT_swapchain_maintenance1:
+info:    swapchainMaintenance1          : 1
+info:  VK_EXT_transform_feedback:
+info:    transformFeedback              : 1
+info:    geometryStreams                : 1
+info:  VK_EXT_vertex_attribute_divisor:
+info:    vertexAttributeInstanceRateDivisor : 1
+info:    vertexAttributeInstanceRateZeroDivisor : 1
+info:  VK_KHR_external_memory_win32:
+info:    khrExternalMemoryWin32         : 1
+info:  VK_KHR_external_semaphore_win32:
+info:    khrExternalSemaphoreWin32      : 1
+info:  VK_KHR_load_store_op_none:
+info:    khrLoadStoreOpNone             : 1
+info:  VK_KHR_maintenance5:
+info:    maintenance5                   : 1
+info:  VK_KHR_maintenance6:
+info:    maintenance6                   : 1
+info:  VK_KHR_maintenance7:
+info:    maintenance7                   : 0
+info:  VK_KHR_pipeline_library:
+info:    khrPipelineLibrary             : 1
+info:  VK_KHR_present_id:
+info:    presentId                      : 1
+info:  VK_KHR_present_wait:
+info:    presentWait                    : 1
+info:  VK_KHR_swapchain:
+info:    khrSwapchain                   : 1
+info:  VK_KHR_swapchain_mutable_format:
+info:    khrSwapchainMutableFormat      : 1
+info:  VK_KHR_win32_keyed_mutex:
+info:    khrWin32KeyedMutex             : 1
+info:  VK_NV_descriptor_pool_overallocation:
+info:    descriptorPoolOverallocation   : 0
+info:  VK_NV_low_latency2:
+info:    nvLowLatency2                  : 1
+info:  VK_NV_raw_access_chains:
+info:    shaderRawAccessChains          : 1
+info:  VK_NVX_binary_import:
+info:    nvxBinaryImport                : 1
+info:  VK_NVX_image_view_handle:
+info:    nvxImageViewHandle             : 1
+info:  Descriptor sizes (set alignment: 64)
+info:    Sampler              : 4
+info:    Uniform buffer       : 8
+info:    Storage buffer       : 16
+info:    Uniform texel buffer : 16
+info:    Storage texel buffer : 16
+info:    Sampled image        : 4
+info:    Storage image        : 4
+info:  Memory type mask for sparse resources: 0x2
+info:  Memory type mask for buffer resources: 0x1f, usage: 0x219ff
+info:  Creating sampler descriptor heap (8 kB)
+debug: Mapped memory region 0x7f41f9d39000 - 0x7f41f9d3afff
+info:  DXVK: Graphics pipeline libraries supported
+info:  Creating resource descriptor heap (8192 kB)
+debug: Mapped memory region 0x7f419afff000 - 0x7f419b7fefff
+err:   readMonitorEdidFromKey: Failed to get EDID reg key size
+err:   DXGI: Failed to parse display metadata + colorimetry info, using blank.
+info:  D3D11InternalCreateDevice: Maximum supported feature level: D3D_FEATURE_LEVEL_12_1
+info:  D3D11InternalCreateDevice: Using feature level D3D_FEATURE_LEVEL_11_1
+info:  Creating device:
+info:  NVIDIA GeForce RTX 4080:
+info:    Driver   : NVIDIA 575.64.3
+info:  Queues:
+info:    Graphics : (0, 0)
+info:    Transfer : (1, 0)
+info:    Sparse   : (0, 0)
+info:  Memory:
+info:    Heap 0: 15.99 GiB (DEVICE_LOCAL)
+info:    Budget: 12.27 GiB
+info:      Type  1: DEVICE_LOCAL
+info:      Type  4: DEVICE_LOCAL | HOST_VISIBLE | HOST_COHERENT
+info:    Heap 1: 46.85 GiB
+info:    Budget: 46.85 GiB
+info:      Type  0: (None)
+info:      Type  2: HOST_VISIBLE | HOST_COHERENT
+info:      Type  3: HOST_VISIBLE | HOST_COHERENT | HOST_CACHED
+info:  Enabled extensions:
+info:    VK_EXT_attachment_feedback_loop_layout
+info:    VK_EXT_conservative_rasterization
+info:    VK_EXT_custom_border_color
+info:    VK_EXT_depth_clip_enable
+info:    VK_EXT_depth_bias_control
+info:    VK_EXT_descriptor_buffer
+info:    VK_EXT_extended_dynamic_state3
+info:    VK_EXT_fragment_shader_interlock
+info:    VK_EXT_graphics_pipeline_library
+info:    VK_EXT_line_rasterization
+info:    VK_EXT_memory_priority
+info:    VK_EXT_multi_draw
+info:    VK_EXT_non_seamless_cube_map
+info:    VK_EXT_pageable_device_local_memory
+info:    VK_EXT_robustness2
+info:    VK_EXT_shader_module_identifier
+info:    VK_EXT_swapchain_maintenance1
+info:    VK_EXT_transform_feedback
+info:    VK_EXT_vertex_attribute_divisor
+info:    VK_KHR_external_memory_win32
+info:    VK_KHR_external_semaphore_win32
+info:    VK_KHR_load_store_op_none
+info:    VK_KHR_maintenance5
+info:    VK_KHR_maintenance6
+info:    VK_KHR_pipeline_library
+info:    VK_KHR_present_id
+info:    VK_KHR_present_wait
+info:    VK_KHR_swapchain
+info:    VK_KHR_swapchain_mutable_format
+info:    VK_KHR_win32_keyed_mutex
+info:    VK_NV_low_latency2
+info:    VK_NV_raw_access_chains
+info:    VK_NVX_binary_import
+info:    VK_NVX_image_view_handle
+info:  Enabled features:
+info:    depthBiasClamp                 : 1
+info:    depthBounds                    : 1
+info:    depthClamp                     : 1
+info:    drawIndirectFirstInstance      : 1
+info:    dualSrcBlend                   : 1
+info:    fillModeNonSolid               : 1
+info:    fragmentStoresAndAtomics       : 1
+info:    fullDrawIndexUint32            : 1
+info:    geometryShader                 : 1
+info:    imageCubeArray                 : 1
+info:    independentBlend               : 1
+info:    logicOp                        : 1
+info:    multiDrawIndirect              : 1
+info:    multiViewport                  : 1
+info:    occlusionQueryPrecise          : 1
+info:    pipelineStatisticsQuery        : 1
+info:    robustBufferAccess             : 1
+info:    sampleRateShading              : 1
+info:    samplerAnisotropy              : 1
+info:    shaderClipDistance             : 1
+info:    shaderCullDistance             : 1
+info:    shaderFloat64                  : 1
+info:    shaderImageGatherExtended      : 1
+info:    shaderInt16                    : 1
+info:    shaderInt64                    : 1
+info:    shaderSampledImageArrayDynamicIndexing : 1
+info:    sparseBinding                  : 1
+info:    sparseResidencyBuffer          : 1
+info:    sparseResidencyImage2D         : 1
+info:    sparseResidencyImage3D         : 1
+info:    sparseResidency2Samples        : 1
+info:    sparseResidency4Samples        : 1
+info:    sparseResidency8Samples        : 1
+info:    sparseResidency16Samples       : 1
+info:    sparseResidencyAliased         : 1
+info:    shaderResourceResidency        : 1
+info:    shaderResourceMinLod           : 1
+info:    tessellationShader             : 1
+info:    textureCompressionBC           : 1
+info:    variableMultisampleRate        : 1
+info:    vertexPipelineStoresAndAtomics : 1
+info:    wideLines                      : 1
+info:    shaderDrawParameters           : 1
+info:    storagePushConstant16          : 1
+info:    bufferDeviceAddress            : 1
+info:    descriptorIndexing             : 1
+info:    descriptorBindingSampledImageUpdateAfterBind : 1
+info:    descriptorBindingUpdateUnusedWhilePending : 1
+info:    descriptorBindingPartiallyBound : 1
+info:    drawIndirectCount              : 1
+info:    hostQueryReset                 : 1
+info:    runtimeDescriptorArray         : 1
+info:    samplerFilterMinmax            : 1
+info:    samplerMirrorClampToEdge       : 1
+info:    shaderInt8                     : 1
+info:    shaderOutputViewportIndex      : 1
+info:    shaderOutputLayer              : 1
+info:    timelineSemaphore              : 1
+info:    uniformBufferStandardLayout    : 1
+info:    vulkanMemoryModel              : 1
+info:    dynamicRendering               : 1
+info:    maintenance4                   : 1
+info:    robustImageAccess              : 0
+info:    pipelineCreationCacheControl   : 1
+info:    shaderDemoteToHelperInvocation : 1
+info:    shaderZeroInitializeWorkgroupMemory : 1
+info:    synchronization2               : 1
+info:  VK_EXT_attachment_feedback_loop_layout:
+info:    attachmentFeedbackLoopLayout   : 1
+info:  VK_EXT_conservative_rasterization:
+info:    extConservativeRasterization   : 1
+info:  VK_EXT_custom_border_color:
+info:    customBorderColors             : 1
+info:    customBorderColorWithoutFormat : 1
+info:  VK_EXT_depth_clip_enable:
+info:    depthClipEnable                : 1
+info:  VK_EXT_depth_bias_control:
+info:    depthBiasControl               : 1
+info:    leastRepresentableValueForceUnormRepresentation : 1
+info:    floatRepresentation            : 0
+info:    depthBiasExact                 : 1
+info:  VK_EXT_descriptor_buffer:
+info:    descriptorBuffer               : 1
+info:  VK_EXT_extended_dynamic_state3:
+info:    extendedDynamicState3AlphaToCoverageEnable : 1
+info:    extendedDynamicState3DepthClipEnable : 1
+info:    extendedDynamicState3RasterizationSamples : 1
+info:    extendedDynamicState3SampleMask : 1
+info:    extendedDynamicState3LineRasterizationMode : 1
+info:  VK_EXT_fragment_shader_interlock:
+info:    fragmentShaderSampleInterlock  : 1
+info:    fragmentShaderPixelInterlock   : 1
+info:  VK_EXT_full_screen_exclusive:
+info:    extFullScreenExclusive         : 0
+info:  VK_EXT_graphics_pipeline_library:
+info:    graphicsPipelineLibrary        : 1
+info:  VK_EXT_hdr_metadata:
+info:    extHdrMetadata                 : 0
+info:  VK_EXT_line_rasterization:
+info:    rectangularLines               : 1
+info:    smoothLines                    : 1
+info:  VK_EXT_memory_budget:
+info:    extMemoryBudget                : 1
+info:  VK_EXT_memory_priority:
+info:    memoryPriority                 : 1
+info:  VK_EXT_multi_draw:
+info:    multiDraw                      : 1
+info:  VK_EXT_non_seamless_cube_map:
+info:    nonSeamlessCubeMap             : 1
+info:  VK_EXT_pageable_device_local_memory:
+info:    pageableDeviceLocalMemory      : 1
+info:  VK_EXT_robustness2:
+info:    robustBufferAccess2            : 1
+info:    robustImageAccess2             : 1
+info:    nullDescriptor                 : 1
+info:  VK_EXT_shader_module_identifier:
+info:    shaderModuleIdentifier         : 1
+info:  VK_EXT_shader_stencil_export:
+info:    extShaderStencilExport         : 0
+info:  VK_EXT_swapchain_colorspace:
+info:    extSwapchainColorSpace         : 0
+info:  VK_EXT_swapchain_maintenance1:
+info:    swapchainMaintenance1          : 1
+info:  VK_EXT_transform_feedback:
+info:    transformFeedback              : 1
+info:    geometryStreams                : 1
+info:  VK_EXT_vertex_attribute_divisor:
+info:    vertexAttributeInstanceRateDivisor : 1
+info:    vertexAttributeInstanceRateZeroDivisor : 1
+info:  VK_KHR_external_memory_win32:
+info:    khrExternalMemoryWin32         : 1
+info:  VK_KHR_external_semaphore_win32:
+info:    khrExternalSemaphoreWin32      : 1
+info:  VK_KHR_load_store_op_none:
+info:    khrLoadStoreOpNone             : 1
+info:  VK_KHR_maintenance5:
+info:    maintenance5                   : 1
+info:  VK_KHR_maintenance6:
+info:    maintenance6                   : 1
+info:  VK_KHR_maintenance7:
+info:    maintenance7                   : 0
+info:  VK_KHR_pipeline_library:
+info:    khrPipelineLibrary             : 1
+info:  VK_KHR_present_id:
+info:    presentId                      : 1
+info:  VK_KHR_present_wait:
+info:    presentWait                    : 1
+info:  VK_KHR_swapchain:
+info:    khrSwapchain                   : 1
+info:  VK_KHR_swapchain_mutable_format:
+info:    khrSwapchainMutableFormat      : 1
+info:  VK_KHR_win32_keyed_mutex:
+info:    khrWin32KeyedMutex             : 1
+info:  VK_NV_descriptor_pool_overallocation:
+info:    descriptorPoolOverallocation   : 0
+info:  VK_NV_low_latency2:
+info:    nvLowLatency2                  : 1
+info:  VK_NV_raw_access_chains:
+info:    shaderRawAccessChains          : 1
+info:  VK_NVX_binary_import:
+info:    nvxBinaryImport                : 1
+info:  VK_NVX_image_view_handle:
+info:    nvxImageViewHandle             : 1
+info:  Descriptor sizes (set alignment: 64)
+info:    Sampler              : 4
+info:    Uniform buffer       : 8
+info:    Storage buffer       : 16
+info:    Uniform texel buffer : 16
+info:    Storage texel buffer : 16
+info:    Sampled image        : 4
+info:    Storage image        : 4
+info:  Memory type mask for sparse resources: 0x2
+info:  Memory type mask for buffer resources: 0x1f, usage: 0x219ff
+info:  Creating sampler descriptor heap (8 kB)
+debug: Mapped memory region 0x7f41fb850000 - 0x7f41fb851fff
+info:  DXVK: Graphics pipeline libraries supported
+info:  Creating resource descriptor heap (8192 kB)
+debug: Mapped memory region 0x7f419a5df000 - 0x7f419addefff
+info:  D3D11InternalCreateDevice: Maximum supported feature level: D3D_FEATURE_LEVEL_12_1
+info:  D3D11InternalCreateDevice: Using feature level D3D_FEATURE_LEVEL_11_0
+info:  Creating device:
+info:  NVIDIA GeForce RTX 4080:
+info:    Driver   : NVIDIA 575.64.3
+info:  Queues:
+info:    Graphics : (0, 0)
+info:    Transfer : (1, 0)
+info:    Sparse   : (0, 0)
+info:  Memory:
+info:    Heap 0: 15.99 GiB (DEVICE_LOCAL)
+info:    Budget: 12.27 GiB
+info:      Type  1: DEVICE_LOCAL
+info:      Type  4: DEVICE_LOCAL | HOST_VISIBLE | HOST_COHERENT
+info:    Heap 1: 46.85 GiB
+info:    Budget: 46.85 GiB
+info:      Type  0: (None)
+info:      Type  2: HOST_VISIBLE | HOST_COHERENT
+info:      Type  3: HOST_VISIBLE | HOST_COHERENT | HOST_CACHED
+info:  Enabled extensions:
+info:    VK_EXT_attachment_feedback_loop_layout
+info:    VK_EXT_conservative_rasterization
+info:    VK_EXT_custom_border_color
+info:    VK_EXT_depth_clip_enable
+info:    VK_EXT_depth_bias_control
+info:    VK_EXT_descriptor_buffer
+info:    VK_EXT_extended_dynamic_state3
+info:    VK_EXT_fragment_shader_interlock
+info:    VK_EXT_graphics_pipeline_library
+info:    VK_EXT_line_rasterization
+info:    VK_EXT_memory_priority
+info:    VK_EXT_multi_draw
+info:    VK_EXT_non_seamless_cube_map
+info:    VK_EXT_pageable_device_local_memory
+info:    VK_EXT_robustness2
+info:    VK_EXT_shader_module_identifier
+info:    VK_EXT_swapchain_maintenance1
+info:    VK_EXT_transform_feedback
+info:    VK_EXT_vertex_attribute_divisor
+info:    VK_KHR_external_memory_win32
+info:    VK_KHR_external_semaphore_win32
+info:    VK_KHR_load_store_op_none
+info:    VK_KHR_maintenance5
+info:    VK_KHR_maintenance6
+info:    VK_KHR_pipeline_library
+info:    VK_KHR_present_id
+info:    VK_KHR_present_wait
+info:    VK_KHR_swapchain
+info:    VK_KHR_swapchain_mutable_format
+info:    VK_KHR_win32_keyed_mutex
+info:    VK_NV_low_latency2
+info:    VK_NV_raw_access_chains
+info:    VK_NVX_binary_import
+info:    VK_NVX_image_view_handle
+info:  Enabled features:
+info:    depthBiasClamp                 : 1
+info:    depthBounds                    : 1
+info:    depthClamp                     : 1
+info:    drawIndirectFirstInstance      : 1
+info:    dualSrcBlend                   : 1
+info:    fillModeNonSolid               : 1
+info:    fragmentStoresAndAtomics       : 1
+info:    fullDrawIndexUint32            : 1
+info:    geometryShader                 : 1
+info:    imageCubeArray                 : 1
+info:    independentBlend               : 1
+info:    logicOp                        : 1
+info:    multiDrawIndirect              : 1
+info:    multiViewport                  : 1
+info:    occlusionQueryPrecise          : 1
+info:    pipelineStatisticsQuery        : 1
+info:    robustBufferAccess             : 1
+info:    sampleRateShading              : 1
+info:    samplerAnisotropy              : 1
+info:    shaderClipDistance             : 1
+info:    shaderCullDistance             : 1
+info:    shaderFloat64                  : 1
+info:    shaderImageGatherExtended      : 1
+info:    shaderInt16                    : 1
+info:    shaderInt64                    : 1
+info:    shaderSampledImageArrayDynamicIndexing : 1
+info:    sparseBinding                  : 1
+info:    sparseResidencyBuffer          : 1
+info:    sparseResidencyImage2D         : 1
+info:    sparseResidencyImage3D         : 1
+info:    sparseResidency2Samples        : 1
+info:    sparseResidency4Samples        : 1
+info:    sparseResidency8Samples        : 1
+info:    sparseResidency16Samples       : 1
+info:    sparseResidencyAliased         : 1
+info:    shaderResourceResidency        : 1
+info:    shaderResourceMinLod           : 1
+info:    tessellationShader             : 1
+info:    textureCompressionBC           : 1
+info:    variableMultisampleRate        : 1
+info:    vertexPipelineStoresAndAtomics : 1
+info:    wideLines                      : 1
+info:    shaderDrawParameters           : 1
+info:    storagePushConstant16          : 1
+info:    bufferDeviceAddress            : 1
+info:    descriptorIndexing             : 1
+info:    descriptorBindingSampledImageUpdateAfterBind : 1
+info:    descriptorBindingUpdateUnusedWhilePending : 1
+info:    descriptorBindingPartiallyBound : 1
+info:    drawIndirectCount              : 1
+info:    hostQueryReset                 : 1
+info:    runtimeDescriptorArray         : 1
+info:    samplerFilterMinmax            : 1
+info:    samplerMirrorClampToEdge       : 1
+info:    shaderInt8                     : 1
+info:    shaderOutputViewportIndex      : 1
+info:    shaderOutputLayer              : 1
+info:    timelineSemaphore              : 1
+info:    uniformBufferStandardLayout    : 1
+info:    vulkanMemoryModel              : 1
+info:    dynamicRendering               : 1
+info:    maintenance4                   : 1
+info:    robustImageAccess              : 0
+info:    pipelineCreationCacheControl   : 1
+info:    shaderDemoteToHelperInvocation : 1
+info:    shaderZeroInitializeWorkgroupMemory : 1
+info:    synchronization2               : 1
+info:  VK_EXT_attachment_feedback_loop_layout:
+info:    attachmentFeedbackLoopLayout   : 1
+info:  VK_EXT_conservative_rasterization:
+info:    extConservativeRasterization   : 1
+info:  VK_EXT_custom_border_color:
+info:    customBorderColors             : 1
+info:    customBorderColorWithoutFormat : 1
+info:  VK_EXT_depth_clip_enable:
+info:    depthClipEnable                : 1
+info:  VK_EXT_depth_bias_control:
+info:    depthBiasControl               : 1
+info:    leastRepresentableValueForceUnormRepresentation : 1
+info:    floatRepresentation            : 0
+info:    depthBiasExact                 : 1
+info:  VK_EXT_descriptor_buffer:
+info:    descriptorBuffer               : 1
+info:  VK_EXT_extended_dynamic_state3:
+info:    extendedDynamicState3AlphaToCoverageEnable : 1
+info:    extendedDynamicState3DepthClipEnable : 1
+info:    extendedDynamicState3RasterizationSamples : 1
+info:    extendedDynamicState3SampleMask : 1
+info:    extendedDynamicState3LineRasterizationMode : 1
+info:  VK_EXT_fragment_shader_interlock:
+info:    fragmentShaderSampleInterlock  : 1
+info:    fragmentShaderPixelInterlock   : 1
+info:  VK_EXT_full_screen_exclusive:
+info:    extFullScreenExclusive         : 0
+info:  VK_EXT_graphics_pipeline_library:
+info:    graphicsPipelineLibrary        : 1
+info:  VK_EXT_hdr_metadata:
+info:    extHdrMetadata                 : 0
+info:  VK_EXT_line_rasterization:
+info:    rectangularLines               : 1
+info:    smoothLines                    : 1
+info:  VK_EXT_memory_budget:
+info:    extMemoryBudget                : 1
+info:  VK_EXT_memory_priority:
+info:    memoryPriority                 : 1
+info:  VK_EXT_multi_draw:
+info:    multiDraw                      : 1
+info:  VK_EXT_non_seamless_cube_map:
+info:    nonSeamlessCubeMap             : 1
+info:  VK_EXT_pageable_device_local_memory:
+info:    pageableDeviceLocalMemory      : 1
+info:  VK_EXT_robustness2:
+info:    robustBufferAccess2            : 1
+info:    robustImageAccess2             : 1
+info:    nullDescriptor                 : 1
+info:  VK_EXT_shader_module_identifier:
+info:    shaderModuleIdentifier         : 1
+info:  VK_EXT_shader_stencil_export:
+info:    extShaderStencilExport         : 0
+info:  VK_EXT_swapchain_colorspace:
+info:    extSwapchainColorSpace         : 0
+info:  VK_EXT_swapchain_maintenance1:
+info:    swapchainMaintenance1          : 1
+info:  VK_EXT_transform_feedback:
+info:    transformFeedback              : 1
+info:    geometryStreams                : 1
+info:  VK_EXT_vertex_attribute_divisor:
+info:    vertexAttributeInstanceRateDivisor : 1
+info:    vertexAttributeInstanceRateZeroDivisor : 1
+info:  VK_KHR_external_memory_win32:
+info:    khrExternalMemoryWin32         : 1
+info:  VK_KHR_external_semaphore_win32:
+info:    khrExternalSemaphoreWin32      : 1
+info:  VK_KHR_load_store_op_none:
+info:    khrLoadStoreOpNone             : 1
+info:  VK_KHR_maintenance5:
+info:    maintenance5                   : 1
+info:  VK_KHR_maintenance6:
+info:    maintenance6                   : 1
+info:  VK_KHR_maintenance7:
+info:    maintenance7                   : 0
+info:  VK_KHR_pipeline_library:
+info:    khrPipelineLibrary             : 1
+info:  VK_KHR_present_id:
+info:    presentId                      : 1
+info:  VK_KHR_present_wait:
+info:    presentWait                    : 1
+info:  VK_KHR_swapchain:
+info:    khrSwapchain                   : 1
+info:  VK_KHR_swapchain_mutable_format:
+info:    khrSwapchainMutableFormat      : 1
+info:  VK_KHR_win32_keyed_mutex:
+info:    khrWin32KeyedMutex             : 1
+info:  VK_NV_descriptor_pool_overallocation:
+info:    descriptorPoolOverallocation   : 0
+info:  VK_NV_low_latency2:
+info:    nvLowLatency2                  : 1
+info:  VK_NV_raw_access_chains:
+info:    shaderRawAccessChains          : 1
+info:  VK_NVX_binary_import:
+info:    nvxBinaryImport                : 1
+info:  VK_NVX_image_view_handle:
+info:    nvxImageViewHandle             : 1
+err:   readMonitorEdidFromKey: Failed to get EDID reg key size
+err:   DXGI: Failed to parse display metadata + colorimetry info, using blank.
+info:  D3D11InternalCreateDevice: Maximum supported feature level: D3D_FEATURE_LEVEL_12_1
+info:  D3D11InternalCreateDevice: Using feature level D3D_FEATURE_LEVEL_11_1
+info:  Creating device:
+info:  NVIDIA GeForce RTX 4080:
+info:    Driver   : NVIDIA 575.64.3
+info:  Queues:
+info:    Graphics : (0, 0)
+info:    Transfer : (1, 0)
+info:    Sparse   : (0, 0)
+info:  Memory:
+info:    Heap 0: 15.99 GiB (DEVICE_LOCAL)
+info:    Budget: 12.27 GiB
+info:      Type  1: DEVICE_LOCAL
+info:      Type  4: DEVICE_LOCAL | HOST_VISIBLE | HOST_COHERENT
+info:    Heap 1: 46.85 GiB
+info:    Budget: 46.85 GiB
+info:      Type  0: (None)
+info:      Type  2: HOST_VISIBLE | HOST_COHERENT
+info:      Type  3: HOST_VISIBLE | HOST_COHERENT | HOST_CACHED
+info:  Enabled extensions:
+info:    VK_EXT_attachment_feedback_loop_layout
+info:    VK_EXT_conservative_rasterization
+info:    VK_EXT_custom_border_color
+info:    VK_EXT_depth_clip_enable
+info:    VK_EXT_depth_bias_control
+info:    VK_EXT_descriptor_buffer
+info:    VK_EXT_extended_dynamic_state3
+info:    VK_EXT_fragment_shader_interlock
+info:    VK_EXT_graphics_pipeline_library
+info:    VK_EXT_line_rasterization
+info:    VK_EXT_memory_priority
+info:    VK_EXT_multi_draw
+info:    VK_EXT_non_seamless_cube_map
+info:    VK_EXT_pageable_device_local_memory
+info:    VK_EXT_robustness2
+info:    VK_EXT_shader_module_identifier
+info:    VK_EXT_swapchain_maintenance1
+info:    VK_EXT_transform_feedback
+info:    VK_EXT_vertex_attribute_divisor
+info:    VK_KHR_external_memory_win32
+info:    VK_KHR_external_semaphore_win32
+info:    VK_KHR_load_store_op_none
+info:    VK_KHR_maintenance5
+info:    VK_KHR_maintenance6
+info:    VK_KHR_pipeline_library
+info:    VK_KHR_present_id
+info:    VK_KHR_present_wait
+info:    VK_KHR_swapchain
+info:    VK_KHR_swapchain_mutable_format
+info:    VK_KHR_win32_keyed_mutex
+info:    VK_NV_low_latency2
+info:    VK_NV_raw_access_chains
+info:    VK_NVX_binary_import
+info:    VK_NVX_image_view_handle
+info:  Enabled features:
+info:    depthBiasClamp                 : 1
+info:    depthBounds                    : 1
+info:    depthClamp                     : 1
+info:    drawIndirectFirstInstance      : 1
+info:    dualSrcBlend                   : 1
+info:    fillModeNonSolid               : 1
+info:    fragmentStoresAndAtomics       : 1
+info:    fullDrawIndexUint32            : 1
+info:    geometryShader                 : 1
+info:    imageCubeArray                 : 1
+info:    independentBlend               : 1
+info:    logicOp                        : 1
+info:    multiDrawIndirect              : 1
+info:    multiViewport                  : 1
+info:    occlusionQueryPrecise          : 1
+info:    pipelineStatisticsQuery        : 1
+info:    robustBufferAccess             : 1
+info:    sampleRateShading              : 1
+info:    samplerAnisotropy              : 1
+info:    shaderClipDistance             : 1
+info:    shaderCullDistance             : 1
+info:    shaderFloat64                  : 1
+info:    shaderImageGatherExtended      : 1
+info:    shaderInt16                    : 1
+info:    shaderInt64                    : 1
+info:    shaderSampledImageArrayDynamicIndexing : 1
+info:    sparseBinding                  : 1
+info:    sparseResidencyBuffer          : 1
+info:    sparseResidencyImage2D         : 1
+info:    sparseResidencyImage3D         : 1
+info:    sparseResidency2Samples        : 1
+info:    sparseResidency4Samples        : 1
+info:    sparseResidency8Samples        : 1
+info:    sparseResidency16Samples       : 1
+info:    sparseResidencyAliased         : 1
+info:    shaderResourceResidency        : 1
+info:    shaderResourceMinLod           : 1
+info:    tessellationShader             : 1
+info:    textureCompressionBC           : 1
+info:    variableMultisampleRate        : 1
+info:    vertexPipelineStoresAndAtomics : 1
+info:    wideLines                      : 1
+info:    shaderDrawParameters           : 1
+info:    storagePushConstant16          : 1
+info:    bufferDeviceAddress            : 1
+info:    descriptorIndexing             : 1
+info:    descriptorBindingSampledImageUpdateAfterBind : 1
+info:    descriptorBindingUpdateUnusedWhilePending : 1
+info:    descriptorBindingPartiallyBound : 1
+info:    drawIndirectCount              : 1
+info:    hostQueryReset                 : 1
+info:    runtimeDescriptorArray         : 1
+info:    samplerFilterMinmax            : 1
+info:    samplerMirrorClampToEdge       : 1
+info:    shaderInt8                     : 1
+info:    shaderOutputViewportIndex      : 1
+info:    shaderOutputLayer              : 1
+info:    timelineSemaphore              : 1
+info:    uniformBufferStandardLayout    : 1
+info:    vulkanMemoryModel              : 1
+info:    dynamicRendering               : 1
+info:    maintenance4                   : 1
+info:    robustImageAccess              : 0
+info:    pipelineCreationCacheControl   : 1
+info:    shaderDemoteToHelperInvocation : 1
+info:    shaderZeroInitializeWorkgroupMemory : 1
+info:    synchronization2               : 1
+info:  VK_EXT_attachment_feedback_loop_layout:
+info:    attachmentFeedbackLoopLayout   : 1
+info:  VK_EXT_conservative_rasterization:
+info:    extConservativeRasterization   : 1
+info:  VK_EXT_custom_border_color:
+info:    customBorderColors             : 1
+info:    customBorderColorWithoutFormat : 1
+info:  VK_EXT_depth_clip_enable:
+info:    depthClipEnable                : 1
+info:  VK_EXT_depth_bias_control:
+info:    depthBiasControl               : 1
+info:    leastRepresentableValueForceUnormRepresentation : 1
+info:    floatRepresentation            : 0
+info:    depthBiasExact                 : 1
+info:  VK_EXT_descriptor_buffer:
+info:    descriptorBuffer               : 1
+info:  VK_EXT_extended_dynamic_state3:
+info:    extendedDynamicState3AlphaToCoverageEnable : 1
+info:    extendedDynamicState3DepthClipEnable : 1
+info:    extendedDynamicState3RasterizationSamples : 1
+info:    extendedDynamicState3SampleMask : 1
+info:    extendedDynamicState3LineRasterizationMode : 1
+info:  VK_EXT_fragment_shader_interlock:
+info:    fragmentShaderSampleInterlock  : 1
+info:    fragmentShaderPixelInterlock   : 1
+info:  VK_EXT_full_screen_exclusive:
+info:    extFullScreenExclusive         : 0
+info:  VK_EXT_graphics_pipeline_library:
+info:    graphicsPipelineLibrary        : 1
+info:  VK_EXT_hdr_metadata:
+info:    extHdrMetadata                 : 0
+info:  VK_EXT_line_rasterization:
+info:    rectangularLines               : 1
+info:    smoothLines                    : 1
+info:  VK_EXT_memory_budget:
+info:    extMemoryBudget                : 1
+info:  VK_EXT_memory_priority:
+info:    memoryPriority                 : 1
+info:  VK_EXT_multi_draw:
+info:    multiDraw                      : 1
+info:  VK_EXT_non_seamless_cube_map:
+info:    nonSeamlessCubeMap             : 1
+info:  VK_EXT_pageable_device_local_memory:
+info:    pageableDeviceLocalMemory      : 1
+info:  VK_EXT_robustness2:
+info:    robustBufferAccess2            : 1
+info:    robustImageAccess2             : 1
+info:    nullDescriptor                 : 1
+info:  VK_EXT_shader_module_identifier:
+info:    shaderModuleIdentifier         : 1
+info:  VK_EXT_shader_stencil_export:
+info:    extShaderStencilExport         : 0
+info:  VK_EXT_swapchain_colorspace:
+info:    extSwapchainColorSpace         : 0
+info:  VK_EXT_swapchain_maintenance1:
+info:    swapchainMaintenance1          : 1
+info:  VK_EXT_transform_feedback:
+info:    transformFeedback              : 1
+info:    geometryStreams                : 1
+info:  VK_EXT_vertex_attribute_divisor:
+info:    vertexAttributeInstanceRateDivisor : 1
+info:    vertexAttributeInstanceRateZeroDivisor : 1
+info:  VK_KHR_external_memory_win32:
+info:    khrExternalMemoryWin32         : 1
+info:  VK_KHR_external_semaphore_win32:
+info:    khrExternalSemaphoreWin32      : 1
+info:  VK_KHR_load_store_op_none:
+info:    khrLoadStoreOpNone             : 1
+info:  VK_KHR_maintenance5:
+info:    maintenance5                   : 1
+info:  VK_KHR_maintenance6:
+info:    maintenance6                   : 1
+info:  VK_KHR_maintenance7:
+info:    maintenance7                   : 0
+info:  VK_KHR_pipeline_library:
+info:    khrPipelineLibrary             : 1
+info:  VK_KHR_present_id:
+info:    presentId                      : 1
+info:  VK_KHR_present_wait:
+info:    presentWait                    : 1
+info:  VK_KHR_swapchain:
+info:    khrSwapchain                   : 1
+info:  VK_KHR_swapchain_mutable_format:
+info:    khrSwapchainMutableFormat      : 1
+info:  VK_KHR_win32_keyed_mutex:
+info:    khrWin32KeyedMutex             : 1
+info:  VK_NV_descriptor_pool_overallocation:
+info:    descriptorPoolOverallocation   : 0
+info:  VK_NV_low_latency2:
+info:    nvLowLatency2                  : 1
+info:  VK_NV_raw_access_chains:
+info:    shaderRawAccessChains          : 1
+info:  VK_NVX_binary_import:
+info:    nvxBinaryImport                : 1
+info:  VK_NVX_image_view_handle:
+info:    nvxImageViewHandle             : 1
+info:  Descriptor sizes (set alignment: 64)
+info:    Sampler              : 4
+info:    Uniform buffer       : 8
+info:    Storage buffer       : 16
+info:    Uniform texel buffer : 16
+info:    Storage texel buffer : 16
+info:    Sampled image        : 4
+info:    Storage image        : 4
+info:  Memory type mask for sparse resources: 0x2
+info:  Memory type mask for buffer resources: 0x1f, usage: 0x219ff
+info:  Creating sampler descriptor heap (8 kB)
+debug: Mapped memory region 0x7f41eb41d000 - 0x7f41eb41efff
+info:  DXVK: Graphics pipeline libraries supported
+info:  Descriptor sizes (set alignment: 64)
+info:    Sampler              : 4
+info:    Uniform buffer       : 8
+info:    Storage buffer       : 16
+info:    Uniform texel buffer : 16
+info:    Storage texel buffer : 16
+info:    Sampled image        : 4
+info:    Storage image        : 4
+info:  Memory type mask for sparse resources: 0x2
+info:  Memory type mask for buffer resources: 0x1f, usage: 0x219ff
+info:  Creating sampler descriptor heap (8 kB)
+debug: Mapped memory region 0x7f41eb40d000 - 0x7f41eb40efff
+info:  DXVK: Graphics pipeline libraries supported
+info:  Creating resource descriptor heap (8192 kB)
+debug: Mapped memory region 0x7f417ddde000 - 0x7f417e5ddfff
+info:  Creating resource descriptor heap (8192 kB)
+debug: Mapped memory region 0x7f417d5de000 - 0x7f417ddddfff
+DXVK_NVAPI_LOG_LEVEL is set to 'trace', writing all log statements, this has severe impact on performance
+39964.489:03ec:0460:trace:nvapi64:nvapi_QueryInterface (0x150e828)
+39964.491:03ec:0460:trace:nvapi64:NvAPI_Initialize
+39964.491:03ec:0460:info:nvapi64:DXVK-NVAPI v0.9.0 NVAPI gcc 14.2.0 x86_64 release (StarCitizen.exe)
+39964.491:03ec:0460:info:nvapi64:Successfully acquired Vulkan vkGetInstanceProcAddr @ 0x6ffffd44e880
+39964.495:03ec:0460:info:nvapi64:Successfully loaded nvml.dll
+39964.499:03ec:0460:info:nvapi64:NVML loaded but initialization failed with error: Driver Not Loaded
+39964.500:03ec:0460:info:nvapi64:NvAPI Device: NVIDIA GeForce RTX 4080 (575.64.3)
+err:   readMonitorEdidFromKey: Failed to get EDID reg key size
+err:   DXGI: Failed to parse display metadata + colorimetry info, using blank.
+39964.501:03ec:0460:info:nvapi64:NvAPI Output: \\.\DISPLAY1
+err:   readMonitorEdidFromKey: Failed to get EDID reg key size
+err:   DXGI: Failed to parse display metadata + colorimetry info, using blank.
+39964.501:03ec:0460:info:nvapi64:NvAPI Output: \\.\DISPLAY2
+39964.502:03ec:0460:info:nvapi64:NvAPI Device: NVIDIA GeForce RTX 4080 (575.64.3)
+39964.502:03ec:0460:info:nvapi64:NvAPI Output: \\.\DISPLAY1
+39964.502:03ec:0460:info:nvapi64:NvAPI Output: \\.\DISPLAY2
+39964.502:03ec:0460:info:nvapi64:Failed to open SOFTWARE\NVIDIA Corporation\Global\NGXCore registry key: 2
+39964.502:03ec:0460:info:nvapi64:<-NvAPI_Initialize: OK
+39964.502:03ec:0460:trace:nvapi64:nvapi_QueryInterface (0x33c7358c)
+39964.502:03ec:0460:info:nvapi64:nvapi_QueryInterface (0x33c7358c): Unknown function ID
+39964.502:03ec:0460:trace:nvapi64:nvapi_QueryInterface (0x593e8644)
+39964.502:03ec:0460:info:nvapi64:nvapi_QueryInterface (0x593e8644): Unknown function ID
+39964.502:03ec:0460:trace:nvapi64:nvapi_QueryInterface (0x4b708b54)
+39964.502:03ec:0460:trace:nvapi64:NvAPI_D3D_GetCurrentSLIState (ptr=0x399051d7608, ptr=0x7fd8f980)
+warn:  D3D11DXGIDevice::QueryInterface: Unknown interface query
+warn:  d0223b96-bf7a-43fd-92bd-a43b0d82b9eb
+39964.502:03ec:0460:info:nvapi64:<-NvAPI_D3D_GetCurrentSLIState: OK
+debug: Compiling shader CS_98d31750f350ef4292fa3aec9bf2639f90908a68
+info:  DXVK: Using 32 compiler threads
+39964.688:03ec:0460:trace:nvapi64:nvapi_QueryInterface (0xd22bdd7e)
+39964.688:03ec:0460:trace:nvapi64:NvAPI_Unload
+39964.688:03ec:0460:info:nvapi64:<-NvAPI_Unload: OK
+debug: DXGI: For mode 2560x1440@0 found closest mode 2560x1440@240
+warn:  D3D11DXGIDevice::QueryInterface: Unknown interface query
+warn:  0ec870a6-5d7e-4c22-8cfc-5baae07616ed
+warn:  DXGI: MakeWindowAssociation: Ignoring flags
+debug: Mapped memory region 0x7f40d4000000 - 0x7f40d7ffffff
+debug: Mapped memory region 0x7f41b1a00000 - 0x7f41b1dfffff
+DXVK_NVAPI_LOG_LEVEL is set to 'trace', writing all log statements, this has severe impact on performance
+39964.873:03ec:03f0:trace:nvapi64:nvapi_QueryInterface (0x150e828)
+39964.875:03ec:03f0:trace:nvapi64:NvAPI_Initialize
+39964.875:03ec:03f0:info:nvapi64:DXVK-NVAPI v0.9.0 NVAPI gcc 14.2.0 x86_64 release (StarCitizen.exe)
+39964.875:03ec:03f0:info:nvapi64:Successfully acquired Vulkan vkGetInstanceProcAddr @ 0x6ffffd44e880
+39964.881:03ec:03f0:info:nvapi64:Successfully loaded nvml.dll
+39964.883:03ec:03f0:info:nvapi64:NVML loaded but initialization failed with error: Driver Not Loaded
+39964.884:03ec:03f0:info:nvapi64:NvAPI Device: NVIDIA GeForce RTX 4080 (575.64.3)
+err:   readMonitorEdidFromKey: Failed to get EDID reg key size
+err:   DXGI: Failed to parse display metadata + colorimetry info, using blank.
+39964.885:03ec:03f0:info:nvapi64:NvAPI Output: \\.\DISPLAY1
+err:   readMonitorEdidFromKey: Failed to get EDID reg key size
+err:   DXGI: Failed to parse display metadata + colorimetry info, using blank.
+39964.885:03ec:03f0:info:nvapi64:NvAPI Output: \\.\DISPLAY2
+39964.886:03ec:03f0:info:nvapi64:NvAPI Device: NVIDIA GeForce RTX 4080 (575.64.3)
+39964.886:03ec:03f0:info:nvapi64:NvAPI Output: \\.\DISPLAY1
+39964.886:03ec:03f0:info:nvapi64:NvAPI Output: \\.\DISPLAY2
+39964.886:03ec:03f0:info:nvapi64:Failed to open SOFTWARE\NVIDIA Corporation\Global\NGXCore registry key: 2
+39964.886:03ec:03f0:info:nvapi64:<-NvAPI_Initialize: OK
+39964.886:03ec:03f0:trace:nvapi64:nvapi_QueryInterface (0x33c7358c)
+39964.886:03ec:03f0:info:nvapi64:nvapi_QueryInterface (0x33c7358c): Unknown function ID
+39964.886:03ec:03f0:trace:nvapi64:nvapi_QueryInterface (0x593e8644)
+39964.886:03ec:03f0:info:nvapi64:nvapi_QueryInterface (0x593e8644): Unknown function ID
+39964.886:03ec:03f0:trace:nvapi64:nvapi_QueryInterface (0xf951a4d1)
+39964.886:03ec:03f0:trace:nvapi64:NvAPI_GetDisplayDriverVersion (hnd=0x0, ptr=0x11b620)
+39964.886:03ec:03f0:info:nvapi64:<-NvAPI_GetDisplayDriverVersion: OK
+39964.886:03ec:03f0:trace:nvapi64:nvapi_QueryInterface (0xe5ac921f)
+39964.886:03ec:03f0:trace:nvapi64:NvAPI_EnumPhysicalGPUs (ptr=0x11b6b0, ptr=0x11b5f0)
+39964.886:03ec:03f0:info:nvapi64:<-NvAPI_EnumPhysicalGPUs: OK
+39964.886:03ec:03f0:trace:nvapi64:nvapi_QueryInterface (0x9abdd40d)
+39964.886:03ec:03f0:trace:nvapi64:NvAPI_EnumNvidiaDisplayHandle (0, ptr=0xc05e020dd0)
+39964.886:03ec:03f0:info:nvapi64:<-NvAPI_EnumNvidiaDisplayHandle (0): OK
+39964.886:03ec:03f0:trace:nvapi64:NvAPI_EnumNvidiaDisplayHandle (1, ptr=0xc05e020dd8)
+39964.886:03ec:03f0:info:nvapi64:<-NvAPI_EnumNvidiaDisplayHandle (1): OK
+39964.886:03ec:03f0:trace:nvapi64:NvAPI_EnumNvidiaDisplayHandle (2, ptr=0xc05e020de0)
+39964.886:03ec:03f0:info:nvapi64:<-NvAPI_EnumNvidiaDisplayHandle (2): OK
+39964.886:03ec:03f0:trace:nvapi64:NvAPI_EnumNvidiaDisplayHandle (3, ptr=0xc05e020de8)
+39964.886:03ec:03f0:info:nvapi64:<-NvAPI_EnumNvidiaDisplayHandle (3): OK
+39964.886:03ec:03f0:trace:nvapi64:NvAPI_EnumNvidiaDisplayHandle (4, ptr=0xc05e020df0)
+39964.886:03ec:03f0:info:nvapi64:<-NvAPI_EnumNvidiaDisplayHandle (4): End enumeration
+39964.886:03ec:03f0:trace:nvapi64:nvapi_QueryInterface (0x4b708b54)
+39964.886:03ec:03f0:trace:nvapi64:NvAPI_D3D_GetCurrentSLIState (ptr=0x3990530e868, ptr=0x11b5f8)
+39964.886:03ec:03f0:info:nvapi64:<-NvAPI_D3D_GetCurrentSLIState: OK
+39964.886:03ec:03f0:trace:nvapi64:nvapi_QueryInterface (0xee1370cf)
+39964.886:03ec:03f0:trace:nvapi64:NvAPI_GetLogicalGPUFromDisplay (hnd=0x39905057a50, ptr=0x11b910)
+39964.886:03ec:03f0:info:nvapi64:<-NvAPI_GetLogicalGPUFromDisplay: OK
+39964.886:03ec:03f0:trace:nvapi64:nvapi_QueryInterface (0xaea3fa32)
+39964.886:03ec:03f0:trace:nvapi64:NvAPI_GetPhysicalGPUsFromLogicalGPU (hnd=0x399053d3b30, ptr=0x11b9f0, ptr=0x11b928)
+39964.886:03ec:03f0:info:nvapi64:<-NvAPI_GetPhysicalGPUsFromLogicalGPU: OK
+39964.886:03ec:03f0:trace:nvapi64:nvapi_QueryInterface (0xc7026a87)
+39964.886:03ec:03f0:trace:nvapi64:NvAPI_GPU_GetGpuCoreCount (hnd=0x399053d3b30, ptr=0x11b930)
+39964.886:03ec:03f0:info:nvapi64:<-NvAPI_GPU_GetGpuCoreCount: No implementation
+39964.886:03ec:03f0:trace:nvapi64:NvAPI_GetLogicalGPUFromDisplay (hnd=0x39905057b70, ptr=0x11b910)
+39964.886:03ec:03f0:info:nvapi64:<-NvAPI_GetLogicalGPUFromDisplay: OK
+39964.886:03ec:03f0:trace:nvapi64:NvAPI_GetPhysicalGPUsFromLogicalGPU (hnd=0x399053d3b30, ptr=0x11b9f0, ptr=0x11b928)
+39964.886:03ec:03f0:info:nvapi64:<-NvAPI_GetPhysicalGPUsFromLogicalGPU: OK
+39964.886:03ec:03f0:trace:nvapi64:NvAPI_GPU_GetGpuCoreCount (hnd=0x399053d3b30, ptr=0x11b930)
+39964.886:03ec:03f0:info:nvapi64:<-NvAPI_GPU_GetGpuCoreCount: No implementation
+39964.886:03ec:03f0:trace:nvapi64:NvAPI_GetLogicalGPUFromDisplay (hnd=0x39905057bd0, ptr=0x11b910)
+39964.886:03ec:03f0:info:nvapi64:<-NvAPI_GetLogicalGPUFromDisplay: OK
+39964.886:03ec:03f0:trace:nvapi64:NvAPI_GetPhysicalGPUsFromLogicalGPU (hnd=0x399053c99d0, ptr=0x11b9f0, ptr=0x11b928)
+39964.886:03ec:03f0:info:nvapi64:<-NvAPI_GetPhysicalGPUsFromLogicalGPU: OK
+39964.886:03ec:03f0:trace:nvapi64:NvAPI_GPU_GetGpuCoreCount (hnd=0x399053c99d0, ptr=0x11b930)
+39964.886:03ec:03f0:info:nvapi64:<-NvAPI_GPU_GetGpuCoreCount: No implementation
+39964.886:03ec:03f0:trace:nvapi64:NvAPI_GetLogicalGPUFromDisplay (hnd=0x39905057c30, ptr=0x11b910)
+39964.886:03ec:03f0:info:nvapi64:<-NvAPI_GetLogicalGPUFromDisplay: OK
+39964.886:03ec:03f0:trace:nvapi64:NvAPI_GetPhysicalGPUsFromLogicalGPU (hnd=0x399053c99d0, ptr=0x11b9f0, ptr=0x11b928)
+39964.886:03ec:03f0:info:nvapi64:<-NvAPI_GetPhysicalGPUsFromLogicalGPU: OK
+39964.886:03ec:03f0:trace:nvapi64:NvAPI_GPU_GetGpuCoreCount (hnd=0x399053c99d0, ptr=0x11b930)
+39964.886:03ec:03f0:info:nvapi64:<-NvAPI_GPU_GetGpuCoreCount: No implementation
+err:   readMonitorEdidFromKey: Failed to get EDID reg key size
+err:   DXGI: Failed to parse display metadata + colorimetry info, using blank.
+warn:  CreateDXGIFactory2: Ignoring flags
+warn:  DxgiAdapter::QueryInterface: Unknown interface query
+warn:  17399d75-964e-4c03-99f8-9d4fd196dd62
+debug: Mapped memory region 0x7f41b1400000 - 0x7f41b17fffff
+debug: Compiling shader VS_20191ac1cecfb59086f4b5de09342da80f60f528
+info:  DXVK: Using 32 compiler threads
+debug: Compiling shader FS_376b03c7d0f3178967bfb0a25cc5ffecd2c40370
+debug: Compiling shader FS_9ac2415c34f7490e487da137886f473098788b8f
+debug: Compiling shader FS_660d96ccc820e34457a0cc33ca16358707dd972c
+debug: Compiling shader VS_6124547be5c9072e67557816954872c1549ce2e6
+debug: Compiling shader FS_c8c3146abc6dcba1f133f7cce947ad99e8d78e9d
+debug: Compiling shader TCS_9caa123e4019eda207128aa441e6500abe0c83fd
+debug: Compiling shader TES_8f9006eee22cbc2775bc0922b7f7dcf3a96fbbd4
+debug: Compiling shader TCS_00dbdd04711cc21e7dd9e07a7da40779bdb1f59a
+debug: Compiling shader TES_ca978c59109be36f20af68debb754c237636870a
+debug: Compiling shader VS_ca5a1963b007d4fd4f756e716a60020170e6bcd8
+debug: Compiling shader FS_e74b66a4e39dfb87720a21b74031ea02b0bec63c
+debug: Compiling shader CS_95486311122954eda057608ec407930eeb8e1099
+debug: Compiling shader FS_42429fbca9cd0f0f225c1474609ffd586f4e8ffe
+debug: Compiling shader VS_ef3eb633cef9ba7c2da91acd1f3c860134c06f7b
+debug: Compiling shader FS_0513be2dec70ff334e6ef4d49c7283f48ce5ea43
+debug: Compiling shader FS_912ba7d686fe7e30eed300996f6b6bf1de2408af
+debug: Compiling shader CS_92e349ad4c65904149f851e81d7c681a434c0c8a
+debug: Compiling shader CS_879747a8fad1802a09f12a0a15c57ddbf87229c2
+debug: Compiling shader CS_bb60eadb52be2e97f0efafda26d384fec5c3ca46
+debug: Compiling shader CS_4bfd7e098c10ced974f2a1e083162a49c8cc58a6
+debug: Compiling shader CS_ecdd949e7ffabf3fbdb97a93c4811d7b41db543e
+debug: Compiling shader CS_5a4ac1643e25ab37fb96afdd9ef28b6e6f1cc23e
+debug: Compiling shader CS_c0f048d9735724c97e357bdd471eda58b236d59d
+debug: Compiling shader CS_070ad36e38bdc3f2e8621e144d9e9d1e2747b42f
+debug: Compiling shader CS_c17c21b6246740f780367b41e1ede676e9dd7ce0
+debug: Compiling shader FS_368262722b96767e232801b2329aa2899644e924
+debug: Compiling shader FS_a244da316d0372794b20af8e45491bc5033d5195
+debug: Compiling shader VS_468fa9c1c18661c972b1525122fa821d842e235c
+debug: Compiling shader FS_44f2f1d3b015e9d60358d52dc41aff27080825c9
+debug: Compiling shader FS_0cb92bcbd095834aeb06adbdc3d7821edb6843d0
+debug: Compiling shader FS_d63b25e13a08e731eaf18c723e3c99344a56cd66
+debug: Compiling shader FS_fe2047be6a3d16606e082e74d7412ea1ea8319a3
+debug: Compiling shader FS_b5578df27aef48ee69304ec2a952bb0f03983874
+debug: Compiling shader FS_f156ef7e9f2295a7f62131c3908c88c7073f803a
+debug: Compiling shader FS_1e5ce95d564f91f1579ff02787f5639db5153419
+debug: Compiling shader FS_c6493ba8f8f1b211071fa82a55c7498c2bb10c73
+debug: Compiling shader VS_6707a22dfd2af0f9b4cdee078f44a6072b15d902
+debug: Compiling shader FS_b48875dfd973dd6fad510feebbfa046a3b385614
+debug: Compiling shader FS_6c49ce5e5e7bd21c393f583c0c29402baa639bcd
+debug: Compiling shader FS_172c1b169267ada082431b1d632cfa505fa59bb1
+debug: Compiling shader FS_e4e967b5cf424131af9d144d6448ef0bea30a091
+debug: Compiling shader VS_0502065f4fad0e7b7e4233afb02b7b1480af7b97
+debug: Compiling shader FS_a501e61442226a8fe027ca7f66a7621f7ae7e3da
+debug: Compiling shader CS_956fd93578fe075daea97af73208ff79a3ac74e8
+debug: Compiling shader VS_f6563e00abf17fdf6084760c8477aebca4cb5e25
+debug: Compiling shader FS_d44fa67cf5e280cfc3a14ea8f72e4376ae9645ab
+debug: Compiling shader FS_e168c591a18ec72f314bea3afcd35be1eb32c959
+debug: Compiling shader FS_a8086a59ad3eb01ac14db9faaddd64b3cf319b86
+debug: Compiling shader FS_7a44c2df73bfb4ae469ac3c6803db6fff48970ea
+debug: Compiling shader FS_e61b5e25974140c0d499d33c83702c1e28c14679
+debug: Compiling shader FS_ffc0c538bcabca4a887f80a8ac80dd01e8ef8ef2
+debug: Compiling shader FS_c5b333ad96474d2bf7314a2764ee54f70e6fc4b2
+debug: Compiling shader FS_090e24d08c2d64fd05b03596bb506706fae8e626
+debug: Compiling shader VS_2ab97379ffc607f43debdc26a97db1726fdb73ba
+debug: Compiling shader FS_80b7b45ad33a4986993ba301bdfd072a5af37765
+debug: Compiling shader FS_2b0dd392377faf323df13aef37d71445d8926ee7
+debug: Compiling shader FS_29fc841e5eb01af039d0c4a73b7be81a6ce7d6bb
+debug: Compiling shader VS_4ea9117e546b8b4b516a86467685fe9cc36c2afc
+debug: Compiling shader FS_cd22fe6b13086eb60c91b882a67bac4af38712de
+debug: Compiling shader VS_db6ffbe4257f5cefaec6b8ee71efb095dc52f334
+debug: Compiling shader VS_0c6c16651a7a9a6287b29d2b97dfb43bba671b98
+debug: Compiling shader CS_d31345b1884eb005ad6aa64cf53665d9e9c77e73
+debug: Compiling shader CS_d60ee919c86e1565fd82f172dc90780aed1bd143
+debug: Compiling shader CS_dcc507e83e4a10e2e4fa94887651a428adcfef81
+debug: Compiling shader CS_4ea0078650b276f621563e0ee3870479a3698b19
+debug: Compiling shader CS_b147c1392deb7db5a434d45dc9772460bfbf5e3c
+debug: Compiling shader CS_0a0e98d9e5fe5abde41c3f8720758a5933504fe1
+debug: Compiling shader CS_0e66f13664ce28f5e3257de11ba5e60e38e7e212
+debug: Compiling shader CS_e13bab728cf5f44e50345b0f867e3d3be0ab831a
+debug: Compiling shader CS_ff864a5c6f23c193529c3b7fad73d9a22ec81f36
+debug: Compiling shader CS_f99a5aa05137b623f3b08c5f44ad6693f18a86f3
+debug: Compiling shader CS_483fa978c3f870cc9c515bbbb607ac8ca83aaab6
+debug: Compiling shader CS_a741d007ffbb2be13668967f01a3fa19de01efe2
+debug: Compiling shader CS_ce56bc8564835948565ea0c5349318bc9705b989
+debug: Compiling shader CS_ba3a19c764761c10633de8158cf663d2f9988240
+debug: Compiling shader CS_2e29faa7cace277e40df164d799c9791356d117a
+debug: Compiling shader CS_187e1fa94010f3c68b40dd951028cdf5aadb2167
+debug: Compiling shader CS_2785d4b689e91db40eeff2229819c03f7d323513
+debug: Compiling shader CS_c890518396f615f2317b39e895fd1b1c2800645e
+debug: Compiling shader CS_91f92009600715e665b20d3be2013bd58199d492
+debug: Compiling shader CS_7d9b915ecdc776ec2ba68336cf8fe46f42c0c0ec
+debug: Compiling shader CS_3435ba1301ea9e72b9c560326e69806b164bb288
+debug: Compiling shader CS_02b5058302f2fca55d0cbf705ee20e7577e30c9d
+debug: Compiling shader CS_8cb818d4b4a220459548a806c72b5d482cb0e420
+debug: Compiling shader VS_2a9276897e2882ca60501562d3933d774807b5e1
+debug: Compiling shader FS_637b88917b99884a9c0eb395d2b20a571cff7563
+debug: Compiling shader VS_2d5f78a861910e722646d89ad28853910cc7b65b
+debug: Compiling shader FS_6c30c245ee9166b51a565c96a87b2cb199bc6f6a
+debug: Compiling shader FS_86b3974de4bfce2e42a0eb5e939ad4b3f172a655
+debug: Compiling shader VS_d96652e87ac8ca0425d068cad75b68522958fcbc
+debug: Compiling shader FS_954a49ef801182483a0a01a6c60470a42d1c8467
+debug: Compiling shader FS_1491db6f833b71ed5f498d55d7c24131d7a15213
+debug: Compiling shader VS_223895dccddea573ecd679a76adc92836dbaddb8
+debug: Compiling shader FS_69a3c4b167fbbeb7ce3299d91bd43f49a6c85a88
+debug: Compiling shader VS_302373157754bf947fd9f8e54d42bfbc533f6965
+debug: Compiling shader FS_c0b11ac3e7899342b3efe286ffe281bd32fc1b20
+debug: Compiling shader FS_006b82b2cf13485ec3a412a093c987cb451055d3
+debug: Compiling shader FS_aa24abc9322e518ccfa18a56b63b21f2a797063b
+debug: Compiling shader FS_b11092a912fd9099857ff98a7c99622cf00ee7c7
+debug: Compiling shader FS_b670c5635dfd94a98d6069df1a5a03ee622be0fd
+debug: Compiling shader FS_d532488dc658afd7df726590eea9252271901275
+debug: Compiling shader FS_9e415e8c83c682a893d04662f8cec43eb10c88cb
+debug: Compiling shader FS_b2b0d01e8125dddab08bb000beaf8419a331db4f
+debug: Compiling shader FS_bfb40ab85576535596e2c41533db9c62af914ebe
+debug: Compiling shader VS_783fb75f2fb0b17fff5363aaeb831e308eaf1a43
+debug: Compiling shader VS_d687654ca6d486953d514c5c7a947f01ac8281ef
+debug: Compiling shader FS_73e9602d9c68e254792ff0b31d2a0dfa09ce8b14
+debug: Compiling shader FS_b7e2d90dda1764a9eb259bbc47c9bfc07f7cf2f1
+debug: Mapped memory region 0x7f419b800000 - 0x7f419bffffff
+debug: Compiling shader CS_2820c3ea9c7bdf61aaa65a49d7d391d9ba18b9cf
+debug: Compiling shader CS_1d9b725cc7ed35b28f6a66b26bef08035dfd8597
+debug: Compiling shader CS_57a4a47e5160efcdff96c105ccf7e7697e76dadb
+debug: Compiling shader CS_14f4749a6127c5f1abbcff3f84e7e575355efafa
+debug: Compiling shader CS_006a8139dafcadcd18f85601dafdb721906204a2
+debug: Compiling shader CS_c4eb46929504b6e92d964a96e5c6b071ea019332
+debug: Compiling shader CS_384c0802585e1a93651103453dede727beed3fff
+debug: Compiling shader CS_10f09cdc1c78a2ca1e225dc56b4e6334909e2377
+debug: Compiling shader CS_42f1700a81ba2b14544d64c94b74677bef85fbb3
+debug: Compiling shader CS_1f5891d2f961e8ca2fa44b56360982689704a5f9
+debug: Compiling shader FS_e166935e4ae792b4bfeea3b1ad0029464c908739
+debug: Compiling shader CS_c151148072b949097ddb8d99b658a791ee856a79
+debug: Compiling shader CS_b068204c26b0c1647ff9fe34f76eb86a3fd7217e
+debug: Mapped memory region 0x7f417c3de000 - 0x7f417d3ddfff
+debug: Mapped memory region 0x7f40ce000000 - 0x7f40cfffffff
+debug: Compiling shader VS_dfb52a2976c367fad5fb3d582d8259cde27dc379
+debug: Compiling shader FS_2e2317395d23480f694cbd03276b8e27c7637134
+debug: Compiling shader CS_06cc58a68dc7e111c5dd06cc9015b760c2959a41
+debug: Compiling shader CS_d46909f9c4703a11be33bca7d06c898470109ebb
+debug: Compiling shader CS_222ff1c103f127562b3cc6c845bdcf2bd0366f47
+debug: Compiling shader CS_eec6ffa02e6c031280ba9c803f2e9fe6b0df3674
+debug: Compiling shader FS_39d86abf522ae51404d6be6c38c9b839ac3e0397
+debug: Compiling shader FS_1055e960bad54cc2e2d2356e47f2bb4df29c9cf7
+debug: Compiling shader FS_9df6cb77dfe47645d2128cd9c912a3f7e0d5e2e8
+debug: Compiling shader VS_fd1d2f6657bc1c0ce259bf6ee4455b0c6884d248
+debug: Compiling shader FS_3b6365e8a885e48d8cfcc3c381e07601f133e984
+debug: Compiling shader FS_d917e4dbcad84e7776efb0d6e9e8aa9420836d44
+debug: Compiling shader CS_c19fd6a43dfbef9b21714144e110ff66e3e0cec5
+debug: Compiling shader VS_e540f6159986b2b3650d6fd7257145017ca0cb3a
+debug: Compiling shader FS_5995d8a295c125799f8b94caac43f4b230c04557
+debug: Compiling shader FS_90e872fe6226a9f3adfa87ace6a49859b8b011f7
+debug: Compiling shader FS_fd6a9abfbfc513031352673ed657eaef9b130bf5
+debug: Compiling shader FS_127aff542703348c84c904e4dca8f8bc99d4307a
+debug: Compiling shader FS_68a6ff7d92fe3365a8ad951020794e63406ff1e5
+debug: Compiling shader FS_3ae76c01ca00d9aca36b61d04f4ce38440c90d18
+debug: Compiling shader FS_039f3c3a75ebe3cc77cf3c0ac62017f97cddaa66
+debug: Compiling shader FS_0cc209cedec277e35b35d04ce503c6c4ee05910f
+debug: Compiling shader FS_a8a8bf4570d3a7f33ffbd14b79a0b154cfcc09c2
+debug: Compiling shader FS_fb1ca16ee623b474fb57ea8013ead8a062bfad80
+debug: Compiling shader FS_1c62907f72bbe0e7e029caa635b21afd1249440d
+debug: Compiling shader FS_8e5786dd7937536659f079a7b34e59cad35f7a3a
+debug: Compiling shader FS_6cfac4963c1f9efbb59edd23521d4bc86cc2e74e
+debug: Compiling shader FS_fa3bfaabf7d2da715d3a9d80180a68e74c172aa9
+debug: Compiling shader FS_863dac6a2177f631a83e63434f7c63648f0cb65f
+debug: Compiling shader FS_c2ae2446f887870425de301893b35e4e805c9c5e
+debug: Compiling shader FS_3b7916ae82a8251d1e15db14132439a87cf4b06e
+debug: Compiling shader FS_826c8a7da9861b3fa40b2650b6c23b33ec431276
+debug: Compiling shader FS_81302ad250914f138f14b8fdfcd68fceb65fb8a3
+debug: Compiling shader FS_6db6452979cd7dd600abacf8ea9cdd6240199abb
+debug: Compiling shader FS_324bf970967ad793f8153f250f6040f99cb694fd
+debug: Compiling shader FS_8b46df38fd9360d02baa666ea384fb649eb1a8c3
+debug: Compiling shader FS_b135f1d585712d599f9b163ac7d3a7981f95dc85
+debug: Compiling shader FS_f72fee851f85ad0e5666916b0f8e046b5442dea5
+debug: Compiling shader FS_f6fae429fa750da63721eebee1c879f2963c0f42
+debug: Compiling shader FS_a7d972bdaac0efbcc22cd80b72e140a3ba6a1e61
+debug: Compiling shader FS_48320d154d88633c0447882a9e1bacbf6483fc29
+debug: Compiling shader FS_e5261ed482fd31e7cd00acdff129877157d54ec8
+debug: Compiling shader FS_fcdaa1de4d60e6e876ecdf99befb6bc41908c0d0
+debug: Compiling shader FS_518e42440daedfc1b5cd15b558b596cde9196808
+debug: Compiling shader FS_4bddbb5f69f0cc3b13f9143d782c20fbb3055fc2
+debug: Compiling shader FS_e62dc807a4a12c4af38e263a20f7c409e73ef1cc
+debug: Compiling shader FS_6cd1b185abedd05c4bf1b00fb32482d29b867179
+debug: Compiling shader CS_babfa140729fe2ef2d24f5a84f3af2e1d227153e
+debug: Compiling shader CS_82a32c5baa54daa4aab295cc6b31c38d3e5c813e
+debug: Compiling shader CS_e03111ff1fc38c4decf35e1813c2c0a3acc70938
+debug: Compiling shader FS_2bcda1240c52b783d89774863543c53652a56cb4
+debug: Compiling shader FS_38b5e777255f978abcb1298b03030432c6dc0f17
+debug: Compiling shader VS_fa98b71bfbade3b1e034c344466df0499564de1a
+debug: Compiling shader FS_e2ce250920c7a7ecec13a58ca98f2fd21d9a68f0
+debug: Compiling shader CS_bd200128517c012f950720d5cca3864d7c3d5b4f
+debug: Compiling shader CS_723609deb6c873463e428aef9713ed7146fab92d
+debug: Compiling shader CS_6c8bf66e1c56872d4ee2c83d2f91b9ef752c167c
+debug: Compiling shader CS_2681b81b2b4061344ff4f2295dc2723f45f25be1
+debug: Compiling shader CS_f67be44b63e02610361cb99b065be81c2043e585
+debug: Compiling shader CS_aa627d07d33173d22412840b0a142c58297b9e0d
+debug: Compiling shader CS_9efa6f413f7466c060f082ba906be44ba3177cb8
+debug: Compiling shader CS_f68cb12347a90499f73b5d51edd376d622f87412
+debug: Compiling shader CS_4edbebd315a696b225097c6967114f06c828b717
+debug: Compiling shader CS_b587a696f5f30f03db9057c52c841207bd7637e6
+debug: Compiling shader CS_f554169c5b67f61120c316169168a8205df229ba
+debug: Compiling shader CS_14659b3a081f5b7735950fcf74c6859f1d357b18
+debug: Compiling shader CS_f198d4734b1fad50de4e93265f30be49814da695
+debug: Compiling shader FS_7f867c0351488ffd8168f62dcba5cee1eb89968b
+debug: Compiling shader FS_5e001900d7507af941ad974c2fe2dafc421562ce
+debug: Compiling shader FS_4075ee6701bbcf42cf1aadc54082a278a096d309
+debug: Compiling shader FS_7187188095d0d1e0782a9446506fb226ba905ec8
+debug: Compiling shader FS_dc1a5f95448dff3444337c0418f296cbe0f12dc6
+debug: Compiling shader FS_377ebf7f0ba6f964d93b651765760148011b3e26
+debug: Compiling shader VS_36bf08aa669619c33d7ef4ff2827e32d326603af
+debug: Compiling shader FS_2b7ddbd40685f1ac61f27848f5d79d922e015250
+debug: Compiling shader FS_ad6584a3b37b70b4831cbdf844724528265e0720
+debug: Compiling shader FS_e3f979d396e432c7a7f2ff77ba70e2650e2cfc3d
+debug: Compiling shader FS_737da769d967069cd26188eba0e98eff753f771a
+debug: Compiling shader FS_0d7c4214180f07ad2b1f662896dd88df98b528c1
+debug: Compiling shader VS_c456e3c896f0354adb4877c464543e32f631609a
+debug: Compiling shader FS_7093df68615cb62972a600af74f286d4e927cd7e
+debug: Compiling shader FS_0c689de02a0bc955b0fbc2b24283f746aa65a17f
+debug: Compiling shader VS_5ab32f2bb78765efb99ae8b71e768ad7445d124b
+debug: Compiling shader FS_94796d7c3d3a163486d181941015c0e3fc5d3616
+debug: Compiling shader VS_b111d25e0271808e485005b6cf24bf4b0d27809b
+debug: Compiling shader FS_af403df51c71e09b2d1e2f124c5c00da544a00e4
+debug: Compiling shader FS_c24d8e2f10278f91d0dd475445aa0d04a8dd4823
+debug: Compiling shader FS_415ca0e0a768b7ab3c89a9b7f0452961d95f5f90
+debug: Compiling shader FS_c78f4efd844525ac9c1c694d678331516cb2d5ab
+debug: Compiling shader FS_0ca14df31374ac8a26d8d31bee05935f18b35828
+debug: Compiling shader VS_99cc0bcd57091e5f7066e745fbe2275e92134671
+debug: Compiling shader VS_2d086c05dafe021b0572b3d71b4224df8d117560
+debug: Compiling shader FS_e6d4ea7ca0d0aabcd0b66d34715fdfffc19cafbf
+debug: Compiling shader FS_14f5c6c16c2d3cc2d934ed4cb47e6e5c87547b79
+debug: Compiling shader FS_643bb1a192e3cdc6cda0215d9e75deb1243323eb
+debug: Compiling shader FS_8f889483fff6ad21f36a86f2e4ba6e1bc41263a0
+debug: Compiling shader FS_a779fc4bcb57653c07d9c950b20f6ab35112c49d
+debug: Compiling shader FS_e2148a6fba6f9f3c1ada2469884ec243830e8911
+debug: Compiling shader FS_ba421f9bf788af36c7c19c065e2fdad24987b88f
+debug: Compiling shader FS_b47a63e1ee5b1cac2d9402799578022b7a28ace5
+debug: Compiling shader FS_2ff19735d0f9c1233767ee48f194e19298cb8293
+debug: Compiling shader FS_cea1a52e9bafbae4220ac985232c4ae5800134b5
+debug: Compiling shader FS_44878af33992a911f3286b35e3cf14bcc36664d3
+debug: Compiling shader FS_0b694bb0047b7be3f997c3681243eda2de918e6e
+debug: Compiling shader FS_9df6e1b26d1dbe59ae3c3a42a3582b57bd0abfd1
+debug: Compiling shader FS_9f63df8dac678c9877cb5bb1255810e8f1d57af2
+debug: Compiling shader FS_3d64bea036f2c67b363b6e12a840e3df586ca689
+debug: Compiling shader FS_a81c9e0b994651761b0ed1ab0a1aaa5e966ce88e
+debug: Compiling shader FS_2b63876ed62d8232a6c9914439822fe4493bb41f
+debug: Compiling shader FS_b99effdb743d8b2d8fac7cfc4116fb1d0ea3918e
+debug: Compiling shader VS_21f172b770cb236107db544aa61cf8213bdff008
+debug: Compiling shader FS_11adeb2887565028ff1eb4b905c75cbbb5b10663
+debug: Compiling shader VS_90f68ceb81be12687cf5ff9e4ec33dea07ad1c70
+debug: Compiling shader VS_b4a20832a100496a2c2cfaa4a2f27f378910384e
+debug: Compiling shader VS_4814a4f0c6e77f06b67baeee145533284443f2d9
+debug: Compiling shader FS_d8f2f1bf03becaf165e541cace26786f2abed8af
+debug: Compiling shader VS_2f6c2a9c26ccd06ddd2cd542744a25f04ceedb9a
+debug: Compiling shader VS_e7d3bb7a22b8505d2914a9f4be1faf291561b469
+debug: Compiling shader VS_979f8f259ff9661dc158b2a8c80e806d1fcbb765
+debug: Compiling shader VS_986495164d4c2a4a9cd43e4ddf30b083ec6b1394
+debug: Compiling shader FS_d05704222fddf5cb52721336fcebf2fa9328a2f1
+debug: Compiling shader FS_35e4a42a4f9b90899f4350599d3d5b73f483b976
+debug: Compiling shader VS_af957a412ab42a68bf9280495d62a26f1621c372
+debug: Compiling shader FS_a900e3a310ee8592a2962e20ae45020a0afdd770
+debug: Compiling shader VS_9ae09a9be70c0c49e8cb374d8cc7aeab081dee24
+debug: Compiling shader VS_c8b371e93b82517d957d869307fc784069f710bf
+debug: Compiling shader VS_f57bc530b3fddfc2416a1838530922dd53ab4fbe
+debug: Compiling shader VS_8e1b8b08ac52e56eba9f8bd69503b40ffe1c5772
+debug: Compiling shader VS_31d362e46914b5a791ade1853647060266729f62
+debug: Compiling shader VS_f60084a5b8b620b025dae3268e60a6eaf6047381
+debug: Compiling shader VS_2531dee5523b27f97659b5cbc76697f3eb8ca208
+debug: Compiling shader FS_03ab68bc9c34917551c004f0c4c4e8e9dae72d23
+debug: Compiling shader FS_8d9e5c4e993b19768d3e6fc0d6b5b133621729da
+debug: Compiling shader FS_2f51d92b64e4866267781847911e8c7cd214e812
+debug: Compiling shader FS_4ac453dd5d5be75ddbc293c33d0c4c6b102a2ecd
+debug: Compiling shader FS_533c503aaf33cd52fea30ad8c00bd5aaa0b51af0
+debug: Compiling shader FS_1e612ff6464a55df59c9f12994fcd720206283f4
+debug: Compiling shader FS_8b03f48ad2cb8f43f7fcc30d43f403610ea44fa2
+debug: Compiling shader FS_a31dab309efeec7cfaa6c76746302d21d4e46f95
+debug: Compiling shader FS_3ce7c6afc0dc97ade57585b8a30b064d6fce1d0e
+debug: Compiling shader FS_b421746d593c093dfb0a7f9f8b0a504c753491d0
+debug: Compiling shader FS_30410a5520c9b533cf9aaba3781f19bc28264f14
+debug: Compiling shader FS_6845825ec60d2dc56028c6666c4af8a5208659de
+debug: Compiling shader FS_cf0af5a4a8d3a1a6c745566821d4df1c3b9d05ac
+debug: Compiling shader VS_baafaf4cf30e0957035fa0831a4e232eb3243d34
+debug: Compiling shader FS_45775830d95e7748ed27bd3f9adbc6ad5e68171b
+debug: Compiling shader FS_a0b4f325ff90b870f71d88a55a9c2605fd407b86
+debug: Compiling shader FS_1ffa122507e3294d0e11957df8b66c625c972899
+debug: Compiling shader FS_7ed5f01eb92b52e059649d20230396624f58f777
+debug: Compiling shader FS_aadf65f26d224420fb82f24ef620d07d5214e245
+debug: Compiling shader FS_5429227843857f23bcfe8806b6428fe804672d5c
+debug: Compiling shader FS_134ebd966b26ace62ef32b5a22f2c70688ed2e8c
+debug: Compiling shader FS_3d654dd728591ae90041146181a39e86c6bec977
+debug: Compiling shader FS_77463a1d1386071d95762d9cec4c35f7c7ba2af0
+debug: Compiling shader FS_732e9180aaf82675c63b98295407660eb588861a
+debug: Compiling shader FS_f68432b9a121ec16d7dcc4b0e60483b6d17f85a0
+debug: Compiling shader FS_b918f55db7f90918a03a6474d27de58d2209f529
+debug: Compiling shader FS_b55f8802446b45d30cb4a3077a53d6b2e2c049f5
+debug: Compiling shader FS_cd42edde8df250486205a99ba2c1812273705847
+debug: Compiling shader FS_efe8c024536219abd5a976024152bbf527fa7cd0
+debug: Compiling shader FS_7700ad88f225c546322734f936cd30ebabe08b95
+debug: Compiling shader FS_0c43cae40673392e1c039ae186755d914e197956
+debug: Compiling shader FS_320768a98c64b9388439a360bfad3bd5276c9755
+debug: Compiling shader FS_88bb8564d8f43e8ae7a83eb6dafaac8f8c6af384
+debug: Compiling shader FS_bbe7ca2ca83eea3a431a5eee7f796af476a10326
+debug: Compiling shader FS_98cde4bbe388123d0c3de5c8c02a2c28e4d4b30f
+debug: Compiling shader FS_3162331bb8d40c49d4f48badd4c84cd0a92cf55c
+debug: Compiling shader FS_a7dbb1f23c5eed452084811974aab6a313222a16
+debug: Compiling shader CS_7b84fbf53fee48a7203ab3ce7203094dbde598b2
+debug: Compiling shader CS_a2048d699645f9c0a3f2dd2f1e321cf362cad1cb
+debug: Compiling shader CS_df71b39f4a6fa1f1cf17dbd0d8cf9d907d97b5e8
+debug: Compiling shader CS_a2e8406451eec9fcd53673064682ccef460da6d9
+debug: Compiling shader FS_83b1550d7104f91524d311aff01a26c28e543ed1
+debug: Compiling shader FS_14172603bd59173ab6a93c17b256a26373f3c737
+debug: Compiling shader VS_01d33c8b609ce3e9c6f21d1d7e44b4d7587d2718
+debug: Compiling shader FS_d0725381682f666174b9a38ef3014d6ab9b68d51
+debug: Compiling shader FS_515fa941a8ff1287cb9dadb3e46543ca3b8f1001
+debug: Compiling shader FS_4a7cdc7f3460dfcaa8f54ab9f3b84f50fabc5e9d
+debug: Compiling shader FS_30feee1275c269f62ecfd63be349dda09d7023ec
+debug: Compiling shader FS_5170aeda6477839e6e85e9a4f482b9f0a03768e5
+debug: Compiling shader FS_be84a7f54ff7b0cd086ccbaa745745147573c09e
+debug: Compiling shader FS_4a9aa1e5e47a7b7af901c392508ed0d81f2d2afc
+debug: Compiling shader FS_471024abe4f9ccf5b313339f11af564bbf3b3aeb
+debug: Compiling shader FS_1d84af1f0dd8788ace2db0de3d219491b6d1db76
+debug: Compiling shader FS_eee35be77783d637fd3d18e6d797940710da66f0
+debug: Compiling shader FS_e7cf4ae6188993298c447f7bbcb2f21f2fc8822a
+debug: Compiling shader FS_bf1b4c72cf8e16548a866505c9513253f71cdc43
+debug: Compiling shader FS_8696a765a294854e64abcb4cc8f31f11b150886d
+debug: Compiling shader VS_97b51c4247c89f996d2f97b29af8ecb102a3ca75
+debug: Compiling shader FS_a333b1a8f83210d17f94d37a01f60f6db356b5ed
+debug: Compiling shader FS_66394b88e7fcaa9f77d139b91a6e772fab282ac5
+debug: Compiling shader VS_ddf3dcd46a8f86806409b2427e3e2c7abb3034ea
+debug: Compiling shader FS_058de107a017babbc6e35a425e1475f125918528
+debug: Compiling shader FS_3b7bfb7e84e7d123728124e9468be472b264f29d
+debug: Compiling shader FS_d81816ded54e0ecc2e0b78088ce0a648bdc3f7ec
+debug: Compiling shader FS_d71c3b1e0e1997755b19b54ee88d6e1f48ae142b
+debug: Compiling shader FS_cbaf3351b3b967a6253eadca05cca6a4ccc36e5d
+debug: Compiling shader FS_3a904991d1fdf92e45fd28fe2603903616e62ef4
+debug: Compiling shader FS_21f366e60146ae31abd2b97b040f0ec86754e06f
+debug: Compiling shader VS_605cce8d74b426f7d34302bb3ac658aa5c3ae414
+debug: Compiling shader FS_850fb53715c7e238c995ab9342443e083d066ec8
+debug: Compiling shader FS_c09772bea9629e20e238f7093c54212ed39cf8d2
+debug: Compiling shader FS_81221b898f13ad280a8e65365a0e27a3cd566482
+debug: Compiling shader FS_69737c114366c9514a5a5e076c5d701234e6b711
+debug: Compiling shader FS_e514dbc4aa9dd6e949e9f6d6ab28d1210d85a5ec
+debug: Compiling shader CS_2d93417a0ed2ad26dbc1c0d12cb07f562be0576f
+debug: Compiling shader CS_3da4a873f0a5d6dd4d9e0d4a37e48f56557a46c0
+debug: Compiling shader CS_489b96fb6e1139c52f68b438050ad7717e93cca1
+debug: Compiling shader CS_c60686e1e1a19daaa8a1b98c125dd9d9591f848b
+debug: Compiling shader CS_6d31437359afae52a724311e22bd301a0be37799
+debug: Compiling shader CS_34a757048b664973ceb069ab62a8165b78921ec1
+debug: Compiling shader CS_c5e35c179794f74400e456b3fb4765502e898220
+debug: Compiling shader CS_f852b6c8f9d186f5bcaf524761cbe0f07c8d0a9c
+debug: Compiling shader CS_41318ec37e71e476e718582be6090bba7d3567c9
+debug: Compiling shader CS_2f65579b623945ffb6e653f26db3b60d6884a6a3
+debug: Compiling shader CS_c0bb9220cde9b0210c3dd65421da84ce0c2db04c
+debug: Compiling shader CS_033590de9e5f9646849ec0ce1860f2abc084a4a5
+debug: Compiling shader CS_6a8e581b22e198ce66a93d76656621ebe239c2d4
+debug: Compiling shader CS_6dd8216badbcd22b67f50c1bb930750582471feb
+debug: Compiling shader FS_6eb5a78d8bd5d368f039075fc0b2a573c8d24249
+debug: Compiling shader FS_ca289a75d39c1d6cd0bf7aeac1193e2322d4af74
+debug: Compiling shader FS_c63e7acc942b406b7b85c8e0877b29b873df0be3
+debug: Compiling shader FS_c3a03d8001d832fafa9a1660b7dd38097a43ae1a
+debug: Compiling shader CS_22820a076f9eb00beabae887776d1e2373c870d4
+debug: Compiling shader CS_ba1a6c4b02f8770ba09140d5230ace110779a0ea
+debug: Compiling shader CS_2276443270528ae1e893bf18e8a9a71e0ebac32c
+debug: Compiling shader CS_80318940e6dc2474b09aa10cb01bd6ec647169b1
+debug: Compiling shader CS_99a5d6f6bb4d243e6df4d2a97452a186e24d6898
+debug: Compiling shader CS_d8c36afce725fa9f5db3647df263dbad3e681640
+debug: Compiling shader CS_aab0eab5fad9a49afa3e577348cb4ec59fdb9ab3
+debug: Compiling shader CS_65736db663b6bcb1d1156272a0da765b57af90fa
+debug: Compiling shader VS_15bd46057d851f1845e824d5db0c6da0bb0f2659
+debug: Compiling shader FS_d27e427e83f8356bc9c6166b18850304b78402d4
+debug: Compiling shader FS_ce17e9f933119a0de31d3ad790cef873ff0aa12e
+debug: Compiling shader VS_46ff6502d99766dc2e92ac41eb4e7e51b3285440
+debug: Compiling shader FS_c9a0ca8f65628573e58c70b91e242343bded73f7
+debug: Compiling shader CS_55eaebce080bf429dfaf0786d82fec232da1b36a
+debug: Compiling shader CS_3a0da7745264505d8c55f7f09ba80fd0bf0dad4d
+debug: Compiling shader CS_e8502e2068b29613992d5499eb02c4d1a7cbf3dd
+debug: Compiling shader CS_a5c3a36bf4fb08afa8dfad5ff61dd321773dd168
+debug: Compiling shader CS_b98b6d609023844168f3122edb81e7ff58fa6f01
+debug: Compiling shader CS_b2fc7dde33ee1c1984ade282ffffa98d3c691146
+debug: Compiling shader CS_aebafa3f69067602c2e88690768a858a0f9399d5
+debug: Compiling shader CS_0e6123cce80967ddbf1407e75755ea27846ba507
+debug: Compiling shader CS_0cf09b26bf9879a04e99737439f5261630c3bf3b
+debug: Compiling shader CS_13f707d9b06db9e0a5cd83e3b57c77781b227f1c
+debug: Compiling shader CS_187e8621119eef6d6fe4bb092318678ace11a193
+debug: Compiling shader CS_a63627ab76d5a63fba96cbec288efb6a68393497
+debug: Compiling shader CS_c86de6f07bd939306c2ab3f5116b1d667af8a51d
+debug: Compiling shader CS_44f9817260c357418ffecfea0a86ae2372580896
+debug: Compiling shader CS_0f2d7b0716878a47caa8ba26553aa6e7d0f4af49
+debug: Compiling shader CS_e629000ed7f1081cea53246f365eab2715c4c94d
+debug: Compiling shader CS_e041cd4b326420a249d6f206f0bcd120619186a9
+debug: Compiling shader CS_54994c5abe14212e59755cf56cfe8659e9a0ef86
+debug: Compiling shader CS_f4feec4a145d11c088a3b34530ce7194c50ad6e6
+debug: Compiling shader CS_6b57f0271dc3d03fae74fababa5cf412f66798c0
+debug: Compiling shader CS_63c58fd6ce1dde4c81b178899f85c1f91dc01b0f
+debug: Compiling shader CS_08412c8872714f6b11d337a80aa7f11c088b9eea
+debug: Compiling shader CS_4f97ef83c2486902de99e38acc2656ee243450ae
+debug: Compiling shader CS_cabb6be2600a3a753c511b38b024996aac26905d
+debug: Compiling shader CS_03d647bcede0e598380407fa551e49d8aa03fdcf
+debug: Compiling shader FS_5daacb7710de5f189c8d8c6817f5e663b4932117
+debug: Compiling shader CS_320359489d09a3cfa3061a724988a8ba85b5d2c0
+debug: Compiling shader CS_6941d05103bb13e546953045831b254070f89eb9
+debug: Compiling shader CS_cc9b16af0a1457a2a78c2e8ec5d0a21fdf945314
+debug: Compiling shader CS_e2d2827326826d81407528179e076fe9e6115d8b
+debug: Compiling shader CS_a145efd68412978c60c2f7cd609ed175471fd48c
+debug: Compiling shader CS_a70b094e0dbaab6cfbeaaf07f7b48cd2570bd3a6
+debug: Compiling shader VS_9b6842b7188103de5387731e2f5cec63774627c6
+debug: Compiling shader FS_921cabca3c9624576bed5760af391f987caa8ccb
+debug: Compiling shader FS_48bd65061f374c12f55d13d724512e97272dbd0b
+debug: Compiling shader VS_22c5d097bbc81c4c650ee7ac25181568d99879b2
+debug: Compiling shader FS_d8526f532119f900036d4e3c6bf6aea52961182d
+debug: Compiling shader VS_bf00090b113534b94105bbcd38583d97b26d3674
+debug: Compiling shader FS_013cbc7f2e105ff2cbb6bba7eaf1c184baa5f551
+debug: Compiling shader VS_7fac630bdfc4692c57c178a6e2bdd77a727ef88f
+debug: Compiling shader FS_d59feaf3711c9b32fcf4124235cee42febecf365
+debug: Compiling shader FS_2c33bf85f065fd85d262b4a30a99d8049cf3e63a
+debug: Compiling shader VS_a127ec681ffb0e951dc9d40518c260363eadd20a
+debug: Compiling shader FS_1036abca4c1bb94a84d59486bb0b48bdebcf3c7c
+debug: Compiling shader VS_7edd687e689d3b5f845d2a14399d3eb3f7e1ebdb
+debug: Compiling shader FS_c8b227a089dc5fc0a59242b6ddd35148480733a2
+debug: Compiling shader FS_2f859f65f2fe615c3be1555c81f1e452a8387e11
+debug: Compiling shader VS_2f97db5a8d8a8ebee3b3756af0f50b372e7ca821
+debug: Compiling shader FS_611f03488e475c0b2974c020c07526cc50725bd2
+debug: Compiling shader FS_b06d36ad3dfb29d235ef2c08fe7e586003d640f8
+debug: Compiling shader FS_2f0b2363634a9f3f31c8bc0f053c7e527d560698
+debug: Compiling shader CS_353d1a33cc059a90f1d1c6c508b061a545d2e931
+debug: Compiling shader VS_6152ff4916c597db405a003d181277471ab886ed
+debug: Compiling shader FS_1c809343fcecc5a86d5aca1a6a3d7a59eb59bb93
+debug: Compiling shader CS_a8ded5af4a41a9153cbe355ed8b4c03744b4166b
+debug: Compiling shader CS_f84cf400c3e33e736dea4b6de3658a85bb10de97
+debug: Compiling shader CS_34e3bbef9db7c36a69e3d06ca54acf7bb38b7894
+debug: Compiling shader CS_ca0f2c47548ccb053be708c96ada80d9a096dabd
+debug: Compiling shader CS_2336e4cc8be84365f611110113dbc2fe08e5788d
+debug: Compiling shader CS_71d2439958e6364983801a9f8c8b2492f735449b
+debug: Compiling shader CS_69563f247b474b654a890c82daea39a53bd632ef
+debug: Compiling shader CS_548a09cc156280d8693ac527ea233b617582bc66
+debug: Compiling shader CS_d4efbf63735e623b473686e2e2aa130a9edac91c
+debug: Compiling shader CS_4f9a35efa6792f749cccd21760b0feeda815c487
+debug: Compiling shader CS_043476d459bf1bac3dfc4b41678f8d5c6d3922a6
+debug: Compiling shader CS_9366aaafa7a7d0ea236ada635a058d34487eff26
+debug: Compiling shader CS_3a9fb8ba9d5fdcecb2a6915cab638018e2c2265b
+debug: Compiling shader CS_19dd55ce004ca3a5f09804fdd0e969f9f423da91
+debug: Compiling shader CS_a8ffa69c8a7ac307d0b435c3be6a3883421f9cac
+debug: Compiling shader CS_071aa49d379089f6de64250ae5513117d00ef582
+debug: Compiling shader CS_3b056616f0f5c1ba8343900d3a1cd2fe974e0e18
+debug: Compiling shader CS_ed1cf9a44e2ae78b60e3587486bb97da081d2134
+debug: Compiling shader VS_714581f7e8e0f66a7b03f52afc84ce93a4703a68
+debug: Compiling shader FS_474ed54466b17f3879a518a7700871f802be2ff0
+debug: Compiling shader FS_8f26e4e87dfdd72927ba5ea7ba9ba161d59dcf8f
+debug: Compiling shader FS_ca681683e3886463cbf76066d3dc1b18747efa8b
+debug: Compiling shader FS_05aaa315acd83c4c89d7143751273af0efeb1705
+debug: Compiling shader VS_4a2e9e1ea37fb4ec5ca3d607616fa8e95bd67a6b
+debug: Compiling shader FS_77a7985b51e1b034023a7393b51a4a0a845203b3
+debug: Compiling shader FS_d636d3d88406644aab17d8b56bac32a63d541a4e
+debug: Compiling shader FS_a4b8578752ace31cb5a3f1a4e580d7da5a4a6b1b
+debug: Compiling shader FS_05a3af09a37ef41aeca74f50445fb826014cf147
+debug: Compiling shader FS_b3fe51d64e57c3b0432d81108cf38d2394961356
+debug: Compiling shader VS_8ec10046255988da3d4bc87ca4b6c00f59589936
+debug: Compiling shader FS_bba1a823b18594743df64bb2c3728af578317aeb
+debug: Compiling shader FS_08ceb3b59823c10b0e52636437840ef59d06724f
+debug: Compiling shader FS_20cc97294f37d5c366ca232b3b8778fe1de3a23d
+debug: Compiling shader FS_bc34a1bb11f8b8eb7a62d790db40bbabdb1d7887
+debug: Compiling shader FS_e36af04e9b677e46fcd86754464e53d5a7a9bcd9
+debug: Compiling shader FS_b3092bbf48e1a9a26702c262110653230cf8772d
+debug: Compiling shader FS_b842e4d2862f06bb4eb62e3e6748cf5457034be3
+debug: Compiling shader FS_995237334a811ff60c8442f00becfdb0b5e504e1
+debug: Compiling shader FS_aa5a4186978415cb4b6841f1883062bc9f861d50
+info:  Presenter: Actual swapchain properties:
+info:    Format:       VK_FORMAT_R8G8B8A8_UNORM
+info:    Color space:  VK_COLOR_SPACE_SRGB_NONLINEAR_KHR
+info:    Present mode: VK_PRESENT_MODE_IMMEDIATE_KHR (dynamic: yes)
+info:    Buffer size:  1706x972
+info:    Image count:  3
+debug: Compiling shader VS_9541f19d06b9d57f41047a848cc488dfc1036796
+debug: Compiling shader FS_b9b99370b48ccb1589b395462b1a724eb77fed9a
+debug: Compiling shader VS_4240ead572c565f98bbf2866bf4c6f302dcd5d0e
+debug: Compiling shader VS_e1d7db8ddd50871c636cd23f9396832a50b53714
+debug: Compiling shader FS_97408b61904e7abc22a68b5fd882df0e57d06205
+debug: Compiling shader VS_7d4a33dac5ad6bd5cb73fc7f83196755cf77e77c
+debug: Compiling shader VS_560df96fe23bd67a87a3e98f93c39c13443bfeca
+debug: Compiling shader FS_7d06366dcebbda541b3073ab711deb4dc95202c3
+debug: Compiling shader TCS_9c2a2f96fafba298245285de61cc0db34d777351
+debug: Compiling shader TES_cd332e1965aa9eb65ae4f396cbc053df930df4d0
+debug: Compiling shader VS_bd29121cc42c520dc55fe23d978bdc44bca57908
+debug: Compiling shader FS_39bcb3d555a7524e8e61c7b9af1c6cde77c42343
+debug: Compiling shader VS_cf5677709deb13dd371064860b39eeec2b6b019f
+debug: Compiling shader VS_c43e7bbd8176af52fddb51c57bff10fc0aa9c02c
+debug: Compiling shader FS_d524f3c702ea32e0e34d0a04619e118f33a74ae6
+debug: Compiling shader TCS_4fdd9db8e84030a0ce0c0e5194dd3a03510fe738
+debug: Compiling shader TES_8c4945b38473fde7dec48f637c21e7b22e5c3244
+debug: Compiling shader VS_33c51692ba56a038fe3bc287122986c6d7cc6cd8
+debug: Compiling shader FS_9b2ed1a5d5d219ff6c48126fe4a5b0aea9280e3d
+debug: Compiling shader TCS_abb521db3c65b93595cbe35d6eca1b02dcd59521
+debug: Compiling shader TES_c05faa6a06696c01607dc8d46353e04e9e2b5bd4
+debug: Compiling shader VS_46dfffb1dea0603b8db4987ab2112191eab2d81d
+debug: Compiling shader VS_e1eeb5945fe7832445b7f2efc701906e43a91e67
+debug: Compiling shader FS_f8b56ed37399d588da30362f03b619fc27721b7c
+debug: Compiling shader TCS_4132c132dc77e6243ae2ac294aeb39676fdbed05
+debug: Compiling shader TES_ecee4b6db9cb4ffdefd56685a76786be4297a322
+debug: Compiling shader FS_18e18cf367883f4ad0783fe087411e9f28907f2d
+debug: Compiling shader VS_5c12b1f28bd9b8c8a7c6a3240a1c1ffd8f42b479
+debug: Compiling shader VS_26d302490c6ecd4af240de293200db29a98f829e
+debug: Compiling shader VS_f2364f7a807e8aa9c4021e76363bb023aaad331b
+debug: Compiling shader FS_78c32bec7fd6be15af9e3e6dfa3dac6fa91341fc
+debug: Compiling shader FS_2a5594ef4071baee704e0560914991ab9eef956f
+debug: Compiling shader VS_6854d68c8bce15c74b5aec95afe93d8ea97bdfc9
+debug: Compiling shader FS_ba827721fc1efca6a2a4c4466fc1f127c00d85b5
+debug: Compiling shader VS_b3e568c817d0f849593010de86b1473894e98d0c
+debug: Compiling shader VS_63d1b7752f25d4c24e9754ad86a471093a4fcc6e
+debug: Compiling shader VS_ef2a8ac3cac21d5a921c633cd470955aa55cc312
+debug: Compiling shader FS_af939cc1c510956585041f073b541c7861d6b4ca
+debug: Compiling shader FS_127da7fdf103178b38bb8af18f517f8c3e52708e
+debug: Compiling shader VS_050dee7ace6d900095cf57dc922990b762275f0e
+debug: Compiling shader VS_fbb4cc657e4785d3f42398e7e0be76924476ffa0
+debug: Compiling shader FS_713e56df8f86bbc5fcbb5a323c0631eeff261b96
+debug: Compiling shader VS_98daf251a86916e5a50369dded3de4b914d632a9
+debug: Compiling shader VS_4b10b159853365b21e5e95bfbf4ffaf6acea61cb
+debug: Compiling shader VS_b5e279f7053556d005382157d747e32b81c9aa6c
+Qt: Untested Windows version 10.0 detected!
+debug: DXGI: For mode 2560x1440@0 found closest mode 2560x1440@240
+debug: Compiling shader FS_945141e6f09a167aba22ac19f43ac3fd6668840d
+debug: Compiling shader FS_18cb277d0886d401d92ee6118d02680f1d7f01e4
+debug: Compiling shader FS_4abfe2dc334be13edf1bffa4432fd439aeea874d
+debug: Mapped memory region 0x7f3ffc000000 - 0x7f3fffffffff
+debug: Compiling shader FS_51434ba721251cc4f625aab511c33f5c751a03c9
+debug: Compiling shader FS_509e3eff04646bcaae0ed23bd338e6bfae6c18a3
+debug: Compiling shader FS_4cf4c762873b9728f46621c4c99d4b1f3edbcc3e
+debug: Compiling shader FS_0dfe9a607ff164d513edf6999f0171ef3873686e
+debug: Compiling shader FS_a9ec694b7cd3823a666c634580b6bf9e4249b875
+debug: Compiling shader FS_a62fa085b87bb859d9346c4e68bc7a54002da4f6
+debug: Compiling shader VS_a9fb909dbd2e3f87ff8c4064fbbc1651504d9fd3
+debug: Compiling shader FS_1a4127819961d16883860d43643afd5fdc5ebbb0
+debug: Compiling shader FS_b90e1499374af42b0650baf35877f7f16aa7ff1e
+debug: Compiling shader VS_4cccc0bd92980df6c6779eb14489d8b1f64b3730
+debug: Compiling shader FS_5acb021b738d9b5e1516cc23de86fb9c2856e14d
+info:  Presenter: Got VK_SUBOPTIMAL_KHR, recreating swapchain
+info:  Presenter: Actual swapchain properties:
+info:    Format:       VK_FORMAT_R8G8B8A8_UNORM
+info:    Color space:  VK_COLOR_SPACE_SRGB_NONLINEAR_KHR
+info:    Present mode: VK_PRESENT_MODE_IMMEDIATE_KHR (dynamic: yes)
+info:    Buffer size:  2560x1440
+info:    Image count:  3
+debug: Compiling shader VS_5ebab72ba185bea31e758bbdcdfa00f1c5ac1d40
+debug: Compiling shader FS_77d78f72bd4a4861e07c591790e84633be8a4dd4
+debug: Compiling shader VS_89198261c5187b12db58b0895b2da45b8d1bd1cb
+debug: Compiling shader FS_f3a67f1bc54b7d8720450d2370d2f740c992b89d
+debug: Compiling shader VS_91c0b625cd9b0b0cd7f333a7b27ad9059d92516e
+debug: Compiling shader FS_e91513b2c5373883269c7763cd1dbb13557b3884
+debug: Compiling shader VS_011b40254646484de092c976c83b74007c17f432
+debug: Compiling shader VS_8852886028febea347f04f77e4962d549f2556c5
+debug: Compiling shader FS_0d3e4f5e19956e84b4bcab860bb29e8cd0adc476
+debug: Compiling shader FS_8d3ba02ebf615452a831408e4c2a5928eaca2c12
+debug: Compiling shader GS_0c4b30d8540563260d3e7497e0c3eb6f7e72a4e4
+debug: Compiling shader VS_a62bbf3974b5697f2ec6a3a49c319e8dbcab0db0
+debug: Compiling shader GS_d703183f5b38f6d73e068948d2ea7a5fa3a70be0
+debug: Compiling shader FS_8509dc7fdbee940e331b87008ede2fdd1b3a8017
+debug: Compiling shader GS_64402880e1fd96e595b57ca80d09b623e37d2329
+debug: Compiling shader VS_579fc9e570ea6f29d3d91a4b3b47852e9e8dac7c
+debug: Compiling shader VS_9b3287d47b14279e18fb2509ec952533836c8bd8
+debug: Compiling shader VS_597fcc2220d04ebb8561faff74661b7b51e0c389
+debug: Compiling shader VS_79341b24c795caa5b201e05dcb8580ddd3a92a9e
+debug: Compiling shader FS_87fa34a3236e08899056ee3ea54bc59722ad60d4
+debug: Compiling shader FS_019b6910687fa447b138b8ca142473ae9d6291a5
+debug: Compiling shader FS_3c9d24d2044df4135317daf45171eed966d0a47f
+debug: Compiling shader FS_f7ae1ec4846ad188cdad501a5bdec1fd21568942
+debug: Compiling shader VS_15a9516fcb50e37c3e5076a4b8b91bec4b6876e4
+debug: Compiling shader VS_37c51d4f6193c253a41a3cafe867751b52fb7328
+debug: Compiling shader VS_55f3d16c3da8b2d61de8f7346a808b37364e654f
+debug: Compiling shader FS_d6db566abb498f7077d0848c91a749a201d3c8d5
+debug: Compiling shader FS_e149ab4b3b1bfc55d33f2eacac1915b59ef488b8
+debug: Compiling shader VS_e5c57394b90d248605b019d122fe13c51bdab3d0
+debug: Compiling shader FS_bea1e20d04a38a0bbbbffa335fc34d5a1f5ff2b6
+debug: Compiling shader VS_970ed336039a40abee3c07f9758a2b6756636474
+debug: Compiling shader VS_4a688ddc28c747402c5e129458b30682de6219c8
+debug: Compiling shader VS_ed2468edccee9d92283dc373c53851e993bc0a6e
+debug: Compiling shader VS_b745f60e72d9c762fa4d7b1c138f69a34e82ded7
+debug: Compiling shader FS_bbbd4d4058be467d5683b4c33fa79377f4958e1c
+debug: Compiling shader FS_f6f9a3156538ef378203f5c08fb55a9d8dc6d6d4
+debug: Compiling shader VS_39b4ebab302f3fc725f44c7d0eac202ae7635fd4
+debug: Compiling shader VS_4bc1cb7ea9bb6798ae2cec8fb65ac81bb0f521c6
+debug: Compiling shader VS_4bc1cb7ea9bb6798ae2cec8fb65ac81bb0f521c6
+debug: Compiling shader FS_2feadd7e5cccbb35f9ad4ca315fabdf14cbbb1d0
+debug: Compiling shader VS_f559d72a58dad14d85137ab42bd8b6edc23ca616
+debug: Compiling shader FS_cbbf3028c45d633c3780ccee5cedf99927c5fb99
+debug: Compiling shader FS_2c603ea2123bec87faa8c1668c9746d81d78d33e
+debug: Compiling shader VS_f68be8f82136497ffb90347e0e72498af71cea9a
+debug: Compiling shader VS_f68be8f82136497ffb90347e0e72498af71cea9a
+debug: Compiling shader VS_3fbc6d8ce566a12efc4396296397688fbbb2a9f7
+debug: Compiling shader FS_917c7400773234b671e56e8d610044b71a5e2fd6
+debug: Compiling shader FS_1260dac2d11c890b4498c8b72e49a193bf09134c
+debug: Compiling shader FS_ca6c98cd44815cae323d0d51f2cc28b21826b120
+debug: Compiling shader VS_7dc1d06d3599865e406941e091e9893a6a36a73f
+debug: Compiling shader VS_7dc1d06d3599865e406941e091e9893a6a36a73f
+debug: Compiling shader VS_97dbed724245eca6c8dc6de22d2aefe2dafd25f5
+debug: Compiling shader VS_dbd0994c5c4b0165f72dbb37f0522cc58c05bc6f
+debug: Compiling shader FS_f9098a053bbb96b4601f56e73fcb06ec6156cb9c
+debug: Compiling shader VS_c31d3ce0df0624e6ba63a942d0b0b56fd7299cf2
+debug: Compiling shader FS_7121f01bd7898e9706b2f44180f9edb845ec22a8
+debug: Compiling shader VS_c31d3ce0df0624e6ba63a942d0b0b56fd7299cf2
+debug: Compiling shader VS_1812fa5f41f030823eee32b7c1162af81119182c
+debug: Compiling shader VS_d35cfa36596bbf42f80c244e79a94d0026b92018
+debug: Compiling shader VS_8f0fb3d587de6f3d4aadd3ac7b84ea4be95e5c27
+debug: Compiling shader VS_341bc1d1de71bc976a84d3a3b91197105413647e
+debug: Compiling shader VS_c197bccccc55504204fe8bbed707676e528ce1a3
+debug: Compiling shader VS_59cee466c9d68e24bb97dc1a4a34df5b56525d0d
+debug: Compiling shader VS_84c72838046c818266ae4542a18d7105f3b53afb
+debug: Compiling shader VS_23bdc11776242e68e76011ecad215d203de731f3
+debug: Compiling shader FS_9a6d829db981d90dee2a9971b766477a0238f4ab
+debug: Compiling shader FS_a30ec0e6a64d3b40f779474d4475ce44363470d8
+debug: Compiling shader VS_aebe65aaec1a298c96b7e5c53bf0d09205e6b773
+debug: Compiling shader FS_1fe8271a6c9cc78183b3f7c8d21ab23c846d5462
+debug: Compiling shader VS_90f72071eba45a0ee160dd14fc01cfb68ab0145f
+debug: Compiling shader FS_1e6dea6d1ae901ae887f0a60ad035ebda4921881
+debug: Compiling shader VS_6d79b8c77fff334cc221dc3579712810d9a84757
+debug: Compiling shader VS_cf8d4a1b4ae70a0b5bfa38a97e91f6d75f7bd87e
+debug: Compiling shader VS_3ee7e18b5b25480c9a85edc3515bccc6783a2dd0
+debug: Compiling shader FS_b1f8ae0cfc8a95df8f1a81159d94791b93a7eb68
+debug: Compiling shader FS_1d4bc8554f0794d2847826080a0ecdaa1de41fb0
+debug: Compiling shader VS_94413863ce5e675d55023bdf008625a8f266384b
+debug: Compiling shader VS_c21916fbe15692963b86b51bf79ffa567f92ccb9
+debug: Compiling shader VS_9bfa8f27d5478e04af56013d26048d7ff6ef7957
+debug: Compiling shader VS_9feafcd32b35963466f47d53f96ad55f77acdfc5
+debug: Compiling shader VS_2009f87d6eaa3065868dbd6002b5e7b0be1f2020
+debug: Compiling shader VS_39b7a346f37bc615c33efe38dd6969ec07094b18
+debug: Compiling shader VS_cd2aa1b0fec599aa10ae74548eaff589f1f5f0dc
+debug: Compiling shader VS_6d5fc427823b060325a3518d90d2f67bf6383670
+debug: Compiling shader VS_811e8ad536caecf160b68796586d89b32a73044c
+debug: Compiling shader VS_8e25b1b1f4ef9c9760b32fec5f0180b2ed4d169e
+debug: Compiling shader VS_883acc4db1ec5533d7f9e1c09f48a86a3c13abf4
+debug: Compiling shader VS_a12cc7e5399ffefbb8e715dd7db64d1fccb59f5b
+debug: Compiling shader VS_d88cd99c32e76e14d19c3aa7a32a9b1734119120
+debug: Compiling shader VS_3681b8b1d5a220b41b039397298bd2b19ecec87c
+debug: Compiling shader FS_21ba521614a875b6b64e00b448c363cc69980316
+debug: Compiling shader VS_cb4e6bd15d94d263f0b0e58ad955637f2dec0dc2
+debug: Compiling shader FS_4840f8c913bf25fe985db27530d780c51dc608b1
+debug: Compiling shader VS_806b52144b52a2bfc5a528c523e26368691af78a
+debug: Compiling shader VS_b08929d9dc421cb19835f8ebd1ce4db9563181ba
+debug: Compiling shader VS_077a7ef0cb34500f5067f239abe5b0d8d9ee624d
+debug: Compiling shader VS_0aab77ac18f15e03d840ad1030414b78e1b7db8f
+debug: Compiling shader VS_1e66b503092c3044f0b7b7d2f8fd065e9390fe04
+debug: Compiling shader FS_b38325aff0e54cb36814c70c84ca53ae445e8c9d
+debug: Compiling shader VS_b868a2476ee7dc87251f4707e9431336adc6ad33
+debug: Compiling shader VS_5f0978ae27c6c278bb49a55d9722197681587f92
+debug: Compiling shader VS_2cb2aab0473c52c975ebf50655216728fa2e751e
+debug: Compiling shader VS_ae21a80b7c09b01c7220ad159bdf1ed3383393c0
+debug: Compiling shader VS_9d0d24d9bf6e8dd00899bf9b8729dc9901f8754b
+debug: Compiling shader VS_b5df007305ca2f337d2d44cd92439c506690bb33
+debug: Compiling shader VS_448ac4ecbcf301104d3f420f54132cbcf3e25136
+debug: Compiling shader VS_0adb60696d89a7ea898f1013babbe0a482d1f1eb
+debug: Compiling shader VS_15651106b6e47e312f9c798cee91d320cc69e5b0
+debug: Compiling shader FS_a176b459fd459c7af77c79dc3018a3f46ed2da21
+debug: Compiling shader VS_16beed3e128fe7176ae3e927a7b9a8af1275e49c
+debug: Compiling shader FS_07d46e8441f01501d9ac4b77aab5379dc75ee0c7
+debug: Compiling shader VS_e5a109956e458a93bcef8728e934aa992fbffde1
+debug: Compiling shader VS_3375af5e894cdcf10bbc341e7b1aab649236f72f
+debug: Compiling shader VS_f2bdb86fa4fadec844779dcdb80e915424b92251
+debug: Compiling shader VS_4381cf39eb419e9a886132db2d23016a4d7fa06c
+debug: Compiling shader VS_e175a34b8bb0c343683c8e98456e3bb838a33f14
+debug: Compiling shader VS_4494f1a6dc0ea66e1b3e4567814d4c736f8d4556
+debug: Compiling shader VS_efc8f9e437a73a7df9edb814520767f844d00bd4
+debug: Compiling shader VS_279b7d4c1229f1ddffe4d698822db281bfeba23e
+debug: Compiling shader VS_14fe02bfed99c9631db60dfaa020bab3d5efdad9
+debug: Compiling shader VS_12b22643f7ac65af7471b1c9e1523f545a52e655
+debug: Compiling shader VS_13eaffb5a2ee6552bca5238443dd663ef9a21668
+debug: Compiling shader VS_9dd210d3d6510164bf668302f7679cfcda28b6db
+debug: Compiling shader VS_fbbe4ca69963a1998df6c18bf68607a472522e8c
+debug: Compiling shader VS_4c805458d5519154df97a8268fd1c6ceaf422bd9
+debug: Compiling shader VS_60cfb4d883405a7bfd1a8b16a96b49d703ecaf83
+debug: Compiling shader VS_71e3f5467e6471517b1722d5c22baaa5e2d999b8
+debug: Compiling shader FS_d7aecd11fe21fbde139da5dac2935a813476423f
+debug: Compiling shader FS_5395f1ab64e0e0cb1ff4de722ab0270b1250dbe1
+debug: Compiling shader FS_f445ab0210262b5d6ee5791ed1cfab3ca22a7cf9
+debug: Compiling shader FS_e4021ef74c30a24a53086653144be623f683e1be
+debug: Compiling shader FS_8ed980a0e343f075109a01911467a219ee78fce8
+debug: Compiling shader FS_2ceafd45477b039d16111c1d035ea31aaa57e328
+debug: Compiling shader FS_5cd7a4ff14d7227f8544e06220869b1d5a3ff236
+debug: Compiling shader VS_b5f2b9a2e2f6f5d58348320f83801984266eb222
+debug: Compiling shader FS_551e2b3975e70e526be4a7e522dda0b0aa955218
+debug: Compiling shader VS_a78f45e23780682a0cc87a8ebce0e785ff5f1aea
+debug: Compiling shader VS_faa7f2c615412a6871fccc0547eb66b39e289cf3
+debug: Compiling shader VS_243021014dded0c571748251265db45124b1bf05
+debug: Compiling shader VS_618ef6f1b70ef07edcbd52e19a153c73530360e2
+debug: Compiling shader VS_5cf28d9b96adfd7e7592f0d28b4dab9724db5062
+debug: Compiling shader VS_9ae381a649a507f383bad73dd02577b03b5bcf6c
+debug: Compiling shader FS_298fe965544f009cf1d92954754cb2ae577151b0
+debug: Compiling shader FS_fb304bc775e83293e15062f7ab5a9cf16154f963
+debug: Compiling shader FS_10e905d2e5d078e7c1e407dccfc4cbbff6b320de
+debug: Compiling shader VS_462775a991afea8b2dc6d853f8ef4d8d98b6329a
+debug: Compiling shader FS_beafe15149a4ed20f92d641eb85be2b447ed5875
+debug: Compiling shader VS_0a2064eff8b42dd0304d8ecefe5a62223f7a41be
+debug: Compiling shader VS_cbb9eaf53c3d291bc13ed7e9efc6544992317736
+debug: Compiling shader VS_bfdc5193e77c8f3165b4b53a91b98094bdeac7a4
+debug: Compiling shader VS_ea6735d5cca5492407d3dc69e28cb589074674a1
+debug: Compiling shader VS_75896ea215ece92ebbe110cbb9d6fe1c3381e955
+debug: Compiling shader FS_c95a114e12dadab461a6c008f5860a409af50abd
+debug: Compiling shader VS_3f3f5c9efaf8b8f4dee5f615412da6793e60c883
+debug: Compiling shader VS_880f1b56894f22c3f128363ffc64fa79c0db5a17
+debug: Compiling shader VS_b35f86ffa7a17d266ccb12fece7f243f6fe6d25d
+debug: Compiling shader FS_1da70f64d00563d8619735311fcab5122b61a31e
+debug: Compiling shader VS_09f2ac6cd17faa32e4270b5ec2a06d4e6aafb147
+debug: Compiling shader FS_d7adaae4ded4167a9ab0336df06003896a6650ab
+debug: Compiling shader FS_e35330ce56a297208f5ee266ea31f40f0e800cee
+debug: Compiling shader FS_799ef0bd423dc7cbdd32486fab6156581b8b25a6
+debug: Compiling shader FS_dbab2975385287997898db0e6601dbf80e62dffe
+debug: Compiling shader FS_50aa4a2fa4e0af796ec9d0fd8ce066652e40226a
+debug: Compiling shader VS_9092dfe7b417c4fb28896ad3af9167a7243e8ea8
+debug: Compiling shader FS_757bebd7941d259cdf00aadb0a80adf1d307a47e
+debug: Compiling shader VS_2996fa2654aa6bc7f4989ee1d778b8d015b71c4b
+debug: Compiling shader VS_f3fe9803aed9b22c70753843bb02cc71d7532c2d
+debug: Compiling shader VS_cf1ada78e72f15ef257fb841938a2be86665b498
+debug: Compiling shader VS_e808fff0626fe9acfaffb5442571212d879242a2
+debug: Compiling shader VS_bc7ec7a6317cdcec85f80fb25a6736c226f62d5c
+debug: Compiling shader FS_3ed8e61cee1a8ba1c898a02078fc9baff84d6024
+debug: Compiling shader VS_6e8ce244250c36cf625ef029d6334b907f9d840a
+debug: Compiling shader FS_af6fd36bf84e828a7e717a4420293f3de5d0bc15
+debug: Compiling shader VS_7184be8dcdaf4d46082e4631aa23bb4b5c902115
+debug: Compiling shader VS_f4a521292857c82f057c8096edc872d3a22f8086
+debug: Compiling shader VS_c051d88d3e22c94b0b2f5eecf4629e06fb0c6454
+debug: Compiling shader VS_5041b9d0f2c44b0c71babfe2bc45fa18344ebbc4
+debug: Compiling shader VS_aae777d982004e7e1161a7962a5a57deb0888c49
+debug: Compiling shader FS_7f4568b0149990b79b81488df4d6c7867aff9b5f
+debug: Compiling shader VS_ccc4af8ae5bbb4d80a545e596b378e712dfb250a
+debug: Compiling shader FS_79463eb699c280707afdfff4af6633dd1f1267d0
+debug: Compiling shader VS_8a11cd861d8c5ab47505382d19ccabf2cdc43a97
+debug: Compiling shader VS_bc37db48c4a642854b6621ccd177b65f46503726
+debug: Compiling shader VS_bc965fa64ba0aa9737a2dc448ebce1b2de7bd259
+debug: Compiling shader FS_8f5f64b73bb8d6ba40fa09478f99816e036e54c1
+debug: Compiling shader FS_d5b4c37d4e0ea49207c2d4fffd3d0cfd83d3dae6
+debug: Compiling shader VS_400ff6434b0bfa3a48cdafb15ec747f4e0b8ce1f
+debug: Compiling shader FS_a087ee5bb6578a8f3bd5e5ee74e8948e64536e47
+debug: Compiling shader FS_1e85b2c23e0712043f3829c90e55f0044e952b01
+debug: Compiling shader VS_2c264802888fc2865608898c559ae6479a3abc39
+debug: Compiling shader FS_efc80040cd56f8723dad9a3feab184a7a9cb23e1
+debug: Compiling shader VS_3e328a5a3279109f930a86ec370cd08299a86ced
+debug: Compiling shader VS_97f0af0982431f381fbf125d7d6f598971df4af5
+debug: Compiling shader VS_f6a7074ce0114742552664012109929bfcee864f
+debug: Compiling shader VS_5d2fd8131984bc0236dee9d53015cdc3b4dfd72c
+debug: Compiling shader VS_67ed048ac60c542334a5b0f26ca1c088693e4b3c
+debug: Compiling shader VS_ca1baa32086c18d39b708afacff951911fcc2a15
+debug: Compiling shader VS_6e5262c1c1b9b3fea783ec70ee4aaf8ced591f47
+debug: Compiling shader FS_5411bbbfb9d2393aed29b4751ccf4232f69ed29a
+debug: Compiling shader FS_70787ac6dbf42dd133ca572c62bdc983505a6aa5
+debug: Compiling shader VS_28857cf550bf5c3f37a6608bd1d64f3e5027e7e1
+debug: Compiling shader FS_786f1fa8539c8eab0e19b8f06467e7c75e0ac7b4
+debug: Compiling shader VS_09d8e7c825370e8b4dcdce805865320bff8aed88
+debug: Compiling shader VS_c1b60c503cd91165cc32769b1b548337f80cf585
+debug: Compiling shader VS_f8b4a26cf7bd52bf318ab7934e7cfc6e8dfde4eb
+debug: Compiling shader VS_b76fe430490ae8f7c07f42cfdea6f9a5cf5ba901
+debug: Compiling shader VS_c07db45896cbc6f360cf66d2082f9bf0f7597787
+debug: Compiling shader VS_751877efe9cc011e9ab7aef151518224172da6ad
+debug: Compiling shader VS_dabe6c414c9f76f49e65339c4e0cef1df9a108e1
+debug: Compiling shader VS_5a9b73abfa61326ae5bd7e582310abecc04838fc
+debug: Compiling shader VS_912794d97eb503ab9b88c95da4447ba144e3251a
+debug: Compiling shader VS_ae41a26e6e1beda9b4a576ccc05f204e22cc19ec
+debug: Compiling shader VS_3d9e32b614b14488702dbd8ebcb8a17349f9bd03
+debug: Compiling shader FS_bb432a674fbed81278e2a847fd526eb7062c1e40
+debug: Compiling shader FS_46a0c233472c41ca4394ddff6a6331fac6c7ffb5
+debug: Compiling shader VS_b5b873dd2e4bb2a49737e3a23dd83768360859fa
+debug: Compiling shader FS_bea12ca9ecb8aad8751198b684bb1687b1d9fa52
+debug: Compiling shader VS_17d63ca9d2cff6cbadd466b1277226c1821df9f4
+debug: Compiling shader VS_d1e1ffd8ee2f19e3849140072c4071664c214d1b
+debug: Compiling shader FS_d75926003359a044be471c353fdd6220e3f2db9a
+debug: Compiling shader VS_d566c59f8c2a292d567d1c02f8857e4f7a6e8866
+debug: Compiling shader VS_0cf5ca874f159822a01d3edba547d0a6bc379eaf
+debug: Compiling shader FS_fe58035b48e2a9ee483a456a008ee88b13a95b47
+debug: Compiling shader VS_0a2d66017ef5a23221b16c7438ecbc150e6a2b04
+debug: Compiling shader FS_377ec828f1e9f8a08a16aca9b1328fb1d627c1d6
+debug: Compiling shader VS_c1c3c8978f29668b0c110dc920b856d106b76435
+debug: Compiling shader FS_6022e8f9a388e94a77a2b8d4c39438807031c867
+debug: Compiling shader VS_de39fcd15818c35f098514767041d08652f9d95f
+debug: Compiling shader VS_da5fd28c8bdd4d1d6a8c16be7de8e18bdead8d6b
+debug: Compiling shader VS_da5fd28c8bdd4d1d6a8c16be7de8e18bdead8d6b
+debug: Compiling shader FS_9d7cc935b3b09b08da964d7c4b283bdac84a1647
+debug: Compiling shader FS_caa29fd76841bd710adda59bae066e76540d7209
+debug: Compiling shader FS_b22d7433abb59e40962158b148950a318303d907
+debug: Compiling shader FS_a628321e4b38b81035a44443e3bd426fab0fccc1
+debug: Compiling shader VS_4214d217f18160dd9f05399dd97ea0f26768ccfd
+debug: Compiling shader VS_64bf1212408365d40b30c5f7ef036da93153f9db
+debug: Compiling shader VS_4214d217f18160dd9f05399dd97ea0f26768ccfd
+debug: Compiling shader FS_418ccafb86ca9c90a07f0ae8bf6e4490f0af6941
+debug: Compiling shader FS_97897ea28a6f1baf0078d69b4fe0084f80f170f5
+debug: Compiling shader FS_899f72857113ac63e7b5ffda9bc418f905a48fa5
+debug: Compiling shader CS_5758f02c041c5f11bdf881b8d6d6b8dee3d7f216
+debug: Compiling shader CS_7186bd57a5adc81da7baa3d6cf92bc055f8aae9d
+debug: Compiling shader CS_9abee5a87790c02b81b1b87f3aa880d8807283b2
+debug: Compiling shader CS_ed8fc472f12660f6390ab1157fbf3cd8afdab108
+debug: Compiling shader CS_28abe2b633c5ef0d50a0f19672c6881c35d0ba49
+debug: Compiling shader CS_353efc2f32a64033ecf923cbe4cb9ac06cbc146b
+debug: Compiling shader CS_d3593600696cc1bf8a148606eefdbf151fee2102
+debug: Compiling shader CS_92ff3a8c667e8808b84ac7f2fb07d775eec7fa74
+debug: Compiling shader CS_6bbda6616027ae67d883cf791f02a8ebfecf0431
+debug: Compiling shader CS_d85ccadad2496ed1fd28b406d10a3e2e85ecd79b
+debug: Compiling shader CS_04f84e4c0fb948e5612170c80c23e3a7f871396b
+debug: Compiling shader CS_2b3e2073e812f906cf4d25682d22e24f1b8e062c
+debug: Compiling shader CS_1beb527d03a5127ed7ae717e490f28563bd0c29c
+debug: Compiling shader CS_1815508e97866d01b599989195485fe79c9f629c
+debug: Compiling shader CS_750b5faf809c4fe150831f3f6ca85cdfcaff6709
+debug: Compiling shader CS_b4d3e322eaa22f056609a317815243bd7b8eab34
+debug: Compiling shader VS_f141b43e0ac94eafa025a5a6fefecd0a85ad4064
+debug: Compiling shader FS_e4e3d642d353be5fd5786ed2569fdfe749e65558
+debug: Compiling shader FS_d49c5bb74e8a6b3c950e9828c31592061e4b0753
+debug: Compiling shader CS_97b1e0c305994f48a4fda51d53528eacf83682b7
+debug: Compiling shader CS_5c293215da72b2bf23289c00ff8f96527dea8b6f
+debug: Compiling shader CS_bf706932e9ee349a97cfbe308d65523369ba7b48
+debug: Compiling shader CS_739130c57ac53887c8fd5d0e81a4885cf25f0923
+debug: Compiling shader CS_127fd4bf7bf877c538941978bc63b4fce1619bad
+debug: Compiling shader CS_b41a6484f8abf1aec8b2597b0d5e61466950bea4
+debug: Compiling shader CS_c0816c50beb5deed945db77b5411cac645b30aaa
+debug: Compiling shader CS_2ad44c9f42aa8de959456fb71171303e52fe7f3a
+debug: Compiling shader CS_4b01bc0e2a61ec2eb91ae61a5746380c96db48c6
