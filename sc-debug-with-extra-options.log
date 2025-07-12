@@ -1,0 +1,195 @@
+0134:Call KERNEL32.GetEnvironmentVariableW(382c02501780 L"DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS",00817a20,00000200) ret=14261fbc7
+0134:Call ntdll.RtlInitUnicodeString(00817940,382c02501780 L"DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS") ret=6fffffc16f53
+0134:Call KERNEL32.GetEnvironmentVariableW(382c0234a650 L"DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS",0081af20,00000200) ret=14261fbc7
+0134:Call ntdll.RtlInitUnicodeString(0081ae40,382c0234a650 L"DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS") ret=6fffffc16f53
+0134:Call KERNEL32.GetEnvironmentVariableW(382c0342b8a0 L"DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS",0081d3c0,00000200) ret=14261fbc7
+0134:Call ntdll.RtlInitUnicodeString(0081d2e0,382c0342b8a0 L"DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS") ret=6fffffc16f53
+0134:Call KERNEL32.GetEnvironmentVariableW(382c0342b8a0 L"DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS",0081d4e0,00000200) ret=14261fbc7
+0134:Call ntdll.RtlInitUnicodeString(0081d400,382c0342b8a0 L"DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS") ret=6fffffc16f53
+0134:Call KERNEL32.GetEnvironmentVariableW(382c0342b8a0 L"DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS",0081d360,00000200) ret=14261fbc7
+0134:Call ntdll.RtlInitUnicodeString(0081d280,382c0342b8a0 L"DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS") ret=6fffffc16f53
+0134:Call KERNEL32.CompareStringOrdinal(382c004ccdce L"DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS=1",00000020,382c004cdb22 L"PROCESSOR_REVISION=6102",00000012,6fff00000001) ret=14262b94d
+0134:Call KERNEL32.CompareStringOrdinal(382c004ccdce L"DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS=1",00000020,382c004cd12c L"KDE_APPLICATIONS_AS_SCOPE=1",00000019,6fff00000001) ret=14262b94d
+0134:Call KERNEL32.CompareStringOrdinal(382c004ccdce L"DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS=1",00000020,382c004ccca4 L"DXVK_HDR=1",00000008,6fff00000001) ret=14262b94d
+0134:Call KERNEL32.CompareStringOrdinal(382c004ccdce L"DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS=1",00000020,382c004cce94 L"GTK2_RC_FILES=/etc/gtk-2.0/gtkrc:/home/hans/.gtkrc-2.0:/home/hans/.config/gtkrc-2.0",0000000d,6fff00000001) ret=14262b94d
+0134:Call KERNEL32.CompareStringOrdinal(382c004ccdce L"DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS=1",00000020,382c004ccd98 L"DXVK_NVAPI_LOG_LEVEL=debug",00000014,6fff00000001) ret=14262b94d
+0134:Call KERNEL32.CompareStringOrdinal(382c004cce14 L"GAMEID=umu-starcitizen-noPreset-noProton",00000006,382c004ccdce L"DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS=1",00000020,6fff00000001) ret=14262b94d
+0134:Call KERNEL32.CompareStringOrdinal(382c004ccdce L"DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS=1",00000020,382c004ccd98 L"DXVK_NVAPI_LOG_LEVEL=debug",00000014,6fff00000001) ret=14262b94d
+0134:Call KERNEL32.CompareStringOrdinal(382c004cce14 L"GAMEID=umu-starcitizen-noPreset-noProton",00000006,382c004ccdce L"DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS=1",00000020,6fff00000001) ret=14262b94d
+0134:Call KERNEL32.CompareStringOrdinal(382c004ccdce L"DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS=1",00000020,382c004ccd98 L"DXVK_NVAPI_LOG_LEVEL=debug",00000014,6fff00000001) ret=14262b94d
+0134:Call KERNEL32.CompareStringOrdinal(14b22e0c8 L"HOMEDRIVE=",00000009,382c004ccdce L"DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS=1",00000020,00000001) ret=14262b73e
+0134:Call KERNEL32.CompareStringOrdinal(14b22e0c8 L"HOMEDRIVE=",00000009,382c004ccdce L"DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS=1",00000020,00000001) ret=14262b837
+0134:Call KERNEL32.GetEnvironmentVariableW(382c03ba60a0 L"DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS",0081bfc0,00000200) ret=14261fbc7
+0134:Call ntdll.RtlInitUnicodeString(0081bee0,382c03ba60a0 L"DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS") ret=6fffffc16f53
+0134:Call KERNEL32.GetEnvironmentVariableW(382c03ba60a0 L"DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS",0081c0b0,00000200) ret=14261fbc7
+0134:Call ntdll.RtlInitUnicodeString(0081bfd0,382c03ba60a0 L"DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS") ret=6fffffc16f53
+0134:Call KERNEL32.GetEnvironmentVariableW(382c03ba60a0 L"DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS",0081bf50,00000200) ret=14261fbc7
+0134:Call ntdll.RtlInitUnicodeString(0081be70,382c03ba60a0 L"DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS") ret=6fffffc16f53
+0134:Call KERNEL32.CompareStringOrdinal(382c05d209ce L"DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS=1",00000020,382c05d21722 L"PROCESSOR_REVISION=6102",00000012,00000001) ret=14262b94d
+0134:Call KERNEL32.CompareStringOrdinal(382c05d209ce L"DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS=1",00000020,382c05d20d2c L"KDE_APPLICATIONS_AS_SCOPE=1",00000019,00000001) ret=14262b94d
+0134:Call KERNEL32.CompareStringOrdinal(382c05d209ce L"DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS=1",00000020,382c05d208a4 L"DXVK_HDR=1",00000008,00000001) ret=14262b94d
+0134:Call KERNEL32.CompareStringOrdinal(382c05d209ce L"DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS=1",00000020,382c05d20a94 L"GTK2_RC_FILES=/etc/gtk-2.0/gtkrc:/home/hans/.gtkrc-2.0:/home/hans/.config/gtkrc-2.0",0000000d,00000001) ret=14262b94d
+0134:Call KERNEL32.CompareStringOrdinal(382c05d209ce L"DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS=1",00000020,382c05d20998 L"DXVK_NVAPI_LOG_LEVEL=debug",00000014,00000001) ret=14262b94d
+0134:Call KERNEL32.CompareStringOrdinal(382c05d20a14 L"GAMEID=umu-starcitizen-noPreset-noProton",00000006,382c05d209ce L"DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS=1",00000020,00000001) ret=14262b94d
+0134:Call KERNEL32.CompareStringOrdinal(382c05d209ce L"DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS=1",00000020,382c05d20998 L"DXVK_NVAPI_LOG_LEVEL=debug",00000014,00000001) ret=14262b94d
+0134:Call KERNEL32.CompareStringOrdinal(382c05d20a14 L"GAMEID=umu-starcitizen-noPreset-noProton",00000006,382c05d209ce L"DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS=1",00000020,00000001) ret=14262b94d
+0134:Call KERNEL32.CompareStringOrdinal(382c05d209ce L"DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS=1",00000020,382c05d20998 L"DXVK_NVAPI_LOG_LEVEL=debug",00000014,00000001) ret=14262b94d
+0134:Call KERNEL32.CompareStringOrdinal(14b22e0c8 L"HOMEDRIVE=",00000009,382c05d209ce L"DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS=1",00000020,00000001) ret=14262b73e
+0134:Call KERNEL32.CompareStringOrdinal(14b22e0c8 L"HOMEDRIVE=",00000009,382c05d209ce L"DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS=1",00000020,00000001) ret=14262b837
+0388:trace:file:append_entry long L"nvngx.dll" short L"" mask L"winepath\"*"
+0388:trace:file:append_entry long L"_nvngx.dll.orig" short L"_NVN~2GH.ORI" mask L"winepath\"*"
+0388:trace:file:append_entry long L"nvngx_dlss.dll" short L"NVNG~MVA.DLL" mask L"winepath\"*"
+0388:trace:file:append_entry long L"nvngx.dll.orig" short L"NVNG~TA1.ORI" mask L"winepath\"*"
+0388:trace:file:append_entry long L"_nvngx.dll" short L"" mask L"winepath\"*"
+0388:trace:file:append_entry long L"nvngx_dlssg.dll" short L"NVNG~3IP.DLL" mask L"winepath\"*"
+0134:Call KERNEL32.GetEnvironmentVariableW(382c03ba2220 L"DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS",0081c010,00000200) ret=14261fbc7
+0134:Call ntdll.RtlInitUnicodeString(0081bf30,382c03ba2220 L"DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS") ret=6fffffc16f53
+0134:Call KERNEL32.GetEnvironmentVariableW(382c03ba2220 L"DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS",0081c110,00000200) ret=14261fbc7
+0134:Call ntdll.RtlInitUnicodeString(0081c030,382c03ba2220 L"DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS") ret=6fffffc16f53
+0134:Call KERNEL32.GetEnvironmentVariableW(382c03ba2220 L"DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS",0081bfb0,00000200) ret=14261fbc7
+0134:Call ntdll.RtlInitUnicodeString(0081bed0,382c03ba2220 L"DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS") ret=6fffffc16f53
+0134:Call KERNEL32.CompareStringOrdinal(382c05d209ce L"DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS=1",00000020,382c05d21722 L"PROCESSOR_REVISION=6102",00000012,6fff00000001) ret=14262b94d
+0134:Call KERNEL32.CompareStringOrdinal(382c05d209ce L"DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS=1",00000020,382c05d20d2c L"KDE_APPLICATIONS_AS_SCOPE=1",00000019,6fff00000001) ret=14262b94d
+0134:Call KERNEL32.CompareStringOrdinal(382c05d209ce L"DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS=1",00000020,382c05d208a4 L"DXVK_HDR=1",00000008,6fff00000001) ret=14262b94d
+0134:Call KERNEL32.CompareStringOrdinal(382c05d209ce L"DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS=1",00000020,382c05d20a94 L"GTK2_RC_FILES=/etc/gtk-2.0/gtkrc:/home/hans/.gtkrc-2.0:/home/hans/.config/gtkrc-2.0",0000000d,6fff00000001) ret=14262b94d
+0134:Call KERNEL32.CompareStringOrdinal(382c05d209ce L"DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS=1",00000020,382c05d20998 L"DXVK_NVAPI_LOG_LEVEL=debug",00000014,6fff00000001) ret=14262b94d
+0134:Call KERNEL32.CompareStringOrdinal(382c05d20a14 L"GAMEID=umu-starcitizen-noPreset-noProton",00000006,382c05d209ce L"DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS=1",00000020,6fff00000001) ret=14262b94d
+0134:Call KERNEL32.CompareStringOrdinal(382c05d209ce L"DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS=1",00000020,382c05d20998 L"DXVK_NVAPI_LOG_LEVEL=debug",00000014,6fff00000001) ret=14262b94d
+0134:Call KERNEL32.CompareStringOrdinal(382c05d20a14 L"GAMEID=umu-starcitizen-noPreset-noProton",00000006,382c05d209ce L"DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS=1",00000020,6fff00000001) ret=14262b94d
+0134:Call KERNEL32.CompareStringOrdinal(382c05d209ce L"DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS=1",00000020,382c05d20998 L"DXVK_NVAPI_LOG_LEVEL=debug",00000014,6fff00000001) ret=14262b94d
+0134:Call KERNEL32.CompareStringOrdinal(14b22e0c8 L"HOMEDRIVE=",00000009,382c05d209ce L"DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS=1",00000020,00000001) ret=14262b73e
+0134:Call KERNEL32.CompareStringOrdinal(14b22e0c8 L"HOMEDRIVE=",00000009,382c05d209ce L"DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS=1",00000020,00000001) ret=14262b837
+0560:Call ucrtbase.strncmp(39a0b16db80 "cqQZAZ2cC4Ffc0m6p6zzBE57lgvsEeBbphzOG9INgxwruJ4dfkUyYA8H6XdYfp9q\n",148d13398 "-----END ",00000009) ret=147ac1d33
+0560:Call ucrtbase.strncmp(39a0b16db80 "6NkBiDkal4ZkQdU7hwxu+g/GvUgUvzlN1J5Bto+WHWOWk9mVBngxaJ43BjuAiUVh\n",148d13398 "-----END ",00000009) ret=147ac1d33
+041c:Call ucrtbase.strlen(6ffff7cad9a5 "NvAPI_NGX_GetNGXOverrideState") ret=6ffff7b7a56b
+041c:Call ucrtbase.strlen(6ffff7cadcae "NvAPI_NGX_SetNGXOverrideState") ret=6ffff7b7a56b
+041c:Call ucrtbase.strlen(6ffff7ca6478 "DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS") ret=6ffff7b2bd76
+041c:Call KERNEL32.MultiByteToWideChar(0000fde9,00000000,399052d5460 "DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS",ffffffff,00000000,00000000) ret=6ffff7b12980
+041c:Call ntdll.strlen(399052d5460 "DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS") ret=6fffffc2c6e8
+041c:Call KERNEL32.MultiByteToWideChar(0000fde9,00000000,399052d5460 "DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS",ffffffff,399052d58c0,00000020) ret=6ffff7b129f0
+041c:Call ntdll.strlen(399052d5460 "DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS") ret=6fffffc2c6e8
+041c:Call KERNEL32.GetEnvironmentVariableW(399052d58c0 L"DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS",00000000,00000000) ret=6ffff7b161d5
+041c:Call ntdll.RtlInitUnicodeString(7fd8f180,399052d58c0 L"DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS") ret=6fffffc16f53
+041c:Call KERNEL32.GetEnvironmentVariableW(399052d58c0 L"DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS",7fd8f2a0,00000002) ret=6ffff7b16270
+041c:Call ntdll.RtlInitUnicodeString(7fd8f180,399052d58c0 L"DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS") ret=6fffffc16f53
+041c:Call ucrtbase.strlen(6ffff7ca6478 "DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS") ret=6ffff7b2bc39
+03bc:Call ucrtbase.strlen(6ffff7cad9a5 "NvAPI_NGX_GetNGXOverrideState") ret=6ffff7b7a56b
+03bc:Call ucrtbase.strlen(6ffff7cadcae "NvAPI_NGX_SetNGXOverrideState") ret=6ffff7b7a56b
+03bc:Call ucrtbase.strlen(6ffff7ca6478 "DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS") ret=6ffff7b2bd76
+03bc:Call KERNEL32.MultiByteToWideChar(0000fde9,00000000,3990517e6a0 "DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS",ffffffff,00000000,00000000) ret=6ffff7b12980
+03bc:Call ntdll.strlen(3990517e6a0 "DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS") ret=6fffffc2c6e8
+03bc:Call KERNEL32.MultiByteToWideChar(0000fde9,00000000,3990517e6a0 "DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS",ffffffff,399052d5af0,00000020) ret=6ffff7b129f0
+03bc:Call ntdll.strlen(3990517e6a0 "DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS") ret=6fffffc2c6e8
+03bc:Call KERNEL32.GetEnvironmentVariableW(399052d5af0 L"DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS",00000000,00000000) ret=6ffff7b161d5
+03bc:Call ntdll.RtlInitUnicodeString(0011ad90,399052d5af0 L"DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS") ret=6fffffc16f53
+03bc:Call KERNEL32.GetEnvironmentVariableW(399052d5af0 L"DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS",0011aeb0,00000002) ret=6ffff7b16270
+03bc:Call ntdll.RtlInitUnicodeString(0011ad90,399052d5af0 L"DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS") ret=6fffffc16f53
+03bc:Call ucrtbase.strlen(6ffff7ca6478 "DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS") ret=6ffff7b2bc39
+041c:Call ucrtbase.wcscat_s(13f9ff7f0 L"Z:\\mnt\\m2games\\Heroic-N-Lutris\\star-citizen\\drive_c\\Program Files\\Roberts Space Industries\\StarCitizen\\LIVE\\Bin64",00000104,148db9828 L"\\_nvngx.dll") ret=147bf279f
+041c:Call KERNEL32.GetFileAttributesW(13f9ff7f0 L"Z:\\mnt\\m2games\\Heroic-N-Lutris\\star-citizen\\drive_c\\Program Files\\Roberts Space Industries\\StarCitizen\\LIVE\\Bin64\\_nvngx.dll") ret=147bf3590
+041c:trace:file:GetFileAttributesW L"Z:\\mnt\\m2games\\Heroic-N-Lutris\\star-citizen\\drive_c\\Program Files\\Roberts Space Industries\\StarCitizen\\LIVE\\Bin64\\_nvngx.dll"
+041c:Call ntdll.RtlDosPathNameToNtPathName_U(13f9ff7f0 L"Z:\\mnt\\m2games\\Heroic-N-Lutris\\star-citizen\\drive_c\\Program Files\\Roberts Space Industries\\StarCitizen\\LIVE\\Bin64\\_nvngx.dll",13f9ff650,00000000,00000000) ret=6fffffc17529
+041c:trace:file:RtlDosPathNameToNtPathName_U_WithStatus (L"Z:\\mnt\\m2games\\Heroic-N-Lutris\\star-citizen\\drive_c\\Program Files\\Roberts Space Industries\\StarCitizen\\LIVE\\Bin64\\_nvngx.dll",000000013F9FF650,0000000000000000,0000000000000000)
+041c:trace:file:RtlGetFullPathName_U (L"Z:\\mnt\\m2games\\Heroic-N-Lutris\\star-citizen\\drive_c\\Program Files\\Roberts Space Industries\\StarCitizen\\LIVE\\Bin64\\_nvngx.dll" 520 000000013F9FF320 0000000000000000)
+041c:trace:file:RtlGetFullPathName_UEx (L"Z:\\mnt\\m2games\\Heroic-N-Lutris\\star-citizen\\drive_c\\Program Files\\Roberts Space Industries\\StarCitizen\\LIVE\\Bin64\\_nvngx.dll" 520 000000013F9FF320 0000000000000000 0000000000000000)
+041c:trace:file:nt_to_unix_file_name_no_root L"\\??\\Z:\\mnt\\m2games\\Heroic-N-Lutris\\star-citizen\\drive_c\\Program Files\\Roberts Space Industries\\StarCitizen\\LIVE\\Bin64\\_nvngx.dll" -> "/home/hans/Games/star-citizen/dosdevices/z:/mnt/m2games/Heroic-N-Lutris/star-citizen/drive_c/Program Files/Roberts Space Industries/StarCitizen/LIVE/Bin64/_nvngx.dll"
+041c:Call KERNEL32.CreateFileW(13f9ff7f0 L"Z:\\mnt\\m2games\\Heroic-N-Lutris\\star-citizen\\drive_c\\Program Files\\Roberts Space Industries\\StarCitizen\\LIVE\\Bin64\\_nvngx.dll",80000000,00000001,00000000,00000003,6fff00000000,00000000) ret=147bf35cc
+041c:trace:file:CreateFileW L"Z:\\mnt\\m2games\\Heroic-N-Lutris\\star-citizen\\drive_c\\Program Files\\Roberts Space Industries\\StarCitizen\\LIVE\\Bin64\\_nvngx.dll" GENERIC_READ FILE_SHARE_READ  creation 3 attributes 0x0
+041c:Call ntdll.RtlDosPathNameToNtPathName_U(13f9ff7f0 L"Z:\\mnt\\m2games\\Heroic-N-Lutris\\star-citizen\\drive_c\\Program Files\\Roberts Space Industries\\StarCitizen\\LIVE\\Bin64\\_nvngx.dll",13f9ff640,00000000,00000000) ret=6fffffc040e0
+041c:trace:file:RtlDosPathNameToNtPathName_U_WithStatus (L"Z:\\mnt\\m2games\\Heroic-N-Lutris\\star-citizen\\drive_c\\Program Files\\Roberts Space Industries\\StarCitizen\\LIVE\\Bin64\\_nvngx.dll",000000013F9FF640,0000000000000000,0000000000000000)
+041c:trace:file:RtlGetFullPathName_U (L"Z:\\mnt\\m2games\\Heroic-N-Lutris\\star-citizen\\drive_c\\Program Files\\Roberts Space Industries\\StarCitizen\\LIVE\\Bin64\\_nvngx.dll" 520 000000013F9FF290 0000000000000000)
+041c:trace:file:RtlGetFullPathName_UEx (L"Z:\\mnt\\m2games\\Heroic-N-Lutris\\star-citizen\\drive_c\\Program Files\\Roberts Space Industries\\StarCitizen\\LIVE\\Bin64\\_nvngx.dll" 520 000000013F9FF290 0000000000000000 0000000000000000)
+041c:trace:file:NtCreateFile handle=0x13f9ff628 access=80100080 name=L"\\??\\Z:\\mnt\\m2games\\Heroic-N-Lutris\\star-citizen\\drive_c\\Program Files\\Roberts Space Industries\\StarCitizen\\LIVE\\Bin64\\_nvngx.dll" objattr=00000040 root=(nil) sec=(nil) io=0x13f9ff650 alloc_size=(nil) attr=00000000 sharing=00000001 disp=1 options=00000060 ea=(nil).0x00000000
+041c:trace:file:nt_to_unix_file_name_no_root L"\\??\\Z:\\mnt\\m2games\\Heroic-N-Lutris\\star-citizen\\drive_c\\Program Files\\Roberts Space Industries\\StarCitizen\\LIVE\\Bin64\\_nvngx.dll" -> "/home/hans/Games/star-citizen/dosdevices/z:/mnt/m2games/Heroic-N-Lutris/star-citizen/drive_c/Program Files/Roberts Space Industries/StarCitizen/LIVE/Bin64/_nvngx.dll"
+041c:Call KERNEL32.GetFileAttributesW(13f9ff7f0 L"Z:\\mnt\\m2games\\Heroic-N-Lutris\\star-citizen\\drive_c\\Program Files\\Roberts Space Industries\\StarCitizen\\LIVE\\Bin64\\_nvngx.dll") ret=147bf39cd
+041c:trace:file:GetFileAttributesW L"Z:\\mnt\\m2games\\Heroic-N-Lutris\\star-citizen\\drive_c\\Program Files\\Roberts Space Industries\\StarCitizen\\LIVE\\Bin64\\_nvngx.dll"
+041c:Call ntdll.RtlDosPathNameToNtPathName_U(13f9ff7f0 L"Z:\\mnt\\m2games\\Heroic-N-Lutris\\star-citizen\\drive_c\\Program Files\\Roberts Space Industries\\StarCitizen\\LIVE\\Bin64\\_nvngx.dll",13f9ff500,00000000,00000000) ret=6fffffc17529
+041c:trace:file:RtlDosPathNameToNtPathName_U_WithStatus (L"Z:\\mnt\\m2games\\Heroic-N-Lutris\\star-citizen\\drive_c\\Program Files\\Roberts Space Industries\\StarCitizen\\LIVE\\Bin64\\_nvngx.dll",000000013F9FF500,0000000000000000,0000000000000000)
+041c:trace:file:RtlGetFullPathName_U (L"Z:\\mnt\\m2games\\Heroic-N-Lutris\\star-citizen\\drive_c\\Program Files\\Roberts Space Industries\\StarCitizen\\LIVE\\Bin64\\_nvngx.dll" 520 000000013F9FF1D0 0000000000000000)
+041c:trace:file:RtlGetFullPathName_UEx (L"Z:\\mnt\\m2games\\Heroic-N-Lutris\\star-citizen\\drive_c\\Program Files\\Roberts Space Industries\\StarCitizen\\LIVE\\Bin64\\_nvngx.dll" 520 000000013F9FF1D0 0000000000000000 0000000000000000)
+041c:trace:file:nt_to_unix_file_name_no_root L"\\??\\Z:\\mnt\\m2games\\Heroic-N-Lutris\\star-citizen\\drive_c\\Program Files\\Roberts Space Industries\\StarCitizen\\LIVE\\Bin64\\_nvngx.dll" -> "/home/hans/Games/star-citizen/dosdevices/z:/mnt/m2games/Heroic-N-Lutris/star-citizen/drive_c/Program Files/Roberts Space Industries/StarCitizen/LIVE/Bin64/_nvngx.dll"
+041c:Call ucrtbase.wcscat_s(13f9ff7f0 L"Z:\\mnt\\m2games\\Heroic-N-Lutris\\star-citizen\\drive_c\\Program Files\\Roberts Space Industries\\StarCitizen\\LIVE\\Bin64",00000104,148db9840 L"\\nvngx.dll") ret=147bf279f
+041c:Call KERNEL32.GetFileAttributesW(13f9ff7f0 L"Z:\\mnt\\m2games\\Heroic-N-Lutris\\star-citizen\\drive_c\\Program Files\\Roberts Space Industries\\StarCitizen\\LIVE\\Bin64\\nvngx.dll") ret=147bf3590
+041c:trace:file:GetFileAttributesW L"Z:\\mnt\\m2games\\Heroic-N-Lutris\\star-citizen\\drive_c\\Program Files\\Roberts Space Industries\\StarCitizen\\LIVE\\Bin64\\nvngx.dll"
+041c:Call ntdll.RtlDosPathNameToNtPathName_U(13f9ff7f0 L"Z:\\mnt\\m2games\\Heroic-N-Lutris\\star-citizen\\drive_c\\Program Files\\Roberts Space Industries\\StarCitizen\\LIVE\\Bin64\\nvngx.dll",13f9ff650,00000000,00000000) ret=6fffffc17529
+041c:trace:file:RtlDosPathNameToNtPathName_U_WithStatus (L"Z:\\mnt\\m2games\\Heroic-N-Lutris\\star-citizen\\drive_c\\Program Files\\Roberts Space Industries\\StarCitizen\\LIVE\\Bin64\\nvngx.dll",000000013F9FF650,0000000000000000,0000000000000000)
+041c:trace:file:RtlGetFullPathName_U (L"Z:\\mnt\\m2games\\Heroic-N-Lutris\\star-citizen\\drive_c\\Program Files\\Roberts Space Industries\\StarCitizen\\LIVE\\Bin64\\nvngx.dll" 520 000000013F9FF320 0000000000000000)
+041c:trace:file:RtlGetFullPathName_UEx (L"Z:\\mnt\\m2games\\Heroic-N-Lutris\\star-citizen\\drive_c\\Program Files\\Roberts Space Industries\\StarCitizen\\LIVE\\Bin64\\nvngx.dll" 520 000000013F9FF320 0000000000000000 0000000000000000)
+041c:trace:file:nt_to_unix_file_name_no_root L"\\??\\Z:\\mnt\\m2games\\Heroic-N-Lutris\\star-citizen\\drive_c\\Program Files\\Roberts Space Industries\\StarCitizen\\LIVE\\Bin64\\nvngx.dll" -> "/home/hans/Games/star-citizen/dosdevices/z:/mnt/m2games/Heroic-N-Lutris/star-citizen/drive_c/Program Files/Roberts Space Industries/StarCitizen/LIVE/Bin64/nvngx.dll"
+041c:Call KERNEL32.CreateFileW(13f9ff7f0 L"Z:\\mnt\\m2games\\Heroic-N-Lutris\\star-citizen\\drive_c\\Program Files\\Roberts Space Industries\\StarCitizen\\LIVE\\Bin64\\nvngx.dll",80000000,00000001,00000000,00000003,6fff00000000,00000000) ret=147bf35cc
+041c:trace:file:CreateFileW L"Z:\\mnt\\m2games\\Heroic-N-Lutris\\star-citizen\\drive_c\\Program Files\\Roberts Space Industries\\StarCitizen\\LIVE\\Bin64\\nvngx.dll" GENERIC_READ FILE_SHARE_READ  creation 3 attributes 0x0
+041c:Call ntdll.RtlDosPathNameToNtPathName_U(13f9ff7f0 L"Z:\\mnt\\m2games\\Heroic-N-Lutris\\star-citizen\\drive_c\\Program Files\\Roberts Space Industries\\StarCitizen\\LIVE\\Bin64\\nvngx.dll",13f9ff640,00000000,00000000) ret=6fffffc040e0
+041c:trace:file:RtlDosPathNameToNtPathName_U_WithStatus (L"Z:\\mnt\\m2games\\Heroic-N-Lutris\\star-citizen\\drive_c\\Program Files\\Roberts Space Industries\\StarCitizen\\LIVE\\Bin64\\nvngx.dll",000000013F9FF640,0000000000000000,0000000000000000)
+041c:trace:file:RtlGetFullPathName_U (L"Z:\\mnt\\m2games\\Heroic-N-Lutris\\star-citizen\\drive_c\\Program Files\\Roberts Space Industries\\StarCitizen\\LIVE\\Bin64\\nvngx.dll" 520 000000013F9FF290 0000000000000000)
+041c:trace:file:RtlGetFullPathName_UEx (L"Z:\\mnt\\m2games\\Heroic-N-Lutris\\star-citizen\\drive_c\\Program Files\\Roberts Space Industries\\StarCitizen\\LIVE\\Bin64\\nvngx.dll" 520 000000013F9FF290 0000000000000000 0000000000000000)
+041c:trace:file:NtCreateFile handle=0x13f9ff628 access=80100080 name=L"\\??\\Z:\\mnt\\m2games\\Heroic-N-Lutris\\star-citizen\\drive_c\\Program Files\\Roberts Space Industries\\StarCitizen\\LIVE\\Bin64\\nvngx.dll" objattr=00000040 root=(nil) sec=(nil) io=0x13f9ff650 alloc_size=(nil) attr=00000000 sharing=00000001 disp=1 options=00000060 ea=(nil).0x00000000
+041c:trace:file:nt_to_unix_file_name_no_root L"\\??\\Z:\\mnt\\m2games\\Heroic-N-Lutris\\star-citizen\\drive_c\\Program Files\\Roberts Space Industries\\StarCitizen\\LIVE\\Bin64\\nvngx.dll" -> "/home/hans/Games/star-citizen/dosdevices/z:/mnt/m2games/Heroic-N-Lutris/star-citizen/drive_c/Program Files/Roberts Space Industries/StarCitizen/LIVE/Bin64/nvngx.dll"
+041c:Call KERNEL32.GetFileAttributesW(13f9ff7f0 L"Z:\\mnt\\m2games\\Heroic-N-Lutris\\star-citizen\\drive_c\\Program Files\\Roberts Space Industries\\StarCitizen\\LIVE\\Bin64\\nvngx.dll") ret=147bf39cd
+041c:trace:file:GetFileAttributesW L"Z:\\mnt\\m2games\\Heroic-N-Lutris\\star-citizen\\drive_c\\Program Files\\Roberts Space Industries\\StarCitizen\\LIVE\\Bin64\\nvngx.dll"
+041c:Call ntdll.RtlDosPathNameToNtPathName_U(13f9ff7f0 L"Z:\\mnt\\m2games\\Heroic-N-Lutris\\star-citizen\\drive_c\\Program Files\\Roberts Space Industries\\StarCitizen\\LIVE\\Bin64\\nvngx.dll",13f9ff500,00000000,00000000) ret=6fffffc17529
+041c:trace:file:RtlDosPathNameToNtPathName_U_WithStatus (L"Z:\\mnt\\m2games\\Heroic-N-Lutris\\star-citizen\\drive_c\\Program Files\\Roberts Space Industries\\StarCitizen\\LIVE\\Bin64\\nvngx.dll",000000013F9FF500,0000000000000000,0000000000000000)
+041c:trace:file:RtlGetFullPathName_U (L"Z:\\mnt\\m2games\\Heroic-N-Lutris\\star-citizen\\drive_c\\Program Files\\Roberts Space Industries\\StarCitizen\\LIVE\\Bin64\\nvngx.dll" 520 000000013F9FF1D0 0000000000000000)
+041c:trace:file:RtlGetFullPathName_UEx (L"Z:\\mnt\\m2games\\Heroic-N-Lutris\\star-citizen\\drive_c\\Program Files\\Roberts Space Industries\\StarCitizen\\LIVE\\Bin64\\nvngx.dll" 520 000000013F9FF1D0 0000000000000000 0000000000000000)
+041c:trace:file:nt_to_unix_file_name_no_root L"\\??\\Z:\\mnt\\m2games\\Heroic-N-Lutris\\star-citizen\\drive_c\\Program Files\\Roberts Space Industries\\StarCitizen\\LIVE\\Bin64\\nvngx.dll" -> "/home/hans/Games/star-citizen/dosdevices/z:/mnt/m2games/Heroic-N-Lutris/star-citizen/drive_c/Program Files/Roberts Space Industries/StarCitizen/LIVE/Bin64/nvngx.dll"
+041c:Call ucrtbase.wcscpy_s(399052d40c8,00000104,148db9778 L"NGXCore\\NGXPath") ret=147bf262c
+041c:Call advapi32.RegOpenKeyExW(ffffffff80000002,148db98f0 L"System\\CurrentControlSet\\Services\\nvlddmkm\\NGXCore",00000000,00020019,13f9ff7e8) ret=147bf28ea
+041c:Call ntdll.RtlInitUnicodeString(13f9ff700,148db98f0 L"System\\CurrentControlSet\\Services\\nvlddmkm\\NGXCore") ret=6fffffc45df1
+041c:trace:reg:NtOpenKeyEx (0x20,L"System\\CurrentControlSet\\Services\\nvlddmkm\\NGXCore",20019,0x13f9ff7e8)
+041c:Call advapi32.RegOpenKeyExW(ffffffff80000002,148db9970 L"SOFTWARE\\NVIDIA Corporation\\Global\\NGXCore",00000000,00020019,13f9ff7e8) ret=147bf29ba
+041c:Call ntdll.RtlInitUnicodeString(13f9ff700,148db9970 L"SOFTWARE\\NVIDIA Corporation\\Global\\NGXCore") ret=6fffffc45df1
+041c:trace:reg:NtOpenKeyEx (0x20,L"SOFTWARE\\NVIDIA Corporation\\Global\\NGXCore",20019,0x13f9ff7e8)
+041c:Call ucrtbase.wcscat_s(13f9ff7f0 L"c:\\windows\\system32",00000104,148db9828 L"\\_nvngx.dll") ret=147bf2a6a
+041c:Call KERNEL32.GetFileAttributesW(13f9ff7f0 L"c:\\windows\\system32\\_nvngx.dll") ret=147bf3590
+041c:trace:file:GetFileAttributesW L"c:\\windows\\system32\\_nvngx.dll"
+041c:Call ntdll.RtlDosPathNameToNtPathName_U(13f9ff7f0 L"c:\\windows\\system32\\_nvngx.dll",13f9ff650,00000000,00000000) ret=6fffffc17529
+041c:trace:file:RtlDosPathNameToNtPathName_U_WithStatus (L"c:\\windows\\system32\\_nvngx.dll",000000013F9FF650,0000000000000000,0000000000000000)
+041c:trace:file:RtlGetFullPathName_U (L"c:\\windows\\system32\\_nvngx.dll" 520 000000013F9FF320 0000000000000000)
+041c:trace:file:RtlGetFullPathName_UEx (L"c:\\windows\\system32\\_nvngx.dll" 520 000000013F9FF320 0000000000000000 0000000000000000)
+041c:trace:file:nt_to_unix_file_name_no_root L"\\??\\c:\\windows\\system32\\_nvngx.dll" -> "/home/hans/Games/star-citizen/dosdevices/c:/windows/system32/_nvngx.dll"
+041c:Call KERNEL32.CreateFileW(13f9ff7f0 L"c:\\windows\\system32\\_nvngx.dll",80000000,00000001,00000000,00000003,6fff00000000,00000000) ret=147bf35cc
+041c:trace:file:CreateFileW L"c:\\windows\\system32\\_nvngx.dll" GENERIC_READ FILE_SHARE_READ  creation 3 attributes 0x0
+041c:Call ntdll.RtlDosPathNameToNtPathName_U(13f9ff7f0 L"c:\\windows\\system32\\_nvngx.dll",13f9ff640,00000000,00000000) ret=6fffffc040e0
+041c:trace:file:RtlDosPathNameToNtPathName_U_WithStatus (L"c:\\windows\\system32\\_nvngx.dll",000000013F9FF640,0000000000000000,0000000000000000)
+041c:trace:file:RtlGetFullPathName_U (L"c:\\windows\\system32\\_nvngx.dll" 520 000000013F9FF290 0000000000000000)
+041c:trace:file:RtlGetFullPathName_UEx (L"c:\\windows\\system32\\_nvngx.dll" 520 000000013F9FF290 0000000000000000 0000000000000000)
+041c:trace:file:NtCreateFile handle=0x13f9ff628 access=80100080 name=L"\\??\\c:\\windows\\system32\\_nvngx.dll" objattr=00000040 root=(nil) sec=(nil) io=0x13f9ff650 alloc_size=(nil) attr=00000000 sharing=00000001 disp=1 options=00000060 ea=(nil).0x00000000
+041c:trace:file:nt_to_unix_file_name_no_root L"\\??\\c:\\windows\\system32\\_nvngx.dll" -> "/home/hans/Games/star-citizen/dosdevices/c:/windows/system32/_nvngx.dll"
+041c:Call KERNEL32.GetFileAttributesW(13f9ff7f0 L"c:\\windows\\system32\\_nvngx.dll") ret=147bf39cd
+041c:trace:file:GetFileAttributesW L"c:\\windows\\system32\\_nvngx.dll"
+041c:Call ntdll.RtlDosPathNameToNtPathName_U(13f9ff7f0 L"c:\\windows\\system32\\_nvngx.dll",13f9ff500,00000000,00000000) ret=6fffffc17529
+041c:trace:file:RtlDosPathNameToNtPathName_U_WithStatus (L"c:\\windows\\system32\\_nvngx.dll",000000013F9FF500,0000000000000000,0000000000000000)
+041c:trace:file:RtlGetFullPathName_U (L"c:\\windows\\system32\\_nvngx.dll" 520 000000013F9FF1D0 0000000000000000)
+041c:trace:file:RtlGetFullPathName_UEx (L"c:\\windows\\system32\\_nvngx.dll" 520 000000013F9FF1D0 0000000000000000 0000000000000000)
+041c:trace:file:nt_to_unix_file_name_no_root L"\\??\\c:\\windows\\system32\\_nvngx.dll" -> "/home/hans/Games/star-citizen/dosdevices/c:/windows/system32/_nvngx.dll"
+041c:Call ucrtbase.wcscat_s(13f9ff7f0 L"c:\\windows\\system32",00000104,148db9840 L"\\nvngx.dll") ret=147bf2b3f
+041c:Call KERNEL32.GetFileAttributesW(13f9ff7f0 L"c:\\windows\\system32\\nvngx.dll") ret=147bf3590
+041c:trace:file:GetFileAttributesW L"c:\\windows\\system32\\nvngx.dll"
+041c:Call ntdll.RtlDosPathNameToNtPathName_U(13f9ff7f0 L"c:\\windows\\system32\\nvngx.dll",13f9ff650,00000000,00000000) ret=6fffffc17529
+041c:trace:file:RtlDosPathNameToNtPathName_U_WithStatus (L"c:\\windows\\system32\\nvngx.dll",000000013F9FF650,0000000000000000,0000000000000000)
+041c:trace:file:RtlGetFullPathName_U (L"c:\\windows\\system32\\nvngx.dll" 520 000000013F9FF320 0000000000000000)
+041c:trace:file:RtlGetFullPathName_UEx (L"c:\\windows\\system32\\nvngx.dll" 520 000000013F9FF320 0000000000000000 0000000000000000)
+041c:trace:file:nt_to_unix_file_name_no_root L"\\??\\c:\\windows\\system32\\nvngx.dll" -> "/home/hans/Games/star-citizen/dosdevices/c:/windows/system32/nvngx.dll"
+041c:Call KERNEL32.CreateFileW(13f9ff7f0 L"c:\\windows\\system32\\nvngx.dll",80000000,00000001,00000000,00000003,6fff00000000,00000000) ret=147bf35cc
+041c:trace:file:CreateFileW L"c:\\windows\\system32\\nvngx.dll" GENERIC_READ FILE_SHARE_READ  creation 3 attributes 0x0
+041c:Call ntdll.RtlDosPathNameToNtPathName_U(13f9ff7f0 L"c:\\windows\\system32\\nvngx.dll",13f9ff640,00000000,00000000) ret=6fffffc040e0
+041c:trace:file:RtlDosPathNameToNtPathName_U_WithStatus (L"c:\\windows\\system32\\nvngx.dll",000000013F9FF640,0000000000000000,0000000000000000)
+041c:trace:file:RtlGetFullPathName_U (L"c:\\windows\\system32\\nvngx.dll" 520 000000013F9FF290 0000000000000000)
+041c:trace:file:RtlGetFullPathName_UEx (L"c:\\windows\\system32\\nvngx.dll" 520 000000013F9FF290 0000000000000000 0000000000000000)
+041c:trace:file:NtCreateFile handle=0x13f9ff628 access=80100080 name=L"\\??\\c:\\windows\\system32\\nvngx.dll" objattr=00000040 root=(nil) sec=(nil) io=0x13f9ff650 alloc_size=(nil) attr=00000000 sharing=00000001 disp=1 options=00000060 ea=(nil).0x00000000
+041c:trace:file:nt_to_unix_file_name_no_root L"\\??\\c:\\windows\\system32\\nvngx.dll" -> "/home/hans/Games/star-citizen/dosdevices/c:/windows/system32/nvngx.dll"
+041c:Call KERNEL32.GetFileAttributesW(13f9ff7f0 L"c:\\windows\\system32\\nvngx.dll") ret=147bf39cd
+041c:trace:file:GetFileAttributesW L"c:\\windows\\system32\\nvngx.dll"
+041c:Call ntdll.RtlDosPathNameToNtPathName_U(13f9ff7f0 L"c:\\windows\\system32\\nvngx.dll",13f9ff500,00000000,00000000) ret=6fffffc17529
+041c:trace:file:RtlDosPathNameToNtPathName_U_WithStatus (L"c:\\windows\\system32\\nvngx.dll",000000013F9FF500,0000000000000000,0000000000000000)
+041c:trace:file:RtlGetFullPathName_U (L"c:\\windows\\system32\\nvngx.dll" 520 000000013F9FF1D0 0000000000000000)
+041c:trace:file:RtlGetFullPathName_UEx (L"c:\\windows\\system32\\nvngx.dll" 520 000000013F9FF1D0 0000000000000000 0000000000000000)
+041c:trace:file:nt_to_unix_file_name_no_root L"\\??\\c:\\windows\\system32\\nvngx.dll" -> "/home/hans/Games/star-citizen/dosdevices/c:/windows/system32/nvngx.dll"
+041c:Call ucrtbase.__stdio_common_vsnprintf_s(00000024,c022010c00,00000400,ffffffffffffffff,1481a5c80 "GPU: DLSS Support = %s",00000000,13f9ffd90) ret=1474b4153
+041c:Call ucrtbase.__stdio_common_vsnprintf_s(00000024,c022010c00,00000400,ffffffffffffffff,1481a5c80 "GPU: DLSS Support = %s",00000000,13f9ffd90) ret=1474b4153
+041c:Call ucrtbase.strncpy_s(c022010800,00000400,c022010c00 "GPU: DLSS Support = Unavailable",0000001f) ret=1474b455e
+0510:Call ucrtbase._stricmp(c0ce003fa0 "ViewingAngle",c00c18624c "PixelGridTilingX") ret=1408de343
+0510:Call ucrtbase._stricmp(c0ce003ff8 "ViewAngleMode",c00c18624c "PixelGridTilingX") ret=1408de343
+0510:Call ucrtbase._stricmp(c0ce004050 "EmissiveContrast",c00c18624c "PixelGridTilingX") ret=1408de343
+0510:Call ucrtbase.strncpy_s(3990766eac0,00000028,c00c18624c "PixelGridTilingX",ffffffffffffffff) ret=1408de392
+0510:Call ucrtbase._stricmp(c0ce0040a8 "PixelGridTilingX",c00c18658c "PixelGridTilingY") ret=1408de343
+0510:Call ucrtbase._stricmp(c0ce0040a8 "PixelGridTilingX",c00c186e6c "EmissiveSaturation") ret=1408de343
