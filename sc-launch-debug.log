@@ -1,0 +1,530 @@
+0378:trace:file:append_entry long L"nvngx.dll" short L"" mask L"winepath\"*"
+0378:trace:file:append_entry long L"_nvngx.dll.orig" short L"_NVN~2GH.ORI" mask L"winepath\"*"
+0378:trace:file:append_entry long L"nvngx_dlss.dll" short L"NVNG~MVA.DLL" mask L"winepath\"*"
+0378:trace:file:append_entry long L"dlsstweaks.ini.backup" short L"DLSS~SMA.BAC" mask L"winepath\"*"
+0378:trace:file:append_entry long L"dlsstweaks.ini" short L"DLSS~JFI.INI" mask L"winepath\"*"
+0378:trace:file:append_entry long L"nvngx.dll.orig" short L"NVNG~TA1.ORI" mask L"winepath\"*"
+0378:trace:file:append_entry long L"dlsstweaks.log" short L"DLSS~F2X.LOG" mask L"winepath\"*"
+0378:trace:file:append_entry long L"_nvngx.dll" short L"" mask L"winepath\"*"
+0378:trace:file:append_entry long L"nvngx_dlssg.dll" short L"NVNG~3IP.DLL" mask L"winepath\"*"
+0550:Call ucrtbase.strncmp(39a0b16db80 "cqQZAZ2cC4Ffc0m6p6zzBE57lgvsEeBbphzOG9INgxwruJ4dfkUyYA8H6XdYfp9q\n",148d13398 "-----END ",00000009) ret=147ac1d33
+0550:Call ucrtbase.strncmp(39a0b16db80 "6NkBiDkal4ZkQdU7hwxu+g/GvUgUvzlN1J5Bto+WHWOWk9mVBngxaJ43BjuAiUVh\n",148d13398 "-----END ",00000009) ret=147ac1d33
+0428:Call ucrtbase.strlen(6ffff7cad9a5 "NvAPI_NGX_GetNGXOverrideState") ret=6ffff7b7a56b
+0428:Call ucrtbase.strlen(6ffff7cadcae "NvAPI_NGX_SetNGXOverrideState") ret=6ffff7b7a56b
+0428:Call ucrtbase.strlen(6ffff7ca6478 "DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS") ret=6ffff7b2bd76
+0428:Call KERNEL32.MultiByteToWideChar(0000fde9,00000000,399052d6da0 "DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS",ffffffff,00000000,00000000) ret=6ffff7b12980
+0428:Call ntdll.strlen(399052d6da0 "DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS") ret=6fffffc2c6e8
+0428:Call KERNEL32.MultiByteToWideChar(0000fde9,00000000,399052d6da0 "DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS",ffffffff,399052d7200,00000020) ret=6ffff7b129f0
+0428:Call ntdll.strlen(399052d6da0 "DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS") ret=6fffffc2c6e8
+0428:Call KERNEL32.GetEnvironmentVariableW(399052d7200 L"DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS",00000000,00000000) ret=6ffff7b161d5
+0428:Call ntdll.RtlInitUnicodeString(7fd8f180,399052d7200 L"DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS") ret=6fffffc16f53
+03ac:Call ucrtbase.strlen(6ffff7cad9a5 "NvAPI_NGX_GetNGXOverrideState") ret=6ffff7b7a56b
+03ac:Call ucrtbase.strlen(6ffff7cadcae "NvAPI_NGX_SetNGXOverrideState") ret=6ffff7b7a56b
+03ac:Call ucrtbase.strlen(6ffff7ca6478 "DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS") ret=6ffff7b2bd76
+03ac:Call KERNEL32.MultiByteToWideChar(0000fde9,00000000,399052f6480 "DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS",ffffffff,00000000,00000000) ret=6ffff7b12980
+03ac:Call ntdll.strlen(399052f6480 "DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS") ret=6fffffc2c6e8
+03ac:Call KERNEL32.MultiByteToWideChar(0000fde9,00000000,399052f6480 "DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS",ffffffff,3990515cb70,00000020) ret=6ffff7b129f0
+03ac:Call ntdll.strlen(399052f6480 "DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS") ret=6fffffc2c6e8
+03ac:Call KERNEL32.GetEnvironmentVariableW(3990515cb70 L"DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS",00000000,00000000) ret=6ffff7b161d5
+03ac:Call ntdll.RtlInitUnicodeString(0011ad90,3990515cb70 L"DXVK_NVAPI_SET_NGX_DEBUG_OPTIONS") ret=6fffffc16f53
+0428:Call ucrtbase.wcscat_s(13f9ff7f0 L"Z:\\mnt\\m2games\\Heroic-N-Lutris\\star-citizen\\drive_c\\Program Files\\Roberts Space Industries\\StarCitizen\\LIVE\\Bin64",00000104,148db9828 L"\\_nvngx.dll") ret=147bf279f
+0428:Call KERNEL32.GetFileAttributesW(13f9ff7f0 L"Z:\\mnt\\m2games\\Heroic-N-Lutris\\star-citizen\\drive_c\\Program Files\\Roberts Space Industries\\StarCitizen\\LIVE\\Bin64\\_nvngx.dll") ret=147bf3590
+0428:trace:file:GetFileAttributesW L"Z:\\mnt\\m2games\\Heroic-N-Lutris\\star-citizen\\drive_c\\Program Files\\Roberts Space Industries\\StarCitizen\\LIVE\\Bin64\\_nvngx.dll"
+0428:Call ntdll.RtlDosPathNameToNtPathName_U(13f9ff7f0 L"Z:\\mnt\\m2games\\Heroic-N-Lutris\\star-citizen\\drive_c\\Program Files\\Roberts Space Industries\\StarCitizen\\LIVE\\Bin64\\_nvngx.dll",13f9ff650,00000000,00000000) ret=6fffffc17529
+0428:trace:file:RtlDosPathNameToNtPathName_U_WithStatus (L"Z:\\mnt\\m2games\\Heroic-N-Lutris\\star-citizen\\drive_c\\Program Files\\Roberts Space Industries\\StarCitizen\\LIVE\\Bin64\\_nvngx.dll",000000013F9FF650,0000000000000000,0000000000000000)
+0428:trace:file:RtlGetFullPathName_U (L"Z:\\mnt\\m2games\\Heroic-N-Lutris\\star-citizen\\drive_c\\Program Files\\Roberts Space Industries\\StarCitizen\\LIVE\\Bin64\\_nvngx.dll" 520 000000013F9FF320 0000000000000000)
+0428:trace:file:RtlGetFullPathName_UEx (L"Z:\\mnt\\m2games\\Heroic-N-Lutris\\star-citizen\\drive_c\\Program Files\\Roberts Space Industries\\StarCitizen\\LIVE\\Bin64\\_nvngx.dll" 520 000000013F9FF320 0000000000000000 0000000000000000)
+0428:trace:file:nt_to_unix_file_name_no_root L"mnt\\m2games\\Heroic-N-Lutris\\star-citizen\\drive_c\\Program Files\\Roberts Space Industries\\StarCitizen\\LIVE\\Bin64\\_nvngx.dll" not found in "/home/hans/Games/star-citizen/dosdevices/z:"
+0428:warn:file:NtQueryAttributesFile L"\\??\\Z:\\mnt\\m2games\\Heroic-N-Lutris\\star-citizen\\drive_c\\Program Files\\Roberts Space Industries\\StarCitizen\\LIVE\\Bin64\\_nvngx.dll" not found (c0000034)
+0428:Call ntdll.RtlIsDosDeviceName_U(13f9ff7f0 L"Z:\\mnt\\m2games\\Heroic-N-Lutris\\star-citizen\\drive_c\\Program Files\\Roberts Space Industries\\StarCitizen\\LIVE\\Bin64\\_nvngx.dll") ret=6fffffc17599
+0428:Call ucrtbase.wcscat_s(13f9ff7f0 L"Z:\\mnt\\m2games\\Heroic-N-Lutris\\star-citizen\\drive_c\\Program Files\\Roberts Space Industries\\StarCitizen\\LIVE\\Bin64",00000104,148db9840 L"\\nvngx.dll") ret=147bf279f
+0428:Call KERNEL32.GetFileAttributesW(13f9ff7f0 L"Z:\\mnt\\m2games\\Heroic-N-Lutris\\star-citizen\\drive_c\\Program Files\\Roberts Space Industries\\StarCitizen\\LIVE\\Bin64\\nvngx.dll") ret=147bf3590
+0428:trace:file:GetFileAttributesW L"Z:\\mnt\\m2games\\Heroic-N-Lutris\\star-citizen\\drive_c\\Program Files\\Roberts Space Industries\\StarCitizen\\LIVE\\Bin64\\nvngx.dll"
+0428:Call ntdll.RtlDosPathNameToNtPathName_U(13f9ff7f0 L"Z:\\mnt\\m2games\\Heroic-N-Lutris\\star-citizen\\drive_c\\Program Files\\Roberts Space Industries\\StarCitizen\\LIVE\\Bin64\\nvngx.dll",13f9ff650,00000000,00000000) ret=6fffffc17529
+0428:trace:file:RtlDosPathNameToNtPathName_U_WithStatus (L"Z:\\mnt\\m2games\\Heroic-N-Lutris\\star-citizen\\drive_c\\Program Files\\Roberts Space Industries\\StarCitizen\\LIVE\\Bin64\\nvngx.dll",000000013F9FF650,0000000000000000,0000000000000000)
+0428:trace:file:RtlGetFullPathName_U (L"Z:\\mnt\\m2games\\Heroic-N-Lutris\\star-citizen\\drive_c\\Program Files\\Roberts Space Industries\\StarCitizen\\LIVE\\Bin64\\nvngx.dll" 520 000000013F9FF320 0000000000000000)
+0428:trace:file:RtlGetFullPathName_UEx (L"Z:\\mnt\\m2games\\Heroic-N-Lutris\\star-citizen\\drive_c\\Program Files\\Roberts Space Industries\\StarCitizen\\LIVE\\Bin64\\nvngx.dll" 520 000000013F9FF320 0000000000000000 0000000000000000)
+0428:trace:file:nt_to_unix_file_name_no_root L"mnt\\m2games\\Heroic-N-Lutris\\star-citizen\\drive_c\\Program Files\\Roberts Space Industries\\StarCitizen\\LIVE\\Bin64\\nvngx.dll" not found in "/home/hans/Games/star-citizen/dosdevices/z:"
+0428:warn:file:NtQueryAttributesFile L"\\??\\Z:\\mnt\\m2games\\Heroic-N-Lutris\\star-citizen\\drive_c\\Program Files\\Roberts Space Industries\\StarCitizen\\LIVE\\Bin64\\nvngx.dll" not found (c0000034)
+0428:Call ntdll.RtlIsDosDeviceName_U(13f9ff7f0 L"Z:\\mnt\\m2games\\Heroic-N-Lutris\\star-citizen\\drive_c\\Program Files\\Roberts Space Industries\\StarCitizen\\LIVE\\Bin64\\nvngx.dll") ret=6fffffc17599
+0428:Call ucrtbase.wcscpy_s(399052d5a08,00000104,148db9778 L"NGXCore\\NGXPath") ret=147bf262c
+0428:Call advapi32.RegOpenKeyExW(ffffffff80000002,148db98f0 L"System\\CurrentControlSet\\Services\\nvlddmkm\\NGXCore",00000000,00020019,13f9ff7e8) ret=147bf28ea
+0428:Call ntdll.RtlInitUnicodeString(13f9ff700,148db98f0 L"System\\CurrentControlSet\\Services\\nvlddmkm\\NGXCore") ret=6fffffc45df1
+0428:trace:reg:NtOpenKeyEx (0x20,L"System\\CurrentControlSet\\Services\\nvlddmkm\\NGXCore",20019,0x13f9ff7e8)
+0428:Call advapi32.RegOpenKeyExW(ffffffff80000002,148db9970 L"SOFTWARE\\NVIDIA Corporation\\Global\\NGXCore",00000000,00020019,13f9ff7e8) ret=147bf29ba
+0428:Call ntdll.RtlInitUnicodeString(13f9ff700,148db9970 L"SOFTWARE\\NVIDIA Corporation\\Global\\NGXCore") ret=6fffffc45df1
+0428:trace:reg:NtOpenKeyEx (0x20,L"SOFTWARE\\NVIDIA Corporation\\Global\\NGXCore",20019,0x13f9ff7e8)
+0428:Call ucrtbase.wcscat_s(13f9ff7f0 L"C:\\Windows\\System32",00000104,148db9828 L"\\_nvngx.dll") ret=147bf2a6a
+0428:Call KERNEL32.GetFileAttributesW(13f9ff7f0 L"C:\\Windows\\System32\\_nvngx.dll") ret=147bf3590
+0428:trace:file:GetFileAttributesW L"C:\\Windows\\System32\\_nvngx.dll"
+0428:Call ntdll.RtlDosPathNameToNtPathName_U(13f9ff7f0 L"C:\\Windows\\System32\\_nvngx.dll",13f9ff650,00000000,00000000) ret=6fffffc17529
+0428:trace:file:RtlDosPathNameToNtPathName_U_WithStatus (L"C:\\Windows\\System32\\_nvngx.dll",000000013F9FF650,0000000000000000,0000000000000000)
+0428:trace:file:RtlGetFullPathName_U (L"C:\\Windows\\System32\\_nvngx.dll" 520 000000013F9FF320 0000000000000000)
+0428:trace:file:RtlGetFullPathName_UEx (L"C:\\Windows\\System32\\_nvngx.dll" 520 000000013F9FF320 0000000000000000 0000000000000000)
+0428:trace:file:nt_to_unix_file_name_no_root L"\\??\\C:\\Windows\\System32\\_nvngx.dll" -> "/home/hans/Games/star-citizen/dosdevices/c:/windows/system32/_nvngx.dll"
+0428:Call KERNEL32.CreateFileW(13f9ff7f0 L"C:\\Windows\\System32\\_nvngx.dll",80000000,00000001,00000000,00000003,6fff00000000,00000000) ret=147bf35cc
+0428:trace:file:CreateFileW L"C:\\Windows\\System32\\_nvngx.dll" GENERIC_READ FILE_SHARE_READ  creation 3 attributes 0x0
+0428:Call ntdll.RtlDosPathNameToNtPathName_U(13f9ff7f0 L"C:\\Windows\\System32\\_nvngx.dll",13f9ff640,00000000,00000000) ret=6fffffc040e0
+0428:trace:file:RtlDosPathNameToNtPathName_U_WithStatus (L"C:\\Windows\\System32\\_nvngx.dll",000000013F9FF640,0000000000000000,0000000000000000)
+0428:trace:file:RtlGetFullPathName_U (L"C:\\Windows\\System32\\_nvngx.dll" 520 000000013F9FF290 0000000000000000)
+0428:trace:file:RtlGetFullPathName_UEx (L"C:\\Windows\\System32\\_nvngx.dll" 520 000000013F9FF290 0000000000000000 0000000000000000)
+0428:trace:file:NtCreateFile handle=0x13f9ff628 access=80100080 name=L"\\??\\C:\\Windows\\System32\\_nvngx.dll" objattr=00000040 root=(nil) sec=(nil) io=0x13f9ff650 alloc_size=(nil) attr=00000000 sharing=00000001 disp=1 options=00000060 ea=(nil).0x00000000
+0428:trace:file:nt_to_unix_file_name_no_root L"\\??\\C:\\Windows\\System32\\_nvngx.dll" -> "/home/hans/Games/star-citizen/dosdevices/c:/windows/system32/_nvngx.dll"
+0428:Call KERNEL32.GetFileAttributesW(13f9ff7f0 L"C:\\Windows\\System32\\_nvngx.dll") ret=147bf39cd
+0428:trace:file:GetFileAttributesW L"C:\\Windows\\System32\\_nvngx.dll"
+0428:Call ntdll.RtlDosPathNameToNtPathName_U(13f9ff7f0 L"C:\\Windows\\System32\\_nvngx.dll",13f9ff500,00000000,00000000) ret=6fffffc17529
+0428:trace:file:RtlDosPathNameToNtPathName_U_WithStatus (L"C:\\Windows\\System32\\_nvngx.dll",000000013F9FF500,0000000000000000,0000000000000000)
+0428:trace:file:RtlGetFullPathName_U (L"C:\\Windows\\System32\\_nvngx.dll" 520 000000013F9FF1D0 0000000000000000)
+0428:trace:file:RtlGetFullPathName_UEx (L"C:\\Windows\\System32\\_nvngx.dll" 520 000000013F9FF1D0 0000000000000000 0000000000000000)
+0428:trace:file:nt_to_unix_file_name_no_root L"\\??\\C:\\Windows\\System32\\_nvngx.dll" -> "/home/hans/Games/star-citizen/dosdevices/c:/windows/system32/_nvngx.dll"
+0428:Call ucrtbase.wcscat_s(13f9ff7f0 L"C:\\Windows\\System32",00000104,148db9840 L"\\nvngx.dll") ret=147bf2b3f
+0428:Call KERNEL32.GetFileAttributesW(13f9ff7f0 L"C:\\Windows\\System32\\nvngx.dll") ret=147bf3590
+0428:trace:file:GetFileAttributesW L"C:\\Windows\\System32\\nvngx.dll"
+0428:Call ntdll.RtlDosPathNameToNtPathName_U(13f9ff7f0 L"C:\\Windows\\System32\\nvngx.dll",13f9ff650,00000000,00000000) ret=6fffffc17529
+0428:trace:file:RtlDosPathNameToNtPathName_U_WithStatus (L"C:\\Windows\\System32\\nvngx.dll",000000013F9FF650,0000000000000000,0000000000000000)
+0428:trace:file:RtlGetFullPathName_U (L"C:\\Windows\\System32\\nvngx.dll" 520 000000013F9FF320 0000000000000000)
+0428:trace:file:RtlGetFullPathName_UEx (L"C:\\Windows\\System32\\nvngx.dll" 520 000000013F9FF320 0000000000000000 0000000000000000)
+0428:trace:file:nt_to_unix_file_name_no_root L"\\??\\C:\\Windows\\System32\\nvngx.dll" -> "/home/hans/Games/star-citizen/dosdevices/c:/windows/system32/nvngx.dll"
+0428:Call KERNEL32.CreateFileW(13f9ff7f0 L"C:\\Windows\\System32\\nvngx.dll",80000000,00000001,00000000,00000003,6fff00000000,00000000) ret=147bf35cc
+0428:trace:file:CreateFileW L"C:\\Windows\\System32\\nvngx.dll" GENERIC_READ FILE_SHARE_READ  creation 3 attributes 0x0
+0428:Call ntdll.RtlDosPathNameToNtPathName_U(13f9ff7f0 L"C:\\Windows\\System32\\nvngx.dll",13f9ff640,00000000,00000000) ret=6fffffc040e0
+0428:trace:file:RtlDosPathNameToNtPathName_U_WithStatus (L"C:\\Windows\\System32\\nvngx.dll",000000013F9FF640,0000000000000000,0000000000000000)
+0428:trace:file:RtlGetFullPathName_U (L"C:\\Windows\\System32\\nvngx.dll" 520 000000013F9FF290 0000000000000000)
+0428:trace:file:RtlGetFullPathName_UEx (L"C:\\Windows\\System32\\nvngx.dll" 520 000000013F9FF290 0000000000000000 0000000000000000)
+0428:trace:file:NtCreateFile handle=0x13f9ff628 access=80100080 name=L"\\??\\C:\\Windows\\System32\\nvngx.dll" objattr=00000040 root=(nil) sec=(nil) io=0x13f9ff650 alloc_size=(nil) attr=00000000 sharing=00000001 disp=1 options=00000060 ea=(nil).0x00000000
+0428:trace:file:nt_to_unix_file_name_no_root L"\\??\\C:\\Windows\\System32\\nvngx.dll" -> "/home/hans/Games/star-citizen/dosdevices/c:/windows/system32/nvngx.dll"
+0428:Call KERNEL32.GetFileAttributesW(13f9ff7f0 L"C:\\Windows\\System32\\nvngx.dll") ret=147bf39cd
+0428:trace:file:GetFileAttributesW L"C:\\Windows\\System32\\nvngx.dll"
+0428:Call ntdll.RtlDosPathNameToNtPathName_U(13f9ff7f0 L"C:\\Windows\\System32\\nvngx.dll",13f9ff500,00000000,00000000) ret=6fffffc17529
+0428:trace:file:RtlDosPathNameToNtPathName_U_WithStatus (L"C:\\Windows\\System32\\nvngx.dll",000000013F9FF500,0000000000000000,0000000000000000)
+0428:trace:file:RtlGetFullPathName_U (L"C:\\Windows\\System32\\nvngx.dll" 520 000000013F9FF1D0 0000000000000000)
+0428:trace:file:RtlGetFullPathName_UEx (L"C:\\Windows\\System32\\nvngx.dll" 520 000000013F9FF1D0 0000000000000000 0000000000000000)
+0428:trace:file:nt_to_unix_file_name_no_root L"\\??\\C:\\Windows\\System32\\nvngx.dll" -> "/home/hans/Games/star-citizen/dosdevices/c:/windows/system32/nvngx.dll"
+0428:Call ucrtbase.__stdio_common_vsnprintf_s(00000024,c022011400,00000400,ffffffffffffffff,1481a5c80 "GPU: DLSS Support = %s",00000000,13f9ffd90) ret=1474b4153
+0428:Call ucrtbase.__stdio_common_vsnprintf_s(00000024,c022011400,00000400,ffffffffffffffff,1481a5c80 "GPU: DLSS Support = %s",00000000,13f9ffd90) ret=1474b4153
+0428:Call ucrtbase.strncpy_s(c022011000,00000400,c022011400 "GPU: DLSS Support = Unavailable",0000001f) ret=1474b455e
+04c4:Call ucrtbase._stricmp(c0ce004190 "ViewingAngle",c00c198c8c "PixelGridTilingX") ret=1408de343
+04c4:Call ucrtbase._stricmp(c0ce0041e8 "ViewAngleMode",c00c198c8c "PixelGridTilingX") ret=1408de343
+04c4:Call ucrtbase._stricmp(c0ce004240 "EmissiveContrast",c00c198c8c "PixelGridTilingX") ret=1408de343
+04c4:Call ucrtbase.strncpy_s(3990586eac0,00000028,c00c198c8c "PixelGridTilingX",ffffffffffffffff) ret=1408de392
+04c4:Call ucrtbase._stricmp(c0ce004298 "PixelGridTilingX",c00c1997cc "PixelGridTilingY") ret=1408de343
+04c4:Call ucrtbase._stricmp(c0ce004298 "PixelGridTilingX",c00c199a4c "EmissiveSaturation") ret=1408de343
+03ac:Call ucrtbase.strncpy(00119ed0,c0ec004736 "PixelGridTilingX",00000028) ret=1471c1e9f
+03ac:Call ucrtbase._stricmp(c022020410 "UVPadding",c00c198c8c "PixelGridTilingX") ret=1408de343
+03ac:Call ucrtbase._stricmp(c022020468 "ViewingAngle",c00c198c8c "PixelGridTilingX") ret=1408de343
+03ac:Call ucrtbase._stricmp(c0220204c0 "ViewAngleMode",c00c198c8c "PixelGridTilingX") ret=1408de343
+03ac:Call ucrtbase._stricmp(c022020518 "HoloVolumeFadeGradient",c00c198c8c "PixelGridTilingX") ret=1408de343
+03ac:Call ucrtbase._stricmp(c022020570 "EmissiveContrast",c00c198c8c "PixelGridTilingX") ret=1408de343
+03ac:Call ucrtbase._stricmp(c0220205c8 "InterferenceSpeed",c00c198c8c "PixelGridTilingX") ret=1408de343
+03ac:Call ucrtbase._stricmp(c022020620 "InterferenceBrightness",c00c198c8c "PixelGridTilingX") ret=1408de343
+03ac:Call ucrtbase.strncpy_s(00118b30,00000028,c00c198c8c "PixelGridTilingX",ffffffffffffffff) ret=1408de392
+03ac:Call ucrtbase._stricmp(c022020678 "PixelGridTilingX",c00c0ea7ac "InterferenceAmount") ret=1408de343
+03ac:Call ucrtbase._stricmp(c022020678 "PixelGridTilingX",c00c1997cc "PixelGridTilingY") ret=1408de343
+03ac:Call ucrtbase._stricmp(c022020678 "PixelGridTilingX",c00c199a4c "EmissiveSaturation") ret=1408de343
+03ac:Call ucrtbase._stricmp(c022020678 "PixelGridTilingX",c00c0ea98c "InterferenceTiling") ret=1408de343
+03ac:Call ucrtbase._stricmp(c022020410 "UVPadding",c00c198c8c "PixelGridTilingX") ret=1408de343
+03ac:Call ucrtbase._stricmp(c022020468 "ViewingAngle",c00c198c8c "PixelGridTilingX") ret=1408de343
+03ac:Call ucrtbase._stricmp(c0220204c0 "ViewAngleMode",c00c198c8c "PixelGridTilingX") ret=1408de343
+03ac:Call ucrtbase._stricmp(c022020518 "HoloVolumeFadeGradient",c00c198c8c "PixelGridTilingX") ret=1408de343
+03ac:Call ucrtbase._stricmp(c022020570 "EmissiveContrast",c00c198c8c "PixelGridTilingX") ret=1408de343
+03ac:Call ucrtbase._stricmp(c0220205c8 "InterferenceSpeed",c00c198c8c "PixelGridTilingX") ret=1408de343
+03ac:Call ucrtbase._stricmp(c022020620 "InterferenceBrightness",c00c198c8c "PixelGridTilingX") ret=1408de343
+03ac:Call ucrtbase.strncpy_s(00118b30,00000028,c00c198c8c "PixelGridTilingX",ffffffffffffffff) ret=1408de392
+03ac:Call ucrtbase._stricmp(c022020678 "PixelGridTilingX",c00c0ea7ac "InterferenceAmount") ret=1408de343
+03ac:Call ucrtbase._stricmp(c022020678 "PixelGridTilingX",c00c1997cc "PixelGridTilingY") ret=1408de343
+03ac:Call ucrtbase._stricmp(c022020678 "PixelGridTilingX",c00c199a4c "EmissiveSaturation") ret=1408de343
+03ac:Call ucrtbase._stricmp(c022020678 "PixelGridTilingX",c00c0ea98c "InterferenceTiling") ret=1408de343
+03ac:Call ucrtbase._stricmp(c05e02b1b8 "PixelGridTilingX",c00c199a4c "EmissiveSaturation") ret=14051ab36
+0790:trace:file:append_entry long L"nvngx_dlss.dll" short L"NVNG~MVA.DLL" mask L"*\"*"
+0790:trace:file:init_cached_dir_data L"nvngx_dlss.dll" L"NVNG~MVA.DLL"
+0790:trace:file:FindNextFileW returning L"nvngx_dlss.dll" (L"NVNG~MVA.DLL")
+0790:Call ucrtbase.wcscmp(3cd2cd3915c L"nvngx_dlss.dll",6ffffe34b3e0 L".") ret=6ffffe2f7984
+0790:Call ucrtbase.wcscmp(3cd2cd3915c L"nvngx_dlss.dll",6ffffe34b3e4 L"..") ret=6ffffe2f7996
+0790:Call ucrtbase.strlen(3cd37b8696b "NVSDK_NGX_D3D11_AllocateParameters") ret=6ffffe32cb15
+0790:Call ucrtbase.strcpy(3cd2e34f0c0,3cd37b8696b "NVSDK_NGX_D3D11_AllocateParameters") ret=6ffffe32cb35
+0790:Call ucrtbase.strlen(3cd37b8698e "NVSDK_NGX_D3D11_CreateFeature") ret=6ffffe32cb15
+0790:Call ucrtbase.strcpy(3cd2e34f0f0,3cd37b8698e "NVSDK_NGX_D3D11_CreateFeature") ret=6ffffe32cb35
+0790:Call ucrtbase.strlen(3cd37b869ac "NVSDK_NGX_D3D11_DestroyParameters") ret=6ffffe32cb15
+0790:Call ucrtbase.strcpy(3cd2e34f120,3cd37b869ac "NVSDK_NGX_D3D11_DestroyParameters") ret=6ffffe32cb35
+0790:Call ucrtbase.strlen(3cd37b869ce "NVSDK_NGX_D3D11_EvaluateFeature") ret=6ffffe32cb15
+0790:Call ucrtbase.strcpy(3cd2e34f150,3cd37b869ce "NVSDK_NGX_D3D11_EvaluateFeature") ret=6ffffe32cb35
+0790:Call ucrtbase.strlen(3cd37b869ee "NVSDK_NGX_D3D11_EvaluateFeature_C") ret=6ffffe32cb15
+0790:Call ucrtbase.strcpy(3cd2e34f180,3cd37b869ee "NVSDK_NGX_D3D11_EvaluateFeature_C") ret=6ffffe32cb35
+0790:Call ucrtbase.strlen(3cd37b86a10 "NVSDK_NGX_D3D11_GetCapabilityParameters") ret=6ffffe32cb15
+0790:Call ucrtbase.strcpy(3cd2e34f1b0,3cd37b86a10 "NVSDK_NGX_D3D11_GetCapabilityParameters") ret=6ffffe32cb35
+0790:Call ucrtbase.strlen(3cd37b86a38 "NVSDK_NGX_D3D11_GetFeatureRequirements") ret=6ffffe32cb15
+0790:Call ucrtbase.strcpy(3cd2e34f1e0,3cd37b86a38 "NVSDK_NGX_D3D11_GetFeatureRequirements") ret=6ffffe32cb35
+0790:Call ucrtbase.strlen(3cd37b86a5f "NVSDK_NGX_D3D11_GetParameters") ret=6ffffe32cb15
+0790:Call ucrtbase.strcpy(3cd2e34fa10,3cd37b86a5f "NVSDK_NGX_D3D11_GetParameters") ret=6ffffe32cb35
+0790:Call ucrtbase.strlen(3cd37b86a7d "NVSDK_NGX_D3D11_GetScratchBufferSize") ret=6ffffe32cb15
+0790:Call ucrtbase.strcpy(3cd2e34fa40,3cd37b86a7d "NVSDK_NGX_D3D11_GetScratchBufferSize") ret=6ffffe32cb35
+0790:Call ucrtbase.strlen(3cd37b86aa2 "NVSDK_NGX_D3D11_ReleaseFeature") ret=6ffffe32cb15
+0790:Call ucrtbase.strcpy(3cd2e34fa70,3cd37b86aa2 "NVSDK_NGX_D3D11_ReleaseFeature") ret=6ffffe32cb35
+0790:Call ucrtbase.strlen(3cd37b86ac1 "NVSDK_NGX_D3D11_Shutdown") ret=6ffffe32cb15
+0790:Call ucrtbase.strcpy(3cd2e34faa0,3cd37b86ac1 "NVSDK_NGX_D3D11_Shutdown") ret=6ffffe32cb35
+0790:Call ucrtbase.strlen(3cd37b86ada "NVSDK_NGX_D3D11_Shutdown1") ret=6ffffe32cb15
+0790:Call ucrtbase.strcpy(3cd2e34fad0,3cd37b86ada "NVSDK_NGX_D3D11_Shutdown1") ret=6ffffe32cb35
+0790:Call ucrtbase.strlen(3cd37b86af4 "NVSDK_NGX_Parameter_GetD") ret=6ffffe32cb15
+0790:Call ucrtbase.strcpy(3cd2e34fb00,3cd37b86af4 "NVSDK_NGX_Parameter_GetD") ret=6ffffe32cb35
+0790:Call ucrtbase.strlen(3cd37b86b0d "NVSDK_NGX_Parameter_GetD3d11Resource") ret=6ffffe32cb15
+0790:Call ucrtbase.strcpy(3cd2e34fb30,3cd37b86b0d "NVSDK_NGX_Parameter_GetD3d11Resource") ret=6ffffe32cb35
+0790:Call ucrtbase.strlen(3cd37b86b32 "NVSDK_NGX_Parameter_GetD3d12Resource") ret=6ffffe32cb15
+0790:Call ucrtbase.strcpy(3cd2e34fb60,3cd37b86b32 "NVSDK_NGX_Parameter_GetD3d12Resource") ret=6ffffe32cb35
+0790:Call ucrtbase.strlen(3cd37b86b57 "NVSDK_NGX_Parameter_GetF") ret=6ffffe32cb15
+0790:Call ucrtbase.strcpy(3cd2e34fb90,3cd37b86b57 "NVSDK_NGX_Parameter_GetF") ret=6ffffe32cb35
+0790:Call ucrtbase.strlen(3cd37b86b70 "NVSDK_NGX_Parameter_GetI") ret=6ffffe32cb15
+0790:Call ucrtbase.strcpy(3cd2e34fbc0,3cd37b86b70 "NVSDK_NGX_Parameter_GetI") ret=6ffffe32cb35
+0790:Call ucrtbase.strlen(3cd37b86b89 "NVSDK_NGX_Parameter_GetUI") ret=6ffffe32cb15
+0790:Call ucrtbase.strcpy(3cd2e34fbf0,3cd37b86b89 "NVSDK_NGX_Parameter_GetUI") ret=6ffffe32cb35
+0790:Call ucrtbase.strlen(3cd37b86ba3 "NVSDK_NGX_Parameter_GetULL") ret=6ffffe32cb15
+0790:Call ucrtbase.strcpy(3cd2e34fc20,3cd37b86ba3 "NVSDK_NGX_Parameter_GetULL") ret=6ffffe32cb35
+0790:Call ucrtbase.strlen(3cd37b86bbe "NVSDK_NGX_Parameter_GetVoidPointer") ret=6ffffe32cb15
+0790:Call ucrtbase.strcpy(3cd2e34fc50,3cd37b86bbe "NVSDK_NGX_Parameter_GetVoidPointer") ret=6ffffe32cb35
+0790:Call ucrtbase.strlen(3cd37b86be1 "NVSDK_NGX_Parameter_SetD") ret=6ffffe32cb15
+0790:Call ucrtbase.strcpy(3cd2e34fc80,3cd37b86be1 "NVSDK_NGX_Parameter_SetD") ret=6ffffe32cb35
+0790:Call ucrtbase.strlen(3cd37b86bfa "NVSDK_NGX_Parameter_SetD3d11Resource") ret=6ffffe32cb15
+0790:Call ucrtbase.strcpy(3cd2e34fcb0,3cd37b86bfa "NVSDK_NGX_Parameter_SetD3d11Resource") ret=6ffffe32cb35
+0790:Call ucrtbase.strlen(3cd37b86c1f "NVSDK_NGX_Parameter_SetD3d12Resource") ret=6ffffe32cb15
+0790:Call ucrtbase.strcpy(3cd2e34fce0,3cd37b86c1f "NVSDK_NGX_Parameter_SetD3d12Resource") ret=6ffffe32cb35
+0790:Call ucrtbase.strlen(3cd37b86c44 "NVSDK_NGX_Parameter_SetF") ret=6ffffe32cb15
+0790:Call ucrtbase.strcpy(3cd2e34fd10,3cd37b86c44 "NVSDK_NGX_Parameter_SetF") ret=6ffffe32cb35
+0790:Call ucrtbase.strlen(3cd37b86c5d "NVSDK_NGX_Parameter_SetI") ret=6ffffe32cb15
+0790:Call ucrtbase.strcpy(3cd2e34fd40,3cd37b86c5d "NVSDK_NGX_Parameter_SetI") ret=6ffffe32cb35
+0790:Call ucrtbase.strlen(3cd37b86c76 "NVSDK_NGX_Parameter_SetUI") ret=6ffffe32cb15
+0790:Call ucrtbase.strcpy(3cd2e34fd70,3cd37b86c76 "NVSDK_NGX_Parameter_SetUI") ret=6ffffe32cb35
+0790:Call ucrtbase.strlen(3cd37b86c90 "NVSDK_NGX_Parameter_SetULL") ret=6ffffe32cb15
+0790:Call ucrtbase.strcpy(3cd2e34fda0,3cd37b86c90 "NVSDK_NGX_Parameter_SetULL") ret=6ffffe32cb35
+0790:Call ucrtbase.strlen(3cd37b86cab "NVSDK_NGX_Parameter_SetVoidPointer") ret=6ffffe32cb15
+0790:Call ucrtbase.strcpy(3cd2e34fdd0,3cd37b86cab "NVSDK_NGX_Parameter_SetVoidPointer") ret=6ffffe32cb35
+0790:Call ucrtbase.strlen(3cd37b86cce "NVSDK_NGX_UpdateFeature") ret=6ffffe32cb15
+0790:Call ucrtbase.strcpy(3cd2e34fe00,3cd37b86cce "NVSDK_NGX_UpdateFeature") ret=6ffffe32cb35
+0790:Call ucrtbase.strlen(3cd37b86ce6 "NVSDK_NGX_VULKAN_AllocateParameters") ret=6ffffe32cb15
+0790:Call ucrtbase.strcpy(3cd2e34fe30,3cd37b86ce6 "NVSDK_NGX_VULKAN_AllocateParameters") ret=6ffffe32cb35
+0790:Call ucrtbase.strlen(3cd37b86d0a "NVSDK_NGX_VULKAN_CreateFeature") ret=6ffffe32cb15
+0790:Call ucrtbase.strcpy(3cd2e34fe60,3cd37b86d0a "NVSDK_NGX_VULKAN_CreateFeature") ret=6ffffe32cb35
+0790:Call ucrtbase.strlen(3cd37b86d29 "NVSDK_NGX_VULKAN_CreateFeature1") ret=6ffffe32cb15
+0790:Call ucrtbase.strcpy(3cd2e34fe90,3cd37b86d29 "NVSDK_NGX_VULKAN_CreateFeature1") ret=6ffffe32cb35
+0790:Call ucrtbase.strlen(3cd37b86d49 "NVSDK_NGX_VULKAN_DestroyParameters") ret=6ffffe32cb15
+0790:Call ucrtbase.strcpy(3cd2e34fec0,3cd37b86d49 "NVSDK_NGX_VULKAN_DestroyParameters") ret=6ffffe32cb35
+0790:Call ucrtbase.strlen(3cd37b86d6c "NVSDK_NGX_VULKAN_EvaluateFeature") ret=6ffffe32cb15
+0790:Call ucrtbase.strcpy(3cd2e34fef0,3cd37b86d6c "NVSDK_NGX_VULKAN_EvaluateFeature") ret=6ffffe32cb35
+0790:Call ucrtbase.strlen(3cd37b86d8d "NVSDK_NGX_VULKAN_EvaluateFeature_C") ret=6ffffe32cb15
+0790:Call ucrtbase.strcpy(3cd2e34ff20,3cd37b86d8d "NVSDK_NGX_VULKAN_EvaluateFeature_C") ret=6ffffe32cb35
+0790:Call ucrtbase.strlen(3cd37b86db0 "NVSDK_NGX_VULKAN_GetCapabilityParameters") ret=6ffffe32cb15
+0790:Call ucrtbase.strcpy(3cd386303e0,3cd37b86db0 "NVSDK_NGX_VULKAN_GetCapabilityParameters") ret=6ffffe32cb35
+0790:Call ucrtbase.strlen(3cd37b86dd9 "NVSDK_NGX_VULKAN_GetFeatureDeviceExtensionRequirements") ret=6ffffe32cb15
+0790:Call ucrtbase.strcpy(3cd38630460,3cd37b86dd9 "NVSDK_NGX_VULKAN_GetFeatureDeviceExtensionRequirements") ret=6ffffe32cb35
+0790:Call ucrtbase.strlen(3cd37b86e10 "NVSDK_NGX_VULKAN_GetFeatureInstanceExtensionRequirements") ret=6ffffe32cb15
+0790:Call ucrtbase.strcpy(3cd2e34a660,3cd37b86e10 "NVSDK_NGX_VULKAN_GetFeatureInstanceExtensionRequirements") ret=6ffffe32cb35
+0790:Call ucrtbase.strlen(3cd37b86e49 "NVSDK_NGX_VULKAN_GetFeatureRequirements") ret=6ffffe32cb15
+0790:Call ucrtbase.strcpy(3cd2e34ff50,3cd37b86e49 "NVSDK_NGX_VULKAN_GetFeatureRequirements") ret=6ffffe32cb35
+0790:Call ucrtbase.strlen(3cd37b86e71 "NVSDK_NGX_VULKAN_GetParameters") ret=6ffffe32cb15
+0790:Call ucrtbase.strcpy(3cd2e34ff80,3cd37b86e71 "NVSDK_NGX_VULKAN_GetParameters") ret=6ffffe32cb35
+0790:Call ucrtbase.strlen(3cd37b86e90 "NVSDK_NGX_VULKAN_GetScratchBufferSize") ret=6ffffe32cb15
+0790:Call ucrtbase.strcpy(3cd2e34ffb0,3cd37b86e90 "NVSDK_NGX_VULKAN_GetScratchBufferSize") ret=6ffffe32cb35
+0790:Call ucrtbase.strlen(3cd37b86eb6 "NVSDK_NGX_VULKAN_Init") ret=6ffffe32cb15
+0790:Call ucrtbase.strcpy(3cd38630840,3cd37b86eb6 "NVSDK_NGX_VULKAN_Init") ret=6ffffe32cb35
+0790:Call ucrtbase.strlen(3cd37b86ecc "NVSDK_NGX_VULKAN_ReleaseFeature") ret=6ffffe32cb15
+0790:Call ucrtbase.strcpy(3cd38630870,3cd37b86ecc "NVSDK_NGX_VULKAN_ReleaseFeature") ret=6ffffe32cb35
+0790:Call ucrtbase.strlen(3cd37b86eec "NVSDK_NGX_VULKAN_RequiredExtensions") ret=6ffffe32cb15
+0790:Call ucrtbase.strcpy(3cd386308a0,3cd37b86eec "NVSDK_NGX_VULKAN_RequiredExtensions") ret=6ffffe32cb35
+0790:Call ucrtbase.strlen(3cd37b86f10 "NVSDK_NGX_VULKAN_Shutdown") ret=6ffffe32cb15
+0790:Call ucrtbase.strcpy(3cd386308d0,3cd37b86f10 "NVSDK_NGX_VULKAN_Shutdown") ret=6ffffe32cb35
+0790:Call ucrtbase.strlen(3cd37b86f2a "NVSDK_NGX_VULKAN_Shutdown1") ret=6ffffe32cb15
+0790:Call ucrtbase.strcpy(3cd38630900,3cd37b86f2a "NVSDK_NGX_VULKAN_Shutdown1") ret=6ffffe32cb35
+0790:Call ucrtbase.strlen(3cd2f64927d "ScriptStringXtoCP") ret=6ffffe32cb15
+0790:Call ucrtbase.strcpy(3cd2f5bd030,3cd2f64927d "ScriptStringXtoCP") ret=6ffffe32cb35
+0790:trace:file:append_entry long L"nvngx_dlss.dll" short L"NVNG~MVA.DLL" mask L"*\"*"
+0790:trace:file:init_cached_dir_data L"nvngx_dlss.dll" L"NVNG~MVA.DLL"
+0790:trace:file:FindNextFileW returning L"nvngx_dlss.dll" (L"NVNG~MVA.DLL")
+0790:Call ucrtbase.wcscmp(3cd2cd3915c L"nvngx_dlss.dll",6ffffe34b3e0 L".") ret=6ffffe2f7984
+0790:Call ucrtbase.wcscmp(3cd2cd3915c L"nvngx_dlss.dll",6ffffe34b3e4 L"..") ret=6ffffe2f7996
+0790:trace:file:append_entry long L"nvngx_dlss.dll" short L"NVNG~MVA.DLL" mask L"*\"*"
+0790:trace:file:init_cached_dir_data L"nvngx_dlss.dll" L"NVNG~MVA.DLL"
+0790:trace:file:FindNextFileW returning L"nvngx_dlss.dll" (L"NVNG~MVA.DLL")
+0790:Call ucrtbase.wcscmp(3cd2cd3915c L"nvngx_dlss.dll",6ffffe34b3e0 L".") ret=6ffffe2f7984
+0790:Call ucrtbase.wcscmp(3cd2cd3915c L"nvngx_dlss.dll",6ffffe34b3e4 L"..") ret=6ffffe2f7996
+0790:trace:file:append_entry long L"nvngx_dlss.dll" short L"NVNG~MVA.DLL" mask L"*\"*"
+0790:trace:file:init_cached_dir_data L"nvngx_dlss.dll" L"NVNG~MVA.DLL"
+0790:trace:file:FindNextFileW returning L"nvngx_dlss.dll" (L"NVNG~MVA.DLL")
+0790:Call ucrtbase.wcscmp(3cd2cd3915c L"nvngx_dlss.dll",6ffffe34b3e0 L".") ret=6ffffe2f7984
+0790:Call ucrtbase.wcscmp(3cd2cd3915c L"nvngx_dlss.dll",6ffffe34b3e4 L"..") ret=6ffffe2f7996
+0790:trace:file:append_entry long L"nvngx.dll" short L"" mask L"*\"*"
+0790:trace:file:append_entry long L"_nvngx.dll.orig" short L"_NVN~2GH.ORI" mask L"*\"*"
+0790:trace:file:append_entry long L"nvngx_dlss.dll" short L"NVNG~MVA.DLL" mask L"*\"*"
+0790:trace:file:append_entry long L"dlsstweaks.ini.backup" short L"DLSS~SMA.BAC" mask L"*\"*"
+0790:trace:file:append_entry long L"dlsstweaks.ini" short L"DLSS~JFI.INI" mask L"*\"*"
+0790:trace:file:append_entry long L"nvngx.dll.orig" short L"NVNG~TA1.ORI" mask L"*\"*"
+0790:trace:file:append_entry long L"dlsstweaks.log" short L"DLSS~F2X.LOG" mask L"*\"*"
+0790:trace:file:append_entry long L"_nvngx.dll" short L"" mask L"*\"*"
+0790:trace:file:append_entry long L"nvngx_dlssg.dll" short L"NVNG~3IP.DLL" mask L"*\"*"
+0790:trace:file:init_cached_dir_data L"dlsstweaks.ini" L"DLSS~JFI.INI"
+0790:trace:file:init_cached_dir_data L"dlsstweaks.ini.backup" L"DLSS~SMA.BAC"
+0790:trace:file:init_cached_dir_data L"dlsstweaks.log" L"DLSS~F2X.LOG"
+0790:trace:file:init_cached_dir_data L"nvngx.dll" L""
+0790:trace:file:init_cached_dir_data L"nvngx.dll.orig" L"NVNG~TA1.ORI"
+0790:trace:file:init_cached_dir_data L"nvngx_dlss.dll" L"NVNG~MVA.DLL"
+0790:trace:file:init_cached_dir_data L"nvngx_dlssg.dll" L"NVNG~3IP.DLL"
+0790:trace:file:init_cached_dir_data L"_nvngx.dll" L""
+0790:trace:file:init_cached_dir_data L"_nvngx.dll.orig" L"_NVN~2GH.ORI"
+0790:trace:file:FindNextFileW returning L"dlsstweaks.ini" (L"DLSS~JFI.INI")
+0790:Call ucrtbase.wcscmp(3cd2cd3915c L"dlsstweaks.ini",6ffffe34b3e0 L".") ret=6ffffe2f7984
+0790:Call ucrtbase.wcscmp(3cd2cd3915c L"dlsstweaks.ini",6ffffe34b3e4 L"..") ret=6ffffe2f7996
+0790:trace:file:FindNextFileW returning L"dlsstweaks.ini.backup" (L"DLSS~SMA.BAC")
+0790:Call ucrtbase.wcscmp(3cd2cd3915c L"dlsstweaks.ini.backup",6ffffe34b3e0 L".") ret=6ffffe2f7984
+0790:Call ucrtbase.wcscmp(3cd2cd3915c L"dlsstweaks.ini.backup",6ffffe34b3e4 L"..") ret=6ffffe2f7996
+0790:trace:file:FindNextFileW returning L"dlsstweaks.log" (L"DLSS~F2X.LOG")
+0790:Call ucrtbase.wcscmp(3cd2cd3915c L"dlsstweaks.log",6ffffe34b3e0 L".") ret=6ffffe2f7984
+0790:Call ucrtbase.wcscmp(3cd2cd3915c L"dlsstweaks.log",6ffffe34b3e4 L"..") ret=6ffffe2f7996
+0790:trace:file:CreateFileW L"\\??\\C:\\windows\\system32\\nvngx.dll" GENERIC_READ GENERIC_WRITE  creation 3 attributes 0x2200000
+0790:Call ntdll.RtlDosPathNameToNtPathName_U(399050f6a30 L"\\??\\C:\\windows\\system32\\nvngx.dll",3cd2cd38f20,00000000,00000000) ret=6fffffc040e0
+0790:trace:file:RtlDosPathNameToNtPathName_U_WithStatus (L"\\??\\C:\\windows\\system32\\nvngx.dll",000003CD2CD38F20,0000000000000000,0000000000000000)
+0790:trace:file:NtCreateFile handle=0x3cd2cd38f08 access=c0100080 name=L"\\??\\C:\\windows\\system32\\nvngx.dll" objattr=00000040 root=(nil) sec=(nil) io=0x3cd2cd38f30 alloc_size=(nil) attr=00000000 sharing=00000000 disp=1 options=00204020 ea=(nil).0x00000000
+0790:trace:file:nt_to_unix_file_name_no_root L"\\??\\C:\\windows\\system32\\nvngx.dll" -> "/home/hans/Games/star-citizen/dosdevices/c:/windows/system32/nvngx.dll"
+0790:trace:file:FindNextFileW returning L"nvngx.dll" (L"")
+0790:Call ucrtbase.wcscmp(3cd2cd3915c L"nvngx.dll",6ffffe34b3e0 L".") ret=6ffffe2f7984
+0790:Call ucrtbase.wcscmp(3cd2cd3915c L"nvngx.dll",6ffffe34b3e4 L"..") ret=6ffffe2f7996
+0790:trace:file:FindNextFileW returning L"nvngx.dll.orig" (L"NVNG~TA1.ORI")
+0790:Call ucrtbase.wcscmp(3cd2cd3915c L"nvngx.dll.orig",6ffffe34b3e0 L".") ret=6ffffe2f7984
+0790:Call ucrtbase.wcscmp(3cd2cd3915c L"nvngx.dll.orig",6ffffe34b3e4 L"..") ret=6ffffe2f7996
+0790:trace:file:CreateFileW L"\\??\\C:\\windows\\system32\\nvngx_dlss.dll" GENERIC_READ GENERIC_WRITE  creation 3 attributes 0x2200000
+0790:Call ntdll.RtlDosPathNameToNtPathName_U(0021a910 L"\\??\\C:\\windows\\system32\\nvngx_dlss.dll",3cd2cd38f20,00000000,00000000) ret=6fffffc040e0
+0790:trace:file:RtlDosPathNameToNtPathName_U_WithStatus (L"\\??\\C:\\windows\\system32\\nvngx_dlss.dll",000003CD2CD38F20,0000000000000000,0000000000000000)
+0790:trace:file:NtCreateFile handle=0x3cd2cd38f08 access=c0100080 name=L"\\??\\C:\\windows\\system32\\nvngx_dlss.dll" objattr=00000040 root=(nil) sec=(nil) io=0x3cd2cd38f30 alloc_size=(nil) attr=00000000 sharing=00000000 disp=1 options=00204020 ea=(nil).0x00000000
+0790:trace:file:nt_to_unix_file_name_no_root L"\\??\\C:\\windows\\system32\\nvngx_dlss.dll" -> "/home/hans/Games/star-citizen/dosdevices/c:/windows/system32/nvngx_dlss.dll"
+0790:trace:file:FindNextFileW returning L"nvngx_dlss.dll" (L"NVNG~MVA.DLL")
+0790:Call ucrtbase.wcscmp(3cd2cd3915c L"nvngx_dlss.dll",6ffffe34b3e0 L".") ret=6ffffe2f7984
+0790:Call ucrtbase.wcscmp(3cd2cd3915c L"nvngx_dlss.dll",6ffffe34b3e4 L"..") ret=6ffffe2f7996
+0790:trace:file:CreateFileW L"\\??\\C:\\windows\\system32\\nvngx_dlssg.dll" GENERIC_READ GENERIC_WRITE  creation 3 attributes 0x2200000
+0790:Call ntdll.RtlDosPathNameToNtPathName_U(0021a910 L"\\??\\C:\\windows\\system32\\nvngx_dlssg.dll",3cd2cd38f20,00000000,00000000) ret=6fffffc040e0
+0790:trace:file:RtlDosPathNameToNtPathName_U_WithStatus (L"\\??\\C:\\windows\\system32\\nvngx_dlssg.dll",000003CD2CD38F20,0000000000000000,0000000000000000)
+0790:trace:file:NtCreateFile handle=0x3cd2cd38f08 access=c0100080 name=L"\\??\\C:\\windows\\system32\\nvngx_dlssg.dll" objattr=00000040 root=(nil) sec=(nil) io=0x3cd2cd38f30 alloc_size=(nil) attr=00000000 sharing=00000000 disp=1 options=00204020 ea=(nil).0x00000000
+0790:trace:file:nt_to_unix_file_name_no_root L"\\??\\C:\\windows\\system32\\nvngx_dlssg.dll" -> "/home/hans/Games/star-citizen/dosdevices/c:/windows/system32/nvngx_dlssg.dll"
+0790:trace:file:FindNextFileW returning L"nvngx_dlssg.dll" (L"NVNG~3IP.DLL")
+0790:Call ucrtbase.wcscmp(3cd2cd3915c L"nvngx_dlssg.dll",6ffffe34b3e0 L".") ret=6ffffe2f7984
+0790:Call ucrtbase.wcscmp(3cd2cd3915c L"nvngx_dlssg.dll",6ffffe34b3e4 L"..") ret=6ffffe2f7996
+0790:trace:file:CreateFileW L"\\??\\C:\\windows\\system32\\_nvngx.dll" GENERIC_READ GENERIC_WRITE  creation 3 attributes 0x2200000
+0790:Call ntdll.RtlDosPathNameToNtPathName_U(399050f6a30 L"\\??\\C:\\windows\\system32\\_nvngx.dll",3cd2cd38f20,00000000,00000000) ret=6fffffc040e0
+0790:trace:file:RtlDosPathNameToNtPathName_U_WithStatus (L"\\??\\C:\\windows\\system32\\_nvngx.dll",000003CD2CD38F20,0000000000000000,0000000000000000)
+0790:trace:file:NtCreateFile handle=0x3cd2cd38f08 access=c0100080 name=L"\\??\\C:\\windows\\system32\\_nvngx.dll" objattr=00000040 root=(nil) sec=(nil) io=0x3cd2cd38f30 alloc_size=(nil) attr=00000000 sharing=00000000 disp=1 options=00204020 ea=(nil).0x00000000
+0790:trace:file:nt_to_unix_file_name_no_root L"\\??\\C:\\windows\\system32\\_nvngx.dll" -> "/home/hans/Games/star-citizen/dosdevices/c:/windows/system32/_nvngx.dll"
+0790:trace:file:FindNextFileW returning L"_nvngx.dll" (L"")
+0790:Call ucrtbase.wcscmp(3cd2cd3915c L"_nvngx.dll",6ffffe34b3e0 L".") ret=6ffffe2f7984
+0790:Call ucrtbase.wcscmp(3cd2cd3915c L"_nvngx.dll",6ffffe34b3e4 L"..") ret=6ffffe2f7996
+0790:trace:file:FindNextFileW returning L"_nvngx.dll.orig" (L"_NVN~2GH.ORI")
+0790:Call ucrtbase.wcscmp(3cd2cd3915c L"_nvngx.dll.orig",6ffffe34b3e0 L".") ret=6ffffe2f7984
+0790:Call ucrtbase.wcscmp(3cd2cd3915c L"_nvngx.dll.orig",6ffffe34b3e4 L"..") ret=6ffffe2f7996
+0790:trace:file:append_entry long L"nvngx_dlss.dll" short L"NVNG~MVA.DLL" mask L"*\"*"
+0790:trace:file:init_cached_dir_data L"nvngx_dlss.dll" L"NVNG~MVA.DLL"
+0790:trace:file:FindNextFileW returning L"nvngx_dlss.dll" (L"NVNG~MVA.DLL")
+0790:Call ucrtbase.wcscmp(3cd2cd3915c L"nvngx_dlss.dll",6ffffe34b3e0 L".") ret=6ffffe2f7984
+0790:Call ucrtbase.wcscmp(3cd2cd3915c L"nvngx_dlss.dll",6ffffe34b3e4 L"..") ret=6ffffe2f7996
+0790:trace:file:append_entry long L"nvngx_dlss.dll" short L"NVNG~MVA.DLL" mask L"*\"*"
+0790:trace:file:init_cached_dir_data L"nvngx_dlss.dll" L"NVNG~MVA.DLL"
+0790:trace:file:FindNextFileW returning L"nvngx_dlss.dll" (L"NVNG~MVA.DLL")
+0790:Call ucrtbase.wcscmp(3cd2cd3915c L"nvngx_dlss.dll",6ffffe34b3e0 L".") ret=6ffffe2f7984
+0790:Call ucrtbase.wcscmp(3cd2cd3915c L"nvngx_dlss.dll",6ffffe34b3e4 L"..") ret=6ffffe2f7996
+0790:trace:file:append_entry long L"nvngx_dlss.dll" short L"NVNG~MVA.DLL" mask L"*\"*"
+0790:trace:file:init_cached_dir_data L"nvngx_dlss.dll" L"NVNG~MVA.DLL"
+0790:trace:file:FindNextFileW returning L"nvngx_dlss.dll" (L"NVNG~MVA.DLL")
+0790:Call ucrtbase.wcscmp(3cd2cd3915c L"nvngx_dlss.dll",6ffffe34b3e0 L".") ret=6ffffe2f7984
+0790:Call ucrtbase.wcscmp(3cd2cd3915c L"nvngx_dlss.dll",6ffffe34b3e4 L"..") ret=6ffffe2f7996
+0790:trace:file:append_entry long L"nvngx_dlss.dll" short L"NVNG~MVA.DLL" mask L"*\"*"
+0790:trace:file:init_cached_dir_data L"nvngx_dlss.dll" L"NVNG~MVA.DLL"
+0790:trace:file:FindNextFileW returning L"nvngx_dlss.dll" (L"NVNG~MVA.DLL")
+0790:Call ucrtbase.wcscmp(3cd2cd3915c L"nvngx_dlss.dll",6ffffe34b3e0 L".") ret=6ffffe2f7984
+0790:Call ucrtbase.wcscmp(3cd2cd3915c L"nvngx_dlss.dll",6ffffe34b3e4 L"..") ret=6ffffe2f7996
+0790:trace:file:append_entry long L"nvngx_dlss.dll" short L"NVNG~MVA.DLL" mask L"*\"*"
+0790:trace:file:init_cached_dir_data L"nvngx_dlss.dll" L"NVNG~MVA.DLL"
+0790:trace:file:FindNextFileW returning L"nvngx_dlss.dll" (L"NVNG~MVA.DLL")
+0790:Call ucrtbase.wcscmp(3cd2cd3915c L"nvngx_dlss.dll",6ffffe34b3e0 L".") ret=6ffffe2f7984
+0790:Call ucrtbase.wcscmp(3cd2cd3915c L"nvngx_dlss.dll",6ffffe34b3e4 L"..") ret=6ffffe2f7996
+0790:trace:file:append_entry long L"nvngx_dlss.dll" short L"NVNG~MVA.DLL" mask L"*\"*"
+0790:trace:file:init_cached_dir_data L"nvngx_dlss.dll" L"NVNG~MVA.DLL"
+0790:trace:file:FindNextFileW returning L"nvngx_dlss.dll" (L"NVNG~MVA.DLL")
+0790:Call ucrtbase.wcscmp(3cd2cd3915c L"nvngx_dlss.dll",6ffffe34b3e0 L".") ret=6ffffe2f7984
+0790:Call ucrtbase.wcscmp(3cd2cd3915c L"nvngx_dlss.dll",6ffffe34b3e4 L"..") ret=6ffffe2f7996
+0790:trace:file:append_entry long L"nvngx_dlss.dll" short L"NVNG~MVA.DLL" mask L"*\"*"
+0790:trace:file:init_cached_dir_data L"nvngx_dlss.dll" L"NVNG~MVA.DLL"
+0790:trace:file:FindNextFileW returning L"nvngx_dlss.dll" (L"NVNG~MVA.DLL")
+0790:Call ucrtbase.wcscmp(3cd2cd3915c L"nvngx_dlss.dll",6ffffe34b3e0 L".") ret=6ffffe2f7984
+0790:Call ucrtbase.wcscmp(3cd2cd3915c L"nvngx_dlss.dll",6ffffe34b3e4 L"..") ret=6ffffe2f7996
+0790:trace:file:append_entry long L"nvngx.dll" short L"" mask L"*\"*"
+0790:trace:file:append_entry long L"_nvngx.dll.orig" short L"_NVN~2GH.ORI" mask L"*\"*"
+0790:trace:file:append_entry long L"nvngx_dlss.dll" short L"NVNG~MVA.DLL" mask L"*\"*"
+0790:trace:file:append_entry long L"dlsstweaks.ini.backup" short L"DLSS~SMA.BAC" mask L"*\"*"
+0790:trace:file:append_entry long L"dlsstweaks.ini" short L"DLSS~JFI.INI" mask L"*\"*"
+0790:trace:file:append_entry long L"nvngx.dll.orig" short L"NVNG~TA1.ORI" mask L"*\"*"
+0790:trace:file:append_entry long L"dlsstweaks.log" short L"DLSS~F2X.LOG" mask L"*\"*"
+0790:trace:file:append_entry long L"_nvngx.dll" short L"" mask L"*\"*"
+0790:trace:file:append_entry long L"nvngx_dlssg.dll" short L"NVNG~3IP.DLL" mask L"*\"*"
+0790:trace:file:init_cached_dir_data L"dlsstweaks.ini" L"DLSS~JFI.INI"
+0790:trace:file:init_cached_dir_data L"dlsstweaks.ini.backup" L"DLSS~SMA.BAC"
+0790:trace:file:init_cached_dir_data L"dlsstweaks.log" L"DLSS~F2X.LOG"
+0790:trace:file:init_cached_dir_data L"nvngx.dll" L""
+0790:trace:file:init_cached_dir_data L"nvngx.dll.orig" L"NVNG~TA1.ORI"
+0790:trace:file:init_cached_dir_data L"nvngx_dlss.dll" L"NVNG~MVA.DLL"
+0790:trace:file:init_cached_dir_data L"nvngx_dlssg.dll" L"NVNG~3IP.DLL"
+0790:trace:file:init_cached_dir_data L"_nvngx.dll" L""
+0790:trace:file:init_cached_dir_data L"_nvngx.dll.orig" L"_NVN~2GH.ORI"
+0790:trace:file:FindNextFileW returning L"dlsstweaks.ini" (L"DLSS~JFI.INI")
+0790:Call ucrtbase.wcscmp(3cd2cd3915c L"dlsstweaks.ini",6ffffe34b3e0 L".") ret=6ffffe2f7984
+0790:Call ucrtbase.wcscmp(3cd2cd3915c L"dlsstweaks.ini",6ffffe34b3e4 L"..") ret=6ffffe2f7996
+0790:trace:file:FindNextFileW returning L"dlsstweaks.ini.backup" (L"DLSS~SMA.BAC")
+0790:Call ucrtbase.wcscmp(3cd2cd3915c L"dlsstweaks.ini.backup",6ffffe34b3e0 L".") ret=6ffffe2f7984
+0790:Call ucrtbase.wcscmp(3cd2cd3915c L"dlsstweaks.ini.backup",6ffffe34b3e4 L"..") ret=6ffffe2f7996
+0790:trace:file:FindNextFileW returning L"dlsstweaks.log" (L"DLSS~F2X.LOG")
+0790:Call ucrtbase.wcscmp(3cd2cd3915c L"dlsstweaks.log",6ffffe34b3e0 L".") ret=6ffffe2f7984
+0790:Call ucrtbase.wcscmp(3cd2cd3915c L"dlsstweaks.log",6ffffe34b3e4 L"..") ret=6ffffe2f7996
+0790:trace:file:CreateFileW L"\\??\\C:\\windows\\system32\\nvngx.dll" GENERIC_READ GENERIC_WRITE  creation 3 attributes 0x2200000
+0790:Call ntdll.RtlDosPathNameToNtPathName_U(399050f6a30 L"\\??\\C:\\windows\\system32\\nvngx.dll",3cd2cd38f20,00000000,00000000) ret=6fffffc040e0
+0790:trace:file:RtlDosPathNameToNtPathName_U_WithStatus (L"\\??\\C:\\windows\\system32\\nvngx.dll",000003CD2CD38F20,0000000000000000,0000000000000000)
+0790:trace:file:NtCreateFile handle=0x3cd2cd38f08 access=c0100080 name=L"\\??\\C:\\windows\\system32\\nvngx.dll" objattr=00000040 root=(nil) sec=(nil) io=0x3cd2cd38f30 alloc_size=(nil) attr=00000000 sharing=00000000 disp=1 options=00204020 ea=(nil).0x00000000
+0790:trace:file:nt_to_unix_file_name_no_root L"\\??\\C:\\windows\\system32\\nvngx.dll" -> "/home/hans/Games/star-citizen/dosdevices/c:/windows/system32/nvngx.dll"
+0790:trace:file:FindNextFileW returning L"nvngx.dll" (L"")
+0790:Call ucrtbase.wcscmp(3cd2cd3915c L"nvngx.dll",6ffffe34b3e0 L".") ret=6ffffe2f7984
+0790:Call ucrtbase.wcscmp(3cd2cd3915c L"nvngx.dll",6ffffe34b3e4 L"..") ret=6ffffe2f7996
+0790:trace:file:FindNextFileW returning L"nvngx.dll.orig" (L"NVNG~TA1.ORI")
+0790:Call ucrtbase.wcscmp(3cd2cd3915c L"nvngx.dll.orig",6ffffe34b3e0 L".") ret=6ffffe2f7984
+0790:Call ucrtbase.wcscmp(3cd2cd3915c L"nvngx.dll.orig",6ffffe34b3e4 L"..") ret=6ffffe2f7996
+0790:trace:file:CreateFileW L"\\??\\C:\\windows\\system32\\nvngx_dlss.dll" GENERIC_READ GENERIC_WRITE  creation 3 attributes 0x2200000
+0790:Call ntdll.RtlDosPathNameToNtPathName_U(0021a910 L"\\??\\C:\\windows\\system32\\nvngx_dlss.dll",3cd2cd38f20,00000000,00000000) ret=6fffffc040e0
+0790:trace:file:RtlDosPathNameToNtPathName_U_WithStatus (L"\\??\\C:\\windows\\system32\\nvngx_dlss.dll",000003CD2CD38F20,0000000000000000,0000000000000000)
+0790:trace:file:NtCreateFile handle=0x3cd2cd38f08 access=c0100080 name=L"\\??\\C:\\windows\\system32\\nvngx_dlss.dll" objattr=00000040 root=(nil) sec=(nil) io=0x3cd2cd38f30 alloc_size=(nil) attr=00000000 sharing=00000000 disp=1 options=00204020 ea=(nil).0x00000000
+0790:trace:file:nt_to_unix_file_name_no_root L"\\??\\C:\\windows\\system32\\nvngx_dlss.dll" -> "/home/hans/Games/star-citizen/dosdevices/c:/windows/system32/nvngx_dlss.dll"
+0790:trace:file:FindNextFileW returning L"nvngx_dlss.dll" (L"NVNG~MVA.DLL")
+0790:Call ucrtbase.wcscmp(3cd2cd3915c L"nvngx_dlss.dll",6ffffe34b3e0 L".") ret=6ffffe2f7984
+0790:Call ucrtbase.wcscmp(3cd2cd3915c L"nvngx_dlss.dll",6ffffe34b3e4 L"..") ret=6ffffe2f7996
+0790:trace:file:CreateFileW L"\\??\\C:\\windows\\system32\\nvngx_dlssg.dll" GENERIC_READ GENERIC_WRITE  creation 3 attributes 0x2200000
+0790:Call ntdll.RtlDosPathNameToNtPathName_U(0021a910 L"\\??\\C:\\windows\\system32\\nvngx_dlssg.dll",3cd2cd38f20,00000000,00000000) ret=6fffffc040e0
+0790:trace:file:RtlDosPathNameToNtPathName_U_WithStatus (L"\\??\\C:\\windows\\system32\\nvngx_dlssg.dll",000003CD2CD38F20,0000000000000000,0000000000000000)
+0790:trace:file:NtCreateFile handle=0x3cd2cd38f08 access=c0100080 name=L"\\??\\C:\\windows\\system32\\nvngx_dlssg.dll" objattr=00000040 root=(nil) sec=(nil) io=0x3cd2cd38f30 alloc_size=(nil) attr=00000000 sharing=00000000 disp=1 options=00204020 ea=(nil).0x00000000
+0790:trace:file:nt_to_unix_file_name_no_root L"\\??\\C:\\windows\\system32\\nvngx_dlssg.dll" -> "/home/hans/Games/star-citizen/dosdevices/c:/windows/system32/nvngx_dlssg.dll"
+0790:trace:file:FindNextFileW returning L"nvngx_dlssg.dll" (L"NVNG~3IP.DLL")
+0790:Call ucrtbase.wcscmp(3cd2cd3915c L"nvngx_dlssg.dll",6ffffe34b3e0 L".") ret=6ffffe2f7984
+0790:Call ucrtbase.wcscmp(3cd2cd3915c L"nvngx_dlssg.dll",6ffffe34b3e4 L"..") ret=6ffffe2f7996
+0790:trace:file:CreateFileW L"\\??\\C:\\windows\\system32\\_nvngx.dll" GENERIC_READ GENERIC_WRITE  creation 3 attributes 0x2200000
+0790:Call ntdll.RtlDosPathNameToNtPathName_U(399050f6a30 L"\\??\\C:\\windows\\system32\\_nvngx.dll",3cd2cd38f20,00000000,00000000) ret=6fffffc040e0
+0790:trace:file:RtlDosPathNameToNtPathName_U_WithStatus (L"\\??\\C:\\windows\\system32\\_nvngx.dll",000003CD2CD38F20,0000000000000000,0000000000000000)
+0790:trace:file:NtCreateFile handle=0x3cd2cd38f08 access=c0100080 name=L"\\??\\C:\\windows\\system32\\_nvngx.dll" objattr=00000040 root=(nil) sec=(nil) io=0x3cd2cd38f30 alloc_size=(nil) attr=00000000 sharing=00000000 disp=1 options=00204020 ea=(nil).0x00000000
+0790:trace:file:nt_to_unix_file_name_no_root L"\\??\\C:\\windows\\system32\\_nvngx.dll" -> "/home/hans/Games/star-citizen/dosdevices/c:/windows/system32/_nvngx.dll"
+0790:trace:file:FindNextFileW returning L"_nvngx.dll" (L"")
+0790:Call ucrtbase.wcscmp(3cd2cd3915c L"_nvngx.dll",6ffffe34b3e0 L".") ret=6ffffe2f7984
+0790:Call ucrtbase.wcscmp(3cd2cd3915c L"_nvngx.dll",6ffffe34b3e4 L"..") ret=6ffffe2f7996
+0790:trace:file:FindNextFileW returning L"_nvngx.dll.orig" (L"_NVN~2GH.ORI")
+0790:Call ucrtbase.wcscmp(3cd2cd3915c L"_nvngx.dll.orig",6ffffe34b3e0 L".") ret=6ffffe2f7984
+0790:Call ucrtbase.wcscmp(3cd2cd3915c L"_nvngx.dll.orig",6ffffe34b3e4 L"..") ret=6ffffe2f7996
+0790:trace:file:append_entry long L"nvngx_dlss.dll" short L"NVNG~MVA.DLL" mask L"*\"*"
+0790:trace:file:init_cached_dir_data L"nvngx_dlss.dll" L"NVNG~MVA.DLL"
+0790:trace:file:FindNextFileW returning L"nvngx_dlss.dll" (L"NVNG~MVA.DLL")
+0790:Call ucrtbase.wcscmp(3cd2cd3915c L"nvngx_dlss.dll",6ffffe34b3e0 L".") ret=6ffffe2f7984
+0790:Call ucrtbase.wcscmp(3cd2cd3915c L"nvngx_dlss.dll",6ffffe34b3e4 L"..") ret=6ffffe2f7996
+0790:trace:file:append_entry long L"nvngx_dlss.dll" short L"NVNG~MVA.DLL" mask L"*\"*"
+0790:trace:file:init_cached_dir_data L"nvngx_dlss.dll" L"NVNG~MVA.DLL"
+0790:trace:file:FindNextFileW returning L"nvngx_dlss.dll" (L"NVNG~MVA.DLL")
+0790:Call ucrtbase.wcscmp(3cd2cd3915c L"nvngx_dlss.dll",6ffffe34b3e0 L".") ret=6ffffe2f7984
+0790:Call ucrtbase.wcscmp(3cd2cd3915c L"nvngx_dlss.dll",6ffffe34b3e4 L"..") ret=6ffffe2f7996
+0790:trace:file:append_entry long L"nvngx_dlss.dll" short L"NVNG~MVA.DLL" mask L"*\"*"
+0790:trace:file:init_cached_dir_data L"nvngx_dlss.dll" L"NVNG~MVA.DLL"
+0790:trace:file:FindNextFileW returning L"nvngx_dlss.dll" (L"NVNG~MVA.DLL")
+0790:Call ucrtbase.wcscmp(3cd2cd3915c L"nvngx_dlss.dll",6ffffe34b3e0 L".") ret=6ffffe2f7984
+0790:Call ucrtbase.wcscmp(3cd2cd3915c L"nvngx_dlss.dll",6ffffe34b3e4 L"..") ret=6ffffe2f7996
+07e8:trace:file:append_entry long L"nvngx.dll" short L"" mask L"powershell.exe\"*"
+07e8:trace:file:append_entry long L"_nvngx.dll.orig" short L"_NVN~2GH.ORI" mask L"powershell.exe\"*"
+07e8:trace:file:append_entry long L"nvngx_dlss.dll" short L"NVNG~MVA.DLL" mask L"powershell.exe\"*"
+07e8:trace:file:append_entry long L"dlsstweaks.ini.backup" short L"DLSS~SMA.BAC" mask L"powershell.exe\"*"
+07e8:trace:file:append_entry long L"dlsstweaks.ini" short L"DLSS~JFI.INI" mask L"powershell.exe\"*"
+07e8:trace:file:append_entry long L"nvngx.dll.orig" short L"NVNG~TA1.ORI" mask L"powershell.exe\"*"
+07e8:trace:file:append_entry long L"dlsstweaks.log" short L"DLSS~F2X.LOG" mask L"powershell.exe\"*"
+07e8:trace:file:append_entry long L"_nvngx.dll" short L"" mask L"powershell.exe\"*"
+07e8:trace:file:append_entry long L"nvngx_dlssg.dll" short L"NVNG~3IP.DLL" mask L"powershell.exe\"*"
+07e8:trace:file:append_entry long L"nvngx.dll" short L"" mask L"powershell.exe\"*"
+07e8:trace:file:append_entry long L"_nvngx.dll.orig" short L"_NVN~2GH.ORI" mask L"powershell.exe\"*"
+07e8:trace:file:append_entry long L"nvngx_dlss.dll" short L"NVNG~MVA.DLL" mask L"powershell.exe\"*"
+07e8:trace:file:append_entry long L"dlsstweaks.ini.backup" short L"DLSS~SMA.BAC" mask L"powershell.exe\"*"
+07e8:trace:file:append_entry long L"dlsstweaks.ini" short L"DLSS~JFI.INI" mask L"powershell.exe\"*"
+07e8:trace:file:append_entry long L"nvngx.dll.orig" short L"NVNG~TA1.ORI" mask L"powershell.exe\"*"
+07e8:trace:file:append_entry long L"dlsstweaks.log" short L"DLSS~F2X.LOG" mask L"powershell.exe\"*"
+07e8:trace:file:append_entry long L"_nvngx.dll" short L"" mask L"powershell.exe\"*"
+07e8:trace:file:append_entry long L"nvngx_dlssg.dll" short L"NVNG~3IP.DLL" mask L"powershell.exe\"*"
+07e8:trace:file:append_entry long L"nvngx.dll" short L"" mask L"WindowsPowershell"
+07e8:trace:file:append_entry long L"_nvngx.dll.orig" short L"_NVN~2GH.ORI" mask L"WindowsPowershell"
+07e8:trace:file:append_entry long L"nvngx_dlss.dll" short L"NVNG~MVA.DLL" mask L"WindowsPowershell"
+07e8:trace:file:append_entry long L"dlsstweaks.ini.backup" short L"DLSS~SMA.BAC" mask L"WindowsPowershell"
+07e8:trace:file:append_entry long L"dlsstweaks.ini" short L"DLSS~JFI.INI" mask L"WindowsPowershell"
+07e8:trace:file:append_entry long L"nvngx.dll.orig" short L"NVNG~TA1.ORI" mask L"WindowsPowershell"
+07e8:trace:file:append_entry long L"dlsstweaks.log" short L"DLSS~F2X.LOG" mask L"WindowsPowershell"
+07e8:trace:file:append_entry long L"_nvngx.dll" short L"" mask L"WindowsPowershell"
+07e8:trace:file:append_entry long L"nvngx_dlssg.dll" short L"NVNG~3IP.DLL" mask L"WindowsPowershell"
+07e8:trace:file:append_entry long L"nvngx.dll" short L"" mask L"WindowsPowershell"
+07e8:trace:file:append_entry long L"_nvngx.dll.orig" short L"_NVN~2GH.ORI" mask L"WindowsPowershell"
+07e8:trace:file:append_entry long L"nvngx_dlss.dll" short L"NVNG~MVA.DLL" mask L"WindowsPowershell"
+07e8:trace:file:append_entry long L"dlsstweaks.ini.backup" short L"DLSS~SMA.BAC" mask L"WindowsPowershell"
+07e8:trace:file:append_entry long L"dlsstweaks.ini" short L"DLSS~JFI.INI" mask L"WindowsPowershell"
+07e8:trace:file:append_entry long L"nvngx.dll.orig" short L"NVNG~TA1.ORI" mask L"WindowsPowershell"
+07e8:trace:file:append_entry long L"dlsstweaks.log" short L"DLSS~F2X.LOG" mask L"WindowsPowershell"
+07e8:trace:file:append_entry long L"_nvngx.dll" short L"" mask L"WindowsPowershell"
+07e8:trace:file:append_entry long L"nvngx_dlssg.dll" short L"NVNG~3IP.DLL" mask L"WindowsPowershell"
+07e8:trace:file:append_entry long L"nvngx.dll" short L"" mask L"WindowsPowershell"
+07e8:trace:file:append_entry long L"_nvngx.dll.orig" short L"_NVN~2GH.ORI" mask L"WindowsPowershell"
+07e8:trace:file:append_entry long L"nvngx_dlss.dll" short L"NVNG~MVA.DLL" mask L"WindowsPowershell"
+07e8:trace:file:append_entry long L"dlsstweaks.ini.backup" short L"DLSS~SMA.BAC" mask L"WindowsPowershell"
+07e8:trace:file:append_entry long L"dlsstweaks.ini" short L"DLSS~JFI.INI" mask L"WindowsPowershell"
+07e8:trace:file:append_entry long L"nvngx.dll.orig" short L"NVNG~TA1.ORI" mask L"WindowsPowershell"
+07e8:trace:file:append_entry long L"dlsstweaks.log" short L"DLSS~F2X.LOG" mask L"WindowsPowershell"
+07e8:trace:file:append_entry long L"_nvngx.dll" short L"" mask L"WindowsPowershell"
+07e8:trace:file:append_entry long L"nvngx_dlssg.dll" short L"NVNG~3IP.DLL" mask L"WindowsPowershell"
+07e8:trace:file:append_entry long L"nvngx.dll" short L"" mask L"WindowsPowershell"
+07e8:trace:file:append_entry long L"_nvngx.dll.orig" short L"_NVN~2GH.ORI" mask L"WindowsPowershell"
+07e8:trace:file:append_entry long L"nvngx_dlss.dll" short L"NVNG~MVA.DLL" mask L"WindowsPowershell"
+07e8:trace:file:append_entry long L"dlsstweaks.ini.backup" short L"DLSS~SMA.BAC" mask L"WindowsPowershell"
+07e8:trace:file:append_entry long L"dlsstweaks.ini" short L"DLSS~JFI.INI" mask L"WindowsPowershell"
+07e8:trace:file:append_entry long L"nvngx.dll.orig" short L"NVNG~TA1.ORI" mask L"WindowsPowershell"
+07e8:trace:file:append_entry long L"dlsstweaks.log" short L"DLSS~F2X.LOG" mask L"WindowsPowershell"
+07e8:trace:file:append_entry long L"_nvngx.dll" short L"" mask L"WindowsPowershell"
+07e8:trace:file:append_entry long L"nvngx_dlssg.dll" short L"NVNG~3IP.DLL" mask L"WindowsPowershell"
+03b0:trace:file:append_entry long L"nvngx.dll" short L"" mask <null>
+03b0:trace:file:append_entry long L"_nvngx.dll.orig" short L"_NVN~2GH.ORI" mask <null>
+03b0:trace:file:append_entry long L"nvngx_dlss.dll" short L"NVNG~MVA.DLL" mask <null>
+03b0:trace:file:append_entry long L"dlsstweaks.ini.backup" short L"DLSS~SMA.BAC" mask <null>
+03b0:trace:file:append_entry long L"dlsstweaks.ini" short L"DLSS~JFI.INI" mask <null>
+03b0:trace:file:append_entry long L"nvngx.dll.orig" short L"NVNG~TA1.ORI" mask <null>
+03b0:trace:file:append_entry long L"dlsstweaks.log" short L"DLSS~F2X.LOG" mask <null>
+03b0:trace:file:append_entry long L"_nvngx.dll" short L"" mask <null>
+03b0:trace:file:append_entry long L"nvngx_dlssg.dll" short L"NVNG~3IP.DLL" mask <null>
+03b0:trace:file:init_cached_dir_data L"dlsstweaks.ini" L"DLSS~JFI.INI"
+03b0:trace:file:init_cached_dir_data L"dlsstweaks.ini.backup" L"DLSS~SMA.BAC"
+03b0:trace:file:init_cached_dir_data L"dlsstweaks.log" L"DLSS~F2X.LOG"
+03b0:trace:file:init_cached_dir_data L"nvngx.dll" L""
+03b0:trace:file:init_cached_dir_data L"nvngx.dll.orig" L"NVNG~TA1.ORI"
+03b0:trace:file:init_cached_dir_data L"nvngx_dlss.dll" L"NVNG~MVA.DLL"
+03b0:trace:file:init_cached_dir_data L"nvngx_dlssg.dll" L"NVNG~3IP.DLL"
+03b0:trace:file:init_cached_dir_data L"_nvngx.dll" L""
+03b0:trace:file:init_cached_dir_data L"_nvngx.dll.orig" L"_NVN~2GH.ORI"
+03b0:trace:file:append_entry long L"nvngx.dll" short L"" mask <null>
+03b0:trace:file:append_entry long L"_nvngx.dll.orig" short L"_NVN~2GH.ORI" mask <null>
+03b0:trace:file:append_entry long L"nvngx_dlss.dll" short L"NVNG~MVA.DLL" mask <null>
+03b0:trace:file:append_entry long L"dlsstweaks.ini.backup" short L"DLSS~SMA.BAC" mask <null>
+03b0:trace:file:append_entry long L"dlsstweaks.ini" short L"DLSS~JFI.INI" mask <null>
+03b0:trace:file:append_entry long L"nvngx.dll.orig" short L"NVNG~TA1.ORI" mask <null>
+03b0:trace:file:append_entry long L"dlsstweaks.log" short L"DLSS~F2X.LOG" mask <null>
+03b0:trace:file:append_entry long L"_nvngx.dll" short L"" mask <null>
+03b0:trace:file:append_entry long L"nvngx_dlssg.dll" short L"NVNG~3IP.DLL" mask <null>
+03b0:trace:file:init_cached_dir_data L"dlsstweaks.ini" L"DLSS~JFI.INI"
+03b0:trace:file:init_cached_dir_data L"dlsstweaks.ini.backup" L"DLSS~SMA.BAC"
+03b0:trace:file:init_cached_dir_data L"dlsstweaks.log" L"DLSS~F2X.LOG"
+03b0:trace:file:init_cached_dir_data L"nvngx.dll" L""
+03b0:trace:file:init_cached_dir_data L"nvngx.dll.orig" L"NVNG~TA1.ORI"
+03b0:trace:file:init_cached_dir_data L"nvngx_dlss.dll" L"NVNG~MVA.DLL"
+03b0:trace:file:init_cached_dir_data L"nvngx_dlssg.dll" L"NVNG~3IP.DLL"
+03b0:trace:file:init_cached_dir_data L"_nvngx.dll" L""
+03b0:trace:file:init_cached_dir_data L"_nvngx.dll.orig" L"_NVN~2GH.ORI"
+0604:trace:file:append_entry long L"nvngx.dll" short L"" mask L"chcp\"*"
+0604:trace:file:append_entry long L"_nvngx.dll.orig" short L"_NVN~2GH.ORI" mask L"chcp\"*"
+0604:trace:file:append_entry long L"nvngx_dlss.dll" short L"NVNG~MVA.DLL" mask L"chcp\"*"
+0604:trace:file:append_entry long L"dlsstweaks.ini.backup" short L"DLSS~SMA.BAC" mask L"chcp\"*"
+0604:trace:file:append_entry long L"dlsstweaks.ini" short L"DLSS~JFI.INI" mask L"chcp\"*"
+0604:trace:file:append_entry long L"nvngx.dll.orig" short L"NVNG~TA1.ORI" mask L"chcp\"*"
+0604:trace:file:append_entry long L"dlsstweaks.log" short L"DLSS~F2X.LOG" mask L"chcp\"*"
+0604:trace:file:append_entry long L"_nvngx.dll" short L"" mask L"chcp\"*"
+0604:trace:file:append_entry long L"nvngx_dlssg.dll" short L"NVNG~3IP.DLL" mask L"chcp\"*"
