@@ -1,0 +1,1167 @@
+0134:fixme:winediag:loader_init Wine TkG (staging) 10.10 is a testing version containing experimental patches.
+0134:fixme:winediag:loader_init Please don't report bugs about it on winehq.org and use https://github.com/Frogging-Family/wine-tkg-git/issues instead.
+0144:fixme:powrprof:PowerRegisterSuspendResumeNotification (0x00000002,000000000081FD70,000000000081FD68) stub!
+0144:fixme:process:GetProcessMitigationPolicy (FFFFFFFFFFFFFFFF, 4, 000000000081FCE4, 4): stub
+0144:fixme:uxtheme:SetPreferredAppMode 1: stub
+0144:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+
+0144:fixme:winstation:GetUserObjectSecurity (0000000000000004 000000000081F6E0 0000000000000000 len=0 000000000081F67C),stub!
+0144:fixme:winstation:GetUserObjectSecurity (0000000000000004 000000000081F6E0 0000000000DB6340 len=40 000000000081F67C),stub!
+0144:fixme:winstation:GetUserObjectSecurity (0000000000000008 000000000081F660 0000000000000000 len=0 000000000081F5FC),stub!
+0144:fixme:winstation:GetUserObjectSecurity (0000000000000008 000000000081F660 0000000000DB6340 len=40 000000000081F5FC),stub!
+0144:fixme:nls:RtlGetThreadPreferredUILanguages 00000038, 000000000081F65C, 0000000000000000 000000000081F658
+0144:fixme:nls:get_dummy_preferred_ui_language (0x38 0x407 000000000081F65C 0000000000000000 000000000081F658) returning a dummy value (current locale)
+0144:fixme:nls:RtlGetThreadPreferredUILanguages 00000038, 000000000081F65C, 000000000081F642 000000000081F658
+0144:fixme:nls:get_dummy_preferred_ui_language (0x38 0x407 000000000081F65C 000000000081F642 000000000081F658) returning a dummy value (current locale)
+0170:fixme:thread:NtSetInformationThread info class 24 not supported yet
+0170:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+0144:fixme:ntdll:EtwEventSetInformation (deadbeef, 2, 00007970000510A8, 16) stub
+0144:fixme:win:RegisterSuspendResumeNotification 0000000000010062, 0: stub.
+0144:fixme:ntdll:NtQuerySystemInformation info_class SYSTEM_PERFORMANCE_INFORMATION
+0178:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+0144:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+0180:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFFFFFFFFFA, 0000000006E3FF50
+0144:fixme:ntdll:EtwEventSetInformation (deadbeef, 2, 000000014B7C6625, 8) stub
+0144:fixme:ver:GetPackageFamilyName (FFFFFFFFFFFFFFFF 000000000081F11C 000000000081F120): stub
+0198:fixme:powrprof:PowerRegisterSuspendResumeNotification (0x00000002,000000000081FD70,000000000081FD68) stub!
+0198:fixme:process:SetProcessShutdownParameters (00000100, 00000001): partial stub.
+01a4:fixme:file:NtLockFile I/O completion on lock not implemented yet
+0144:fixme:file:NtLockFile I/O completion on lock not implemented yet
+(node:320) [DEP0180] DeprecationWarning: fs.Stats constructor is deprecated.
+(Use `RSI Launcher --trace-deprecation ...` to show where the warning was created)
+0144:fixme:winsock:WSALookupServiceBeginW (000000000081F130 0xff0 000000000081F1A8) Stub!
+[320:0714/140703.784:ERROR:network_change_notifier_win.cc(188)] WSALookupServiceBegin failed with: 8
+01cc:fixme:thread:NtSetInformationThread info class 24 not supported yet
+01cc:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+0144:fixme:win:GetPointerDevices (000000000081EB04 0000000000000000): partial stub
+0144:fixme:win:GetPointerDevices (000000000081EB04 0000000000000000): partial stub
+0144:fixme:system:NtUserDisplayConfigGetDeviceInfo Unimplemented packet type 11.
+0144:fixme:combase:RoActivateInstance (0000000006488D70, 000000000081EA68): semi-stub
+0144:fixme:combase:RoGetActivationFactory (L"Windows.UI.ViewManagement.UISettings", {00000035-0000-0000-c000-000000000046}, 000000000081E8D8): semi-stub
+0144:fixme:ui:uisettings2_add_TextScaleFactorChanged iface 000000006D0DA0C8, handler 0000797403105F80, cookie 000000014BD6A880 stub!
+0144:fixme:ui:uisettings2_get_TextScaleFactor iface 000000006D0DA0C8, value 000000000081EAA0 stub!
+0144:fixme:win:GetPointerDevices (000000000081EB04 0000000000000000): partial stub
+0144:fixme:win:GetPointerDevices (000000000081EB04 0000000000000000): partial stub
+0144:fixme:system:NtUserDisplayConfigGetDeviceInfo Unimplemented packet type 11.
+0144:fixme:ui:uisettings2_get_TextScaleFactor iface 000000006D0DA0C8, value 000000000081EAA0 stub!
+01d8:fixme:wtsapi:WTSRegisterSessionNotification Stub 0000000000010068 0x00000000
+01ec:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+01ec:fixme:dxcore:dxcore_adapter_factory_CreateAdapterList iface 00000000065AECA0, num_attributes 1, filter_attributes 000000007037F4C0, riid {526c7776-40e9-459b-b711-f32ad76dfc28}, out 000000007037F3D0 semi-stub!
+[2025-07-14 14:07:03.893] [MANGOHUD] [info] [blacklist.cpp:75] process 'RSI Launcher.exe' is blacklisted in MangoHud
+[1;37mlsfg-vk(hooks): Instance created successfully: 7f6b3c006e00[0m
+0144:fixme:dxcore:dxcore_adapter_factory_CreateAdapterList iface 00000000065AECA0, num_attributes 1, filter_attributes 000000000081BFD0, riid {526c7776-40e9-459b-b711-f32ad76dfc28}, out 000000000081BEE0 semi-stub!
+01ec:fixme:dxcore:dxcore_adapter_GetProperty property 11 not implemented.
+0144:fixme:dxcore:dxcore_adapter_GetProperty property 11 not implemented.
+info:  Game: RSI Launcher.exe
+info:  DXVK: v2.7-2-ge940893bdc00c3f
+info:  Build: x86_64 gcc 10.3.0
+info:  Vulkan: Found vkGetInstanceProcAddr in winevulkan.dll @ 0x6ffffe3ee880
+info:  Extension providers:
+info:    Platform WSI
+info:    OpenVR
+info:  OpenVR: could not open registry key, status 2
+info:  OpenVR: Failed to locate module
+info:    OpenXR
+warn:  OpenXR: Unable to get required Vulkan instance extensions size
+info:  Enabled instance extensions:
+info:    VK_EXT_surface_maintenance1
+info:    VK_KHR_get_surface_capabilities2
+info:    VK_KHR_surface
+info:    VK_KHR_win32_surface
+[1;37mlsfg-vk(hooks): Instance created successfully: 7f6b3c7289f0[0m
+info:  Found device: NVIDIA GeForce RTX 4080 (NVIDIA 575.64.3)
+warn:  OpenXR: Unable to get required Vulkan Device extensions size
+[1;37mlsfg-vk(hooks): Instance destroyed successfully: 7f6b3c7289f0[0m
+[1;37mlsfg-vk(hooks): Instance created successfully: 7f6b3c7289f0[0m
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x1f4,0x81d110,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x1f4,0x81d110,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x1f4,0x81d110,0x00000010,(nil)) stub
+016c:fixme:combase:RoGetActivationFactory (L"Windows.Devices.Input.PenDevice", {9dfbbe01-0966-5180-bcb4-b85060e39479}, 000000014BD93B68): semi-stub
+016c:err:combase:RoGetActivationFactory Failed to find library for L"Windows.Devices.Input.PenDevice"
+0144:fixme:dwmapi:DwmSetWindowAttribute (000000000002009C, 14, 000000000081C74C, 4) stub
+0144:fixme:uxtheme:AllowDarkModeForWindow 000000000002009C 1: stub
+01d8:fixme:wtsapi:WTSRegisterSessionNotification Stub 0000000000010068 0x00000000
+0144:fixme:dwmapi:DwmExtendFrameIntoClientArea (000000000002009C, 000000000081C970) stub
+016c:fixme:file:ReplaceFileW Ignoring flags 2
+021c:err:ole:com_get_class_object class {7ab36653-1796-484b-bdfa-e74f1db7c1dc} not registered
+021c:err:ole:create_server class {7ab36653-1796-484b-bdfa-e74f1db7c1dc} not registered
+021c:err:ole:com_get_class_object no class object {7ab36653-1796-484b-bdfa-e74f1db7c1dc} could be created for context 0x5
+0144:fixme:dwrite:dwritefontface5_HasVariations 000000006D299C80: stub
+0144:fixme:combase:RoGetActivationFactory (L"Windows.System.UserProfile.GlobalizationPreferences", {01bf4326-ed37-4e96-b0e9-c1340d1ea158}, 000000000081C948): semi-stub
+0144:fixme:ui:uisettings2_get_TextScaleFactor iface 000000006D0DA0C8, value 000000000081C060 stub!
+0144:fixme:win:RegisterPowerSettingNotification (0000000000010068,{2b84c20e-ad23-4ddf-93db-05ffbd7efca5},0): stub
+0144:err:ole:com_get_class_object class {aa509086-5ca9-4c25-8f95-589d3c07b48a} not registered
+0144:err:ole:com_get_class_object class {aa509086-5ca9-4c25-8f95-589d3c07b48a} not registered
+0144:err:ole:create_server class {aa509086-5ca9-4c25-8f95-589d3c07b48a} not registered
+0144:fixme:ole:com_get_class_object CLSCTX_REMOTE_SERVER not supported
+0144:err:ole:com_get_class_object no class object {aa509086-5ca9-4c25-8f95-589d3c07b48a} could be created for context 0x17
+0144:fixme:shcore:GetCurrentProcessExplicitAppUserModelID 000000000081C7C0: stub
+0144:fixme:manipulation:viewport_ActivateConfiguration 000000006D2B8C30, 823
+0144:fixme:manipulation:viewport_SetViewportOptions 000000006D2B8C30, 2
+0144:fixme:manipulation:viewport_AddEventHandler 000000006D2B8C30, 00000000000100A8, 0000797403535F20, 0000797403536070
+0144:fixme:manipulation:viewport_Stop 000000006D2B8C30
+0144:fixme:manipulation:viewport_RemoveEventHandler 000000006D2B8C30, 114
+0144:fixme:manipulation:viewport_Abandon 000000006D2B8C30
+0144:fixme:manipulation:direct_manip_Deactivate 000000006D2B8BD0, 00000000000100A8
+0144:fixme:msctf:SetInputScope STUB: 000000000002009C 0
+0144:fixme:manipulation:viewport_ActivateConfiguration 000000006D2B8C30, 823
+0144:fixme:manipulation:viewport_SetViewportOptions 000000006D2B8C30, 2
+0144:fixme:manipulation:viewport_AddEventHandler 000000006D2B8C30, 00000000000100A8, 0000797403535F20, 0000797403536070
+0144:fixme:manipulation:viewport_Stop 000000006D2B8C30
+0144:fixme:manipulation:viewport_RemoveEventHandler 000000006D2B8C30, 114
+0144:fixme:manipulation:viewport_Abandon 000000006D2B8C30
+0144:fixme:manipulation:direct_manip_Deactivate 000000006D2B8BD0, 00000000000100A8
+0144:fixme:manipulation:viewport_ActivateConfiguration 000000006D2B8C30, 823
+0144:fixme:manipulation:viewport_SetViewportOptions 000000006D2B8C30, 2
+0144:fixme:manipulation:viewport_AddEventHandler 000000006D2B8C30, 00000000000100A8, 0000797403535F20, 0000797403536070
+0144:fixme:manipulation:viewport_Stop 000000006D2B8C30
+0144:fixme:manipulation:viewport_RemoveEventHandler 000000006D2B8C30, 114
+0144:fixme:manipulation:viewport_Abandon 000000006D2B8C30
+0144:fixme:manipulation:direct_manip_Deactivate 000000006D2B8BD0, 00000000000100A8
+0144:fixme:manipulation:viewport_ActivateConfiguration 000000006D2B8C30, 823
+0144:fixme:manipulation:viewport_SetViewportOptions 000000006D2B8C30, 2
+0144:fixme:manipulation:viewport_AddEventHandler 000000006D2B8C30, 00000000000100A8, 00007974035375A0, 0000797403537570
+0144:fixme:manipulation:viewport_Stop 000000006D2B8C30
+0144:fixme:manipulation:viewport_RemoveEventHandler 000000006D2B8C30, 0
+0144:fixme:manipulation:viewport_Abandon 000000006D2B8C30
+0144:fixme:manipulation:direct_manip_Deactivate 000000006D2B8BD0, 00000000000100A8
+014c:fixme:icon:NtUserDrawIconEx Error retrieving icon frame 0
+014c:fixme:icon:NtUserDrawIconEx Error retrieving icon frame 0
+014c:fixme:icon:NtUserDrawIconEx Error retrieving icon frame 0
+014c:fixme:icon:NtUserDrawIconEx Error retrieving icon frame 0
+0214:fixme:process:CreateProcessInternalW Unsupported attribute 0x20007.
+0144:fixme:manipulation:viewport_ActivateConfiguration 000000006D2B8C30, 823
+0144:fixme:manipulation:viewport_SetViewportOptions 000000006D2B8C30, 2
+0144:fixme:manipulation:viewport_AddEventHandler 000000006D2B8C30, 00000000000100A8, 0000797403537220, 0000797403537EF0
+0144:fixme:manipulation:viewport_Stop 000000006D2B8C30
+0144:fixme:manipulation:viewport_RemoveEventHandler 000000006D2B8C30, 0
+0144:fixme:manipulation:viewport_Abandon 000000006D2B8C30
+0144:fixme:manipulation:direct_manip_Deactivate 000000006D2B8BD0, 00000000000100A8
+0144:fixme:manipulation:viewport_ActivateConfiguration 000000006D2B8C30, 823
+0144:fixme:manipulation:viewport_SetViewportOptions 000000006D2B8C30, 2
+0144:fixme:manipulation:viewport_AddEventHandler 000000006D2B8C30, 00000000000100A8, 0000797403537220, 0000797403537EF0
+0144:fixme:manipulation:viewport_Stop 000000006D2B8C30
+0144:fixme:manipulation:viewport_RemoveEventHandler 000000006D2B8C30, 0
+0144:fixme:manipulation:viewport_Abandon 000000006D2B8C30
+0144:fixme:manipulation:direct_manip_Deactivate 000000006D2B8BD0, 00000000000100A8
+0144:fixme:shcore:SetCurrentProcessExplicitAppUserModelID L"rsilauncher": stub
+14:07:04.220 > "[Analytics] event sent : App:Open"
+14:07:04.221 > electron-log.transports.file: resolvePath is deprecated. Use resolvePathFn instead
+[1;37mlsfg-vk(hooks): Device created successfully: 7f6b3cc34200[0m
+[1;37mlsfg-vk(hooks): Device info created successfully for: 7f6b3cc34200[0m
+0240:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFFFFFFFFFA, 000000007A77FF50
+0244:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+0144:fixme:iphlpapi:GetBestRoute2 (00007974005C80E0, 0, 0000000000000000, 00007974005C8280, 0x00000000, 000000000081D330, 000000000081D430): stub
+(node:320) [KOFFI003] DeprecationWarning: The koffi.cdecl() function was deprecated in Koffi 2.7, use koffi.func(...) instead
+0144:fixme:systray:Shell_NotifyIconGetRect stub (000000000081EDB0) (000000000081EDA0)
+01cc:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+0250:fixme:thread:NtSetInformationThread info class 24 not supported yet
+0250:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x1f4,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x1f4,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x1f4,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x1f4,0x81ce70,0x00000010,(nil)) stub
+01cc:fixme:netprofm:connection_point_Advise 000000006D36CCB8, 00007974037BD6D0, 00007974037BD6E8 - semi-stub
+01cc:fixme:netprofm:cost_manager_GetCost 000000006D36CC48, 000000006B8BF7B0, 0000000000000000
+01cc:fixme:thread:NtSetInformationThread info class 24 not supported yet
+01cc:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x1f4,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x1f4,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:GetProcessInformation Unsupported information class 4.
+0144:fixme:systray:Shell_NotifyIconGetRect stub (000000000081EF00) (000000000081EEF0)
+0228:fixme:powrprof:PowerRegisterSuspendResumeNotification (0x00000002,000000000081FD70,000000000081FD68) stub!
+0144:fixme:win:GetPointerDevices (000000000081DE64 0000000000000000): partial stub
+0144:fixme:win:GetPointerDevices (000000000081DE64 0000000000000000): partial stub
+0144:fixme:system:NtUserDisplayConfigGetDeviceInfo Unimplemented packet type 11.
+0144:fixme:ui:uisettings2_get_TextScaleFactor iface 000000006D0DA0C8, value 000000000081DE00 stub!
+0144:fixme:win:GetPointerDevices (000000000081DE64 0000000000000000): partial stub
+0144:fixme:win:GetPointerDevices (000000000081DE64 0000000000000000): partial stub
+0144:fixme:system:NtUserDisplayConfigGetDeviceInfo Unimplemented packet type 11.
+0144:fixme:ui:uisettings2_get_TextScaleFactor iface 000000006D0DA0C8, value 000000000081DE00 stub!
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x1f4,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x5d4,0x81ce70,0x00000010,(nil)) stub
+0228:fixme:process:GetProcessMitigationPolicy (FFFFFFFFFFFFFFFF, 4, 000000000081FCE4, 4): stub
+0228:fixme:uxtheme:SetPreferredAppMode 1: stub
+0228:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+0244:fixme:dwmapi:DwmGetCompositionTimingInfo (0000000000000000 000000007B48EF98)
+0228:fixme:winstation:GetUserObjectSecurity (0000000000000004 000000000081F6E0 0000000000000000 len=0 000000000081F67C),stub!
+0228:fixme:winstation:GetUserObjectSecurity (0000000000000004 000000000081F6E0 0000000000DBB200 len=40 000000000081F67C),stub!
+0228:fixme:winstation:GetUserObjectSecurity (0000000000000008 000000000081F660 0000000000000000 len=0 000000000081F5FC),stub!
+0228:fixme:winstation:GetUserObjectSecurity (0000000000000008 000000000081F660 0000000000DBB200 len=40 000000000081F5FC),stub!
+0264:fixme:thread:NtSetInformationThread info class 24 not supported yet
+0264:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+0228:fixme:ntdll:EtwEventSetInformation (deadbeef, 2, 00000F3C00018628, 16) stub
+0228:fixme:ntdll:NtQuerySystemInformation info_class SYSTEM_PERFORMANCE_INFORMATION
+026c:fixme:winsock:WSALookupServiceBeginW (000000000631E620 0xff0 000000000631E698) Stub!
+[548:0714/140704.301:ERROR:network_change_notifier_win.cc(188)] WSALookupServiceBegin failed with: 8
+0270:fixme:thread:NtSetInformationThread info class 24 not supported yet
+0270:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+0278:fixme:thread:NtSetInformationThread info class 24 not supported yet
+0278:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+0278:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+0290:fixme:thread:NtSetInformationThread info class 24 not supported yet
+0290:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+0284:fixme:file:NtLockFile I/O completion on lock not implemented yet
+0288:fixme:virtual:prefetch_memory (process=0xffffffffffffffff,flags=0) NtSetInformationVirtualMemory(VmPrefetchInformation) partial stub
+0278:fixme:netprofm:connection_point_Advise 0000000000E2ACA8, 00000F3C0000C160, 00000F3C0000C178 - semi-stub
+0278:fixme:netprofm:cost_manager_GetCost 0000000000E2AC38, 000000000733F7B0, 0000000000000000
+0278:fixme:thread:NtSetInformationThread info class 24 not supported yet
+0278:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+026c:fixme:winsock:setsockopt Ignoring SO_RANDOMIZE_PORT
+016c:fixme:crypt:CRYPT_SysRegOpenStoreW CERT_SYSTEM_STORE_LOCAL_MACHINE_ENTERPRISE, L"ROOT": stub
+016c:fixme:crypt:CRYPT_SysRegOpenStoreW CERT_SYSTEM_STORE_LOCAL_MACHINE_ENTERPRISE, L"CA": stub
+016c:fixme:crypt:CRYPT_SysRegOpenStoreW CERT_SYSTEM_STORE_LOCAL_MACHINE_ENTERPRISE, L"TrustedPeople": stub
+016c:fixme:crypt:CRYPT_SysRegOpenStoreW CERT_SYSTEM_STORE_LOCAL_MACHINE_ENTERPRISE, L"Disallowed": stub
+016c:fixme:crypt:CRYPT_RegControl CERT_STORE_CTRL_AUTO_RESYNC: stub
+016c:fixme:crypt:CRYPT_RegControl CERT_STORE_CTRL_AUTO_RESYNC: stub
+016c:fixme:crypt:CRYPT_RegControl CERT_STORE_CTRL_AUTO_RESYNC: stub
+016c:fixme:crypt:CRYPT_RegControl CERT_STORE_CTRL_AUTO_RESYNC: stub
+026c:fixme:winsock:setsockopt Ignoring SO_RANDOMIZE_PORT
+0234:fixme:powrprof:PowerRegisterSuspendResumeNotification (0x00000002,000000000081FD70,000000000081FD68) stub!
+026c:fixme:winsock:setsockopt Ignoring SO_RANDOMIZE_PORT
+0234:fixme:process:GetProcessMitigationPolicy (FFFFFFFFFFFFFFFF, 4, 000000000081FCE4, 4): stub
+0234:fixme:uxtheme:SetPreferredAppMode 1: stub
+0234:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+0234:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+02b8:fixme:thread:NtSetInformationThread info class 24 not supported yet
+02b8:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+0234:fixme:ntdll:EtwEventSetInformation (deadbeef, 2, 0000573C000184A8, 16) stub
+0234:fixme:ntdll:NtQuerySystemInformation info_class SYSTEM_PERFORMANCE_INFORMATION
+02c0:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+0234:fixme:ntdll:EtwEventSetInformation (deadbeef, 2, 000000014B7C6625, 8) stub
+02d0:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+02d8:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFFFFFFFFFA, 000000006936FF50
+0234:fixme:ver:GetPackageFamilyName (FFFFFFFFFFFFFFFF 000000000081BA9C 000000000081BAA0): stub
+0234:fixme:dwrite:dwritefontface5_HasVariations 0000000000E33CD0: stub
+016c:fixme:file:ReplaceFileW Ignoring flags 2
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x1f4,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x5d4,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x43c,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:win:IsWindowArranged hwnd 000000000002009C stub.
+0144:fixme:win:GetPointerDevices (000000000081D054 0000000000000000): partial stub
+0144:fixme:win:GetPointerDevices (000000000081D054 0000000000000000): partial stub
+0144:fixme:system:NtUserDisplayConfigGetDeviceInfo Unimplemented packet type 11.
+0144:fixme:ui:uisettings2_get_TextScaleFactor iface 000000006D0DA0C8, value 000000000081CFF0 stub!
+0144:fixme:win:GetPointerDevices (000000000081D054 0000000000000000): partial stub
+0144:fixme:win:GetPointerDevices (000000000081D054 0000000000000000): partial stub
+0144:fixme:system:NtUserDisplayConfigGetDeviceInfo Unimplemented packet type 11.
+0144:fixme:ui:uisettings2_get_TextScaleFactor iface 000000006D0DA0C8, value 000000000081CFF0 stub!
+0144:fixme:dwmapi:DwmExtendFrameIntoClientArea (000000000002009C, 000000000081D810) stub
+021c:fixme:dwmapi:DwmGetWindowAttribute attribute 14 not implemented.
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x1f4,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x5d4,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x43c,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x1f4,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x5d4,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x43c,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x1f4,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x5d4,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x43c,0x81ce70,0x00000010,(nil)) stub
+0214:fixme:thread:SetThreadInformation Unsupported class 2.
+0214:fixme:ntdll:NtFilterToken flags 0x1 unsupported
+0214:fixme:ntdll:NtFilterToken support for restricting sids not yet implemented
+0214:fixme:advapi:SetEntriesInAclW unhandled access mode 4
+0214:fixme:ntdll:NtSetInformationToken TokenIntegrityLevel stub!
+0214:fixme:ntdll:NtFilterToken support for restricting sids not yet implemented
+0214:fixme:advapi:SetEntriesInAclW unhandled access mode 4
+0214:fixme:ntdll:NtSetInformationToken TokenIntegrityLevel stub!
+0214:fixme:advapi:SetSecurityInfo unimplemented type 7, returning success
+0214:fixme:sync:NtSetInformationJobObject stub: 0x654 4 0x74e9ee6c 4
+0214:fixme:process:GetProcessMitigationPolicy (FFFFFFFFFFFFFFFF, 5, 000000014BD73410, 16): stub
+0214:fixme:process:validate_proc_thread_attribute Unhandled attribute 26
+016c:fixme:process:CreateProcessInternalW Unsupported attribute 0x2000e.
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x1f4,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x5d4,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x43c,0x81ce70,0x00000010,(nil)) stub
+02c0:fixme:thread:QueryThreadCycleTime (FFFFFFFFFFFFFFFE,000000000631F8C8): stub!
+0314:fixme:powrprof:PowerRegisterSuspendResumeNotification (0x00000002,000000000081FD70,000000000081FD68) stub!
+0314:fixme:process:GetProcessMitigationPolicy (FFFFFFFFFFFFFFFF, 4, 000000000081FCE4, 4): stub
+0314:fixme:uxtheme:SetPreferredAppMode 1: stub
+0314:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+033c:fixme:thread:NtSetInformationThread info class 24 not supported yet
+033c:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+0314:fixme:ntdll:EtwEventSetInformation (deadbeef, 2, 00002E5400018628, 16) stub
+0314:fixme:ntdll:NtSetInformationToken TokenIntegrityLevel stub!
+0314:fixme:process:SetProcessMitigationPolicy (2, 000000000081F310, 4): stub
+0314:fixme:process:SetProcessMitigationPolicy (8, 000000000081F310, 4): stub
+0314:fixme:ntdll:NtQuerySystemInformation info_class SYSTEM_PERFORMANCE_INFORMATION
+0360:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+0314:fixme:mmdevapi:control_RegisterAudioSessionNotification (0000000000DCB160)->(00002E5400025300) - stub
+0364:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+0368:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+0368:fixme:avrt:AvSetMmThreadCharacteristicsW (L"Pro Audio",000000000738FE7C): stub
+0368:fixme:avrt:AvSetMmThreadPriority (0000000012345678)->(2) stub
+14:07:05.047 > "[Analytics] event sent : App:SignedIn"
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x1f4,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x5d4,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x43c,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x6b4,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x1f4,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x5d4,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x43c,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x6b4,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:thread:QueryThreadCycleTime (FFFFFFFFFFFFFFFE,000000000081F088): stub!
+14:07:06.272 > "Checking for update"
+021c:err:ole:com_get_class_object class {7ab36653-1796-484b-bdfa-e74f1db7c1dc} not registered
+021c:err:ole:create_server class {7ab36653-1796-484b-bdfa-e74f1db7c1dc} not registered
+021c:err:ole:com_get_class_object no class object {7ab36653-1796-484b-bdfa-e74f1db7c1dc} could be created for context 0x5
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x1f4,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x5d4,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x43c,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x6b4,0x81ce70,0x00000010,(nil)) stub
+026c:fixme:winsock:setsockopt Ignoring SO_RANDOMIZE_PORT
+026c:fixme:winsock:setsockopt Ignoring SO_RANDOMIZE_PORT
+026c:fixme:winsock:setsockopt Ignoring SO_RANDOMIZE_PORT
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x1f4,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x5d4,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x43c,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x6b4,0x81ce70,0x00000010,(nil)) stub
+14:07:06.386 > "Update for version 2.5.1 is not available (latest version: 2.5.1, downgrade is disallowed)."
+14:07:07.894 > "[API] request: https://robertsspaceindustries.com/api/launcher/v3/language/getLanguage"
+026c:fixme:winsock:setsockopt Ignoring SO_RANDOMIZE_PORT
+026c:fixme:winsock:setsockopt Ignoring SO_RANDOMIZE_PORT
+026c:fixme:winsock:setsockopt Ignoring SO_RANDOMIZE_PORT
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x1f4,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x5d4,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x43c,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x6b4,0x81ce70,0x00000010,(nil)) stub
+14:07:08.291 > "[Connectivity Service] Internet connection is available."
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x1f4,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x5d4,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x43c,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x6b4,0x81ce70,0x00000010,(nil)) stub
+14:07:08.382 > "[API] request: https://robertsspaceindustries.com/api/launcher/v3/games/claims"
+14:07:08.788 > "[API] request: https://robertsspaceindustries.com/api/launcher/v3/games/library"
+026c:fixme:winsock:setsockopt Ignoring SO_RANDOMIZE_PORT
+026c:fixme:winsock:setsockopt Ignoring SO_RANDOMIZE_PORT
+026c:fixme:winsock:setsockopt Ignoring SO_RANDOMIZE_PORT
+14:07:09.360 > "[API] request: https://robertsspaceindustries.com/api/launcher/v3/content/news"
+0144:fixme:dwmapi:DwmExtendFrameIntoClientArea (000000000002009C, 000000000081CCA0) stub
+0144:fixme:manipulation:viewport_ActivateConfiguration 000000006D2B39F0, 823
+0144:fixme:manipulation:viewport_SetViewportOptions 000000006D2B39F0, 2
+0144:fixme:manipulation:viewport_AddEventHandler 000000006D2B39F0, 00000000000100A8, 0000797403BFADA0, 0000797403BF98F0
+0144:fixme:manipulation:viewport_Stop 000000006D2B39F0
+0144:fixme:manipulation:viewport_RemoveEventHandler 000000006D2B39F0, 0
+0144:fixme:manipulation:viewport_Abandon 000000006D2B39F0
+0144:fixme:manipulation:direct_manip_Deactivate 000000006D2B3990, 00000000000100A8
+0144:fixme:manipulation:viewport_ActivateConfiguration 000000006D2B39F0, 823
+0144:fixme:manipulation:viewport_SetViewportOptions 000000006D2B39F0, 2
+0144:fixme:manipulation:viewport_AddEventHandler 000000006D2B39F0, 00000000000100A8, 0000797403BFADA0, 0000797403BF98F0
+0144:fixme:manipulation:viewport_Stop 000000006D2B39F0
+0144:fixme:manipulation:viewport_RemoveEventHandler 000000006D2B39F0, 0
+0144:fixme:manipulation:viewport_Abandon 000000006D2B39F0
+0144:fixme:manipulation:direct_manip_Deactivate 000000006D2B3990, 00000000000100A8
+0144:fixme:dwmapi:DwmExtendFrameIntoClientArea (000000000002009C, 000000000081CD20) stub
+14:07:09.372 > "[API] request: https://robertsspaceindustries.com/api/launcher/v3/content/patchNotes"
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x1f4,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x5d4,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x43c,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x6b4,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x1f4,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x5d4,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x43c,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x6b4,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x1f4,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x5d4,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x43c,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x6b4,0x81ce70,0x00000010,(nil)) stub
+14:07:09.515 > "[API] request: https://robertsspaceindustries.com/api/launcher/v3/content/cards"
+0144:fixme:win:IsWindowArranged hwnd 000000000002009C stub.
+0144:fixme:dwmapi:DwmExtendFrameIntoClientArea (000000000002009C, 000000000081CED0) stub
+0144:fixme:manipulation:viewport_ActivateConfiguration 000000006D2B39F0, 823
+0144:fixme:manipulation:viewport_SetViewportOptions 000000006D2B39F0, 2
+0144:fixme:manipulation:viewport_AddEventHandler 000000006D2B39F0, 00000000000100A8, 0000797404902AA0, 0000797404902B70
+0144:fixme:manipulation:viewport_Stop 000000006D2B39F0
+0144:fixme:manipulation:viewport_RemoveEventHandler 000000006D2B39F0, 0
+0144:fixme:manipulation:viewport_Abandon 000000006D2B39F0
+0144:fixme:manipulation:direct_manip_Deactivate 000000006D2B3990, 00000000000100A8
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x1f4,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x5d4,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x43c,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x6b4,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x1f4,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x5d4,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x43c,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x6b4,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x1f4,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x5d4,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x43c,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x6b4,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:powermgnt:PowerCreateRequest (000000000081EF10): stub
+0144:fixme:powermgnt:PowerSetRequest (00000000000006BC, 0): stub
+0144:fixme:powermgnt:PowerCreateRequest (000000000081EF10): stub
+0144:fixme:powermgnt:PowerSetRequest (00000000000006F0, 1): stub
+03b4:fixme:thread:NtSetInformationThread info class 24 not supported yet
+03b4:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+026c:fixme:winsock:setsockopt Ignoring SO_RANDOMIZE_PORT
+026c:fixme:winsock:setsockopt Ignoring SO_RANDOMIZE_PORT
+016c:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+016c:fixme:file:ReplaceFileW Ignoring flags 2
+016c:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+016c:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+016c:fixme:file:ReplaceFileW Ignoring flags 2
+016c:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+14:07:19.030 > "[API] request: https://robertsspaceindustries.com/api/launcher/v3/games/release"
+026c:fixme:winsock:setsockopt Ignoring SO_RANDOMIZE_PORT
+021c:fixme:dwmapi:DwmGetWindowAttribute attribute 14 not implemented.
+14:07:19.378 > "[Requirement] OS check : true"
+14:07:19.378 > "[Requirement] CPU check : true"
+14:07:19.378 > "[API] request: https://robertsspaceindustries.com/api/launcher/v3/account/check"
+14:07:19.600 > "[API] request: https://robertsspaceindustries.com/api/launcher/v3/warnings"
+14:07:19.932 > "[API] request: https://robertsspaceindustries.com/api/launcher/v3/warnings/get"
+026c:fixme:winsock:setsockopt Ignoring SO_RANDOMIZE_PORT
+14:07:21.110 > "[API] request: https://robertsspaceindustries.com/api/launcher/v3/games/token"
+026c:fixme:winsock:setsockopt Ignoring SO_RANDOMIZE_PORT
+021c:fixme:dwmapi:DwmGetWindowAttribute attribute 14 not implemented.
+0144:fixme:dwmapi:DwmExtendFrameIntoClientArea (000000000002009C, 000000000081C8F0) stub
+14:07:21.567 > "[Launcher::launch] Launching Star Citizen LIVE from (C:\\Program Files\\Roberts Space Industries\\StarCitizen\\LIVE)"
+14:07:21.567 > "[Launcher::launch] Wine environment detected."
+14:07:21.567 > "[Launcher::launch] Trying to convert the path from C to Z format."
+14:07:21.660 > "[Launcher::launch] path converted from \"C:\\Program Files\\Roberts Space Industries\\StarCitizen\\LIVE\\StarCitizen_Launcher.exe\" to \"Z:\\home\\hans\\Games\\star-citizen\\drive_c\\Program Files\\Roberts Space Industries\\StarCitizen\\LIVE\\StarCitizen_Launcher.exe\"."
+14:07:21.661 > "[Launcher::launch] Deleting C:\\Program Files\\Roberts Space Industries\\StarCitizen\\LIVE\\loginData.json for LIVE"
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x1f4,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x5d4,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x43c,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x6b4,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:powermgnt:PowerClearRequest (00000000000006BC, 0): stub
+0144:fixme:powermgnt:PowerClearRequest (00000000000006F0, 1): stub
+14:07:21.744 > "[Analytics] event sent : App:Launcher:Start"
+14:07:21.745 > "[Analytics] event sent : App:Launch:Start"
+03dc:fixme:win:RegisterTouchWindow hwnd 0000000000030096, flags 0x3 stub!
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x1f4,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x5d4,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x43c,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x6b4,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x1f4,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x5d4,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x43c,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x6b4,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x1f4,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x5d4,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x43c,0x81ce70,0x00000010,(nil)) stub
+03dc:fixme:msctf:ThreadMgr_ActivateEx Unimplemented flags 0x4
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x6b4,0x81ce70,0x00000010,(nil)) stub
+03dc:fixme:imm:ImeSetCompositionString himc 0000000000030092, index 9, comp 0000000140350CF8, comp_len 2, read 0000000140350CF8, read_len 2 semi-stub!
+03dc:fixme:imm:ImeSetCompositionString Read string unimplemented
+03dc:fixme:imm:NotifyIME himc 0000000000030092, action 0x11, index 0, value 0 stub!
+03ec:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFFFFFFFFFA, 0000000001B4FF50
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x1f4,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x5d4,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x43c,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x6b4,0x81ce70,0x00000010,(nil)) stub
+03f4:fixme:ntdll:NtQuerySystemInformation info_class SYSTEM_PERFORMANCE_INFORMATION
+03f4:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+03f4:fixme:heap:SetThreadSelectedCpuSets thread FFFFFFFFFFFFFFFE, cpu_set_ids 000000C014007800, count 32 stub.
+0504:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+0508:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+0504:fixme:heap:SetThreadSelectedCpuSets thread FFFFFFFFFFFFFFFE, cpu_set_ids 000000C00C04C760, count 8 stub.
+0508:fixme:heap:SetThreadSelectedCpuSets thread FFFFFFFFFFFFFFFE, cpu_set_ids 000000C00C04C760, count 8 stub.
+050c:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+0510:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+050c:fixme:heap:SetThreadSelectedCpuSets thread FFFFFFFFFFFFFFFE, cpu_set_ids 000000C00C04C760, count 8 stub.
+0514:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+0510:fixme:heap:SetThreadSelectedCpuSets thread FFFFFFFFFFFFFFFE, cpu_set_ids 000000C00C04C760, count 8 stub.
+0518:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+051c:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+0514:fixme:heap:SetThreadSelectedCpuSets thread FFFFFFFFFFFFFFFE, cpu_set_ids 000000C00C04C760, count 8 stub.
+0518:fixme:heap:SetThreadSelectedCpuSets thread FFFFFFFFFFFFFFFE, cpu_set_ids 000000C00C04C760, count 8 stub.
+0520:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+0524:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+051c:fixme:heap:SetThreadSelectedCpuSets thread FFFFFFFFFFFFFFFE, cpu_set_ids 000000C00C04C760, count 8 stub.
+0524:fixme:heap:SetThreadSelectedCpuSets thread FFFFFFFFFFFFFFFE, cpu_set_ids 000000C00C04C720, count 8 stub.
+0528:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+052c:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+0520:fixme:heap:SetThreadSelectedCpuSets thread FFFFFFFFFFFFFFFE, cpu_set_ids 000000C00C04C720, count 8 stub.
+0528:fixme:heap:SetThreadSelectedCpuSets thread FFFFFFFFFFFFFFFE, cpu_set_ids 000000C00C04C720, count 8 stub.
+0534:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+0530:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+052c:fixme:heap:SetThreadSelectedCpuSets thread FFFFFFFFFFFFFFFE, cpu_set_ids 000000C00C04C720, count 8 stub.
+0534:fixme:heap:SetThreadSelectedCpuSets thread FFFFFFFFFFFFFFFE, cpu_set_ids 000000C00C04C720, count 8 stub.
+0530:fixme:heap:SetThreadSelectedCpuSets thread FFFFFFFFFFFFFFFE, cpu_set_ids 000000C00C04C720, count 8 stub.
+0538:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+053c:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+0544:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+0540:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+053c:fixme:heap:SetThreadSelectedCpuSets thread FFFFFFFFFFFFFFFE, cpu_set_ids 000000C00C04C720, count 8 stub.
+0538:fixme:heap:SetThreadSelectedCpuSets thread FFFFFFFFFFFFFFFE, cpu_set_ids 000000C00C04C720, count 8 stub.
+0544:fixme:heap:SetThreadSelectedCpuSets thread FFFFFFFFFFFFFFFE, cpu_set_ids 000000C00C04C740, count 8 stub.
+0548:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+054c:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+0540:fixme:heap:SetThreadSelectedCpuSets thread FFFFFFFFFFFFFFFE, cpu_set_ids 000000C00C04C740, count 8 stub.
+0550:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+0548:fixme:heap:SetThreadSelectedCpuSets thread FFFFFFFFFFFFFFFE, cpu_set_ids 000000C00C04C740, count 8 stub.
+054c:fixme:heap:SetThreadSelectedCpuSets thread FFFFFFFFFFFFFFFE, cpu_set_ids 000000C00C04C740, count 8 stub.
+0554:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+0550:fixme:heap:SetThreadSelectedCpuSets thread FFFFFFFFFFFFFFFE, cpu_set_ids 000000C00C04C740, count 8 stub.
+0554:fixme:heap:SetThreadSelectedCpuSets thread FFFFFFFFFFFFFFFE, cpu_set_ids 000000C00C04C740, count 8 stub.
+0558:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+055c:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+0558:fixme:heap:SetThreadSelectedCpuSets thread FFFFFFFFFFFFFFFE, cpu_set_ids 000000C00C04C740, count 8 stub.
+055c:fixme:heap:SetThreadSelectedCpuSets thread FFFFFFFFFFFFFFFE, cpu_set_ids 000000C00C04C740, count 8 stub.
+0560:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+0564:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+0560:fixme:heap:SetThreadSelectedCpuSets thread FFFFFFFFFFFFFFFE, cpu_set_ids 000000C00C04C6E0, count 8 stub.
+0564:fixme:heap:SetThreadSelectedCpuSets thread FFFFFFFFFFFFFFFE, cpu_set_ids 000000C00C04C6E0, count 8 stub.
+0568:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+0568:fixme:heap:SetThreadSelectedCpuSets thread FFFFFFFFFFFFFFFE, cpu_set_ids 000000C00C04C6E0, count 8 stub.
+056c:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+0570:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+0578:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+056c:fixme:heap:SetThreadSelectedCpuSets thread FFFFFFFFFFFFFFFE, cpu_set_ids 000000C00C04C6E0, count 8 stub.
+0570:fixme:heap:SetThreadSelectedCpuSets thread FFFFFFFFFFFFFFFE, cpu_set_ids 000000C00C04C6E0, count 8 stub.
+0578:fixme:heap:SetThreadSelectedCpuSets thread FFFFFFFFFFFFFFFE, cpu_set_ids 000000C00C04C6E0, count 8 stub.
+0574:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+057c:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+0574:fixme:heap:SetThreadSelectedCpuSets thread FFFFFFFFFFFFFFFE, cpu_set_ids 000000C00C04C6E0, count 8 stub.
+057c:fixme:heap:SetThreadSelectedCpuSets thread FFFFFFFFFFFFFFFE, cpu_set_ids 000000C00C04C6E0, count 8 stub.
+03dc:fixme:imm:ImeSetCompositionString himc 0000000000030092, index 9, comp 0000000140350CF8, comp_len 2, read 0000000140350CF8, read_len 2 semi-stub!
+03dc:fixme:imm:ImeSetCompositionString Read string unimplemented
+03dc:fixme:imm:NotifyIME himc 0000000000030092, action 0x11, index 0, value 0 stub!
+0144:fixme:win:GetPointerDevices (000000000081E5C4 0000000000000000): partial stub
+0144:fixme:win:GetPointerDevices (000000000081E5C4 0000000000000000): partial stub
+0144:fixme:system:NtUserDisplayConfigGetDeviceInfo Unimplemented packet type 11.
+0144:fixme:ui:uisettings2_get_TextScaleFactor iface 000000006D0DA0C8, value 000000000081E560 stub!
+0144:fixme:win:GetPointerDevices (000000000081E5C4 0000000000000000): partial stub
+0144:fixme:win:GetPointerDevices (000000000081E5C4 0000000000000000): partial stub
+0144:fixme:system:NtUserDisplayConfigGetDeviceInfo Unimplemented packet type 11.
+0144:fixme:ui:uisettings2_get_TextScaleFactor iface 000000006D0DA0C8, value 000000000081E560 stub!
+0144:fixme:dwmapi:DwmExtendFrameIntoClientArea (000000000002009C, 000000000081E6F0) stub
+021c:fixme:dwmapi:DwmGetWindowAttribute attribute 14 not implemented.
+0144:fixme:manipulation:viewport_ActivateConfiguration 000000006D40AC70, 823
+0144:fixme:manipulation:viewport_SetViewportOptions 000000006D40AC70, 2
+0144:fixme:manipulation:viewport_AddEventHandler 000000006D40AC70, 00000000000100A8, 0000797403A1EBA0, 0000797404900BF0
+0144:fixme:manipulation:viewport_Stop 000000006D40AC70
+0144:fixme:manipulation:viewport_RemoveEventHandler 000000006D40AC70, 0
+0144:fixme:manipulation:viewport_Abandon 000000006D40AC70
+0144:fixme:manipulation:direct_manip_Deactivate 000000006D40AC10, 00000000000100A8
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x1f4,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x5d4,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x43c,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x6b4,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x1f4,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x5d4,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x43c,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x6b4,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x1f4,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x5d4,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x43c,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x6b4,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x1f4,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x5d4,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x43c,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x6b4,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x1f4,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x5d4,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x43c,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x6b4,0x81ce70,0x00000010,(nil)) stub
+14:07:23.654 > "[API] request: https://robertsspaceindustries.com/api/launcher/v3/content/news"
+14:07:23.654 > "[API] request: https://robertsspaceindustries.com/api/launcher/v3/content/patchNotes"
+14:07:23.656 > "[API] request: https://robertsspaceindustries.com/api/launcher/v3/content/cards"
+016c:fixme:file:ReplaceFileW Ignoring flags 2
+0144:fixme:powermgnt:PowerCreateRequest (000000000081EF10): stub
+0144:fixme:powermgnt:PowerSetRequest (0000000000000704, 0): stub
+0144:fixme:powermgnt:PowerCreateRequest (000000000081EF10): stub
+0144:fixme:powermgnt:PowerSetRequest (0000000000000708, 1): stub
+016c:fixme:file:ReplaceFileW Ignoring flags 2
+016c:fixme:file:ReplaceFileW Ignoring flags 2
+026c:fixme:winsock:setsockopt Ignoring SO_RANDOMIZE_PORT
+021c:fixme:dwmapi:DwmGetWindowAttribute attribute 14 not implemented.
+0144:fixme:dwmapi:DwmExtendFrameIntoClientArea (000000000002009C, 000000000081C8F0) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x1f4,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x5d4,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x43c,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x6b4,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:powermgnt:PowerClearRequest (0000000000000704, 0): stub
+0144:fixme:powermgnt:PowerClearRequest (0000000000000708, 1): stub
+0594:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+03f4:fixme:bcrypt:BCryptGenRandom ignoring selected algorithm
+03f4:fixme:iphlpapi:GetBestRoute2 (0000039A09F9CCD0, 0, 0000000000000000, 0000039A09F9CE70, 0x00000000, 000000000011A450, 000000000011A430): stub
+05a8:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+05ac:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+05b0:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+05b4:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+05b8:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+05bc:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+05c0:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+05c4:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+05c8:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+05cc:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+05d0:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+05d8:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+05d4:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+05dc:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+05e0:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+05e4:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+05e8:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+05ec:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+05f0:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+05f4:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+05f8:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+05fc:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+0600:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+0604:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+060c:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+060c:fixme:heap:SetThreadSelectedCpuSets thread FFFFFFFFFFFFFFFE, cpu_set_ids 000000C014007800, count 32 stub.
+0610:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+info:  Game: StarCitizen.exe
+info:  DXVK: v2.7-2-ge940893bdc00c3f
+info:  Build: x86_64 gcc 10.3.0
+info:  Vulkan: Found vkGetInstanceProcAddr in winevulkan.dll @ 0x6ffffe3ee880
+info:  Extension providers:
+info:    Platform WSI
+info:    OpenVR
+info:  OpenVR: could not open registry key, status 2
+info:  OpenVR: Failed to locate module
+info:    OpenXR
+warn:  OpenXR: Unable to get required Vulkan instance extensions size
+info:  Enabled instance extensions:
+info:    VK_EXT_surface_maintenance1
+info:    VK_KHR_get_surface_capabilities2
+info:    VK_KHR_surface
+info:    VK_KHR_win32_surface
+[1;37mlsfg-vk(hooks): Instance created successfully: 555580f82350[0m
+info:  Found device: NVIDIA GeForce RTX 4080 (NVIDIA 575.64.3)
+warn:  OpenXR: Unable to get required Vulkan Device extensions size
+0638:fixme:wbemprox:client_security_SetBlanket 00006FFFF94D2F20, 000000013F42EB00, 10, 0, (null), 3, 3, 0000000000000000, 0
+0638:fixme:wbemprox:client_security_Release 00006FFFF94D2F20
+info:  D3D11InternalCreateDevice: Maximum supported feature level: D3D_FEATURE_LEVEL_12_1
+info:  D3D11InternalCreateDevice: Using feature level D3D_FEATURE_LEVEL_11_1
+info:  Creating device:
+info:  NVIDIA GeForce RTX 4080:
+info:    Driver   : NVIDIA 575.64.3
+info:  Queues:
+info:    Graphics : (0, 0)
+info:    Transfer : (1, 0)
+info:    Sparse   : (0, 0)
+info:  Memory:
+info:    Heap 0: 15.99 GiB (DEVICE_LOCAL)
+info:    Budget: 12.72 GiB
+info:      Type  1: DEVICE_LOCAL
+info:      Type  4: DEVICE_LOCAL | HOST_VISIBLE | HOST_COHERENT
+info:    Heap 1: 46.85 GiB
+info:    Budget: 46.85 GiB
+info:      Type  0: (None)
+info:      Type  2: HOST_VISIBLE | HOST_COHERENT
+info:      Type  3: HOST_VISIBLE | HOST_COHERENT | HOST_CACHED
+info:  Enabled extensions:
+info:    VK_EXT_attachment_feedback_loop_layout
+info:    VK_EXT_conservative_rasterization
+info:    VK_EXT_custom_border_color
+info:    VK_EXT_depth_clip_enable
+info:    VK_EXT_depth_bias_control
+info:    VK_EXT_descriptor_buffer
+info:    VK_EXT_extended_dynamic_state3
+info:    VK_EXT_fragment_shader_interlock
+info:    VK_EXT_graphics_pipeline_library
+info:    VK_EXT_line_rasterization
+info:    VK_EXT_memory_priority
+info:    VK_EXT_multi_draw
+info:    VK_EXT_non_seamless_cube_map
+info:    VK_EXT_pageable_device_local_memory
+info:    VK_EXT_robustness2
+info:    VK_EXT_shader_module_identifier
+info:    VK_EXT_swapchain_maintenance1
+info:    VK_EXT_transform_feedback
+info:    VK_EXT_vertex_attribute_divisor
+info:    VK_KHR_external_memory_win32
+info:    VK_KHR_external_semaphore_win32
+info:    VK_KHR_load_store_op_none
+info:    VK_KHR_maintenance5
+info:    VK_KHR_maintenance6
+info:    VK_KHR_pipeline_library
+info:    VK_KHR_present_id
+info:    VK_KHR_present_wait
+info:    VK_KHR_swapchain
+info:    VK_KHR_swapchain_mutable_format
+info:    VK_KHR_win32_keyed_mutex
+info:    VK_NV_low_latency2
+info:    VK_NV_raw_access_chains
+info:    VK_NVX_binary_import
+info:    VK_NVX_image_view_handle
+info:  Enabled features:
+info:    depthBiasClamp                 : 1
+info:    depthBounds                    : 1
+info:    depthClamp                     : 1
+info:    drawIndirectFirstInstance      : 1
+info:    dualSrcBlend                   : 1
+info:    fillModeNonSolid               : 1
+info:    fragmentStoresAndAtomics       : 1
+info:    fullDrawIndexUint32            : 1
+info:    geometryShader                 : 1
+info:    imageCubeArray                 : 1
+info:    independentBlend               : 1
+info:    logicOp                        : 1
+info:    multiDrawIndirect              : 1
+info:    multiViewport                  : 1
+info:    occlusionQueryPrecise          : 1
+info:    pipelineStatisticsQuery        : 1
+info:    robustBufferAccess             : 1
+info:    sampleRateShading              : 1
+info:    samplerAnisotropy              : 1
+info:    shaderClipDistance             : 1
+info:    shaderCullDistance             : 1
+info:    shaderFloat64                  : 1
+info:    shaderImageGatherExtended      : 1
+info:    shaderInt16                    : 1
+info:    shaderInt64                    : 1
+info:    shaderSampledImageArrayDynamicIndexing : 1
+info:    sparseBinding                  : 1
+info:    sparseResidencyBuffer          : 1
+info:    sparseResidencyImage2D         : 1
+info:    sparseResidencyImage3D         : 1
+info:    sparseResidency2Samples        : 1
+info:    sparseResidency4Samples        : 1
+info:    sparseResidency8Samples        : 1
+info:    sparseResidency16Samples       : 1
+info:    sparseResidencyAliased         : 1
+info:    shaderResourceResidency        : 1
+info:    shaderResourceMinLod           : 1
+info:    tessellationShader             : 1
+info:    textureCompressionBC           : 1
+info:    variableMultisampleRate        : 1
+info:    vertexPipelineStoresAndAtomics : 1
+info:    wideLines                      : 1
+info:    shaderDrawParameters           : 1
+info:    storagePushConstant16          : 1
+info:    bufferDeviceAddress            : 1
+info:    descriptorIndexing             : 1
+info:    descriptorBindingSampledImageUpdateAfterBind : 1
+info:    descriptorBindingUpdateUnusedWhilePending : 1
+info:    descriptorBindingPartiallyBound : 1
+info:    drawIndirectCount              : 1
+info:    hostQueryReset                 : 1
+info:    runtimeDescriptorArray         : 1
+info:    samplerFilterMinmax            : 1
+info:    samplerMirrorClampToEdge       : 1
+info:    shaderInt8                     : 1
+info:    shaderOutputViewportIndex      : 1
+info:    shaderOutputLayer              : 1
+info:    timelineSemaphore              : 1
+info:    uniformBufferStandardLayout    : 1
+info:    vulkanMemoryModel              : 1
+info:    dynamicRendering               : 1
+info:    maintenance4                   : 1
+info:    robustImageAccess              : 0
+info:    pipelineCreationCacheControl   : 1
+info:    shaderDemoteToHelperInvocation : 1
+info:    shaderZeroInitializeWorkgroupMemory : 1
+info:    synchronization2               : 1
+info:  VK_EXT_attachment_feedback_loop_layout:
+info:    attachmentFeedbackLoopLayout   : 1
+info:  VK_EXT_conservative_rasterization:
+info:    extConservativeRasterization   : 1
+info:  VK_EXT_custom_border_color:
+info:    customBorderColors             : 1
+info:    customBorderColorWithoutFormat : 1
+info:  VK_EXT_depth_clip_enable:
+info:    depthClipEnable                : 1
+info:  VK_EXT_depth_bias_control:
+info:    depthBiasControl               : 1
+info:    leastRepresentableValueForceUnormRepresentation : 1
+info:    floatRepresentation            : 0
+info:    depthBiasExact                 : 1
+info:  VK_EXT_descriptor_buffer:
+info:    descriptorBuffer               : 1
+info:  VK_EXT_extended_dynamic_state3:
+info:    extendedDynamicState3AlphaToCoverageEnable : 1
+info:    extendedDynamicState3DepthClipEnable : 1
+info:    extendedDynamicState3RasterizationSamples : 1
+info:    extendedDynamicState3SampleMask : 1
+info:    extendedDynamicState3LineRasterizationMode : 1
+info:  VK_EXT_fragment_shader_interlock:
+info:    fragmentShaderSampleInterlock  : 1
+info:    fragmentShaderPixelInterlock   : 1
+info:  VK_EXT_full_screen_exclusive:
+info:    extFullScreenExclusive         : 0
+info:  VK_EXT_graphics_pipeline_library:
+info:    graphicsPipelineLibrary        : 1
+info:  VK_EXT_hdr_metadata:
+info:    extHdrMetadata                 : 0
+info:  VK_EXT_line_rasterization:
+info:    rectangularLines               : 1
+info:    smoothLines                    : 1
+info:  VK_EXT_memory_budget:
+info:    extMemoryBudget                : 1
+info:  VK_EXT_memory_priority:
+info:    memoryPriority                 : 1
+info:  VK_EXT_multi_draw:
+info:    multiDraw                      : 1
+info:  VK_EXT_non_seamless_cube_map:
+info:    nonSeamlessCubeMap             : 1
+info:  VK_EXT_pageable_device_local_memory:
+info:    pageableDeviceLocalMemory      : 1
+info:  VK_EXT_robustness2:
+info:    robustBufferAccess2            : 1
+info:    robustImageAccess2             : 1
+info:    nullDescriptor                 : 1
+info:  VK_EXT_shader_module_identifier:
+info:    shaderModuleIdentifier         : 1
+info:  VK_EXT_shader_stencil_export:
+info:    extShaderStencilExport         : 0
+info:  VK_EXT_swapchain_colorspace:
+info:    extSwapchainColorSpace         : 0
+info:  VK_EXT_swapchain_maintenance1:
+info:    swapchainMaintenance1          : 1
+info:  VK_EXT_transform_feedback:
+info:    transformFeedback              : 1
+info:    geometryStreams                : 1
+info:  VK_EXT_vertex_attribute_divisor:
+info:    vertexAttributeInstanceRateDivisor : 1
+info:    vertexAttributeInstanceRateZeroDivisor : 1
+info:  VK_KHR_external_memory_win32:
+info:    khrExternalMemoryWin32         : 1
+info:  VK_KHR_external_semaphore_win32:
+info:    khrExternalSemaphoreWin32      : 1
+info:  VK_KHR_load_store_op_none:
+info:    khrLoadStoreOpNone             : 1
+info:  VK_KHR_maintenance5:
+info:    maintenance5                   : 1
+info:  VK_KHR_maintenance6:
+info:    maintenance6                   : 1
+info:  VK_KHR_maintenance7:
+info:    maintenance7                   : 0
+info:  VK_KHR_pipeline_library:
+info:    khrPipelineLibrary             : 1
+info:  VK_KHR_present_id:
+info:    presentId                      : 1
+info:  VK_KHR_present_wait:
+info:    presentWait                    : 1
+info:  VK_KHR_swapchain:
+info:    khrSwapchain                   : 1
+info:  VK_KHR_swapchain_mutable_format:
+info:    khrSwapchainMutableFormat      : 1
+info:  VK_KHR_win32_keyed_mutex:
+info:    khrWin32KeyedMutex             : 1
+info:  VK_NV_descriptor_pool_overallocation:
+info:    descriptorPoolOverallocation   : 0
+info:  VK_NV_low_latency2:
+info:    nvLowLatency2                  : 1
+info:  VK_NV_raw_access_chains:
+info:    shaderRawAccessChains          : 1
+info:  VK_NVX_binary_import:
+info:    nvxBinaryImport                : 1
+info:  VK_NVX_image_view_handle:
+info:    nvxImageViewHandle             : 1
+0638:fixme:wbemprox:enum_class_object_Next timeout not supported
+[1;37mlsfg-vk(hooks): Device created successfully: 555581beb780[0m
+[1;37mlsfg-vk(hooks): Device info created successfully for: 555581beb780[0m
+info:  Descriptor sizes (set alignment: 64)
+info:    Sampler              : 4
+info:    Uniform buffer       : 8
+info:    Storage buffer       : 16
+info:    Uniform texel buffer : 16
+info:    Storage texel buffer : 16
+info:    Sampled image        : 4
+info:    Storage image        : 4
+info:  Memory type mask for sparse resources: 0x2
+info:  Memory type mask for buffer resources: 0x1f, usage: 0x219ff
+info:  Creating sampler descriptor heap (8 kB)
+info:  DXVK: Graphics pipeline libraries supported
+info:  Creating resource descriptor heap (8192 kB)
+err:   readMonitorEdidFromKey: Failed to get EDID reg key size
+err:   DXGI: Failed to parse display metadata + colorimetry info, using blank.
+[1;37mlsfg-vk(hooks): Device & Device info destroyed successfully: 555581beb780[0m
+info:  D3D11InternalCreateDevice: Maximum supported feature level: D3D_FEATURE_LEVEL_12_1
+info:  D3D11InternalCreateDevice: Using feature level D3D_FEATURE_LEVEL_11_0
+info:  Creating device:
+info:  NVIDIA GeForce RTX 4080:
+info:    Driver   : NVIDIA 575.64.3
+info:  Queues:
+info:    Graphics : (0, 0)
+info:    Transfer : (1, 0)
+info:    Sparse   : (0, 0)
+info:  Memory:
+info:    Heap 0: 15.99 GiB (DEVICE_LOCAL)
+info:    Budget: 12.72 GiB
+info:      Type  1: DEVICE_LOCAL
+info:      Type  4: DEVICE_LOCAL | HOST_VISIBLE | HOST_COHERENT
+info:    Heap 1: 46.85 GiB
+info:    Budget: 46.85 GiB
+info:      Type  0: (None)
+info:      Type  2: HOST_VISIBLE | HOST_COHERENT
+info:      Type  3: HOST_VISIBLE | HOST_COHERENT | HOST_CACHED
+info:  Enabled extensions:
+info:    VK_EXT_attachment_feedback_loop_layout
+info:    VK_EXT_conservative_rasterization
+info:    VK_EXT_custom_border_color
+info:    VK_EXT_depth_clip_enable
+info:    VK_EXT_depth_bias_control
+info:    VK_EXT_descriptor_buffer
+info:    VK_EXT_extended_dynamic_state3
+info:    VK_EXT_fragment_shader_interlock
+info:    VK_EXT_graphics_pipeline_library
+info:    VK_EXT_line_rasterization
+info:    VK_EXT_memory_priority
+info:    VK_EXT_multi_draw
+info:    VK_EXT_non_seamless_cube_map
+info:    VK_EXT_pageable_device_local_memory
+info:    VK_EXT_robustness2
+info:    VK_EXT_shader_module_identifier
+info:    VK_EXT_swapchain_maintenance1
+info:    VK_EXT_transform_feedback
+info:    VK_EXT_vertex_attribute_divisor
+info:    VK_KHR_external_memory_win32
+info:    VK_KHR_external_semaphore_win32
+info:    VK_KHR_load_store_op_none
+info:    VK_KHR_maintenance5
+info:    VK_KHR_maintenance6
+info:    VK_KHR_pipeline_library
+info:    VK_KHR_present_id
+info:    VK_KHR_present_wait
+info:    VK_KHR_swapchain
+info:    VK_KHR_swapchain_mutable_format
+info:    VK_KHR_win32_keyed_mutex
+info:    VK_NV_low_latency2
+info:    VK_NV_raw_access_chains
+info:    VK_NVX_binary_import
+info:    VK_NVX_image_view_handle
+info:  Enabled features:
+info:    depthBiasClamp                 : 1
+info:    depthBounds                    : 1
+info:    depthClamp                     : 1
+info:    drawIndirectFirstInstance      : 1
+info:    dualSrcBlend                   : 1
+info:    fillModeNonSolid               : 1
+info:    fragmentStoresAndAtomics       : 1
+info:    fullDrawIndexUint32            : 1
+info:    geometryShader                 : 1
+info:    imageCubeArray                 : 1
+info:    independentBlend               : 1
+info:    logicOp                        : 1
+info:    multiDrawIndirect              : 1
+info:    multiViewport                  : 1
+info:    occlusionQueryPrecise          : 1
+info:    pipelineStatisticsQuery        : 1
+info:    robustBufferAccess             : 1
+info:    sampleRateShading              : 1
+info:    samplerAnisotropy              : 1
+info:    shaderClipDistance             : 1
+info:    shaderCullDistance             : 1
+info:    shaderFloat64                  : 1
+info:    shaderImageGatherExtended      : 1
+info:    shaderInt16                    : 1
+info:    shaderInt64                    : 1
+info:    shaderSampledImageArrayDynamicIndexing : 1
+info:    sparseBinding                  : 1
+info:    sparseResidencyBuffer          : 1
+info:    sparseResidencyImage2D         : 1
+info:    sparseResidencyImage3D         : 1
+info:    sparseResidency2Samples        : 1
+info:    sparseResidency4Samples        : 1
+info:    sparseResidency8Samples        : 1
+info:    sparseResidency16Samples       : 1
+info:    sparseResidencyAliased         : 1
+info:    shaderResourceResidency        : 1
+info:    shaderResourceMinLod           : 1
+info:    tessellationShader             : 1
+info:    textureCompressionBC           : 1
+info:    variableMultisampleRate        : 1
+info:    vertexPipelineStoresAndAtomics : 1
+info:    wideLines                      : 1
+info:    shaderDrawParameters           : 1
+info:    storagePushConstant16          : 1
+info:    bufferDeviceAddress            : 1
+info:    descriptorIndexing             : 1
+info:    descriptorBindingSampledImageUpdateAfterBind : 1
+info:    descriptorBindingUpdateUnusedWhilePending : 1
+info:    descriptorBindingPartiallyBound : 1
+info:    drawIndirectCount              : 1
+info:    hostQueryReset                 : 1
+info:    runtimeDescriptorArray         : 1
+info:    samplerFilterMinmax            : 1
+info:    samplerMirrorClampToEdge       : 1
+info:    shaderInt8                     : 1
+info:    shaderOutputViewportIndex      : 1
+info:    shaderOutputLayer              : 1
+info:    timelineSemaphore              : 1
+info:    uniformBufferStandardLayout    : 1
+info:    vulkanMemoryModel              : 1
+info:    dynamicRendering               : 1
+info:    maintenance4                   : 1
+info:    robustImageAccess              : 0
+info:    pipelineCreationCacheControl   : 1
+info:    shaderDemoteToHelperInvocation : 1
+info:    shaderZeroInitializeWorkgroupMemory : 1
+info:    synchronization2               : 1
+info:  VK_EXT_attachment_feedback_loop_layout:
+info:    attachmentFeedbackLoopLayout   : 1
+info:  VK_EXT_conservative_rasterization:
+info:    extConservativeRasterization   : 1
+info:  VK_EXT_custom_border_color:
+info:    customBorderColors             : 1
+info:    customBorderColorWithoutFormat : 1
+info:  VK_EXT_depth_clip_enable:
+info:    depthClipEnable                : 1
+info:  VK_EXT_depth_bias_control:
+info:    depthBiasControl               : 1
+info:    leastRepresentableValueForceUnormRepresentation : 1
+info:    floatRepresentation            : 0
+info:    depthBiasExact                 : 1
+info:  VK_EXT_descriptor_buffer:
+info:    descriptorBuffer               : 1
+info:  VK_EXT_extended_dynamic_state3:
+info:    extendedDynamicState3AlphaToCoverageEnable : 1
+info:    extendedDynamicState3DepthClipEnable : 1
+info:    extendedDynamicState3RasterizationSamples : 1
+info:    extendedDynamicState3SampleMask : 1
+info:    extendedDynamicState3LineRasterizationMode : 1
+info:  VK_EXT_fragment_shader_interlock:
+info:    fragmentShaderSampleInterlock  : 1
+info:    fragmentShaderPixelInterlock   : 1
+info:  VK_EXT_full_screen_exclusive:
+info:    extFullScreenExclusive         : 0
+info:  VK_EXT_graphics_pipeline_library:
+info:    graphicsPipelineLibrary        : 1
+info:  VK_EXT_hdr_metadata:
+info:    extHdrMetadata                 : 0
+info:  VK_EXT_line_rasterization:
+info:    rectangularLines               : 1
+info:    smoothLines                    : 1
+info:  VK_EXT_memory_budget:
+info:    extMemoryBudget                : 1
+info:  VK_EXT_memory_priority:
+info:    memoryPriority                 : 1
+info:  VK_EXT_multi_draw:
+info:    multiDraw                      : 1
+info:  VK_EXT_non_seamless_cube_map:
+info:    nonSeamlessCubeMap             : 1
+info:  VK_EXT_pageable_device_local_memory:
+info:    pageableDeviceLocalMemory      : 1
+info:  VK_EXT_robustness2:
+info:    robustBufferAccess2            : 1
+info:    robustImageAccess2             : 1
+info:    nullDescriptor                 : 1
+info:  VK_EXT_shader_module_identifier:
+info:    shaderModuleIdentifier         : 1
+info:  VK_EXT_shader_stencil_export:
+info:    extShaderStencilExport         : 0
+info:  VK_EXT_swapchain_colorspace:
+info:    extSwapchainColorSpace         : 0
+info:  VK_EXT_swapchain_maintenance1:
+info:    swapchainMaintenance1          : 1
+info:  VK_EXT_transform_feedback:
+info:    transformFeedback              : 1
+info:    geometryStreams                : 1
+info:  VK_EXT_vertex_attribute_divisor:
+info:    vertexAttributeInstanceRateDivisor : 1
+info:    vertexAttributeInstanceRateZeroDivisor : 1
+info:  VK_KHR_external_memory_win32:
+info:    khrExternalMemoryWin32         : 1
+info:  VK_KHR_external_semaphore_win32:
+info:    khrExternalSemaphoreWin32      : 1
+info:  VK_KHR_load_store_op_none:
+info:    khrLoadStoreOpNone             : 1
+info:  VK_KHR_maintenance5:
+info:    maintenance5                   : 1
+info:  VK_KHR_maintenance6:
+info:    maintenance6                   : 1
+info:  VK_KHR_maintenance7:
+info:    maintenance7                   : 0
+info:  VK_KHR_pipeline_library:
+info:    khrPipelineLibrary             : 1
+info:  VK_KHR_present_id:
+info:    presentId                      : 1
+info:  VK_KHR_present_wait:
+info:    presentWait                    : 1
+info:  VK_KHR_swapchain:
+info:    khrSwapchain                   : 1
+info:  VK_KHR_swapchain_mutable_format:
+info:    khrSwapchainMutableFormat      : 1
+info:  VK_KHR_win32_keyed_mutex:
+info:    khrWin32KeyedMutex             : 1
+info:  VK_NV_descriptor_pool_overallocation:
+info:    descriptorPoolOverallocation   : 0
+info:  VK_NV_low_latency2:
+info:    nvLowLatency2                  : 1
+info:  VK_NV_raw_access_chains:
+info:    shaderRawAccessChains          : 1
+info:  VK_NVX_binary_import:
+info:    nvxBinaryImport                : 1
+info:  VK_NVX_image_view_handle:
+info:    nvxImageViewHandle             : 1
+err:   readMonitorEdidFromKey: Failed to get EDID reg key size
+err:   DXGI: Failed to parse display metadata + colorimetry info, using blank.
+[1;37mlsfg-vk(hooks): Device created successfully: 7f4b70034570[0m
+[1;37mlsfg-vk(hooks): Device info created successfully for: 7f4b70034570[0m
+info:  Descriptor sizes (set alignment: 64)
+info:    Sampler              : 4
+info:    Uniform buffer       : 8
+info:    Storage buffer       : 16
+info:    Uniform texel buffer : 16
+info:    Storage texel buffer : 16
+info:    Sampled image        : 4
+info:    Storage image        : 4
+info:  Memory type mask for sparse resources: 0x2
+info:  Memory type mask for buffer resources: 0x1f, usage: 0x219ff
+info:  Creating sampler descriptor heap (8 kB)
+info:  DXVK: Graphics pipeline libraries supported
+03f4:fixme:vulkan:wine_vkCreateInstance Support for allocation callbacks not implemented yet
+info:  Creating resource descriptor heap (8192 kB)
+[1;37mlsfg-vk(hooks): Instance created successfully: 555581c48290[0m
+03f4:fixme:vulkan:wine_vkCreateDebugUtilsMessengerEXT Support for allocation callbacks not implemented yet
+03f4:fixme:vulkan:wine_vkCreateDebugUtilsMessengerEXT Support for allocation callbacks not implemented yet
+03f4:fixme:vulkan:wine_vkCreateDebugUtilsMessengerEXT Support for allocation callbacks not implemented yet
+03f4:fixme:vulkan:wine_vkCreateDebugUtilsMessengerEXT Support for allocation callbacks not implemented yet
+03f4:fixme:vulkan:wine_vkCreateDebugUtilsMessengerEXT Support for allocation callbacks not implemented yet
+03f4:fixme:vulkan:wine_vkCreateDevice Support for allocation callbacks not implemented yet
+err:   readMonitorEdidFromKey: Failed to get EDID reg key size
+err:   DXGI: Failed to parse display metadata + colorimetry info, using blank.
+err:   readMonitorEdidFromKey: Failed to get EDID reg key size
+err:   DXGI: Failed to parse display metadata + colorimetry info, using blank.
+warn:  D3D11DXGIDevice::QueryInterface: Unknown interface query
+warn:  d0223b96-bf7a-43fd-92bd-a43b0d82b9eb
+[1;37mlsfg-vk(hooks): Device created successfully: 555582f74720[0m
+[1;37mlsfg-vk(hooks): Device info created successfully for: 555582f74720[0m
+03f4:fixme:vulkan:wine_vkCreateCommandPool Support for allocation callbacks not implemented yet
+03f4:fixme:vulkan:wine_vkCreateCommandPool Support for allocation callbacks not implemented yet
+03f4:fixme:vulkan:wine_vkCreateCommandPool Support for allocation callbacks not implemented yet
+03f4:fixme:vulkan:wine_vkCreateSemaphore Support for allocation callbacks not implemented yet
+03f4:fixme:vulkan:wine_vkCreateSemaphore Support for allocation callbacks not implemented yet
+03f4:fixme:vulkan:wine_vkCreateSemaphore Support for allocation callbacks not implemented yet
+03f4:fixme:vulkan:wine_vkCreateSemaphore Support for allocation callbacks not implemented yet
+info:  DXVK: Using 32 compiler threads
+[1;37mlsfg-vk(hooks): Device & Device info destroyed successfully: 7f4b70034570[0m
+06e8:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x1f4,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x5d4,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x43c,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x6b4,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x1f4,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x5d4,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x43c,0x81ce70,0x00000010,(nil)) stub
+0144:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x6b4,0x81ce70,0x00000010,(nil)) stub
+03f4:fixme:vulkan:win32u_vkCreateWin32SurfaceKHR Support for allocation callbacks not implemented yet
+03f4:fixme:vulkan:wine_vkCreateSemaphore Support for allocation callbacks not implemented yet
+03f4:fixme:vulkan:wine_vkCreateSemaphore Support for allocation callbacks not implemented yet
+03f4:fixme:vulkan:wine_vkCreateSemaphore Support for allocation callbacks not implemented yet
+03f4:fixme:vulkan:wine_vkCreateSemaphore Support for allocation callbacks not implemented yet
+03f4:fixme:vulkan:wine_vkCreateSemaphore Support for allocation callbacks not implemented yet
+03f4:fixme:vulkan:wine_vkCreateSemaphore Support for allocation callbacks not implemented yet
+[1;37mlsfg-vk(hooks): Swapchain created successfully: 5555835e2e90[0m
+[1;37mlsfg-vk(context): Created frame_0 image and obtained fd: 698[0m
+[1;37mlsfg-vk(context): Created frame_1 image and obtained fd: 697[0m
+[1;37mlsfg-vk(context): Created out_n[0] image and obtained fd: 700[0m
+[1;37mlsfg-vk(context): (exiting LSFG context creation with id: 253377724)[0m
+[1;37mlsfg-vk(context): Remaining misc context init finished successfully.[0m
+[1;37mlsfg-vk(hooks): Swapchain context created successfully for: 5555835e2e90[0m
+03f4:fixme:vulkan:wine_vkCreateCommandPool Support for allocation callbacks not implemented yet
+err:   readMonitorEdidFromKey: Failed to get EDID reg key size
+err:   DXGI: Failed to parse display metadata + colorimetry info, using blank.
+err:   readMonitorEdidFromKey: Failed to get EDID reg key size
+err:   DXGI: Failed to parse display metadata + colorimetry info, using blank.
+0504:fixme:vulkan:wine_vkCreateCommandPool Support for allocation callbacks not implemented yet
+[1;37mlsfg-vk(hooks): Instance created successfully: 7f4b80001170[0m
+0470:fixme:vulkan:NtGdiDdDDIQueryAdapterInfo type 48 not handled.
+warn:  CreateDXGIFactory2: Ignoring flags
+warn:  DxgiAdapter::QueryInterface: Unknown interface query
+warn:  17399d75-964e-4c03-99f8-9d4fd196dd62
+0514:fixme:vulkan:wine_vkCreateCommandPool Support for allocation callbacks not implemented yet
+0514:fixme:vulkan:wine_vkCreateCommandPool Support for allocation callbacks not implemented yet
+0508:fixme:vulkan:wine_vkCreateCommandPool Support for allocation callbacks not implemented yet
+050c:fixme:vulkan:wine_vkCreateCommandPool Support for allocation callbacks not implemented yet
+050c:fixme:vulkan:NtGdiDdDDIQueryStatistics (0x3990536e750): stub
+050c:fixme:dbghelp:elf_search_auxv can't find symbol in module
+050c:fixme:dbghelp:MiniDumpWriteDump NIY MiniDumpWithDataSegs
+06f4:fixme:dbghelp:elf_search_auxv can't find symbol in module
+0368:fixme:avrt:AvRevertMmThreadCharacteristics (0000000012345678): stub
+0314:fixme:mmdevapi:control_UnregisterAudioSessionNotification (0000000000DCB160)->(00002E5400025300) - stub

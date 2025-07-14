@@ -1,0 +1,163 @@
+<2025-07-14T12:07:26.304Z> BackupNameAttachment=" Build(9947283) 14 Jul 25 (14 07 23)"  -- used by backup system
+<2025-07-14T12:07:26.304Z> Log started on Mon Jul 14 12:07:26 2025
+<2025-07-14T12:07:26.304Z> Built on Jul 11 2025 16:22:32
+<2025-07-14T12:07:26.304Z> Running 64 bit version
+<2025-07-14T12:07:26.304Z> Executable: Z:\mnt\m2games\Heroic-N-Lutris\star-citizen\drive_c\Program Files\Roberts Space Industries\StarCitizen\LIVE\Bin64\StarCitizen.exe
+<2025-07-14T12:07:26.304Z> FileVersion: 4.2.151.51347
+<2025-07-14T12:07:26.304Z> ProductVersion: 4.2.151.51347
+<2025-07-14T12:07:26.304Z> Using Microsoft (tm) C++ Standard Library implementation
+<2025-07-14T12:07:26.304Z> Host CPU: AMD Ryzen 9 7950X3D 16-Core Processor
+<2025-07-14T12:07:26.304Z> Logical CPU Count: 32
+<2025-07-14T12:07:26.304Z> [Trace] Environment:   PUB
+<2025-07-14T12:07:26.304Z> [Trace] Elastic:       https://cedar.rsi.global/app/discover
+<2025-07-14T12:07:26.304Z> [Trace] @session:      '1ae4e3a0-d98c-8940-a676-a22a9b3ad828'
+<2025-07-14T12:07:26.304Z> [Trace] @env_session:  'pub-sc-alpha-420-9873572'
+<2025-07-14T12:07:26.304Z> [Trace] @host_session: 'local_shard'
+<2025-07-14T12:07:26.304Z> [Trace] Instance-Logs: https://cedar.rsi.global/app/discover#/?_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2025-07-14T12:07:11.304Z',to:'2025-07-15T12:07:26.304Z'))&_a=(columns:!('@msg_idx',severity,'@product',tags,event,message),filters:!(('$state':(store:appState),meta:(alias:!n,disabled:!f,key:'@env_session',negate:!f,params:(query:'pub-sc-alpha-420-9873572'),type:phrase),query:(match_phrase:('@env_session':'pub-sc-alpha-420-9873572'))),('$state':(store:appState),meta:(alias:!n,disabled:!f,key:'@host_session',negate:!f,params:(query:'local_shard'),type:phrase),query:(match_phrase:('@host_session':'local_shard'))),('$state':(store:appState),meta:(alias:!n,disabled:!f,key:'@session',negate:!f,params:(query:'1ae4e3a0-d98c-8940-a676-a22a9b3ad828'),type:phrase),query:(match_phrase:('@session':'1ae4e3a0-d98c-8940-a676-a22a9b3ad828')))),grid:(columns:('@msg_idx':(width:75.33333333333331),'@product':(width:111.63333333333333),event:(width:252.4666666666667),severity:(width:84.13333333333333),tags:(width:243.9666666666667))),interval:auto,query:(language:kuery,query:''),sort:!(!('@timestamp',desc),!('@msg_idx',desc)))
+<2025-07-14T12:07:26.305Z> ===============================================================
+<2025-07-14T12:07:26.305Z>  Startup Arguments 
+<2025-07-14T12:07:26.305Z> ===============================================================
+<2025-07-14T12:07:26.305Z> [Notice] <Startup Settings> 6 settings set: [Team_OnlineTech][System][Initialization]
+<2025-07-14T12:07:26.305Z>    [Cmdline  ] --services-config-enabled=true
+<2025-07-14T12:07:26.305Z>    [Cmdline  ] --client-login-show-dialog=0
+<2025-07-14T12:07:26.305Z>    [Cmdline  ] --system-trace-service-enabled=true
+<2025-07-14T12:07:26.305Z>    [Cmdline  ] --system-trace-env-id='pub-sc-alpha-420-9873572'
+<2025-07-14T12:07:26.305Z>    [Cmdline  ] --grpc-client-endpoint-override='https://pub-sc-alpha-420-9873572.test1.cloudimperiumgames.com:443'
+<2025-07-14T12:07:26.305Z>    [Cmdline* ] --envtag='PUB'
+<2025-07-14T12:07:26.305Z> [Notice] <Legacy Arguments Used> 1 legacy commandline arguments used in user.cfg(): [Team_OnlineTech][System][Initialization]
+<2025-07-14T12:07:26.305Z>    -envtag (Please use '--system-startup-env-tag' instead)
+<2025-07-14T12:07:26.305Z> ===============================================================
+<2025-07-14T12:07:26.338Z> [Notice] <CreateChannel> Opening channel for 'sc.external.services.configuration.v1.ConfigService' to endpoint dns:///pub-sc-alpha-420-9873572.test1.cloudimperiumgames.com:443 (transport security: 1) [Team_OnlineTech][gRPC]
+<2025-07-14T12:07:26.338Z>    grpc.primary_user_agent=grpc-c++/1.49.2
+<2025-07-14T12:07:26.338Z>    grpc.http2.max_pings_without_data=0
+<2025-07-14T12:07:26.338Z>    grpc.max_receive_message_length=16777216
+<2025-07-14T12:07:26.338Z>    grpc.max_send_message_length=4194304
+<2025-07-14T12:07:26.338Z>    grpc.keepalive_permit_without_calls=1
+<2025-07-14T12:07:26.338Z>    grpc.keepalive_time_ms=120000
+<2025-07-14T12:07:26.338Z>    grpc.keepalive_timeout_ms=20000
+<2025-07-14T12:07:26.338Z>    grpc.http2.min_time_between_pings_ms=10000
+<2025-07-14T12:07:26.338Z>    grpc.http2.min_ping_interval_without_data_ms=5000
+<2025-07-14T12:07:26.801Z> [Notice] <CVar Config loaded> Config '/cvars/environment:PUB/product:sc-client/variables' (Version 5) loaded [Team_OnlineTech][Config]
+<2025-07-14T12:07:26.909Z> [Notice] <ReuseChannel> Reusing channel for 'sc.external.services.analytics.v1.AnalyticsService' to endpoint dns:///pub-sc-alpha-420-9873572.test1.cloudimperiumgames.com:443 (transport security: 1) [Team_OnlineTech][gRPC]
+<2025-07-14T12:07:26.909Z> [Notice] <ReuseChannel> Reusing channel for 'sc.external.services.push.v1.PushService' to endpoint dns:///pub-sc-alpha-420-9873572.test1.cloudimperiumgames.com:443 (transport security: 1) [Team_OnlineTech][gRPC]
+<2025-07-14T12:07:26.909Z> [Notice] <ReuseChannel> Reusing channel for 'sc.external.services.presence.v1.PresenceService' to endpoint dns:///pub-sc-alpha-420-9873572.test1.cloudimperiumgames.com:443 (transport security: 1) [Team_OnlineTech][gRPC]
+<2025-07-14T12:07:26.910Z> [Notice] <Default Trace Config loaded> Config 'CODE' loaded (Version 2) [Team_OnlineTech][Config][CigTrace]
+<2025-07-14T12:07:26.910Z> [Notice] <ReuseChannel> Reusing channel for 'sc.external.services.trace.v1.TraceService' to endpoint dns:///pub-sc-alpha-420-9873572.test1.cloudimperiumgames.com:443 (transport security: 1) [Team_OnlineTech][gRPC]
+<2025-07-14T12:07:26.910Z> [Notice] <Stream started> Result: OK(0) [Team_OnlineTech][CigTrace]
+<2025-07-14T12:07:26.910Z> WINE: 10.10
+<2025-07-14T12:07:26.910Z> System language: German
+<2025-07-14T12:07:26.910Z> Windows Directory: "C:\windows"
+<2025-07-14T12:07:26.910Z> Local time is 14:07:26 07/14/25, system running for 55 minutes
+<2025-07-14T12:07:26.910Z> 63969MB physical memory installed, 51756MB available, 19 percent of memory in use
+<2025-07-14T12:07:26.911Z> 1981MB working set, 1946MB commit size (1946MB peak), 178835MB left to commit (191905MB system wide commit limit)
+<2025-07-14T12:07:26.911Z> Current display mode is 2560x1440x32
+<2025-07-14T12:07:26.911Z> IBM enhanced (101/102-key) keyboard and 3+ button mouse installed
+<2025-07-14T12:07:26.911Z> [CIG] gEnv->IsDedicated[0] CSystem::m_bDedicatedServer[0] startupParams.bDedicatedServer[0]
+<2025-07-14T12:07:26.911Z> [CIG] startupParams.szSystemCmdLine["Z:\mnt\m2games\Heroic-N-Lutris\star-citizen\drive_c\Program Files\Roberts Space Industries\StarCitizen\LIVE\Bin64\StarCitizen.exe" -no_login_dialog -envtag PUB --client-login-show-dialog 0 --services-config-enabled 1 --system-trace-service-enabled 1 --system-trace-env-id pub-sc-alpha-420-9873572 --grpc-client-endpoint-override https://pub-sc-alpha-420-9873572.test1.cloudimperiumgames.com:443]
+<2025-07-14T12:07:26.911Z> [Notice] <Init> Process sc-client started (Local: 1ae4e3a0-d98c-8940-a676-a22a9b3ad828. Env: pub-sc-alpha-420-9873572). bDedicatedServer[0] bIsService[0] bIsHeadlessClient[0] bOnline[1] bShardPersistence[1] bTools[0] szSystemCmdLine["Z:\mnt\m2games\Heroic-N-Lutris\star-citizen\drive_c\Program Files\Roberts Space Industries\StarCitizen\LIVE\Bin64\StarCitizen.exe" -no_login_dialog -envtag PUB --client-login-show-dialog 0 --services-config-enabled 1 --system-trace-service-enabled 1 --system-trace-env-id pub-sc-alpha-420-9873572 --grpc-client-endpoint-override https://pub-sc-alpha-420-9873572.test1.cloudimperiumgames.com:443]  [Team_OnlineTech][ProcessInit]
+<2025-07-14T12:07:26.911Z> [CVARS]: [CHANGED] CXConsole::LoadConfigVar(): variable [sys_spec] is marked [Not Whitelisted] with a value of [0]; config file attempting to change to [-1] - IGNORING
+<2025-07-14T12:07:26.912Z> Stream Engine Initialization
+<2025-07-14T12:07:26.912Z> Branch: sc-alpha-4.2.0
+<2025-07-14T12:07:26.912Z> BuildDateStamp: Fri Jul 11 2025
+<2025-07-14T12:07:26.912Z> BuildTimeStamp: 05:58:24 PM CST
+<2025-07-14T12:07:26.912Z> Config: shipping
+<2025-07-14T12:07:26.912Z> Tag: public
+<2025-07-14T12:07:26.912Z> Changelist: 9947283
+<2025-07-14T12:07:26.912Z> ShelveCL: 0
+<2025-07-14T12:07:26.912Z> Video Capture initialization
+<2025-07-14T12:07:26.913Z> CIG Backend initialization
+<2025-07-14T12:07:26.914Z> [CIG] build_version[9947283]
+<2025-07-14T12:07:26.914Z> Physics initialization
+<2025-07-14T12:07:26.959Z> <Audio>: AudioSystem initialization
+<2025-07-14T12:07:26.961Z> [Audio] Wwise Init : Output Buffer (1024 x 4) : API=WASAPI
+<2025-07-14T12:07:26.964Z> Renderer initialization
+<2025-07-14T12:07:27.065Z> Logging video adapters:
+<2025-07-14T12:07:27.270Z> - NVIDIA GeForce RTX 4080 (vendor = 0x10de, device = 0x2704)
+<2025-07-14T12:07:27.270Z>   - Adapter index: 0
+<2025-07-14T12:07:27.270Z>   - Dedicated video memory: 16376 MB
+<2025-07-14T12:07:27.270Z>   - Feature level: DX11.1 (SM 5.0)
+<2025-07-14T12:07:27.270Z>   - Displays connected: yes
+<2025-07-14T12:07:27.270Z>   - Suitable rendering device: yes
+<2025-07-14T12:07:27.403Z> VulkanMetric - Device (NVIDIA GeForce RTX 4080) [GPU (Discrete)] ID:9988
+<2025-07-14T12:07:27.403Z> VulkanMetric -     Driver 575.64.3.0
+<2025-07-14T12:07:27.403Z> VulkanMetric -     VulkanAPI 1.4.303
+<2025-07-14T12:07:27.403Z> VulkanMetric -     Supports 6 Queue Families
+<2025-07-14T12:07:27.403Z> VulkanMetric - Device (NVIDIA GeForce RTX 4080) valid GPU
+<2025-07-14T12:07:27.403Z> [VK] Chosen Vulkan GPU Device (NVIDIA GeForce RTX 4080) Driver Version (575.64.3.0) Vulkan API (1.4.303) 
+<2025-07-14T12:07:27.403Z> [VK] Current Device: (NVIDIA GeForce RTX 4080) VendorID: (4318)
+<2025-07-14T12:07:27.403Z> [VK] Current Device: (NVIDIA GeForce RTX 4080) VendorID: (4318)
+<2025-07-14T12:07:27.403Z> [VK_INFO] - Loader Message | Inserted device layer "VK_LAYER_MANGOHUD_overlay_x86_64" (/usr/lib/mangohud/libMangoHud.so)
+<2025-07-14T12:07:27.403Z> [VK_INFO] - Loader Message | Inserted device layer "VK_LAYER_LS_frame_generation" (/home/hans/.local/share/vulkan/implicit_layer.d/../../../lib/liblsfg-vk.so)
+<2025-07-14T12:07:27.403Z> [VK_INFO] - Loader Message | vkCreateDevice layer callstack setup to:
+<2025-07-14T12:07:27.403Z> [VK_INFO] - Loader Message |    <Application>
+<2025-07-14T12:07:27.403Z> [VK_INFO] - Loader Message |      ||
+<2025-07-14T12:07:27.403Z> [VK_INFO] - Loader Message |    <Loader>
+<2025-07-14T12:07:27.403Z> [VK_INFO] - Loader Message |      ||
+<2025-07-14T12:07:27.403Z> [VK_INFO] - Loader Message |    VK_LAYER_LS_frame_generation
+<2025-07-14T12:07:27.403Z> [VK_INFO] - Loader Message |            Type: Implicit
+<2025-07-14T12:07:27.403Z> [VK_INFO] - Loader Message |            Enabled By: Implicit Layer
+<2025-07-14T12:07:27.403Z> [VK_INFO] - Loader Message |                Disable Env Var:  DISABLE_LSFG
+<2025-07-14T12:07:27.403Z> [VK_INFO] - Loader Message |            Manifest: /home/hans/.local/share/vulkan/implicit_layer.d/VkLayer_LS_frame_generation.json
+<2025-07-14T12:07:27.403Z> [VK_INFO] - Loader Message |            Library:  /home/hans/.local/share/vulkan/implicit_layer.d/../../../lib/liblsfg-vk.so
+<2025-07-14T12:07:27.403Z> [VK_INFO] - Loader Message |      ||
+<2025-07-14T12:07:27.403Z> [VK_INFO] - Loader Message |    VK_LAYER_MANGOHUD_overlay_x86_64
+<2025-07-14T12:07:27.403Z> [VK_INFO] - Loader Message |            Type: Implicit
+<2025-07-14T12:07:27.403Z> [VK_INFO] - Loader Message |            Enabled By: Implicit Layer
+<2025-07-14T12:07:27.403Z> [VK_INFO] - Loader Message |                Disable Env Var:  DISABLE_MANGOHUD
+<2025-07-14T12:07:27.403Z> [VK_INFO] - Loader Message |            Manifest: /usr/share/vulkan/implicit_layer.d/MangoHud.x86_64.json
+<2025-07-14T12:07:27.403Z> [VK_INFO] - Loader Message |            Library:  /usr/lib/mangohud/libMangoHud.so
+<2025-07-14T12:07:27.403Z> [VK_INFO] - Loader Message |      ||
+<2025-07-14T12:07:27.403Z> [VK_INFO] - Loader Message |    <Device>
+<2025-07-14T12:07:27.403Z> [VK_INFO] - Loader Message |        Using "NVIDIA GeForce RTX 4080" with driver: "libGLX_nvidia.so.0"
+<2025-07-14T12:07:27.679Z> GPU benchmark: 15.03 ms (Adapter index: 0, Num GPUs: 1)
+<2025-07-14T12:07:27.851Z> CPU benchmark: 30.00 ms (int+mem), 24.63 ms (fp+mem)
+<2025-07-14T12:07:27.851Z> Performance Index: 413.01 (CPU), 685.24 (GPU)
+<2025-07-14T12:07:27.866Z> [VK] Available Surface Formats for Physical Device -
+<2025-07-14T12:07:27.866Z> 	Format: B8G8R8A8_UNORM, ColorSpace: SRGB_NONLINEAR
+<2025-07-14T12:07:27.866Z> 	Format: B8G8R8A8_SRGB, ColorSpace: SRGB_NONLINEAR
+<2025-07-14T12:07:27.866Z> [VK] Couldn't find format requested from available physical device formats: Format: R8G8B8A8_UNORM - ColorSpace: SRGB_NONLINEAR
+<2025-07-14T12:07:27.866Z> [VK] Found requested Surface Format: B8G8R8A8_UNORM
+<2025-07-14T12:07:28.073Z> GPUCount: 1
+<2025-07-14T12:07:28.073Z> GPU: Vendor = NVIDIA
+<2025-07-14T12:07:28.073Z> GPU: DedicatedVidMemMB = 12933
+<2025-07-14T12:07:28.073Z> GPU: NVidia-Surround or AMD-Eyefinity = Disabled
+<2025-07-14T12:07:28.092Z> GPU: DLSS Support = Unavailable
+<2025-07-14T12:07:28.533Z> [PSOCacheGen] Loaded PSOCache (270754 entries)(0.156s)
+<2025-07-14T12:07:29.072Z> Texture Streaming: Fixed memory requirement = 2997. (Includes texture lib size)
+<2025-07-14T12:07:29.072Z> Texture Streaming: Usable VRAM = 10346
+<2025-07-14T12:07:29.072Z> Texture Streaming: Actual pool size = 4000
+<2025-07-14T12:07:29.072Z> Runtime GPU Memory: Committed:    0 MB
+<2025-07-14T12:07:29.072Z> Runtime GPU Memory: Dedicated: 967500981 MB (All:    0 MB)
+<2025-07-14T12:07:29.072Z> Runtime GPU Memory: Shared: 5112 MB (All:    0 MB)
+
+Process Memory Status: 3371MB working set size, 2588MB commit size (2588MB peak), 177333MB left to commit
+System Memory Status: 63969MB total physical, 50254MB free physical, 191905MB system wide commit limit
+
+=== Level Profile Statistics===
+Frames              : 0
+Entities            : Min: -1 Max: 0 Avg: 0
+Component Updates   : Avg: 0
+Component Events    : Avg: 0
+Memory (Committed)  : Min: 17592186044416.00 MB Max 0.00
+Memory (WorkingSet) : Min: 17592186044416.00 MB Max 0.00
+Buckets             :     Avg         |<16ms|<20ms|<25ms|<30ms|<35ms|<40ms|<45ms|<50ms|slower
+
+
+Cloud Imperium Games public crash handler taking over...
+Details for StarCitizen.exe (md5=64e0d7ad49e70951db4cadd2616dd955)...
+* Base of Image              : 0x0000000140000000 (mod), 0x0000000140000000 (modc)
+* Size of Image              :  300322816 (diskoh),  300322816 (memoh), 300322816 (mod), 300322816 (modc)
+* Size of Code               :  134964736 (diskoh),  134964736 (memoh)
+* Size of Headers            :       1024 (diskoh),       1024 (memoh)
+* Size of Initialized Data   :  165342720 (diskoh),  165342720 (memoh)
+* Size of Uninitialized Data :          0 (diskoh),          0 (memoh)
+* Checksum                   :          0 (diskoh),          0 (memoh)
+Saved dump file to C:\users\hans\AppData\Local\Star Citizen\Crashes\error.dmp (md5=8465169c945e45cca360102e2dd0691f)
+Exception EXCEPTION_ACCESS_VIOLATION(0xC0000005) addr=0x0000000000000000 digest=cdaf58a704ef9128f4ae68eda834dc3e
+Run from internal: No
+Is fatal error: No
+Is reported bug: No
+Is GPU crash: No
+Is Timeout: No
+Is out of system memory: No
+Is out of video memory: No
