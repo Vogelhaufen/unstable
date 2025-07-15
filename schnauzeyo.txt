@@ -1,0 +1,1073 @@
+info:      Type  0: (None)
+info:      Type  2: HOST_VISIBLE | HOST_COHERENT
+info:      Type  3: HOST_VISIBLE | HOST_COHERENT | HOST_CACHED
+info:  Enabled extensions:
+info:    VK_EXT_attachment_feedback_loop_layout
+info:    VK_EXT_conservative_rasterization
+info:    VK_EXT_custom_border_color
+info:    VK_EXT_depth_clip_enable
+info:    VK_EXT_depth_bias_control
+info:    VK_EXT_descriptor_buffer
+info:    VK_EXT_extended_dynamic_state3
+info:    VK_EXT_fragment_shader_interlock
+info:    VK_EXT_graphics_pipeline_library
+info:    VK_EXT_line_rasterization
+info:    VK_EXT_memory_priority
+info:    VK_EXT_multi_draw
+info:    VK_EXT_non_seamless_cube_map
+info:    VK_EXT_pageable_device_local_memory
+info:    VK_EXT_robustness2
+info:    VK_EXT_shader_module_identifier
+info:    VK_EXT_swapchain_maintenance1
+info:    VK_EXT_transform_feedback
+info:    VK_EXT_vertex_attribute_divisor
+info:    VK_KHR_external_memory_win32
+info:    VK_KHR_external_semaphore_win32
+info:    VK_KHR_load_store_op_none
+info:    VK_KHR_maintenance5
+info:    VK_KHR_maintenance6
+info:    VK_KHR_pipeline_library
+info:    VK_KHR_present_id
+info:    VK_KHR_present_wait
+info:    VK_KHR_swapchain
+info:    VK_KHR_swapchain_mutable_format
+info:    VK_KHR_win32_keyed_mutex
+info:    VK_NV_low_latency2
+info:    VK_NV_raw_access_chains
+info:    VK_NVX_binary_import
+info:    VK_NVX_image_view_handle
+info:  Enabled features:
+info:    depthBiasClamp                 : 1
+info:    depthBounds                    : 1
+info:    depthClamp                     : 1
+info:    drawIndirectFirstInstance      : 1
+info:    dualSrcBlend                   : 1
+info:    fillModeNonSolid               : 1
+info:    fragmentStoresAndAtomics       : 1
+info:    fullDrawIndexUint32            : 1
+info:    geometryShader                 : 1
+info:    imageCubeArray                 : 1
+info:    independentBlend               : 1
+info:    logicOp                        : 1
+info:    multiDrawIndirect              : 1
+info:    multiViewport                  : 1
+info:    occlusionQueryPrecise          : 1
+info:    pipelineStatisticsQuery        : 1
+info:    robustBufferAccess             : 1
+info:    sampleRateShading              : 1
+info:    samplerAnisotropy              : 1
+info:    shaderClipDistance             : 1
+info:    shaderCullDistance             : 1
+info:    shaderFloat64                  : 1
+info:    shaderImageGatherExtended      : 1
+info:    shaderInt16                    : 1
+info:    shaderInt64                    : 1
+info:    shaderSampledImageArrayDynamicIndexing : 1
+info:    sparseBinding                  : 1
+info:    sparseResidencyBuffer          : 1
+info:    sparseResidencyImage2D         : 1
+info:    sparseResidencyImage3D         : 1
+info:    sparseResidency2Samples        : 1
+info:    sparseResidency4Samples        : 1
+info:    sparseResidency8Samples        : 1
+info:    sparseResidency16Samples       : 1
+info:    sparseResidencyAliased         : 1
+info:    shaderResourceResidency        : 1
+info:    shaderResourceMinLod           : 1
+info:    tessellationShader             : 1
+info:    textureCompressionBC           : 1
+info:    variableMultisampleRate        : 1
+info:    vertexPipelineStoresAndAtomics : 1
+info:    wideLines                      : 1
+info:    shaderDrawParameters           : 1
+info:    storagePushConstant16          : 1
+info:    bufferDeviceAddress            : 1
+info:    descriptorIndexing             : 1
+info:    descriptorBindingSampledImageUpdateAfterBind : 1
+info:    descriptorBindingUpdateUnusedWhilePending : 1
+info:    descriptorBindingPartiallyBound : 1
+info:    drawIndirectCount              : 1
+info:    hostQueryReset                 : 1
+info:    runtimeDescriptorArray         : 1
+info:    samplerFilterMinmax            : 1
+info:    samplerMirrorClampToEdge       : 1
+info:    shaderInt8                     : 1
+info:    shaderOutputViewportIndex      : 1
+info:    shaderOutputLayer              : 1
+info:    timelineSemaphore              : 1
+info:    uniformBufferStandardLayout    : 1
+info:    vulkanMemoryModel              : 1
+info:    dynamicRendering               : 1
+info:    maintenance4                   : 1
+info:    robustImageAccess              : 0
+info:    pipelineCreationCacheControl   : 1
+info:    shaderDemoteToHelperInvocation : 1
+info:    shaderZeroInitializeWorkgroupMemory : 1
+info:    synchronization2               : 1
+info:  VK_EXT_attachment_feedback_loop_layout:
+info:    attachmentFeedbackLoopLayout   : 1
+info:  VK_EXT_conservative_rasterization:
+info:    extConservativeRasterization   : 1
+info:  VK_EXT_custom_border_color:
+info:    customBorderColors             : 1
+info:    customBorderColorWithoutFormat : 1
+info:  VK_EXT_depth_clip_enable:
+info:    depthClipEnable                : 1
+info:  VK_EXT_depth_bias_control:
+info:    depthBiasControl               : 1
+info:    leastRepresentableValueForceUnormRepresentation : 1
+info:    floatRepresentation            : 0
+info:    depthBiasExact                 : 1
+info:  VK_EXT_descriptor_buffer:
+info:    descriptorBuffer               : 1
+info:  VK_EXT_extended_dynamic_state3:
+info:    extendedDynamicState3AlphaToCoverageEnable : 1
+info:    extendedDynamicState3DepthClipEnable : 1
+info:    extendedDynamicState3RasterizationSamples : 1
+info:    extendedDynamicState3SampleMask : 1
+info:    extendedDynamicState3LineRasterizationMode : 1
+info:  VK_EXT_fragment_shader_interlock:
+info:    fragmentShaderSampleInterlock  : 1
+info:    fragmentShaderPixelInterlock   : 1
+info:  VK_EXT_full_screen_exclusive:
+info:    extFullScreenExclusive         : 0
+info:  VK_EXT_graphics_pipeline_library:
+info:    graphicsPipelineLibrary        : 1
+info:  VK_EXT_hdr_metadata:
+info:    extHdrMetadata                 : 0
+info:  VK_EXT_line_rasterization:
+info:    rectangularLines               : 1
+info:    smoothLines                    : 1
+info:  VK_EXT_memory_budget:
+info:    extMemoryBudget                : 1
+info:  VK_EXT_memory_priority:
+info:    memoryPriority                 : 1
+info:  VK_EXT_multi_draw:
+info:    multiDraw                      : 1
+info:  VK_EXT_non_seamless_cube_map:
+info:    nonSeamlessCubeMap             : 1
+info:  VK_EXT_pageable_device_local_memory:
+info:    pageableDeviceLocalMemory      : 1
+info:  VK_EXT_robustness2:
+info:    robustBufferAccess2            : 1
+info:    robustImageAccess2             : 1
+info:    nullDescriptor                 : 1
+info:  VK_EXT_shader_module_identifier:
+info:    shaderModuleIdentifier         : 1
+info:  VK_EXT_shader_stencil_export:
+info:    extShaderStencilExport         : 0
+info:  VK_EXT_swapchain_colorspace:
+info:    extSwapchainColorSpace         : 0
+info:  VK_EXT_swapchain_maintenance1:
+info:    swapchainMaintenance1          : 1
+info:  VK_EXT_transform_feedback:
+info:    transformFeedback              : 1
+info:    geometryStreams                : 1
+info:  VK_EXT_vertex_attribute_divisor:
+info:    vertexAttributeInstanceRateDivisor : 1
+info:    vertexAttributeInstanceRateZeroDivisor : 1
+info:  VK_KHR_external_memory_win32:
+info:    khrExternalMemoryWin32         : 1
+info:  VK_KHR_external_semaphore_win32:
+info:    khrExternalSemaphoreWin32      : 1
+info:  VK_KHR_load_store_op_none:
+info:    khrLoadStoreOpNone             : 1
+info:  VK_KHR_maintenance5:
+info:    maintenance5                   : 1
+info:  VK_KHR_maintenance6:
+info:    maintenance6                   : 1
+info:  VK_KHR_maintenance7:
+info:    maintenance7                   : 0
+info:  VK_KHR_pipeline_library:
+info:    khrPipelineLibrary             : 1
+info:  VK_KHR_present_id:
+info:    presentId                      : 1
+info:  VK_KHR_present_wait:
+info:    presentWait                    : 1
+info:  VK_KHR_swapchain:
+info:    khrSwapchain                   : 1
+info:  VK_KHR_swapchain_mutable_format:
+info:    khrSwapchainMutableFormat      : 1
+info:  VK_KHR_win32_keyed_mutex:
+info:    khrWin32KeyedMutex             : 1
+info:  VK_NV_descriptor_pool_overallocation:
+info:    descriptorPoolOverallocation   : 0
+info:  VK_NV_low_latency2:
+info:    nvLowLatency2                  : 1
+info:  VK_NV_raw_access_chains:
+info:    shaderRawAccessChains          : 1
+info:  VK_NVX_binary_import:
+info:    nvxBinaryImport                : 1
+info:  VK_NVX_image_view_handle:
+info:    nvxImageViewHandle             : 1
+00d8:fixme:iphlpapi:GetBestRoute2 (000004A4005C80E0, 0, 0000000000000000, 000004A4005C8280, 0x00000000, 000000000081D330, 000000000081D430): stub
+00d8:fixme:systray:Shell_NotifyIconGetRect stub (000000000081ED90) (000000000081ED80)
+01cc:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+0264:fixme:thread:NtSetInformationThread info class 24 not supported yet
+0264:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x228,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x228,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x228,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x228,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x228,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x228,0x81ce60,0x00000010,(nil)) stub
+01cc:fixme:netprofm:connection_point_Advise 0000000000E51D58, 000004A40386B6D0, 000004A40386B6E8 - semi-stub
+01cc:fixme:netprofm:cost_manager_GetCost 0000000000E51CE8, 000000006BC9F7B0, 0000000000000000
+01cc:fixme:thread:NtSetInformationThread info class 24 not supported yet
+01cc:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+022c:err:kerberos:kerberos_LsaApInitializePackage no Kerberos support, expect problems
+022c:err:ntlm:ntlm_LsaApInitializePackage no NTLM support, expect problems
+00d8:fixme:process:GetProcessInformation Unsupported information class 4.
+00d8:fixme:systray:Shell_NotifyIconGetRect stub (000000000081EF00) (000000000081EEF0)
+00d8:err:ole:marshal_object Failed to create an IRpcStubBuffer from IPSFactory for {00020404-0000-0000-c000-000000000046} with error 0x80004002
+022c:fixme:powrprof:PowerRegisterSuspendResumeNotification (0x00000002,000000000081FD70,000000000081FD68) stub!
+00d8:err:ole:marshal_object Failed to create an IRpcStubBuffer from IPSFactory for {00000114-0000-0000-c000-000000000046} with error 0x80004002
+022c:fixme:process:GetProcessMitigationPolicy (FFFFFFFFFFFFFFFF, 4, 000000000081FCE4, 4): stub
+022c:fixme:uxtheme:SetPreferredAppMode 1: stub
+022c:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+022c:fixme:winstation:GetUserObjectSecurity (0000000000000004 000000000081F6E0 0000000000000000 len=0 000000000081F66C),stub!
+022c:fixme:winstation:GetUserObjectSecurity (0000000000000004 000000000081F6E0 000000000096ED00 len=40 000000000081F66C),stub!
+022c:fixme:winstation:GetUserObjectSecurity (0000000000000008 000000000081F660 0000000000000000 len=0 000000000081F5EC),stub!
+022c:fixme:winstation:GetUserObjectSecurity (0000000000000008 000000000081F660 000000000096ED00 len=40 000000000081F5EC),stub!
+022c:fixme:ntdll:EtwEventSetInformation (deadbeef, 2, 000078FC00018628, 16) stub
+0280:fixme:thread:NtSetInformationThread info class 24 not supported yet
+0280:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+022c:fixme:ntdll:NtQuerySystemInformation info_class SYSTEM_PERFORMANCE_INFORMATION
+0284:fixme:winsock:WSALookupServiceBeginW (00000000068CE620 0xff0 00000000068CE698) Stub!
+0294:fixme:thread:NtSetInformationThread info class 24 not supported yet
+0294:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+02a0:fixme:file:NtLockFile I/O completion on lock not implemented yet
+02ac:fixme:thread:NtSetInformationThread info class 24 not supported yet
+02ac:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+0238:err:virtual:virtual_setup_exception stack overflow 3776 bytes addr 0x6ffffd6e0649 stack 0x4bc0140 (0x4bc0000-0x4bc1000-0x4cc0000)
+027c:fixme:virtual:prefetch_memory (process=0xffffffffffffffff,flags=0) NtSetInformationVirtualMemory(VmPrefetchInformation) partial stub
+0284:fixme:winsock:setsockopt Ignoring SO_RANDOMIZE_PORT
+0144:fixme:crypt:CRYPT_SysRegOpenStoreW CERT_SYSTEM_STORE_LOCAL_MACHINE_ENTERPRISE, L"ROOT": stub
+0144:fixme:crypt:CRYPT_SysRegOpenStoreW CERT_SYSTEM_STORE_LOCAL_MACHINE_ENTERPRISE, L"CA": stub
+0144:fixme:crypt:CRYPT_SysRegOpenStoreW CERT_SYSTEM_STORE_LOCAL_MACHINE_ENTERPRISE, L"TrustedPeople": stub
+0144:fixme:crypt:CRYPT_SysRegOpenStoreW CERT_SYSTEM_STORE_LOCAL_MACHINE_ENTERPRISE, L"Disallowed": stub
+0144:fixme:crypt:CRYPT_RegControl CERT_STORE_CTRL_AUTO_RESYNC: stub
+0144:fixme:crypt:CRYPT_RegControl CERT_STORE_CTRL_AUTO_RESYNC: stub
+0144:fixme:crypt:CRYPT_RegControl CERT_STORE_CTRL_AUTO_RESYNC: stub
+0144:fixme:crypt:CRYPT_RegControl CERT_STORE_CTRL_AUTO_RESYNC: stub
+0294:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+0294:fixme:netprofm:connection_point_Advise 00000000009EEAB8, 000078FC0000B860, 000078FC0000B878 - semi-stub
+0294:fixme:netprofm:cost_manager_GetCost 00000000009EEA48, 00000000080EF7B0, 0000000000000000
+0294:fixme:thread:NtSetInformationThread info class 24 not supported yet
+0294:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+028c:fixme:thread:NtSetInformationThread info class 24 not supported yet
+028c:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+0250:err:kerberos:kerberos_LsaApInitializePackage no Kerberos support, expect problems
+0250:err:ntlm:ntlm_LsaApInitializePackage no NTLM support, expect problems
+0250:fixme:powrprof:PowerRegisterSuspendResumeNotification (0x00000002,000000000081FD70,000000000081FD68) stub!
+0250:fixme:process:GetProcessMitigationPolicy (FFFFFFFFFFFFFFFF, 4, 000000000081FCE4, 4): stub
+0250:fixme:uxtheme:SetPreferredAppMode 1: stub
+0250:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+0250:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+02cc:fixme:thread:NtSetInformationThread info class 24 not supported yet
+02cc:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+0250:fixme:ntdll:EtwEventSetInformation (deadbeef, 2, 000045D4000184A8, 16) stub
+0250:fixme:ntdll:NtQuerySystemInformation info_class SYSTEM_PERFORMANCE_INFORMATION
+02d4:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+0250:fixme:ntdll:EtwEventSetInformation (deadbeef, 2, 000000014B7C6625, 8) stub
+02e4:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+02ec:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFFFFFFFFFA, 000000006934FF50
+0250:fixme:ver:GetPackageFamilyName (FFFFFFFFFFFFFFFF 000000000081BA9C 000000000081BAA0): stub
+info:  Descriptor sizes (set alignment: 64)
+info:    Sampler              : 4
+info:    Uniform buffer       : 8
+info:    Storage buffer       : 16
+info:    Uniform texel buffer : 16
+info:    Storage texel buffer : 16
+info:    Sampled image        : 4
+info:    Storage image        : 4
+info:  Memory type mask for sparse resources: 0x2
+info:  Memory type mask for buffer resources: 0x1f, usage: 0x219ff
+info:  Creating sampler descriptor heap (8 kB)
+info:  DXVK: Graphics pipeline libraries supported
+info:  Creating resource descriptor heap (8192 kB)
+01fc:fixme:dcomp:DCompositionCreateDevice3 0000000002BBD100, {5f4633fe-1e08-4cb8-8c75-ce24333f5602}, 000000000081EAB8.
+01fc:fixme:ntdll:NtSetInformationToken TokenIntegrityLevel stub!
+01fc:fixme:process:SetProcessMitigationPolicy (8, 000000000081ED40, 4): stub
+01fc:fixme:ntdll:EtwEventSetInformation (deadbeef, 2, 00003CA400018568, 16) stub
+030c:fixme:thread:NtSetInformationThread info class 24 not supported yet
+030c:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+0310:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+0320:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x228,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x35c,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x554,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x50c,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:win:GetPointerDevices (000000000081DF24 0000000000000000): partial stub
+00d8:fixme:win:GetPointerDevices (000000000081DF24 0000000000000000): partial stub
+00d8:fixme:system:NtUserDisplayConfigGetDeviceInfo Unimplemented packet type 11.
+00d8:fixme:ui:uisettings2_get_TextScaleFactor iface 0000000000C8B908, value 000000000081DEC0 stub!
+00d8:fixme:win:GetPointerDevices (000000000081DF24 0000000000000000): partial stub
+00d8:fixme:win:GetPointerDevices (000000000081DF24 0000000000000000): partial stub
+00d8:fixme:system:NtUserDisplayConfigGetDeviceInfo Unimplemented packet type 11.
+00d8:fixme:ui:uisettings2_get_TextScaleFactor iface 0000000000C8B908, value 000000000081DEC0 stub!
+warn:  D3D11DXGIDevice::QueryInterface: Unknown interface query
+warn:  0ec870a6-5d7e-4c22-8cfc-5baae07616ed
+warn:  DXGI: MakeWindowAssociation: Ignoring flags
+info:  DXVK: Using 32 compiler threads
+info:  Presenter: Actual swapchain properties:
+info:    Format:       VK_FORMAT_B8G8R8A8_UNORM
+info:    Color space:  VK_COLOR_SPACE_SRGB_NONLINEAR_KHR
+info:    Present mode: VK_PRESENT_MODE_FIFO_KHR (dynamic: yes)
+info:    Buffer size:  1024x620
+info:    Image count:  5
+err:   D3D11VideoDevice::GetVideoDecoderProfileCount: Stub
+01fc:fixme:dwmapi:DwmGetCompositionTimingInfo (0000000000000000 000000000081EB98)
+0250:fixme:dwrite:dwritefontface5_HasVariations 00000000009D19D0: stub
+warn:  D3D11Texture2D::QueryInterface: Unknown interface query
+warn:  f8fb5c27-c6b3-4f75-a4c8-439af2ef564c
+0144:fixme:file:ReplaceFileW Ignoring flags 2
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x228,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x35c,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x554,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x50c,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:win:IsWindowArranged hwnd 00000000000100DE stub.
+00d8:fixme:win:GetPointerDevices (000000000081D034 0000000000000000): partial stub
+00d8:fixme:win:GetPointerDevices (000000000081D034 0000000000000000): partial stub
+00d8:fixme:system:NtUserDisplayConfigGetDeviceInfo Unimplemented packet type 11.
+00d8:fixme:ui:uisettings2_get_TextScaleFactor iface 0000000000C8B908, value 000000000081CFD0 stub!
+00d8:fixme:win:GetPointerDevices (000000000081D034 0000000000000000): partial stub
+00d8:fixme:win:GetPointerDevices (000000000081D034 0000000000000000): partial stub
+00d8:fixme:system:NtUserDisplayConfigGetDeviceInfo Unimplemented packet type 11.
+00d8:fixme:ui:uisettings2_get_TextScaleFactor iface 0000000000C8B908, value 000000000081CFD0 stub!
+00d8:fixme:dwmapi:DwmExtendFrameIntoClientArea (00000000000100DE, 000000000081D7F0) stub
+0224:fixme:dwmapi:DwmGetWindowAttribute DWMWA_CLOAKED: always returning 0.
+00d8:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x228,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x35c,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x554,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x50c,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x228,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x35c,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x554,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x50c,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x228,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x35c,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x554,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x50c,0x81ce60,0x00000010,(nil)) stub
+0284:fixme:winsock:setsockopt Ignoring SO_RANDOMIZE_PORT
+0284:fixme:winsock:setsockopt Ignoring SO_RANDOMIZE_PORT
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x228,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x35c,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x554,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x50c,0x81ce60,0x00000010,(nil)) stub
+01e8:fixme:ntdll:NtFilterToken flags 0x1 unsupported
+01e8:fixme:ntdll:NtFilterToken support for restricting sids not yet implemented
+01e8:fixme:advapi:SetEntriesInAclW unhandled access mode 4
+01e8:fixme:ntdll:NtSetInformationToken TokenIntegrityLevel stub!
+01e8:fixme:ntdll:NtFilterToken support for restricting sids not yet implemented
+01e8:fixme:advapi:SetEntriesInAclW unhandled access mode 4
+01e8:fixme:ntdll:NtSetInformationToken TokenIntegrityLevel stub!
+01e8:fixme:advapi:SetSecurityInfo unimplemented type 7, returning success
+01e8:fixme:sync:NtSetInformationJobObject stub: 0x710 4 0x6fb3ee6c 4
+01e8:fixme:process:GetProcessMitigationPolicy (FFFFFFFFFFFFFFFF, 5, 000000014BD73410, 16): stub
+01e8:fixme:process:validate_proc_thread_attribute Unhandled attribute 26
+0144:fixme:process:CreateProcessInternalW Unsupported attribute 0x2000e.
+info:  Setting timer interval to 1000 us
+00d8:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+00d8:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+0134:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0134:fixme:uiautomation:base_hwnd_provider_GetPatternProvider 000000000088BF00, 10002, 000000000182F8A0: stub
+0134:fixme:oleacc:find_class_data unhandled window class: L"tooltips_class32"
+0400:err:system:NtUserChangeDisplaySettings Changing L"\\\\.\\DISPLAY2" display settings returned -2.
+0400:err:explorer:initialize_display_settings Failed to initialize registry display settings for L"\\\\.\\DISPLAY2".
+0400:fixme:file:GetLongPathNameW UNC pathname L"\\\\?\\S:\\steam-linux\\compatibilitytools.d\\GE-Proton10-9\\files\\share\\wine/../xalia/xalia.exe"
+0400:fixme:file:GetLongPathNameW UNC pathname L"\\\\?\\S:\\steam-linux\\compatibilitytools.d\\GE-Proton10-9\\files\\share\\wine/../xalia/xalia.exe"
+0400:fixme:file:GetLongPathNameW UNC pathname L"\\\\?\\S:\\steam-linux\\compatibilitytools.d\\GE-Proton10-9\\files\\share\\wine/../xalia/xalia.exe"
+0400:fixme:file:GetLongPathNameW UNC pathname L"\\\\?\\S:\\steam-linux\\compatibilitytools.d\\GE-Proton10-9\\files\\share\\wine/../xalia/xalia.exe"
+03dc:err:kerberos:kerberos_LsaApInitializePackage no Kerberos support, expect problems
+03dc:err:ntlm:ntlm_LsaApInitializePackage no NTLM support, expect problems
+03dc:fixme:powrprof:PowerRegisterSuspendResumeNotification (0x00000002,000000000081FD70,000000000081FD68) stub!
+03dc:fixme:process:GetProcessMitigationPolicy (FFFFFFFFFFFFFFFF, 4, 000000000081FCE4, 4): stub
+03dc:fixme:uxtheme:SetPreferredAppMode 1: stub
+03dc:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+03dc:fixme:ntdll:EtwEventSetInformation (deadbeef, 2, 000041E400018628, 16) stub
+0430:fixme:thread:NtSetInformationThread info class 24 not supported yet
+0430:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+03dc:fixme:ntdll:NtSetInformationToken TokenIntegrityLevel stub!
+03dc:fixme:process:SetProcessMitigationPolicy (2, 000000000081F310, 4): stub
+03dc:fixme:process:SetProcessMitigationPolicy (8, 000000000081F310, 4): stub
+03dc:fixme:ntdll:NtQuerySystemInformation info_class SYSTEM_PERFORMANCE_INFORMATION
+0418:fixme:oleacc:find_class_data unhandled window class: L"#32769"
+0418:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0418:fixme:uiautomation:default_uia_provider_callback Default ProviderType_NonClientArea provider unimplemented.
+0418:fixme:oleacc:find_class_data unhandled window class: L"#32769"
+0420:fixme:mscoree:parse_supported_runtime sku=L".NETFramework,Version=v4.8" not implemented
+0420:fixme:mscoree:parse_supported_runtime sku=L".NETFramework,Version=v4.8" not implemented
+0418:fixme:uiautomation:base_hwnd_fragment_get_FragmentRoot 000000000081E248, 000000000021F9D0: stub!
+0418:fixme:uiautomation:base_hwnd_fragment_GetEmbeddedFragmentRoots 000000000081E248, 000000000021F9E0: stub!
+0420:fixme:ntdll:NtQuerySystemInformation info_class SYSTEM_PERFORMANCE_INFORMATION
+0474:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+0420:fixme:combase:RoGetActivationFactory (L"Windows.Gaming.Input.RawGameController", {eb8d0792-e95a-4b19-afc7-0a59f8bf759e}, 00006FFFFD598960): semi-stub
+03dc:fixme:mmdevapi:control_RegisterAudioSessionNotification (000000000097F020)->(000041E400025300) - stub
+0484:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+0488:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+0488:fixme:avrt:AvSetMmThreadCharacteristicsW (L"Pro Audio",000000000813FE7C): stub
+0488:fixme:avrt:AvSetMmThreadPriority (0000000012345678)->(2) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x228,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x35c,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x554,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x50c,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x798,0x81ce60,0x00000010,(nil)) stub
+04b0:fixme:mfplat:MFTEnum2 Ignoring attributes.
+04b0:fixme:mfplat:MFTEnum2 Ignoring attributes.
+04b0:fixme:mfplat:MFTEnum2 Ignoring attributes.
+04b0:fixme:mfplat:MFTEnum2 Ignoring attributes.
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x228,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x35c,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x554,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x50c,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x798,0x81ce60,0x00000010,(nil)) stub
+0224:err:ole:com_get_class_object class {7ab36653-1796-484b-bdfa-e74f1db7c1dc} not registered
+0224:err:ole:create_server class {7ab36653-1796-484b-bdfa-e74f1db7c1dc} not registered
+0224:err:ole:com_get_class_object no class object {7ab36653-1796-484b-bdfa-e74f1db7c1dc} could be created for context 0x5
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x228,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x35c,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x554,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x50c,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x798,0x81ce60,0x00000010,(nil)) stub
+0284:fixme:winsock:setsockopt Ignoring SO_RANDOMIZE_PORT
+0284:fixme:winsock:setsockopt Ignoring SO_RANDOMIZE_PORT
+0284:fixme:winsock:setsockopt Ignoring SO_RANDOMIZE_PORT
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x228,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x35c,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x554,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x50c,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x798,0x81ce60,0x00000010,(nil)) stub
+0470:fixme:thread:QueryThreadCycleTime (FFFFFFFFFFFFFFFE,000000006CD7F8C8): stub!
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x228,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x35c,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x554,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x50c,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x798,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x228,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x35c,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x554,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x50c,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x798,0x81ce60,0x00000010,(nil)) stub
+0134:fixme:oleacc:find_class_data unhandled window class: L"#32769"
+0134:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0134:fixme:uiautomation:base_hwnd_provider_GetPatternProvider 000000000088A090, 10002, 000000000182F8A0: stub
+0134:fixme:oleacc:find_class_data unhandled window class: L"#32769"
+0284:fixme:winsock:setsockopt Ignoring SO_RANDOMIZE_PORT
+0284:fixme:winsock:setsockopt Ignoring SO_RANDOMIZE_PORT
+0284:fixme:winsock:setsockopt Ignoring SO_RANDOMIZE_PORT
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x228,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x35c,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x554,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x50c,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x798,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x228,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x35c,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x554,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x50c,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x798,0x81ce60,0x00000010,(nil)) stub
+0284:fixme:winsock:setsockopt Ignoring SO_RANDOMIZE_PORT
+0284:fixme:winsock:setsockopt Ignoring SO_RANDOMIZE_PORT
+0284:fixme:winsock:setsockopt Ignoring SO_RANDOMIZE_PORT
+00d8:fixme:dwmapi:DwmExtendFrameIntoClientArea (00000000000100DE, 000000000081CC80) stub
+00d8:fixme:manipulation:viewport_ActivateConfiguration 0000000000F57780, 823
+00d8:fixme:manipulation:viewport_SetViewportOptions 0000000000F57780, 2
+00d8:fixme:manipulation:viewport_AddEventHandler 0000000000F57780, 00000000000100F2, 000004A403BDD9A0, 000004A403BDDA70
+00d8:fixme:manipulation:viewport_Stop 0000000000F57780
+00d8:fixme:manipulation:viewport_RemoveEventHandler 0000000000F57780, 795174753
+00d8:fixme:manipulation:viewport_Abandon 0000000000F57780
+00d8:fixme:manipulation:direct_manip_Deactivate 0000000000F57720, 00000000000100F2
+00d8:fixme:manipulation:viewport_ActivateConfiguration 0000000000F57780, 823
+00d8:fixme:manipulation:viewport_SetViewportOptions 0000000000F57780, 2
+00d8:fixme:manipulation:viewport_AddEventHandler 0000000000F57780, 00000000000100F2, 000004A403BDD9A0, 000004A403BDDA70
+00d8:fixme:manipulation:viewport_Stop 0000000000F57780
+00d8:fixme:manipulation:viewport_RemoveEventHandler 0000000000F57780, 795174753
+00d8:fixme:manipulation:viewport_Abandon 0000000000F57780
+00d8:fixme:manipulation:direct_manip_Deactivate 0000000000F57720, 00000000000100F2
+00d8:fixme:dwmapi:DwmExtendFrameIntoClientArea (00000000000100DE, 000000000081CD00) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x228,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x35c,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x554,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x50c,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x798,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:win:IsWindowArranged hwnd 00000000000100DE stub.
+00d8:fixme:win:GetPointerDevices (000000000081C6F4 0000000000000000): partial stub
+00d8:fixme:win:GetPointerDevices (000000000081C6F4 0000000000000000): partial stub
+00d8:fixme:system:NtUserDisplayConfigGetDeviceInfo Unimplemented packet type 11.
+00d8:fixme:ui:uisettings2_get_TextScaleFactor iface 0000000000C8B908, value 000000000081C690 stub!
+00d8:fixme:win:GetPointerDevices (000000000081C6F4 0000000000000000): partial stub
+00d8:fixme:win:GetPointerDevices (000000000081C6F4 0000000000000000): partial stub
+00d8:fixme:system:NtUserDisplayConfigGetDeviceInfo Unimplemented packet type 11.
+00d8:fixme:ui:uisettings2_get_TextScaleFactor iface 0000000000C8B908, value 000000000081C690 stub!
+00d8:fixme:dwmapi:DwmExtendFrameIntoClientArea (00000000000100DE, 000000000081CEB0) stub
+00d8:fixme:manipulation:viewport_ActivateConfiguration 0000000000F577E0, 823
+00d8:fixme:manipulation:viewport_SetViewportOptions 0000000000F577E0, 2
+00d8:fixme:manipulation:viewport_AddEventHandler 0000000000F577E0, 00000000000100F2, 000004A403BDE0A0, 000004A403BDE870
+00d8:fixme:manipulation:viewport_Stop 0000000000F577E0
+00d8:fixme:manipulation:viewport_RemoveEventHandler 0000000000F577E0, 0
+00d8:fixme:manipulation:viewport_Abandon 0000000000F577E0
+00d8:fixme:manipulation:direct_manip_Deactivate 0000000000F57780, 00000000000100F2
+00d8:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x228,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x35c,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x554,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x50c,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x798,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x228,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x35c,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x554,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x50c,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x798,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x228,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x35c,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x554,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x50c,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x798,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:powermgnt:PowerCreateRequest (000000000081EF10): stub
+00d8:fixme:powermgnt:PowerSetRequest (00000000000007C4, 0): stub
+00d8:fixme:powermgnt:PowerCreateRequest (000000000081EF10): stub
+00d8:fixme:powermgnt:PowerSetRequest (00000000000007CC, 1): stub
+0224:fixme:dwmapi:DwmGetWindowAttribute DWMWA_CLOAKED: always returning 0.
+warn:  DXGI: MakeWindowAssociation: Ignoring flags
+info:  Presenter: Actual swapchain properties:
+info:    Format:       VK_FORMAT_B8G8R8A8_UNORM
+info:    Color space:  VK_COLOR_SPACE_SRGB_NONLINEAR_KHR
+info:    Present mode: VK_PRESENT_MODE_FIFO_KHR (dynamic: yes)
+info:    Buffer size:  1482x900
+info:    Image count:  5
+00d8:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+00d8:fixme:thread:QueryThreadCycleTime (FFFFFFFFFFFFFFFE,000000000081F088): stub!
+00d8:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+0134:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0134:fixme:uiautomation:base_hwnd_provider_GetPatternProvider 0000000000892DE0, 10002, 000000000182F8A0: stub
+00d8:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+0558:fixme:thread:NtSetInformationThread info class 24 not supported yet
+0558:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+0284:fixme:winsock:setsockopt Ignoring SO_RANDOMIZE_PORT
+0224:fixme:dwmapi:DwmGetWindowAttribute DWMWA_CLOAKED: always returning 0.
+0284:fixme:winsock:setsockopt Ignoring SO_RANDOMIZE_PORT
+0284:fixme:winsock:setsockopt Ignoring SO_RANDOMIZE_PORT
+0224:fixme:dwmapi:DwmGetWindowAttribute DWMWA_CLOAKED: always returning 0.
+00d8:fixme:dwmapi:DwmExtendFrameIntoClientArea (00000000000100DE, 000000000081C720) stub
+00d8:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x228,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x35c,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x554,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x50c,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x798,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:powermgnt:PowerClearRequest (00000000000007C4, 0): stub
+00d8:fixme:powermgnt:PowerClearRequest (00000000000007CC, 1): stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x228,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x35c,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x554,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x50c,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x798,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x228,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x35c,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x554,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x50c,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x798,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x228,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x35c,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x554,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x50c,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x798,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x228,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x35c,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x554,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x50c,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x798,0x81ce60,0x00000010,(nil)) stub
+0134:fixme:oleacc:find_class_data unhandled window class: L"#32769"
+0134:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0134:fixme:uiautomation:base_hwnd_provider_GetPatternProvider 000000000087D0E0, 10002, 000000000182F8A0: stub
+00d8:fixme:win:IsWindowArranged hwnd 00000000000100DE stub.
+00d8:fixme:win:GetPointerDevices (000000000081C544 0000000000000000): partial stub
+00d8:fixme:win:GetPointerDevices (000000000081C544 0000000000000000): partial stub
+00d8:fixme:system:NtUserDisplayConfigGetDeviceInfo Unimplemented packet type 11.
+00d8:fixme:ui:uisettings2_get_TextScaleFactor iface 0000000000C8B908, value 000000000081C4E0 stub!
+00d8:fixme:win:GetPointerDevices (000000000081C544 0000000000000000): partial stub
+00d8:fixme:win:GetPointerDevices (000000000081C544 0000000000000000): partial stub
+00d8:fixme:system:NtUserDisplayConfigGetDeviceInfo Unimplemented packet type 11.
+00d8:fixme:ui:uisettings2_get_TextScaleFactor iface 0000000000C8B908, value 000000000081C4E0 stub!
+00d8:fixme:dwmapi:DwmExtendFrameIntoClientArea (00000000000100DE, 000000000081CD00) stub
+0224:fixme:dwmapi:DwmGetWindowAttribute DWMWA_CLOAKED: always returning 0.
+00d8:fixme:manipulation:viewport_ActivateConfiguration 0000000000F5FE20, 823
+00d8:fixme:manipulation:viewport_SetViewportOptions 0000000000F5FE20, 2
+00d8:fixme:manipulation:viewport_AddEventHandler 0000000000F5FE20, 00000000000100F2, 000004A403BDF920, 000004A403BDF8F0
+00d8:fixme:manipulation:viewport_Stop 0000000000F5FE20
+00d8:fixme:manipulation:viewport_RemoveEventHandler 0000000000F5FE20, 795174753
+00d8:fixme:manipulation:viewport_Abandon 0000000000F5FE20
+00d8:fixme:manipulation:direct_manip_Deactivate 0000000000F5FDC0, 00000000000100F2
+0134:fixme:oleacc:find_class_data unhandled window class: L"#32769"
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x228,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x35c,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x554,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x50c,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x798,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x228,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x35c,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x554,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x50c,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x798,0x81ce60,0x00000010,(nil)) stub
+0224:fixme:dwmapi:DwmGetWindowAttribute DWMWA_CLOAKED: always returning 0.
+00d8:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x228,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x35c,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x554,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x50c,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x798,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x228,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x35c,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x554,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x50c,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x798,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x228,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x35c,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x554,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x50c,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x798,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x228,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x35c,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x554,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x50c,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x798,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:powermgnt:PowerCreateRequest (000000000081EF10): stub
+00d8:fixme:powermgnt:PowerSetRequest (0000000000000824, 0): stub
+00d8:fixme:powermgnt:PowerCreateRequest (000000000081EF10): stub
+00d8:fixme:powermgnt:PowerSetRequest (0000000000000828, 1): stub
+info:  Presenter: Got VK_SUBOPTIMAL_KHR, recreating swapchain
+info:  Presenter: Actual swapchain properties:
+info:    Format:       VK_FORMAT_B8G8R8A8_UNORM
+info:    Color space:  VK_COLOR_SPACE_SRGB_NONLINEAR_KHR
+info:    Present mode: VK_PRESENT_MODE_FIFO_KHR (dynamic: yes)
+info:    Buffer size:  1482x900
+info:    Image count:  5
+00d8:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+0134:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0134:fixme:uiautomation:base_hwnd_provider_GetPatternProvider 00000000008A4A60, 10002, 000000000182F8A0: stub
+00d8:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+05d8:fixme:heap:GetNumaHighestNodeNumber semi-stub: 000000000019F11C
+05d8:fixme:seh:WerRegisterRuntimeExceptionModule (L"C:\\Program Files\\PowerShell\\7\\mscordaccore.dll", 00006FFFFA3D0000) stub
+05d8:fixme:ntdll:NtQuerySystemInformation info_class SYSTEM_PERFORMANCE_INFORMATION
+05ec:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFFFFFFFFFA, 00000000219DFF80
+05d8:fixme:ntdll:EtwEventSetInformation (deadbeef, 2, 00000001801611D0, 34) stub
+05d8:fixme:ntdll:EtwEventSetInformation (deadbeef, 2, 0000000180158A88, 17) stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019D530) :semi-stub
+05d8:fixme:ntdll:EtwEventSetInformation (deadbeef, 2, 000000018015AC78, 40) stub
+05d8:fixme:ntdll:EtwEventSetInformation (deadbeef, 2, 0000000180159718, 51) stub
+05d8:fixme:nls:get_dummy_preferred_ui_language (0x8 0x409 000000000019EA00 0000000000000000 000000000019E9F8) returning a dummy value (current locale)
+05d8:fixme:nls:get_dummy_preferred_ui_language (0x8 0x409 000000000019EA00 000000000019E950 000000000019E9F8) returning a dummy value (current locale)
+05f0:fixme:ntdll:EtwEventSetInformation (deadbeef, 2, 000000018015DE78, 38) stub
+05f0:fixme:amsi:AmsiInitialize L"PowerShell_C:\\Program Files\\PowerShell\\7\\pwsh.exe_7.2.21 SHA: 0cb04bfd18cd91bc65dace132f48635c17cda960", 00006FFF9AB07A80
+05f0:fixme:amsi:AmsiOpenSession 00000000DEADBEEF, 00006FFF9AB07A88
+05d8:fixme:ntdll:EtwEventActivityIdControl 0x1, 000000000019EA48: stub
+05d8:fixme:wldp:WldpGetLockdownPolicy 000000000019D590 000000000019D648 0
+05d8:fixme:advapi:SaferIdentifyLevel (1 000000000019D3E0 000000000019D540 000000000103B4D4) stub
+05d8:fixme:advapi:SaferComputeTokenFromLevel (00000000DEADBEEF, 0000000000000000, 000000000019D538, 1, 0000000000000000) stub
+05d8:fixme:advapi:SaferCloseLevel (00000000DEADBEEF) stub
+05d8:fixme:ntdll:EtwEventSetInformation (deadbeef, 2, 000000000106C3E0, 41) stub
+05f8:fixme:ntdll:NtQuerySystemInformation (0x000000ce,0x21e0ceb0,0x00000008,(nil)) stub
+05f8:fixme:ntdll:RtlGetCurrentProcessorNumberEx (0000000021E0F570) :semi-stub
+0618:fixme:ntdll:EtwEventSetInformation (deadbeef, 2, 0000000001076B08, 37) stub
+05d8:fixme:ntdll:EtwEventSetInformation (deadbeef, 2, 0000000001092990, 37) stub
+05d8:fixme:ntdll:EtwEventSetInformation (deadbeef, 2, 000000000109C458, 33) stub
+05d8:fixme:ntdll:EtwEventSetInformation (deadbeef, 2, 00000000010E33B0, 46) stub
+05d8:fixme:ntdll:EtwEventSetInformation (deadbeef, 2, 00000000011138D0, 65) stub
+0600:err:kerberos:kerberos_LsaApInitializePackage no Kerberos support, expect problems
+0600:err:ntlm:ntlm_LsaApInitializePackage no NTLM support, expect problems
+0600:fixme:ntdll:RtlQueryProcessPlaceholderCompatibilityMode stub
+05d8:fixme:amsi:AmsiCloseSession 00000000DEADBEEF, 00000000DEADBEEF
+0640:fixme:ntdll:EtwEventSetInformation (deadbeef, 2, 000000000140A9A0, 30) stub
+0640:fixme:amsi:AmsiOpenSession 00000000DEADBEEF, 00006FFF9AB07A88
+0640:fixme:amsi:AmsiScanBuffer 00000000DEADBEEF, 000000000140213C, 90, L"", 00000000DEADBEEF, 0000000025B4F6A8
+0640:fixme:ntdll:EtwEventSetInformation (deadbeef, 2, 00000000014239F8, 40) stub
+0640:fixme:advapi:SaferIdentifyLevel (1 0000000025B4EE00 0000000025B4EF60 000000000103B4D4) stub
+0640:fixme:advapi:SaferComputeTokenFromLevel (00000000DEADBEEF, 0000000000000000, 0000000025B4EF58, 1, 0000000000000000) stub
+0640:fixme:advapi:SaferCloseLevel (00000000DEADBEEF) stub
+0640:fixme:amsi:AmsiScanBuffer 00000000DEADBEEF, 0000000001461A1C, 12836, L"C:\\Program Files\\PowerShell\\7\\profile.ps1", 00000000DEADBEEF, 0000000025B4EF28
+0284:fixme:winsock:setsockopt Ignoring SO_RANDOMIZE_PORT
+0640:fixme:file:NtLockFile I/O completion on lock not implemented yet
+0640:fixme:ntdll:RtlGetCurrentProcessorNumberEx (0000000025B4D370) :semi-stub
+0640:fixme:amsi:AmsiCloseSession 00000000DEADBEEF, 00000000DEADBEEF
+0144:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+0144:fixme:file:ReplaceFileW Ignoring flags 2
+0144:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x228,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x35c,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x554,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x50c,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x798,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x228,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x35c,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x554,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x50c,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x798,0x81ce60,0x00000010,(nil)) stub
+0134:fixme:oleacc:find_class_data unhandled window class: L"#32769"
+0134:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0134:fixme:uiautomation:base_hwnd_provider_GetPatternProvider 000000000088D980, 10002, 000000000182F8A0: stub
+0134:fixme:oleacc:find_class_data unhandled window class: L"#32769"
+0144:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+0144:fixme:file:ReplaceFileW Ignoring flags 2
+0144:fixme:thread:NtSetInformationThread ThreadPowerThrottling stub!
+0640:fixme:amsi:AmsiOpenSession 00000000DEADBEEF, 00006FFF9AB07A88
+0640:fixme:amsi:AmsiScanBuffer 00000000DEADBEEF, 0000000000FAD1AC, 280, L"", 00000000DEADBEEF, 0000000025B4F6A8
+05f0:fixme:ntdll:RtlGetCurrentProcessorNumberEx (0000000021B8F610) :semi-stub
+0640:fixme:amsi:AmsiCloseSession 00000000DEADBEEF, 00000000DEADBEEF
+0640:fixme:amsi:AmsiOpenSession 00000000DEADBEEF, 00006FFF9AB07A88
+0640:fixme:amsi:AmsiScanBuffer 00000000DEADBEEF, 0000000001092DB4, 18, L"", 00000000DEADBEEF, 0000000025B4F6A8
+05d8:fixme:amsi:AmsiCloseSession 00000000DEADBEEF, 00000000DEADBEEF
+05d8:fixme:amsi:AmsiUninitialize 00000000DEADBEEF
+05d8:fixme:kernelbase:AppPolicyGetProcessTerminationMethod FFFFFFFFFFFFFFFA, 000000000019FEE8
+0678:fixme:process:GetProcessGroupAffinity (FFFFFFFFFFFFFFFF,000000000019F354,0000000000000000): stub
+0678:fixme:heap:GetNumaHighestNodeNumber semi-stub: 000000000019F310
+0678:fixme:process:GetProcessGroupAffinity (FFFFFFFFFFFFFFFF,000000000019F310,0000000000000000): stub
+0678:fixme:seh:WerRegisterRuntimeExceptionModule (L"C:\\Program Files\\Roberts Space Industries\\RSI Launcher\\resources\\mscordaccore.dll", 0000000140000000) stub
+0678:fixme:ntdll:NtQuerySystemInformation info_class SYSTEM_PERFORMANCE_INFORMATION
+0678:fixme:ntdll:EtwEventSetInformation (deadbeef, 2, 0000000001215F78, 34) stub
+0678:fixme:ntdll:EtwEventSetInformation (deadbeef, 2, 000000000120BA22, 17) stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E188) :semi-stub
+0678:fixme:ntdll:EtwEventSetInformation (deadbeef, 2, 0000000143406028, 41) stub
+0678:fixme:ntdll:EtwEventSetInformation (deadbeef, 2, 000000000120C820, 51) stub
+0678:fixme:ntdll:EtwEventSetInformation (deadbeef, 2, 0000000143431DA0, 31) stub
+0678:fixme:ntdll:EtwEventSetInformation (deadbeef, 2, 00000001434414E0, 43) stub
+0678:fixme:file:GetTempPath2W (260, 000000000019D910) semi-stub
+0678:fixme:ntdll:EtwEventSetInformation (deadbeef, 2, 0000000001211E4C, 38) stub
+0678:fixme:ntdll:NtQuerySystemInformation (0x000000ce,0x19d220,0x00000008,(nil)) stub
+0678:fixme:ntdll:RtlGetCurrentProcessorNumberEx (000000000019E4A8) :semi-stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x228,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x35c,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x554,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x50c,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x798,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x228,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x35c,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x554,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x50c,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x798,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x228,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x35c,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x554,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x50c,0x81ce60,0x00000010,(nil)) stub
+00d8:fixme:process:NtQueryInformationProcess ProcessCycleTime (0x798,0x81ce60,0x00000010,(nil)) stub
+
