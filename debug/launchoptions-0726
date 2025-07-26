@@ -1,4 +1,3 @@
-'''bash
 # REG Key to enable NGX
 echo "============= Setting Registry Keys =============="
 WINE_BIN="/home/hans/Games/star-citizen/runners/wine_runner/bin/wine"
