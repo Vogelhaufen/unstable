@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 # stupid approach to patch steamoverlay without recompiling
+# just stubs this time
+
 import subprocess
 import tempfile
 import os
