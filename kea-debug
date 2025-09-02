@@ -1,0 +1,55 @@
+Sep 02 08:58:31 stargate kea-dhcp6[18859]: 2025-09-02 08:58:31.032 DEBUG [kea-dhcp6.packets/18859.140567175346112] DHCP6_BUFFER_RECEIVED received buffer from fe80::6767:f008:7ca7:af0a:546 to ff02::1:2:0 over interface br0
+Sep 02 08:58:31 stargate kea-dhcp6[18859]: 2025-09-02 08:58:31.033 DEBUG [kea-dhcp6.options/18859.140567133345472] DHCP6_BUFFER_UNPACK parsing buffer received from fe80::6767:f008:7ca7:af0a to ff02::1:2 over interface br0
+Sep 02 08:58:31 stargate kea-dhcp6[18859]: 2025-09-02 08:58:31.033 INFO  [kea-dhcp6.dhcp6/18859.140567133345472] DHCP6_QUERY_LABEL received query: duid=[00:04:27:6b:4c:1b:39:2d:38:2e:03:cc:37:1b:54:1d:62:08], [no hwaddr info], tid=0xad75d9
+Sep 02 08:58:31 stargate kea-dhcp6[18859]: 2025-09-02 08:58:31.033 INFO  [kea-dhcp6.packets/18859.140567133345472] DHCP6_PACKET_RECEIVED duid=[00:04:27:6b:4c:1b:39:2d:38:2e:03:cc:37:1b:54:1d:62:08], [no hwaddr info], tid=0xad75d9: SOLICIT (type 1) received from fe80::6767:f008:7ca7:af0a to ff02::1:2 on interface br0
+Sep 02 08:58:31 stargate kea-dhcp6[18859]: 2025-09-02 08:58:31.033 DEBUG [kea-dhcp6.packets/18859.140567133345472] DHCP6_QUERY_DATA duid=[00:04:27:6b:4c:1b:39:2d:38:2e:03:cc:37:1b:54:1d:62:08], [no hwaddr info], tid=0xad75d9, packet details: local_address=[ff02::1:2]:0, remote_address=[fe80::6767:f008:7ca7:af0a]:546,
+Sep 02 08:58:31 stargate kea-dhcp6[18859]: msg_type=SOLICIT (1), trans_id=0xad75d9,
+Sep 02 08:58:31 stargate kea-dhcp6[18859]: options:
+Sep 02 08:58:31 stargate kea-dhcp6[18859]:   type=00001, len=00018: 00:04:27:6b:4c:1b:39:2d:38:2e:03:cc:37:1b:54:1d:62:08
+Sep 02 08:58:31 stargate kea-dhcp6[18859]:   type=00003(IA_NA), len=00012: iaid=1134290498, t1=0, t2=0
+Sep 02 08:58:31 stargate kea-dhcp6[18859]:   type=00006, len=00010: 23(uint16) 24(uint16) 31(uint16) 56(uint16) 82(uint16)
+Sep 02 08:58:31 stargate kea-dhcp6[18859]:   type=00008, len=00002: 689 (uint16)
+Sep 02 08:58:31 stargate kea-dhcp6[18859]:   type=00014, len=00000:
+Sep 02 08:58:31 stargate kea-dhcp6[18859]:   type=39(CLIENT_FQDN), flags: (N=0, O=0, S=1), domain-name='blackmoore' (partial)
+Sep 02 08:58:31 stargate kea-dhcp6[18859]: No relays traversed.
+Sep 02 08:58:31 stargate kea-dhcp6[18859]: 2025-09-02 08:58:31.033 DEBUG [kea-dhcp6.dhcpsrv/18859.140567133345472] DHCPSRV_SUBNET6_SELECT_BY_INTERFACE_NO_MATCH No subnet matches interface: br0
+Sep 02 08:58:31 stargate kea-dhcp6[18859]: 2025-09-02 08:58:31.033 DEBUG [kea-dhcp6.dhcpsrv/18859.140567133345472] DHCPSRV_SUBNET6_SELECT_BY_ADDRESS_NO_MATCH No subnet matches address: fe80::6767:f008:7ca7:af0a
+Sep 02 08:58:31 stargate kea-dhcp6[18859]: 2025-09-02 08:58:31.033 DEBUG [kea-dhcp6.packets/18859.140567133345472] DHCP6_SUBNET_SELECTION_FAILED duid=[00:04:27:6b:4c:1b:39:2d:38:2e:03:cc:37:1b:54:1d:62:08], [no hwaddr info], tid=0xad75d9: failed to select subnet for the client
+Sep 02 08:58:31 stargate kea-dhcp6[18859]: 2025-09-02 08:58:31.033 DEBUG [kea-dhcp6.dhcp6/18859.140567133345472] DHCP6_CLASS_ASSIGNED duid=[00:04:27:6b:4c:1b:39:2d:38:2e:03:cc:37:1b:54:1d:62:08], [no hwaddr info], tid=0xad75d9: client packet has been assigned to the following class: UNKNOWN
+Sep 02 08:58:31 stargate kea-dhcp6[18859]: 2025-09-02 08:58:31.033 DEBUG [kea-dhcp6.dhcp6/18859.140567133345472] DHCP6_CLASSES_ASSIGNED_AFTER_SUBNET_SELECTION duid=[00:04:27:6b:4c:1b:39:2d:38:2e:03:cc:37:1b:54:1d:62:08], [no hwaddr info], tid=0xad75d9: client packet has been assigned to the following classes: ALL, UNKNOWN
+Sep 02 08:58:31 stargate kea-dhcp6[18859]: 2025-09-02 08:58:31.033 DEBUG [kea-dhcp6.ddns/18859.140567133345472] DHCP6_DDNS_RECEIVE_FQDN duid=[00:04:27:6b:4c:1b:39:2d:38:2e:03:cc:37:1b:54:1d:62:08], [no hwaddr info], tid=0xad75d9: received DHCPv6 Client FQDN option: type=39(CLIENT_FQDN), flags: (N=0, O=0, S=1), domain-name='blackmoore' (partial)
+Sep 02 08:58:31 stargate kea-dhcp6[18859]: 2025-09-02 08:58:31.033 DEBUG [kea-dhcp6.ddns/18859.140567133345472] DHCP6_DDNS_RESPONSE_FQDN_DATA duid=[00:04:27:6b:4c:1b:39:2d:38:2e:03:cc:37:1b:54:1d:62:08], [no hwaddr info], tid=0xad75d9: including FQDN option in the server's response: type=39(CLIENT_FQDN), flags: (N=1, O=1, S=0), domain-name='blackmoore.' (full)
+Sep 02 08:58:31 stargate kea-dhcp6[18859]: 2025-09-02 08:58:31.033 DEBUG [kea-dhcp6.leases/18859.140567133345472] DHCP6_PROCESS_IA_NA_SOLICIT duid=[00:04:27:6b:4c:1b:39:2d:38:2e:03:cc:37:1b:54:1d:62:08], [no hwaddr info], tid=0xad75d9: server is processing IA_NA option with iaid=1134290498 and hint=(no hint)
+Sep 02 08:58:31 stargate kea-dhcp6[18859]: 2025-09-02 08:58:31.033 DEBUG [kea-dhcp6.options/18859.140567133345472] DHCP6_ADD_STATUS_CODE_FOR_IA duid=[00:04:27:6b:4c:1b:39:2d:38:2e:03:cc:37:1b:54:1d:62:08], [no hwaddr info], tid=0xad75d9: adding Status Code to IA with iaid=1134290498: NoAddrsAvail(2) "Server could not select subnet for this client"
+Sep 02 08:58:31 stargate kea-dhcp6[18859]: 2025-09-02 08:58:31.033 DEBUG [kea-dhcp6.dhcp6/18859.140567133345472] DHCP6_CLASSES_ASSIGNED duid=[00:04:27:6b:4c:1b:39:2d:38:2e:03:cc:37:1b:54:1d:62:08], [no hwaddr info], tid=0xad75d9: client packet has been assigned on SOLICIT message to the following classes: ALL, UNKNOWN
+Sep 02 08:58:31 stargate kea-dhcp6[18859]: 2025-09-02 08:58:31.034 INFO  [kea-dhcp6.packets/18859.140567133345472] DHCP6_PACKET_SEND duid=[00:04:27:6b:4c:1b:39:2d:38:2e:03:cc:37:1b:54:1d:62:08], [no hwaddr info], tid=0xad75d9: trying to send packet ADVERTISE (type 2) from [ff02::1:2]:547 to [fe80::6767:f008:7ca7:af0a]:546 on interface br0
+Sep 02 08:58:31 stargate kea-dhcp6[18859]: 2025-09-02 08:58:31.034 DEBUG [kea-dhcp6.packets/18859.140567133345472] DHCP6_RESPONSE_DATA duid=[00:04:27:6b:4c:1b:39:2d:38:2e:03:cc:37:1b:54:1d:62:08], [no hwaddr info], tid=0xad75d9: responding with packet ADVERTISE (type 2), packet details: local_address=[ff02::1:2]:547, remote_address=[fe80::6767:f008:7ca7:af0a]:546,
+Sep 02 08:58:31 stargate kea-dhcp6[18859]: msg_type=ADVERTISE (2), trans_id=0xad75d9,
+Sep 02 08:58:31 stargate kea-dhcp6[18859]: options:
+Sep 02 08:58:31 stargate kea-dhcp6[18859]:   type=00001, len=00018: 00:04:27:6b:4c:1b:39:2d:38:2e:03:cc:37:1b:54:1d:62:08
+Sep 02 08:58:31 stargate kea-dhcp6[18859]:   type=00002, len=00014: 00:01:00:01:30:49:31:2d:64:62:66:2f:68:b8
+Sep 02 08:58:31 stargate kea-dhcp6[18859]:   type=00003(IA_NA), len=00064: iaid=1134290498, t1=0, t2=0,
+Sep 02 08:58:31 stargate kea-dhcp6[18859]: options:
+Sep 02 08:58:31 stargate kea-dhcp6[18859]:     type=00013, len=00048: NoAddrsAvail(2) "Server could not select subnet for this client"
+Sep 02 08:58:31 stargate kea-dhcp6[18859]:   type=39(CLIENT_FQDN), flags: (N=1, O=1, S=0), domain-name='blackmoore.' (full)
+Sep 02 08:58:31 stargate kea-dhcp6[18859]: No relays traversed.
+Sep 02 08:58:36 stargate kea-dhcp6[18859]: 2025-09-02 08:58:36.039 DEBUG [kea-dhcp6.dhcpsrv/18859.140567175346112] DHCPSRV_TIMERMGR_RUN_TIMER_OPERATION running operation for timer: reclaim-expired-leases
+Sep 02 08:58:36 stargate kea-dhcp6[18859]: 2025-09-02 08:58:36.039 DEBUG [kea-dhcp6.alloc-engine/18859.140567175346112] ALLOC_ENGINE_V6_LEASES_RECLAMATION_START starting reclamation of expired leases (limit = 100 leases or 250 milliseconds)
+Sep 02 08:58:36 stargate kea-dhcp6[18859]: 2025-09-02 08:58:36.039 DEBUG [kea-dhcp6.dhcpsrv/18859.140567175346112] DHCPSRV_MEMFILE_GET_EXPIRED6 obtaining maximum 101 of expired IPv6 leases
+Sep 02 08:58:36 stargate kea-dhcp6[18859]: 2025-09-02 08:58:36.039 DEBUG [kea-dhcp6.alloc-engine/18859.140567175346112] ALLOC_ENGINE_V6_LEASES_RECLAMATION_COMPLETE reclaimed 0 leases in 0.049 ms
+Sep 02 08:58:36 stargate kea-dhcp6[18859]: 2025-09-02 08:58:36.039 DEBUG [kea-dhcp6.alloc-engine/18859.140567175346112] ALLOC_ENGINE_V6_NO_MORE_EXPIRED_LEASES all expired leases have been reclaimed
+Sep 02 08:58:36 stargate kea-dhcp6[18859]: 2025-09-02 08:58:36.039 DEBUG [kea-dhcp6.dhcpsrv/18859.140567175346112] DHCPSRV_TIMERMGR_START_TIMER starting timer: reclaim-expired-leases
+Sep 02 08:58:38 stargate kea-dhcp6[18859]: 2025-09-02 08:58:38.831 DEBUG [kea-dhcp6.packets/18859.140567175346112] DHCP6_BUFFER_RECEIVED received buffer from fe80::6767:f008:7ca7:af0a:546 to ff02::1:2:0 over interface br0
+Sep 02 08:58:38 stargate kea-dhcp6[18859]: 2025-09-02 08:58:38.832 DEBUG [kea-dhcp6.options/18859.140567124952768] DHCP6_BUFFER_UNPACK parsing buffer received from fe80::6767:f008:7ca7:af0a to ff02::1:2 over interface br0
+Sep 02 08:58:38 stargate kea-dhcp6[18859]: 2025-09-02 08:58:38.832 INFO  [kea-dhcp6.dhcp6/18859.140567124952768] DHCP6_QUERY_LABEL received query: duid=[00:04:27:6b:4c:1b:39:2d:38:2e:03:cc:37:1b:54:1d:62:08], [no hwaddr info], tid=0xad75d9
+Sep 02 08:58:38 stargate kea-dhcp6[18859]: 2025-09-02 08:58:38.832 INFO  [kea-dhcp6.packets/18859.140567124952768] DHCP6_PACKET_RECEIVED duid=[00:04:27:6b:4c:1b:39:2d:38:2e:03:cc:37:1b:54:1d:62:08], [no hwaddr info], tid=0xad75d9: SOLICIT (type 1) received from fe80::6767:f008:7ca7:af0a to ff02::1:2 on interface br0
+Sep 02 08:58:38 stargate kea-dhcp6[18859]: 2025-09-02 08:58:38.832 DEBUG [kea-dhcp6.packets/18859.140567124952768] DHCP6_QUERY_DATA duid=[00:04:27:6b:4c:1b:39:2d:38:2e:03:cc:37:1b:54:1d:62:08], [no hwaddr info], tid=0xad75d9, packet details: local_address=[ff02::1:2]:0, remote_address=[fe80::6767:f008:7ca7:af0a]:546,
+Sep 02 08:58:38 stargate kea-dhcp6[18859]: msg_type=SOLICIT (1), trans_id=0xad75d9,
+Sep 02 08:58:38 stargate kea-dhcp6[18859]: options:
+Sep 02 08:58:38 stargate kea-dhcp6[18859]:   type=00001, len=00018: 00:04:27:6b:4c:1b:39:2d:38:2e:03:cc:37:1b:54:1d:62:08
+Sep 02 08:58:38 stargate kea-dhcp6[18859]:   type=00003(IA_NA), len=00012: iaid=1134290498, t1=0, t2=0
+Sep 02 08:58:38 stargate kea-dhcp6[18859]:   type=00006, len=00010: 23(uint16) 24(uint16) 31(uint16) 56(uint16) 82(uint16)
+Sep 02 08:58:38 stargate kea-dhcp6[18859]:   type=00008, len=00002: 1469 (uint16)
+Sep 02 08:58:38 stargate kea-dhcp6[18859]:   type=00014, len=00000:
+Sep 02 08:58:38 stargate kea-dhcp6[18859]:   type=39(CLIENT_FQDN), flags: (N=0, O=0, S=1), domain-name='blackmoore' (partial)
+Sep 02 08:58:38 stargate kea-dhcp6[18859]: No relays traversed.
