@@ -1,0 +1,106 @@
+se `RSI Launcher --trace-deprecation ...` to show where the warning was created)
+[32:1203/203957.254:ERROR:net\base\network_change_notifier_win.cc:189] WSALookupServiceBegin failed with: 8
+[2025-12-03 20:39:57.409] [MANGOHUD] [info] [blacklist.cpp:83] process 'RSI Launcher.exe' is blacklisted in MangoHud
+libEGL warning: pci id for fd 242: 10de:2704, driver (null)
+
+pci id for fd 243: 10de:2704, driver (null)
+pci id for fd 244: 10de:2704, driver (null)
+libEGL warning: egl: failed to create dri2 screen
+libEGL warning: pci id for fd 242: 10de:2704, driver (null)
+
+pci id for fd 243: 10de:2704, driver (null)
+pci id for fd 244: 10de:2704, driver (null)
+libEGL warning: egl: failed to create dri2 screen
+libEGL warning: pci id for fd 242: 10de:2704, driver (null)
+
+[552:1203/203957.672:ERROR:net\base\network_change_notifier_win.cc:189] WSALookupServiceBegin failed with: 8
+(node:32) [KOFFI003] DeprecationWarning: The koffi.cdecl() function was deprecated in Koffi 2.7, use koffi.func(...) instead
+[552:1203/203957.815:ERROR:net\dns\address_sorter_win.cc:113] SIO_ADDRESS_LIST_SORT failed 10045
+20:39:58.127 > "[Store] Initialization of the transient store started"
+[552:1203/203958.184:ERROR:net\dns\address_sorter_win.cc:113] SIO_ADDRESS_LIST_SORT failed 10045
+20:39:58.417 > "[Analytics] Server accessible."
+20:39:58.460 > "[Analytics] event sent successfully: App:Open (attempt 1)"
+20:39:58.590 > "[Store] Initialization of the transient store finished"
+20:39:58.592 > "[API] request: https://robertsspaceindustries.com/api/launcher/v3/language/getLanguage"
+20:39:58.592 > "[API] request: https://robertsspaceindustries.com/api/launcher/v3/games/claims"
+20:39:58.598 > "[API] request: https://robertsspaceindustries.com/api/launcher/v3/promotions"
+20:39:58.685 > "[Analytics] event sent successfully: App:SignedIn (attempt 1)"
+20:39:59.164 > "[Connectivity Service] Internet connection is available."
+20:39:59.620 > "Checking for update"
+20:39:59.790 > "[API] request: https://robertsspaceindustries.com/api/launcher/v3/games/library"
+20:39:59.907 > "Update for version 2.10.3 is not available (latest version: 2.10.3, downgrade is disallowed)."
+20:39:59.940 > "[API] request: https://robertsspaceindustries.com/api/launcher/v3/promotions"
+20:40:00.281 > "[API] request: https://robertsspaceindustries.com/api/launcher/v3/content/news"
+20:40:00.281 > "[API] request: https://robertsspaceindustries.com/api/launcher/v3/content/patchNotes"
+20:40:00.303 > "[API] request: https://robertsspaceindustries.com/api/launcher/v3/content/cards"
+20:40:00.306 > "[API] request: https://robertsspaceindustries.com/api/launcher/v3/games/library"
+20:40:01.650 > "[API] request: https://robertsspaceindustries.com/api/launcher/v3/games/release"
+20:40:02.059 > "[Requirement] OS check : true"
+20:40:02.059 > "[Requirement] CPU check : true"
+20:40:02.059 > "[API] request: https://robertsspaceindustries.com/api/launcher/v3/account/check"
+20:40:02.060 > "[API] request: https://robertsspaceindustries.com/api/launcher/v3/account/check"
+20:40:02.060 > "[API] request: https://robertsspaceindustries.com/api/launcher/v3/account/check"
+20:40:02.699 > "[API] request: https://robertsspaceindustries.com/api/launcher/v3/warnings"
+20:40:02.700 > "[API] request: https://robertsspaceindustries.com/api/launcher/v3/warnings"
+20:40:02.700 > "[API] request: https://robertsspaceindustries.com/api/launcher/v3/warnings"
+20:40:03.401 > "[API] request: https://robertsspaceindustries.com/api/launcher/v3/warnings/get"
+20:40:08.522 > "[API] request: https://robertsspaceindustries.com/api/launcher/v3/account/claims"
+20:40:09.066 > "[API] request: https://ptu.cloudimperiumgames.com/api/launcher/v3/signin/claims"
+20:40:09.808 > "[API] request: https://ptu.cloudimperiumgames.com/api/launcher/v3/games/token"
+20:40:10.135 > "[Launcher::launch] Launching Star Citizen PTU from (C:\\Program Files\\Roberts Space Industries\\StarCitizen\\PTU)"
+20:40:10.135 > "[Launcher::launch] Wine environment detected."
+20:40:10.135 > "[Launcher::launch] Trying to convert the path from C to Z format."
+20:40:10.228 > "[Launcher::launch] path converted from \"C:\\Program Files\\Roberts Space Industries\\StarCitizen\\PTU\\StarCitizen_Launcher.exe\" to \"Z:\\mnt\\m2games\\Heroic-N-Lutris\\star-citizen\\drive_c\\Program Files\\Roberts Space Industries\\StarCitizen\\PTU\\StarCitizen_Launcher.exe\"."
+20:40:10.229 > "[Launcher::launch] Deleting C:\\Program Files\\Roberts Space Industries\\StarCitizen\\PTU\\loginData.json for PTU"
+20:40:10.418 > "[Analytics] event sent successfully: App:Launcher:Start (attempt 1)"
+20:40:10.946 > "[Analytics] event sent successfully: App:Launch:Start (attempt 1)"
+err:   readMonitorEdidFromKey: Failed to get EDID reg key size
+err:   DXGI: Failed to parse display metadata + colorimetry info, using blank.
+err:   readMonitorEdidFromKey: Failed to get EDID reg key size
+err:   DXGI: Failed to parse display metadata + colorimetry info, using blank.
+14715.757:0420:0424:info:vkd3d-proton:vkd3d_instance_apply_application_workarounds: Program name: "StarCitizen.exe" (hash: 90236cdceb471c3f)
+14715.757:0420:0424:info:vkd3d-proton:vkd3d_instance_deduce_config_flags_from_environment: shader_cache is used, global_pipeline_cache is enforced.
+14715.758:0420:0424:info:vkd3d-proton:vkd3d_config_flags_init_once: VKD3D_CONFIG=''.
+14715.759:0420:0424:info:vkd3d-proton:vkd3d_get_vk_version: vkd3d-proton - applicationVersion: 3.0.0.
+14715.759:0420:0424:info:vkd3d-proton:vkd3d_instance_init: vkd3d-proton - build: c01c8b46ec4f8e2.
+14716.222:0420:0424:info:vkd3d-proton:vkd3d_memory_info_decide_hvv_usage: Topology: No more than 1 device local heap, HVV access is viable.
+14716.222:0420:0424:info:vkd3d-proton:vkd3d_memory_info_upload_hvv_memory_properties: Topology: HVV usage is allowed, using DEVICE_LOCAL | HOST_COHERENT for UPLOAD.
+14716.222:0420:0424:info:vkd3d-proton:vkd3d_memory_info_init_budgets: Applying resizable BAR budget to memory types: 0x10.
+14716.222:0420:0424:info:vkd3d-proton:vkd3d_bindless_state_get_bindless_flags: Enabling fast paths for advanced ExecuteIndirect() graphics and compute (EXT_dgc).
+14716.222:0420:0424:info:vkd3d-proton:vkd3d_bindless_state_get_bindless_flags: Device supports VK_EXT_mutable_descriptor_type.
+14716.222:0420:0424:info:vkd3d-proton:vkd3d_bindless_state_add_binding: Device supports VK_EXT_descriptor_buffer!
+14716.222:0420:0424:info:vkd3d-proton:vkd3d_bindless_state_add_binding: Device supports VK_EXT_descriptor_buffer!
+14716.222:0420:0424:info:vkd3d-proton:vkd3d_bindless_state_add_binding: Device supports VK_EXT_descriptor_buffer!
+14716.224:0420:0424:info:vkd3d-proton:d3d12_device_caps_init_shader_model: Enabling support for SM 6.6.
+14716.224:0420:0424:info:vkd3d-proton:d3d12_device_caps_init_shader_model: Enabling support for SM 6.7.
+14716.224:0420:0424:info:vkd3d-proton:d3d12_device_caps_init_shader_model: Enabling support for SM 6.8.
+14716.224:0420:0424:fixme:vkd3d-proton:d3d12_device_caps_init_feature_options1: TotalLaneCount = 7296, may be inaccurate.
+14716.224:0420:0424:info:vkd3d-proton:d3d12_device_determine_ray_tracing_tier: DXR support enabled.
+14716.224:0420:0424:info:vkd3d-proton:d3d12_device_determine_ray_tracing_tier: DXR 1.1 support enabled.
+14716.224:0420:0424:info:vkd3d-proton:d3d12_device_caps_init_feature_level: DX Ultimate supported!
+14716.224:0420:0424:info:vkd3d-proton:vkd3d_pipeline_library_init_disk_cache: Remapping VKD3D_SHADER_CACHE to: vkd3d-proton.cache.
+14716.224:0420:0424:info:vkd3d-proton:vkd3d_pipeline_library_init_disk_cache: Attempting to load disk cache from: vkd3d-proton.cache.
+14716.224:0420:05f8:info:vkd3d-proton:vkd3d_pipeline_library_disk_thread_main: Performing async setup of stream archive ...
+14716.224:0420:05f8:info:vkd3d-proton:vkd3d_pipeline_library_disk_cache_merge: No write cache exists. No need to merge any disk caches.
+14716.224:0420:05f8:info:vkd3d-proton:vkd3d_pipeline_library_disk_cache_initial_setup: Merging pipeline libraries took 0.346 ms.
+14716.224:0420:05f8:info:vkd3d-proton:vkd3d_pipeline_library_disk_cache_initial_setup: Failed to map read-only cache: vkd3d-proton.cache.
+14716.224:0420:05f8:info:vkd3d-proton:vkd3d_pipeline_library_disk_thread_main: Done performing async setup of stream archive.
+14716.227:0420:0424:info:vkd3d-proton:dxgi_vk_swap_chain_init: Creating swapchain (2560 x 1440), BufferCount = 3.
+14716.227:0420:0424:info:vkd3d-proton:dxgi_vk_swap_chain_init_sync_objects: Enabling frame latency handles.
+14716.227:0420:0424:info:vkd3d-proton:dxgi_vk_swap_chain_init_sync_objects: Ensure maximum latency of 3 frames with KHR_present_wait.
+14716.228:0420:0424:info:vkd3d-proton:dxgi_vk_swap_chain_init_waiter_thread: Enabling present wait path for frame latency.
+14716.228:0420:0424:info:vkd3d-proton:dxgi_vk_swap_chain_init_frame_rate_limiter: Set frame rate limit to 60.0 FPS via environment.
+14716.228:0420:0424:info:vkd3d-proton:dxgi_vk_swap_chain_init_sleep_state: Timer interval is 1.0 ms.
+warn:  DXGI: MakeWindowAssociation: Ignoring flags
+err:   readMonitorEdidFromKey: Failed to get EDID reg key size
+err:   DXGI: Failed to parse display metadata + colorimetry info, using blank.
+err:   readMonitorEdidFromKey: Failed to get EDID reg key size
+err:   DXGI: Failed to parse display metadata + colorimetry info, using blank.
+err:   readMonitorEdidFromKey: Failed to get EDID reg key size
+err:   DXGI: Failed to parse display metadata + colorimetry info, using blank.
+warn:  CreateDXGIFactory2: Ignoring flags
+14720.380:0420:0600:info:vkd3d-proton:dxgi_vk_swap_chain_recreate_swapchain_in_present_task: Got 3 swapchain images.
+14720.449:0420:0600:info:vkd3d-proton:dxgi_vk_swap_chain_recreate_swapchain_in_present_task: Got 3 swapchain images.
+14727.256:0420:0600:info:vkd3d-proton:dxgi_vk_swap_chain_recreate_swapchain_in_present_task: Got 3 swapchain images.
+[552:1203/204112.100:ERROR:net\dns\address_sorter_win.cc:113] SIO_ADDRESS_LIST_SORT failed 10045
+
