@@ -1,0 +1,31 @@
+0604:fixme:pulse:pulse_channel_map_to_channel_mask Unhandled channel aux6
+0604:fixme:pulse:pulse_channel_map_to_channel_mask Unhandled channel aux7
+lsfg-vk: using profile with name '4x FG / 85% [Performance]' (identified via wine executable)
+err:   readMonitorEdidFromKey: Failed to get EDID reg key size
+err:   DXGI: Failed to parse display metadata + colorimetry info, using blank.
+warn:  CreateDXGIFactory2: Ignoring flags
+err:   readMonitorEdidFromKey: Failed to get EDID reg key size
+err:   DXGI: Failed to parse display metadata + colorimetry info, using blank.
+03d0:fixme:vulkan:wine_vkCreateDebugUtilsMessengerEXT Support for allocation callbacks not implemented yet
+03d0:fixme:vulkan:wine_vkCreateDebugUtilsMessengerEXT Support for allocation callbacks not implemented yet
+03d0:fixme:vulkan:wine_vkCreateDebugUtilsMessengerEXT Support for allocation callbacks not implemented yet
+03d0:fixme:vulkan:wine_vkCreateDebugUtilsMessengerEXT Support for allocation callbacks not implemented yet
+03d0:fixme:vulkan:wine_vkCreateDebugUtilsMessengerEXT Support for allocation callbacks not implemented yet
+03d0:fixme:vulkan:wine_vkCreateCommandPool Support for allocation callbacks not implemented yet
+03d0:fixme:vulkan:wine_vkCreateCommandPool Support for allocation callbacks not implemented yet
+03d0:fixme:vulkan:wine_vkCreateCommandPool Support for allocation callbacks not implemented yet
+03d0:fixme:vulkan:win32u_vkCreateWin32SurfaceKHR Support for allocation callbacks not implemented yet
+lsfg-vk: something went wrong during lsfg-vk swapchain creation:
+- failed to create backend instance
+- Unable to parse Lossless Scaling DLL
+- unabele to locate RT_RCDATA directory
+03d0:fixme:dbghelp:elf_search_auxv can't find symbol in module
+03d0:fixme:dbghelp:MiniDumpWriteDump NIY MiniDumpWithDataSegs
+0260:fixme:winsock:setsockopt Ignoring SO_RANDOMIZE_PORT
+02f4:fixme:mmdevapi:control_UnregisterAudioSessionNotification (00007FFFFEF11660)->(000030D4000315E0) - stub
+06b4:err:sync:RtlpWaitForCriticalSection section 00007FFFFE2200D0 "../wine-git/dlls/ntdll/heap.c: main process heap section" wait timed out in thread 06b4, blocked by 03d0, retrying (60 sec)
+0604:err:sync:RtlpWaitForCriticalSection section 00006FFFFFFB5440 "../wine-git/dlls/ntdll/loader.c: loader_section" wait timed out in thread 0604, blocked by 06b4, retrying (60 sec)
+0260:fixme:winsock:setsockopt Ignoring SO_RANDOMIZE_PORT
+0260:fixme:winsock:setsockopt Ignoring SO_RANDOMIZE_PORT
+0260:fixme:winsock:setsockopt Ignoring SO_RANDOMIZE_PORT
+0260:fixme:winsock:setsockopt Ignoring SO_RANDOMIZE_PORT
