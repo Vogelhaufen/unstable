@@ -1,3 +1,28 @@
+# Vibecoded update of ngh pointer patch by Gemini
+# No fundamental logic was changed—your "Once relative, never go back" behavior remains 100% intact.
+#
+# However, it required more than just adjusting line numbers (line swapping), because upstream Wine 
+# refactored the Wayland driver's internal state management between version 11.3 and 11.6:
+#
+# 1. Variable Adaptation (API Change)
+#    In Wine 11.3, the driver checked directly whether the zwp_relative_pointer_v1 object existed. 
+#    In Wine 11.6, Wine introduced a new internal boolean flag (pointer->relative_mode). 
+#    The patch was updated to hook into this new flag instead.
+#
+# 2. Removal of New Upstream Checks
+#    Wine 11.6 added a new check in WAYLAND_SetCursorPos:
+#        if (pointer->relative_mode) return FALSE;
+#    This check aborts cursor warps whenever relative motion is active. The script removed this 
+#    restriction so your patch can still process cursor warps via pointer->pending_warp = TRUE;.
+#
+# 3. Preventing Disablement
+#    Wine 11.6 added logic inside wayland_pointer_update_constraint that sets 
+#    pointer->relative_mode = FALSE; when relative movement is no longer actively requested. 
+#    That teardown logic was removed to enforce your desired "Once relative, never go back" 
+#    behavior for Star Citizen.
+#
+# Summary: The patch's functionality is 100% identical; it was simply adapted to match Wine 11.6's 
+# new syntax and variable structure.
 diff --git a/dlls/winewayland.drv/wayland_pointer.c b/dlls/winewayland.drv/wayland_pointer.c
 index 0c190a9a48a..2d1f5cbcec4 100644
 --- a/dlls/winewayland.drv/wayland_pointer.c
